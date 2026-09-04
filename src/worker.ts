@@ -107,7 +107,9 @@ export default {
 
 		const pathRedirect = resolvePathRedirect(url.pathname);
 		if (pathRedirect) {
-			const target = new URL(pathRedirect + url.search, CANONICAL_ORIGIN);
+			// Keep redirects on the current host (preview/staging URLs) — only legacy-host
+			// redirects above should rewrite to the canonical apex.
+			const target = new URL(pathRedirect + url.search, url.origin);
 			return redirectResponse(target.toString());
 		}
 

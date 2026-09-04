@@ -675,7 +675,7 @@ const useHomeHero =
 	}
 
 	.gallery-block {
-		width: 100%;
+		width: min(100%, var(--content-max));
 		display: grid;
 		gap: 0.85rem;
 		content-visibility: auto;
@@ -702,7 +702,7 @@ const useHomeHero =
 
 	.gallery-block__grid {
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr));
 		gap: 0.65rem;
 	}
 
@@ -713,6 +713,7 @@ const useHomeHero =
 		border-radius: var(--radius-md);
 		background: var(--bg-elevated);
 		aspect-ratio: 16 / 10;
+		max-width: 18rem;
 	}
 
 	.gallery-block__item img {

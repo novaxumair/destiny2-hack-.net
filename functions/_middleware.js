@@ -6,8 +6,6 @@ const WWW_HOST = 'destiny2hack.net';
 
 /** Legacy domains → canonical apex (301). */
 const LEGACY_HOSTS = new Set([
-	'destiny2hack.net',
-	'destiny2hack.net',
 	'rustcheats.co',
 	'www.rustcheats.co',
 	'bestrustcheats.com',
@@ -248,7 +246,7 @@ export async function onRequest(context) {
 		trailingSlashRedirect(url.pathname);
 	if (pathRedirect) {
 		const headers = new Headers({
-			Location: new URL(pathRedirect + url.search, CANONICAL_ORIGIN).toString(),
+			Location: new URL(pathRedirect + url.search, url.origin).toString(),
 			'Cache-Control': 'no-store',
 		});
 		applySecurityHeaders(headers);

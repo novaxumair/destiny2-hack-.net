@@ -265,6 +265,12 @@ async function main() {
 		setup: 'Setup',
 		blog: 'Blog',
 	};
+	en.trustStrip = {
+		...(en.trustStrip ?? {}),
+		instantDelivery: 'Instant delivery',
+		secureCheckout: 'Secure checkout',
+		support247: '24/7 support',
+	};
 	en.homeSeo = {
 		...en.homeSeo,
 		eyebrow: 'Guides',

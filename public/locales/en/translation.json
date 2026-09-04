@@ -453,6 +453,11 @@
     "platform": "Windows PC",
     "antiCheat": "BattlEye supported"
   },
+  "trustStrip": {
+    "instantDelivery": "Instant delivery",
+    "secureCheckout": "Secure checkout",
+    "support247": "24/7 support"
+  },
   "localeSuggest": {
     "title": "Language suggestion",
     "message": "View this page in {{language}}?",
