@@ -60,6 +60,7 @@ function canonicalHostRedirect(request: Request, url: URL): Response | null {
 
 	const mappedPath = resolvePathRedirect(url.pathname) ?? url.pathname;
 	const target = new URL(mappedPath + url.search, CANONICAL_ORIGIN);
+	if (target.href === url.href) return null;
 	return redirectResponse(target.toString());
 }
 
@@ -107,10 +108,10 @@ export default {
 
 		const pathRedirect = resolvePathRedirect(url.pathname);
 		if (pathRedirect) {
-			// Keep redirects on the current host (preview/staging URLs) — only legacy-host
-			// redirects above should rewrite to the canonical apex.
 			const target = new URL(pathRedirect + url.search, url.origin);
-			return redirectResponse(target.toString());
+			if (target.href !== url.href) {
+				return redirectResponse(target.toString());
+			}
 		}
 
 		if (isSitemapPath(url.pathname)) {

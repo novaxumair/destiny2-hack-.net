@@ -3,7 +3,7 @@ import PATH_REDIRECTS from './path-redirects.json';
 
 const CANONICAL_ORIGIN = 'https://destiny2hack.net';
 const APEX_HOST = 'destiny2hack.net';
-const WWW_HOST = 'destiny2hack.net';
+const WWW_HOST = 'www.destiny2hack.net';
 
 /** Legacy domains → canonical apex (301). */
 const LEGACY_HOSTS = new Set([
@@ -152,31 +152,37 @@ export async function onRequest(context) {
 	const proto = getClientProtocol(context.request);
 
 	const isLegacyHost = LEGACY_HOSTS.has(host);
-	const isProductionHost = host === APEX_HOST || host === WWW_HOST || isLegacyHost;
-	const needsHostRedirect = host === WWW_HOST || isLegacyHost;
-	const needsHttpsRedirect = isProductionHost && proto === 'http';
+	const isApex = host === APEX_HOST;
+	const isWww = host === WWW_HOST;
+	const needsHostRedirect = isWww || isLegacyHost;
+	const needsHttpsRedirect = (isApex || isWww || isLegacyHost) && proto === 'http';
 
 	if (needsHostRedirect || needsHttpsRedirect) {
 		const mappedPath = resolvePathRedirect(url.pathname) ?? url.pathname;
 		const target = new URL(mappedPath + url.search, CANONICAL_ORIGIN);
-		const headers = new Headers({
-			Location: target.toString(),
-			'Cache-Control': 'no-store',
-			'CDN-Cache-Control': 'no-store',
-			'Cloudflare-CDN-Cache-Control': 'no-store',
-		});
-		applySecurityHeaders(headers);
-		return new Response(null, { status: 301, headers });
+		if (target.href !== url.href) {
+			const headers = new Headers({
+				Location: target.toString(),
+				'Cache-Control': 'no-store',
+				'CDN-Cache-Control': 'no-store',
+				'Cloudflare-CDN-Cache-Control': 'no-store',
+			});
+			applySecurityHeaders(headers);
+			return new Response(null, { status: 301, headers });
+		}
 	}
 
 	const pathRedirect = resolvePathRedirect(url.pathname);
 	if (pathRedirect) {
-		const headers = new Headers({
-			Location: new URL(pathRedirect + url.search, url.origin).toString(),
-			'Cache-Control': 'no-store',
-		});
-		applySecurityHeaders(headers);
-		return new Response(null, { status: 301, headers });
+		const target = new URL(pathRedirect + url.search, url.origin);
+		if (target.href !== url.href) {
+			const headers = new Headers({
+				Location: target.toString(),
+				'Cache-Control': 'no-store',
+			});
+			applySecurityHeaders(headers);
+			return new Response(null, { status: 301, headers });
+		}
 	}
 
 	const response = await context.next();
