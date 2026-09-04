@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "Funcții",
     "buyerReviewsNav": "Ce spun jucătorii",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Funcții",
-    "pricing": "Prețuri",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Pachet undetected",
+    "pricing": "Prețuri",
     "setup": "Instalare",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "Pagini related by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "Pagini related by category",
     "lede": "Funcții, Actualizări, Prețuri, FAQ.",
     "catFeatures": "Funcții",
     "catFeaturesHint": "Funcții",
@@ -428,6 +426,7 @@
     "linkSetup": "Instalare",
     "linkPlans": "Prețuri",
     "linkReviews": "Ce spun jucătorii",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Instalare",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "cheat-uri undetected pentru Destiny 2",
     "aboutP1": "Pachet undetected Destiny 2 pe Windows PC: ESP wallhack, radar, Aimbot cu mentenanță BattlEye. Prețuri · Actualizări.",
+    "aboutP2Before": "Începe cu",
+    "aboutPillar": "ghidul Destiny 2 Cheats",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "ghidul ESP",
+    "aboutAimbot": "controalele aimbot",
+    "aboutP2Or": ", sau ",
+    "aboutUndetected": "statusul undetected",
+    "aboutP2After": " dacă încă compari instrumentele.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "Compară prețurile",
-    "aboutP2Before": "Începe cu",
-    "aboutPillar": "ghidul Destiny 2 Cheats",
-    "aboutEsp": "ghidul ESP",
-    "aboutAimbot": "controalele aimbot",
-    "aboutUndetected": "statusul undetected",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", sau ",
-    "aboutP2After": " dacă încă compari instrumentele."
+    "aboutPricingCta": "Compară prețurile"
   },
   "trustStrip": {
     "instantDelivery": "Livrare digitală instantă",

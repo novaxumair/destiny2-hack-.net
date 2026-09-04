@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "機能",
     "buyerReviewsNav": "プレイヤーの声",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "機能",
-    "pricing": "料金",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Undetectedパッケージ",
+    "pricing": "料金",
     "setup": "セットアップ",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "関連ページ by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "関連ページ by category",
     "lede": "機能, 更新, 料金, FAQ.",
     "catFeatures": "機能",
     "catFeaturesHint": "機能",
@@ -428,6 +426,7 @@
     "linkSetup": "セットアップ",
     "linkPlans": "料金",
     "linkReviews": "プレイヤーの声",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "セットアップ",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "Destiny 2向けundetectedチート",
     "aboutP1": "Destiny 2 Windows PC向けundetectedパッケージ：ESP wallhack、radar、Aimbot、BattlEyeメンテナンス付き。 料金 · 更新.",
+    "aboutP2Before": "まず",
+    "aboutPillar": "Destiny 2 Cheatsガイド",
+    "aboutP2Mid": "、",
+    "aboutEsp": "ESPガイド",
+    "aboutAimbot": "Aimbot設定",
+    "aboutP2Or": "、または",
+    "aboutUndetected": "undetectedステータス",
+    "aboutP2After": "から始めてください。",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "料金を比較",
-    "aboutP2Before": "まず",
-    "aboutPillar": "Destiny 2 Cheatsガイド",
-    "aboutEsp": "ESPガイド",
-    "aboutAimbot": "Aimbot設定",
-    "aboutUndetected": "undetectedステータス",
-    "aboutP2Mid": "、",
-    "aboutP2Or": "、または",
-    "aboutP2After": "から始めてください。"
+    "aboutPricingCta": "料金を比較"
   },
   "trustStrip": {
     "instantDelivery": "即時デジタル配信",

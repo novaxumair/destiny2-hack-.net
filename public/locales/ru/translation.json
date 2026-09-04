@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "Функции",
     "buyerReviewsNav": "Что говорят игроки",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Функции",
-    "pricing": "Цены",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Undetected пакет",
+    "pricing": "Цены",
     "setup": "Установка",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "Похожие страницы by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "Похожие страницы by category",
     "lede": "Функции, Обновления, Цены, FAQ.",
     "catFeatures": "Функции",
     "catFeaturesHint": "Функции",
@@ -428,6 +426,7 @@
     "linkSetup": "Установка",
     "linkPlans": "Цены",
     "linkReviews": "Что говорят игроки",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Установка",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "undetected читы для Destiny 2",
     "aboutP1": "Undetected пакет для Destiny 2 на Windows PC: ESP wallhack, radar и Aimbot с обслуживанием BattlEye после патчей. Цены · Обновления.",
+    "aboutP2Before": "Начните с",
+    "aboutPillar": "путеводителя Destiny 2 Cheats",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "гайда ESP",
+    "aboutAimbot": "настроек aimbot",
+    "aboutP2Or": " или ",
+    "aboutUndetected": "статуса undetected",
+    "aboutP2After": ", если вы ещё сравниваете инструменты.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "Сравнить цены",
-    "aboutP2Before": "Начните с",
-    "aboutPillar": "путеводителя Destiny 2 Cheats",
-    "aboutEsp": "гайда ESP",
-    "aboutAimbot": "настроек aimbot",
-    "aboutUndetected": "статуса undetected",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": " или ",
-    "aboutP2After": ", если вы ещё сравниваете инструменты."
+    "aboutPricingCta": "Сравнить цены"
   },
   "trustStrip": {
     "instantDelivery": "Мгновенная цифровая доставка",

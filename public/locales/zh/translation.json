@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "功能",
     "buyerReviewsNav": "玩家评价",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "功能",
-    "pricing": "价格",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Undetected套餐",
+    "pricing": "价格",
     "setup": "安装",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "相关页面 by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "相关页面 by category",
     "lede": "功能, 更新, 价格, 常见问题.",
     "catFeatures": "功能",
     "catFeaturesHint": "功能",
@@ -428,6 +426,7 @@
     "linkSetup": "安装",
     "linkPlans": "价格",
     "linkReviews": "玩家评价",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "常见问题",
     "linkSupport": "Support",
     "linkSetupGuide": "安装",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "Destiny 2的undetected外挂",
     "aboutP1": "Destiny 2 Windows PC undetected套餐：ESP wallhack、radar、Aimbot，含BattlEye维护。 价格 · 更新.",
+    "aboutP2Before": "从",
+    "aboutPillar": "Destiny 2 Cheats指南",
+    "aboutP2Mid": "、",
+    "aboutEsp": "ESP指南",
+    "aboutAimbot": "自瞄控制",
+    "aboutP2Or": "，或",
+    "aboutUndetected": "undetected状态",
+    "aboutP2After": "开始，如果您还在比较工具。",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "比较价格",
-    "aboutP2Before": "从",
-    "aboutPillar": "Destiny 2 Cheats指南",
-    "aboutEsp": "ESP指南",
-    "aboutAimbot": "自瞄控制",
-    "aboutUndetected": "undetected状态",
-    "aboutP2Mid": "、",
-    "aboutP2Or": "，或",
-    "aboutP2After": "开始，如果您还在比较工具。"
+    "aboutPricingCta": "比较价格"
   },
   "trustStrip": {
     "instantDelivery": "即时数字交付",

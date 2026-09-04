@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "Özellikler",
     "buyerReviewsNav": "Oyuncular ne diyor",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Özellikler",
-    "pricing": "Fiyatlar",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Undetected paket",
+    "pricing": "Fiyatlar",
     "setup": "Kurulum",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "İlgili sayfalar by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "İlgili sayfalar by category",
     "lede": "Özellikler, Güncellemeler, Fiyatlar, SSS.",
     "catFeatures": "Özellikler",
     "catFeaturesHint": "Özellikler",
@@ -428,6 +426,7 @@
     "linkSetup": "Kurulum",
     "linkPlans": "Fiyatlar",
     "linkReviews": "Oyuncular ne diyor",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "SSS",
     "linkSupport": "Support",
     "linkSetupGuide": "Kurulum",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "Destiny 2 için undetected hileler",
     "aboutP1": "Destiny 2 Windows PC undetected paketi: ESP wallhack, radar ve Aimbot — BattlEye bakımı dahil. Fiyatlar · Güncellemeler.",
+    "aboutP2Before": "Önce",
+    "aboutPillar": "Destiny 2 Cheats rehberi",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "ESP kılavuzu",
+    "aboutAimbot": "aimbot kontrolleri",
+    "aboutP2Or": " veya ",
+    "aboutUndetected": "tespit edilemeyen durum",
+    "aboutP2After": " ile başlayın.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "Fiyatları karşılaştır",
-    "aboutP2Before": "Önce",
-    "aboutPillar": "Destiny 2 Cheats rehberi",
-    "aboutEsp": "ESP kılavuzu",
-    "aboutAimbot": "aimbot kontrolleri",
-    "aboutUndetected": "tespit edilemeyen durum",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": " veya ",
-    "aboutP2After": " ile başlayın."
+    "aboutPricingCta": "Fiyatları karşılaştır"
   },
   "trustStrip": {
     "instantDelivery": "Anında dijital teslimat",

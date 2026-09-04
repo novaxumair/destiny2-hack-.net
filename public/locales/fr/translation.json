@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "Fonctions",
     "buyerReviewsNav": "Ce que disent les joueurs",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Fonctions",
-    "pricing": "Tarifs",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Pack indétectable",
+    "pricing": "Tarifs",
     "setup": "Installation",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "Parcourir par catégorie",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Triches Destiny 2",
     "eyebrow": "Guides",
+    "title": "Parcourir par catégorie",
     "lede": "Liens rapides vers fonctions, statut, boutique et aide.",
     "catFeatures": "Fonctions",
     "catFeaturesHint": "Ce qui est inclus",
@@ -428,6 +426,7 @@
     "linkSetup": "Installation",
     "linkPlans": "Formules",
     "linkReviews": "Avis",
+    "linkFinalsCheats": "Triches Destiny 2",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Guide d'installation",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "triches indétectables pour Destiny 2",
     "aboutP1": "Pack undetected pour Destiny 2 sur PC Windows : ESP wallhack, radar et Aimbot avec maintenance BattlEye après chaque patch. Tarifs · Mises à jour.",
+    "aboutP2Before": "Commencez par le",
+    "aboutPillar": "pilier Destiny 2 Cheats",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "guide ESP",
+    "aboutAimbot": "contrôles aimbot",
+    "aboutP2Or": ", ou ",
+    "aboutUndetected": "statut indétectable",
+    "aboutP2After": " si vous comparez encore les outils.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "Comparer les tarifs",
-    "aboutP2Before": "Commencez par le",
-    "aboutPillar": "pilier Destiny 2 Cheats",
-    "aboutEsp": "guide ESP",
-    "aboutAimbot": "contrôles aimbot",
-    "aboutUndetected": "statut indétectable",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", ou ",
-    "aboutP2After": " si vous comparez encore les outils."
+    "aboutPricingCta": "Comparer les tarifs"
   },
   "trustStrip": {
     "instantDelivery": "Livraison numérique instantanée",

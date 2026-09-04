@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "الميزات",
     "buyerReviewsNav": "ماذا يقول اللاعبون",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "الميزات",
-    "pricing": "الأسعار",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "حزمة غير مكتشفة",
+    "pricing": "الأسعار",
     "setup": "التثبيت",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "صفحات ذات صلة by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "صفحات ذات صلة by category",
     "lede": "الميزات, التحديثات, الأسعار, الأسئلة.",
     "catFeatures": "الميزات",
     "catFeaturesHint": "الميزات",
@@ -428,6 +426,7 @@
     "linkSetup": "التثبيت",
     "linkPlans": "الأسعار",
     "linkReviews": "ماذا يقول اللاعبون",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "الأسئلة",
     "linkSupport": "Support",
     "linkSetupGuide": "التثبيت",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "غش غير مكتشف لـ Destiny 2",
     "aboutP1": "حزمة undetected لـ Destiny 2 على Windows PC: ESP wallhack ورadar وAimbot مع صيانة BattlEye. الأسعار · التحديثات.",
+    "aboutP2Before": "ابدأ بـ",
+    "aboutPillar": "دليل Destiny 2 Cheats",
+    "aboutP2Mid": "، ",
+    "aboutEsp": "دليل ESP",
+    "aboutAimbot": "ضوابط Aimbot",
+    "aboutP2Or": "، أو ",
+    "aboutUndetected": "حالة عدم الاكتشاف",
+    "aboutP2After": " إذا كنت لا تزال تقارن الأدوات.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "قارن الأسعار",
-    "aboutP2Before": "ابدأ بـ",
-    "aboutPillar": "دليل Destiny 2 Cheats",
-    "aboutEsp": "دليل ESP",
-    "aboutAimbot": "ضوابط Aimbot",
-    "aboutUndetected": "حالة عدم الاكتشاف",
-    "aboutP2Mid": "، ",
-    "aboutP2Or": "، أو ",
-    "aboutP2After": " إذا كنت لا تزال تقارن الأدوات."
+    "aboutPricingCta": "قارن الأسعار"
   },
   "trustStrip": {
     "instantDelivery": "تسليم رقمي فوري",

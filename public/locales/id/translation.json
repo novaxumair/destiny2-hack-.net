@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "Fitur",
     "buyerReviewsNav": "Apa kata pemain",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Fitur",
-    "pricing": "Harga",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Paket undetected",
+    "pricing": "Harga",
     "setup": "Setup",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "Halaman terkait by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "Halaman terkait by category",
     "lede": "Fitur, Pembaruan, Harga, FAQ.",
     "catFeatures": "Fitur",
     "catFeaturesHint": "Fitur",
@@ -428,6 +426,7 @@
     "linkSetup": "Setup",
     "linkPlans": "Harga",
     "linkReviews": "Apa kata pemain",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Setup",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "cheat undetected untuk Destiny 2",
     "aboutP1": "Paket undetected Destiny 2 di Windows PC: ESP wallhack, radar, Aimbot dengan pemeliharaan BattlEye. Harga · Pembaruan.",
+    "aboutP2Before": "Mulai dari",
+    "aboutPillar": "pilar Destiny 2 Cheats",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "panduan ESP",
+    "aboutAimbot": "kontrol aimbot",
+    "aboutP2Or": ", atau ",
+    "aboutUndetected": "status undetected",
+    "aboutP2After": " jika Anda masih membandingkan alat.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "Bandingkan harga",
-    "aboutP2Before": "Mulai dari",
-    "aboutPillar": "pilar Destiny 2 Cheats",
-    "aboutEsp": "panduan ESP",
-    "aboutAimbot": "kontrol aimbot",
-    "aboutUndetected": "status undetected",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", atau ",
-    "aboutP2After": " jika Anda masih membandingkan alat."
+    "aboutPricingCta": "Bandingkan harga"
   },
   "trustStrip": {
     "instantDelivery": "Pengiriman digital instan",

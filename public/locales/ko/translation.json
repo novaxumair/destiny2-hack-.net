@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "기능",
     "buyerReviewsNav": "플레이어 후기",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "기능",
-    "pricing": "가격",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Undetected 패키지",
+    "pricing": "가격",
     "setup": "설치",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "관련 페이지 by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "관련 페이지 by category",
     "lede": "기능, 업데이트, 가격, FAQ.",
     "catFeatures": "기능",
     "catFeaturesHint": "기능",
@@ -428,6 +426,7 @@
     "linkSetup": "설치",
     "linkPlans": "가격",
     "linkReviews": "플레이어 후기",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "설치",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "Destiny 2용 undetected 치트",
     "aboutP1": "Destiny 2 Windows PC undetected 패키지: ESP wallhack, radar, Aimbot, BattlEye 유지보수 포함. 가격 · 업데이트.",
+    "aboutP2Before": "먼저",
+    "aboutPillar": "Destiny 2 Cheats 가이드",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "ESP 가이드",
+    "aboutAimbot": "에임봇 컨트롤",
+    "aboutP2Or": ", 또는 ",
+    "aboutUndetected": "undetected 상태",
+    "aboutP2After": "부터 시작하세요.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "가격 비교",
-    "aboutP2Before": "먼저",
-    "aboutPillar": "Destiny 2 Cheats 가이드",
-    "aboutEsp": "ESP 가이드",
-    "aboutAimbot": "에임봇 컨트롤",
-    "aboutUndetected": "undetected 상태",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", 또는 ",
-    "aboutP2After": "부터 시작하세요."
+    "aboutPricingCta": "가격 비교"
   },
   "trustStrip": {
     "instantDelivery": "즉시 디지털 배송",

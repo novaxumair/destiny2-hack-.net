@@ -166,6 +166,7 @@
     "shareFacebook": "Compartir en Facebook",
     "privacy": "Privacidad",
     "terms": "Términos",
+    "refundPolicy": "Refund policy",
     "featureList": "Lista de funciones",
     "buyerReviewsNav": "Reseñas de compradores",
     "copyright": "© {{year}} {{brand}}"
@@ -395,14 +396,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Hacks",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Features",
-    "pricing": "Precios",
-    "hacks": "Hacks",
     "wallhack": "Wallhack",
     "undetected": "Indetectable",
+    "pricing": "Precios",
     "setup": "Instalación",
     "blog": "Blog"
   },
@@ -411,10 +412,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "Explorar por categoría",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Trucos de Destiny 2",
     "eyebrow": "Guías",
+    "title": "Explorar por categoría",
     "lede": "Enlaces rápidos a funciones, estado, tienda y ayuda.",
     "catFeatures": "Funciones",
     "catFeaturesHint": "Qué incluye",
@@ -430,10 +429,10 @@
     "linkRadar": "Radar",
     "linkLiveStatus": "Estado en vivo",
     "linkUndetected": "Indetectable",
-    "linkBattlEye": "BattlEye",
     "linkSetup": "Instalación",
     "linkPlans": "Planes",
     "linkReviews": "Reseñas",
+    "linkFinalsCheats": "Trucos de Destiny 2",
     "linkFaq": "FAQ",
     "linkSupport": "Soporte",
     "linkSetupGuide": "Guía de instalación",
@@ -443,7 +442,9 @@
     "faqTitle": "Antes de comprar",
     "faqLede": "Entrega, estado de detección y qué incluye.",
     "allAnswers": "Todas las respuestas",
-    "openFullPage": "Abrir página completa"
+    "openFullPage": "Abrir página completa",
+    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
+    "linkBattlEye": "BattlEye"
   },
   "productCard": {
     "badge": "Destiny 2",
@@ -592,22 +593,22 @@
   "home": {
     "aboutTitle": "cheats indetectables para Destiny 2",
     "aboutP1": "Destiny 2 Cheats es un paquete de trucos indetectables para Destiny 2 en PC Windows. Una licencia incluye ESP wallhack, aimbot y radar 2D, con reconstrucciones BattlEye tras los parches del juego. Compara planes en la Tienda y revisa el Estado antes de entrar en match.",
+    "aboutP2Before": "Empieza por el",
+    "aboutPillar": "pilar de trucos de Destiny 2",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "guía de ESP",
+    "aboutAimbot": "controles de aimbot",
+    "aboutP2Or": ", o ",
+    "aboutUndetected": "estado indetectable",
+    "aboutP2After": " si aún estás comparando herramientas.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
     "aboutPricingCta": "Compare pricing",
-    "aboutP2Before": "Empieza por el",
-    "aboutPillar": "pilar de trucos de Destiny 2",
-    "aboutEsp": "guía de ESP",
-    "aboutAimbot": "controles de aimbot",
-    "aboutUndetected": "estado indetectable",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", o ",
-    "aboutP2After": " si aún estás comparando herramientas.",
     "playDemoVideo": "Play Destiny 2 cheats demo video",
-    "pauseDemoVideo": "Pause Destiny 2 cheats demo video",
-    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match"
+    "pauseDemoVideo": "Pause Destiny 2 cheats demo video"
   },
   "trustStrip": {
     "instantDelivery": "Entrega instantánea",

@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "Funkce",
     "buyerReviewsNav": "Co říkají hráči",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Funkce",
-    "pricing": "Ceny",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Undetected balíček",
+    "pricing": "Ceny",
     "setup": "Instalace",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "Související stránky by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "Související stránky by category",
     "lede": "Funkce, Aktualizace, Ceny, FAQ.",
     "catFeatures": "Funkce",
     "catFeaturesHint": "Funkce",
@@ -428,6 +426,7 @@
     "linkSetup": "Instalace",
     "linkPlans": "Ceny",
     "linkReviews": "Co říkají hráči",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Instalace",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "undetected cheaty pro Destiny 2",
     "aboutP1": "Undetected balíček pro Destiny 2 na Windows PC: ESP wallhack, radar, Aimbot s údržbou BattlEye. Ceny · Aktualizace.",
+    "aboutP2Before": "Začněte",
+    "aboutPillar": "průvodcem Destiny 2 Cheats",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "průvodcem ESP",
+    "aboutAimbot": "ovládáním aimbotu",
+    "aboutP2Or": ", nebo ",
+    "aboutUndetected": "undetected statusem",
+    "aboutP2After": ", pokud stále porovnáváte nástroje.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "Porovnat ceny",
-    "aboutP2Before": "Začněte",
-    "aboutPillar": "průvodcem Destiny 2 Cheats",
-    "aboutEsp": "průvodcem ESP",
-    "aboutAimbot": "ovládáním aimbotu",
-    "aboutUndetected": "undetected statusem",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", nebo ",
-    "aboutP2After": ", pokud stále porovnáváte nástroje."
+    "aboutPricingCta": "Porovnat ceny"
   },
   "trustStrip": {
     "instantDelivery": "Okamžité digitální doručení",

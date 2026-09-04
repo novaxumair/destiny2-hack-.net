@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "ฟีเจอร์",
     "buyerReviewsNav": "ผู้เล่นพูดว่าอย่างไร",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "ฟีเจอร์",
-    "pricing": "ราคา",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "แพ็กเกจ undetected",
+    "pricing": "ราคา",
     "setup": "ติดตั้ง",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "หน้าที่เกี่ยวข้อง by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "หน้าที่เกี่ยวข้อง by category",
     "lede": "ฟีเจอร์, อัปเดต, ราคา, FAQ.",
     "catFeatures": "ฟีเจอร์",
     "catFeaturesHint": "ฟีเจอร์",
@@ -428,6 +426,7 @@
     "linkSetup": "ติดตั้ง",
     "linkPlans": "ราคา",
     "linkReviews": "ผู้เล่นพูดว่าอย่างไร",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "ติดตั้ง",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "cheat undetected สำหรับ Destiny 2",
     "aboutP1": "แพ็ก undetected สำหรับ Destiny 2 บน Windows PC: ESP wallhack, radar, Aimbot พร้อม BattlEye maintenance ราคา · อัปเดต.",
+    "aboutP2Before": "เริ่มจาก",
+    "aboutPillar": "คู่มือ Destiny 2 Cheats",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "คู่มือ ESP",
+    "aboutAimbot": "การควบคุม Aimbot",
+    "aboutP2Or": ", หรือ ",
+    "aboutUndetected": "สถานะ undetected",
+    "aboutP2After": " หากคุณยังเปรียบเทียบเครื่องมืออยู่",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "เปรียบเทียบราคา",
-    "aboutP2Before": "เริ่มจาก",
-    "aboutPillar": "คู่มือ Destiny 2 Cheats",
-    "aboutEsp": "คู่มือ ESP",
-    "aboutAimbot": "การควบคุม Aimbot",
-    "aboutUndetected": "สถานะ undetected",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", หรือ ",
-    "aboutP2After": " หากคุณยังเปรียบเทียบเครื่องมืออยู่"
+    "aboutPricingCta": "เปรียบเทียบราคา"
   },
   "trustStrip": {
     "instantDelivery": "จัดส่งดิจิทัลทันที",

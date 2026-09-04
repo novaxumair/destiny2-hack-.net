@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "Tính năng",
     "buyerReviewsNav": "Người chơi nói gì",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "Tính năng",
-    "pricing": "Giá",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Gói undetected",
+    "pricing": "Giá",
     "setup": "Cài đặt",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "Trang liên quan by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "Trang liên quan by category",
     "lede": "Tính năng, Cập nhật, Giá, FAQ.",
     "catFeatures": "Tính năng",
     "catFeaturesHint": "Tính năng",
@@ -428,6 +426,7 @@
     "linkSetup": "Cài đặt",
     "linkPlans": "Giá",
     "linkReviews": "Người chơi nói gì",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Cài đặt",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "cheat undetected cho Destiny 2",
     "aboutP1": "Gói undetected Destiny 2 trên Windows PC: ESP wallhack, radar, Aimbot với bảo trì BattlEye. Giá · Cập nhật.",
+    "aboutP2Before": "Bắt đầu với",
+    "aboutPillar": "trụ cột Destiny 2 Cheats",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "hướng dẫn ESP",
+    "aboutAimbot": "điều khiển aimbot",
+    "aboutP2Or": ", hoặc ",
+    "aboutUndetected": "trạng thái undetected",
+    "aboutP2After": " nếu bạn vẫn đang so sánh công cụ.",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "So sánh giá",
-    "aboutP2Before": "Bắt đầu với",
-    "aboutPillar": "trụ cột Destiny 2 Cheats",
-    "aboutEsp": "hướng dẫn ESP",
-    "aboutAimbot": "điều khiển aimbot",
-    "aboutUndetected": "trạng thái undetected",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", hoặc ",
-    "aboutP2After": " nếu bạn vẫn đang so sánh công cụ."
+    "aboutPricingCta": "So sánh giá"
   },
   "trustStrip": {
     "instantDelivery": "Giao hàng kỹ thuật số tức thì",

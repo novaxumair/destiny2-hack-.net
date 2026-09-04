@@ -32,11 +32,11 @@ export const brand = {
 	/** Anti-cheat name used in Status / FAQ copy */
 	antiCheat: 'BattlEye',
 
-	logo: '/images/destiny2-cheats-logo.webp',
-	logoRaster: '/images/destiny2-cheats-logo.png',
+	logo: '/images/destiny2-tricorn-logo.webp',
+	logoRaster: '/images/destiny2-tricorn-logo.png',
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
-	logoAlt: 'Destiny 2 Cheats logo',
+	logoAlt: 'Destiny 2 logo',
 	defaultOgImage: '/images/destiny2-cheats-hero-1199w.webp',
 	heroImage: '/images/destiny2-cheats-hero-1199w.webp',
 	/** Product demo clip — lazy-loaded on homepage; fetched only after play */
@@ -55,13 +55,13 @@ export const brand = {
 	 */
 	theme: {
 		accent: '#8FDBEE',
-		bg: '#071232',
+		bg: '#121214',
 		soft: '#E394E8',
-		deep: '#180821',
+		deep: '#0a0a0c',
 		hover: '#E394E8',
-		panel: '#0c1638',
-		elevated: '#121f4a',
-		line: '#1e2d5c',
+		panel: '#1a1a1e',
+		elevated: '#222226',
+		line: '#2e2e34',
 		ink: '#E8F4FC',
 		inkHeading: '#FFFFFF',
 		inkSecondary: '#A8C8E0',

@@ -164,9 +164,9 @@
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
+    "refundPolicy": "Refund policy",
     "featureList": "फ़ीचर्स",
     "buyerReviewsNav": "खिलाड़ी क्या कहते हैं",
     "copyright": "© {{year}} {{brand}}"
@@ -390,14 +390,14 @@
     "guides": "Guides"
   },
   "categoryRow": {
+    "hacks": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
     "features": "फ़ीचर्स",
-    "pricing": "कीमत",
-    "hacks": "Cheats",
     "wallhack": "Wallhack",
     "undetected": "Undetected पैकेज",
+    "pricing": "कीमत",
     "setup": "सेटअप",
     "blog": "Blog"
   },
@@ -406,10 +406,8 @@
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "title": "संबंधित पेज by category",
-    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
-    "linkFinalsCheats": "Destiny 2 Cheats",
     "eyebrow": "Guides",
+    "title": "संबंधित पेज by category",
     "lede": "फ़ीचर्स, अपडेट, कीमत, FAQ.",
     "catFeatures": "फ़ीचर्स",
     "catFeaturesHint": "फ़ीचर्स",
@@ -428,6 +426,7 @@
     "linkSetup": "सेटअप",
     "linkPlans": "कीमत",
     "linkReviews": "खिलाड़ी क्या कहते हैं",
+    "linkFinalsCheats": "Destiny 2 Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "सेटअप",
@@ -577,19 +576,20 @@
   "home": {
     "aboutTitle": "Destiny 2 ke liye undetected cheats",
     "aboutP1": "Destiny 2 Windows PC undetected पैकेज: ESP wallhack, radar, Aimbot, BattlEye maintenance सहित. कीमत · अपडेट.",
+    "aboutP2Before": "शुरू करें",
+    "aboutPillar": "Destiny 2 Cheats गाइड",
+    "aboutP2Mid": ", ",
+    "aboutEsp": "ESP गाइड",
+    "aboutAimbot": "aimbot नियंत्रण",
+    "aboutP2Or": ", या ",
+    "aboutUndetected": "undetected स्थिति",
+    "aboutP2After": " से यदि आप अभी भी टूल्स तुलना कर रहे हैं।",
+    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
-    "aboutPricingCta": "कीमतें तुलना करें",
-    "aboutP2Before": "शुरू करें",
-    "aboutPillar": "Destiny 2 Cheats गाइड",
-    "aboutEsp": "ESP गाइड",
-    "aboutAimbot": "aimbot नियंत्रण",
-    "aboutUndetected": "undetected स्थिति",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", या ",
-    "aboutP2After": " से यदि आप अभी भी टूल्स तुलना कर रहे हैं।"
+    "aboutPricingCta": "कीमतें तुलना करें"
   },
   "trustStrip": {
     "instantDelivery": "तुरंत डिजिटल डिलीवरी",
