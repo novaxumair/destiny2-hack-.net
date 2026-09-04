@@ -10,6 +10,7 @@ import {
 import { resolvePageContextFromPath } from '../i18n/routing';
 import type { BlogImageKey, BlogPostDefinition, BlogTranslation, ResolvedBlogPost } from './types';
 import { blogPosts as rawBlogPosts } from './posts.generated';
+import { screenshotSrc, PRODUCT_SCREENSHOT_COUNT } from '../product-images';
 
 const imageMap: Record<BlogImageKey, string> = {
 	hero: destiny2Images.espWallhack,
@@ -42,6 +43,12 @@ export const blogPosts: BlogPostDefinition[] = rawBlogPosts.map((post) => ({
 	...post,
 	translations: expandTranslations(post.translations as Partial<Record<LocaleCode, BlogTranslation>> & { en: BlogTranslation }),
 }));
+
+export function getBlogImageSrcForPost(post: BlogPostDefinition): string {
+	const index = blogPosts.findIndex((p) => p.id === post.id);
+	const slot = index >= 0 ? index % PRODUCT_SCREENSHOT_COUNT : 0;
+	return screenshotSrc(slot + 1);
+}
 
 export function getBlogImageSrc(key: BlogImageKey): string {
 	const src = imageMap[key] ?? FALLBACK_BLOG_IMAGE;
@@ -100,7 +107,7 @@ export function resolvePost(post: BlogPostDefinition, locale: LocaleCode): Resol
 		...post,
 		locale,
 		translation,
-		imageSrc: getBlogImageSrc(post.imageKey),
+		imageSrc: getBlogImageSrcForPost(post),
 		canonicalPath: getBlogPostPath(locale, translation.slug),
 	};
 }

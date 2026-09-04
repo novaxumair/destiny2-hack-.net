@@ -103,7 +103,8 @@ const normalizedGallery = gallery
 		}
 		return { src: item, alt: resolvedHeroAlt, url: absoluteImageUrl(item) };
 	})
-	.filter((item) => Boolean(item.src));
+	.filter((item) => Boolean(item.src))
+	.filter((item, index, list) => list.findIndex((entry) => entry.src === item.src) === index);
 
 const breadcrumbs = [
 	{ label: ui.nav.home, href: homeHref },
@@ -701,7 +702,7 @@ const useHomeHero =
 
 	.gallery-block__grid {
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-template-columns: 1fr;
 		gap: 0.65rem;
 	}
 
@@ -723,10 +724,6 @@ const useHomeHero =
 	@media (max-width: 800px) {
 		.article :global(.price-grid) {
 			grid-template-columns: 1fr;
-		}
-
-		.gallery-block__grid {
-			grid-template-columns: 1fr 1fr;
 		}
 	}
 

@@ -1,9 +1,7 @@
 ---
-import LazyDemoVideo from './LazyDemoVideo.astro';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
 import { getT } from '../i18n/server';
-import { siteConfig } from '../data/site';
 
 interface Props {
 	locale: LocaleCode;
@@ -34,18 +32,16 @@ const updatesHref = getLocalizedPath('updates', locale);
 				{t('home.aboutP2After')}
 			</p>
 		</div>
-		<div class="home__prose-video">
-			<LazyDemoVideo
-				src={siteConfig.demoVideoUrl}
-				poster={siteConfig.demoVideoPoster}
-				playLabel={t('home.playDemoVideo')}
-				pauseLabel={t('home.pauseDemoVideo')}
-				caption={t('home.demoVideoCaption')}
-				volumeLabel={t('home.volumeLabel')}
-				muteLabel={t('home.muteVideo')}
-				unmuteLabel={t('home.unmuteVideo')}
+		<figure class="home__prose-media">
+			<img
+				src="/images/destiny2-about-showcase.webp"
+				alt="Destiny 2 Cheats movement hack with jump height multiplier in Vex zone"
+				width="960"
+				height="540"
+				loading="lazy"
+				decoding="async"
 			/>
-		</div>
+		</figure>
 	</div>
 </section>
 
@@ -68,9 +64,21 @@ const updatesHref = getLocalizedPath('updates', locale);
 		border-left: 3px solid var(--magenta);
 	}
 
-	.home__prose-video {
+	.home__prose-media {
+		margin: 0;
 		width: 100%;
 		min-width: 0;
+	}
+
+	.home__prose-media img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: var(--radius-md, 0.75rem);
+		border: 1px solid var(--line);
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+		object-fit: cover;
+		aspect-ratio: 16 / 9;
 	}
 
 	.home__prose-callout h2 {
@@ -111,7 +119,7 @@ const updatesHref = getLocalizedPath('updates', locale);
 			align-items: center;
 		}
 
-		.home__prose-video {
+		.home__prose-media {
 			justify-self: end;
 			max-width: 34rem;
 		}

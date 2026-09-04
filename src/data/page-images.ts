@@ -97,5 +97,5 @@ export function crawlPhotoMeta(
 /** Default large social / SERP image when a page has no specific asset. */
 export const defaultCrawlImageSrc = pageImageSrcById.home;
 
-/** Reviews index banner — user in-match screenshot with -480w / -960w variants. */
-export const reviewsImageSrc = '/images/reviews-banner.webp';
+/** Reviews index — no banner image; use hero for OG/schema only. */
+export const reviewsImageSrc = pageImageSrcById.home;

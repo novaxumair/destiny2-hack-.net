@@ -29,6 +29,8 @@ const ui = blogUi[locale];
 const t = getT(locale);
 const posts = getAllPostsForLocale(locale);
 const featured = getFeaturedPosts(locale, 3);
+const featuredIds = new Set(featured.map((post) => post.id));
+const listPosts = posts.filter((post) => !featuredIds.has(post.id));
 const canonicalPath = getBlogBasePath(locale);
 const canonicalURL = absoluteBlogUrl(locale);
 const hreflangAlternates = getBlogIndexHreflangAlternates(locale);
@@ -112,7 +114,7 @@ const articleListSchema = {
 
 		<section class="blog__list" aria-label={ui.allPosts}>
 			{
-				posts.map((post) => (
+				listPosts.map((post) => (
 					<article class="blog__card">
 						<a href={post.canonicalPath}>
 							<img
@@ -193,8 +195,8 @@ const articleListSchema = {
 
 	.blog__feature-card {
 		display: grid;
-		grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.25fr);
-		gap: 1.25rem;
+		grid-template-columns: 1fr;
+		gap: 1rem;
 		align-items: center;
 		padding: 0.85rem;
 		border: 1px solid var(--line);
@@ -239,7 +241,7 @@ const articleListSchema = {
 	.blog__list {
 		position: relative;
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+		grid-template-columns: 1fr;
 		gap: 1.1rem;
 		padding-top: 1.75rem;
 	}

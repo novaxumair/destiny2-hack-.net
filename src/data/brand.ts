@@ -41,7 +41,7 @@ export const brand = {
 	heroImage: '/images/destiny2-cheats-hero-1199w.webp',
 	/** Product demo clip — lazy-loaded on homepage; fetched only after play */
 	demoVideoUrl: '',
-	demoVideoPoster: '/images/destiny2-screenshot-11.webp',
+	demoVideoPoster: '/images/destiny2-about-showcase.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
