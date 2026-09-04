@@ -41,3 +41,19 @@ validateFile('public/_redirects', REDIRECTS);
 if (existsSync(path.join(ROOT, 'dist'))) {
 	validateFile('dist/_redirects', DIST_REDIRECTS);
 }
+
+function validateRedirectMaps() {
+	const pathRedirects = JSON.parse(readFileSync(path.join(ROOT, 'functions/path-redirects.json'), 'utf8'));
+	const cannibalRedirects = JSON.parse(readFileSync(path.join(ROOT, 'functions/cannibal-redirects.json'), 'utf8'));
+	const loops = [];
+	for (const [from, to] of Object.entries({ ...pathRedirects, ...cannibalRedirects })) {
+		if (from === to) loops.push(from);
+	}
+	if (loops.length > 0) {
+		console.error(`✗ redirect maps contain ${loops.length} self-loop(s): ${loops.slice(0, 5).join(', ')}`);
+		process.exit(1);
+	}
+	console.log('✓ redirect maps: no self-loops');
+}
+
+validateRedirectMaps();

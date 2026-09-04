@@ -28,10 +28,11 @@ export function trailingSlashRedirect(pathname: string): string | null {
 }
 
 export function resolvePathRedirect(pathname: string): string | null {
-	return (
+	const redirect =
 		PATH_REDIRECTS[pathname] ??
 		CANNIBAL_REDIRECTS[pathname] ??
 		xmlTrailingSlashRedirect(pathname) ??
-		trailingSlashRedirect(pathname)
-	);
+		trailingSlashRedirect(pathname);
+	if (!redirect || redirect === pathname) return null;
+	return redirect;
 }

@@ -1,4 +1,5 @@
 import CANNIBAL_REDIRECTS from './cannibal-redirects.json';
+import PATH_REDIRECTS from './path-redirects.json';
 
 const CANONICAL_ORIGIN = 'https://destiny2hack.net';
 const APEX_HOST = 'destiny2hack.net';
@@ -32,87 +33,16 @@ const LEGACY_HOSTS = new Set([
 	'www.thefinalscheats.org',
 ]);
 
-// Keep in sync with public/_redirects (which preserves query strings by default, as we do below).
-const PATH_REDIRECTS = {
-	'/sitemap-0.xml': '/sitemap.xml',
-	'/sitemap-index.xml': '/sitemap.xml',
-	'/sitemap.xml/': '/sitemap.xml',
-	'/sitemap-en.xml/': '/sitemap-en.xml',
-	'/sitemap-i18n.xml/': '/sitemap-i18n.xml',
-	'/sitemap-images.xml/': '/sitemap-images.xml',
-	// Exact-match keyword → homepage (primary money URL) — do NOT redirect live pillar pages
-	// (/destiny-2-cheats/, /best-destiny-2-cheats/, etc. are indexed in sitemaps).
-	// Cannibalization → stronger pillars
-	'/destiny-2-mod-menu': '/',
-	'/destiny-2-mod-menu/': '/',
-	'/destiny-2-unlock-tool': '/',
-	'/destiny-2-unlock-tool/': '/',
-	'/destiny-2-soft-aim': '/destiny-2-aimbot/',
-	'/destiny-2-soft-aim/': '/destiny-2-aimbot/',
-	'/destiny-2-wallhack': '/destiny-2-esp/',
-	'/destiny-2-wallhack/': '/destiny-2-esp/',
-	'/destiny-2-cheat-download': '/setup/',
-	'/destiny-2-cheat-download/': '/setup/',
-	// Legacy destiny-2-cheats slugs → destiny-2-cheats (keep in sync with path-redirects.json)
-	'/destiny-2-cheats': '/destiny-2-cheats/',
-	'/destiny-2-cheats/': '/destiny-2-cheats/',
-	'/undetected-destiny-2-cheats': '/undetected-destiny-2-cheats/',
-	'/undetected-destiny-2-cheats/': '/undetected-destiny-2-cheats/',
-	'/destiny-2-cheats-2026': '/destiny-2-cheats-2026/',
-	'/destiny-2-cheats-2026/': '/destiny-2-cheats-2026/',
-	'/best-destiny-2-cheats': '/best-destiny-2-cheats/',
-	'/best-destiny-2-cheats/': '/best-destiny-2-cheats/',
-	'/destiny-2-esp-hack': '/destiny-2-esp/',
-	'/destiny-2-esp-hack/': '/destiny-2-esp/',
-	'/destiny-2-aimbot-hack': '/destiny-2-aimbot/',
-	'/destiny-2-aimbot-hack/': '/destiny-2-aimbot/',
-	'/warzone-cheats': '/',
-	'/warzone-cheats/': '/',
-	'/warzone-hacks': '/',
-	'/warzone-hacks/': '/',
-	'/warzone-esp': '/destiny-2-esp/',
-	'/warzone-esp/': '/destiny-2-esp/',
-	'/warzone-aimbot': '/destiny-2-aimbot/',
-	'/warzone-aimbot/': '/destiny-2-aimbot/',
-	'/ricochet-bypass': '/updates/',
-	'/ricochet-bypass/': '/updates/',
-	'/fortnite-aimbot': '/destiny-2-aimbot/',
-	'/fortnite-aimbot/': '/destiny-2-aimbot/',
-	'/fortnite-esp': '/destiny-2-esp/',
-	'/fortnite-esp/': '/destiny-2-esp/',
-	'/fortnite-hacks': '/',
-	'/fortnite-hacks/': '/',
-	'/battleye-bypass': '/updates/',
-	'/battleye-bypass/': '/updates/',
-	'/battleye-bypass-fortnite': '/updates/',
-	'/battleye-bypass-fortnite/': '/updates/',
-	'/blog/patch-notes-buffs-nerfs-vaults': '/blog/rust-patch-notes-guide/',
-	'/blog/patch-notes-buffs-nerfs-vaults/': '/blog/rust-patch-notes-guide/',
-	'/blog/chapter-7-season-3-skin-leaks-vbucks': '/blog/rust-skin-leaks-guide/',
-	'/blog/chapter-7-season-3-skin-leaks-vbucks/': '/blog/rust-skin-leaks-guide/',
-	'/blog/hammer-ar-s-tier-data-analysis': '/blog/rust-player-tier-list/',
-	'/blog/hammer-ar-s-tier-data-analysis/': '/blog/rust-player-tier-list/',
-	'/blog/zero-build-meta-broken-aggressive-strategies': '/blog/rust-farming-run-aggressive-strategies/',
-	'/blog/zero-build-meta-broken-aggressive-strategies/': '/blog/rust-farming-run-aggressive-strategies/',
-	'/blog/fncs-meta-watch-community-event-drops': '/blog/rust-competitive-meta-guide/',
-	'/blog/fncs-meta-watch-community-event-drops/': '/blog/rust-competitive-meta-guide/',
-	'/blog/secret-loot-routes-full-gold': '/blog/rust-loot-routes-guide/',
-	'/blog/secret-loot-routes-full-gold/': '/blog/rust-loot-routes-guide/',
-	'/blog/bugha-settings-pro-setup': '/blog/rust-pro-settings-guide/',
-	'/blog/bugha-settings-pro-setup/': '/blog/rust-pro-settings-guide/',
-	'/blog/creative-warmup-maps-pros-use': '/blog/rust-warmup-maps-ranked/',
-	'/blog/creative-warmup-maps-pros-use/': '/blog/rust-warmup-maps-ranked/',
-	'/reviews/destiny-2-esp-zero-build-review-buildsr4k': '/reviews/destiny-2-esp-growth-run-review-buildsr4k/',
-	'/reviews/destiny-2-esp-zero-build-review-buildsr4k/': '/reviews/destiny-2-esp-growth-run-review-buildsr4k/',
-	'/reviews/destiny-2-radar-hack-review-vanlifefn': '/reviews/destiny-2-radar-hack-review-vanlifenaraka/',
-	'/reviews/destiny-2-radar-hack-review-vanlifefn/': '/reviews/destiny-2-radar-hack-review-vanlifenaraka/',
-	'/reviews/destiny-2-radar-hack-review-vanlifewz': '/reviews/destiny-2-radar-hack-review-vanlifenaraka/',
-	'/reviews/destiny-2-radar-hack-review-vanlifewz/': '/reviews/destiny-2-radar-hack-review-vanlifenaraka/',
-	'/reviews/destiny-2-radar-hack-review-vanliferust': '/reviews/destiny-2-radar-hack-review-vanlifenaraka/',
-	'/reviews/destiny-2-radar-hack-review-vanliferust/': '/reviews/destiny-2-radar-hack-review-vanlifenaraka/',
-	'/reviews/rust-controller-soft-aim-review-ctrl-player99': '/reviews/destiny-2-soft-aim-review-ctrl-player99/',
-	'/reviews/rust-controller-soft-aim-review-ctrl-player99/': '/reviews/destiny-2-soft-aim-review-ctrl-player99/',
-};
+/** Resolve path redirect — never redirect a URL to itself (avoids infinite loops). */
+function resolvePathRedirect(pathname) {
+	const redirect =
+		PATH_REDIRECTS[pathname] ??
+		CANNIBAL_REDIRECTS[pathname] ??
+		xmlTrailingSlashRedirect(pathname) ??
+		trailingSlashRedirect(pathname);
+	if (!redirect || redirect === pathname) return null;
+	return redirect;
+}
 
 const SECURITY_HEADERS = {
 	'Strict-Transport-Security': 'max-age=63072000; includeSubDomains; preload',
@@ -227,7 +157,7 @@ export async function onRequest(context) {
 	const needsHttpsRedirect = isProductionHost && proto === 'http';
 
 	if (needsHostRedirect || needsHttpsRedirect) {
-		const mappedPath = PATH_REDIRECTS[url.pathname] ?? url.pathname;
+		const mappedPath = resolvePathRedirect(url.pathname) ?? url.pathname;
 		const target = new URL(mappedPath + url.search, CANONICAL_ORIGIN);
 		const headers = new Headers({
 			Location: target.toString(),
@@ -239,11 +169,7 @@ export async function onRequest(context) {
 		return new Response(null, { status: 301, headers });
 	}
 
-	const pathRedirect =
-		PATH_REDIRECTS[url.pathname] ??
-		CANNIBAL_REDIRECTS[url.pathname] ??
-		xmlTrailingSlashRedirect(url.pathname) ??
-		trailingSlashRedirect(url.pathname);
+	const pathRedirect = resolvePathRedirect(url.pathname);
 	if (pathRedirect) {
 		const headers = new Headers({
 			Location: new URL(pathRedirect + url.search, url.origin).toString(),
