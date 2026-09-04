@@ -3,107 +3,19 @@
  * Generates src/data/guides/guides.generated.ts — one dedicated guide per external URL.
  * Run: node scripts/generate-guides.mjs
  */
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'src', 'data', 'guides', 'guides.generated.ts');
+const URL_LIST = path.join(__dirname, 'guides-url-list.txt');
 
-const RAW_URLS = `
-https://arcraiderscheat.net/
-https://genshincheats.net/
-https://dbdcheats.net/
-https://tarkovcheats.net/
-https://unturnedcheats.net/
-https://unturnedcheats.com/
-https://warthundercheats.com/
-https://arcraiderscheat.net/
-https://genshincheats.net/
-https://dbdcheats.net/
-https://arcraiderscheat.net/
-https://genshincheats.net/
-https://dbdcheats.net/
-https://tarkovcheats.net/
-https://fortniteaimbot.com/
-https://marathoncheats.org/
-https://battlefieldcheats.org/
-https://lolcheats.org/
-https://warzonecheats.org/
-https://valocheats.com/
-https://grayzonecheats.com/
-https://arcraiderscheats.org/
-https://tarkovcheats.org/
-https://overwatchhacks.com/
-https://dbdcheats.org/
-https://theislehacks.org/
-https://islecheats.net/
-https://warthunderhacks.com/
-https://marathoncheats.cc/
-https://besttarkovcheats.com/
-https://thefinalscheats.org/
-https://dayzcheat.net/
-https://fncheats.net/
-http://islecheat.com
-http://islecheat.com
-http://marvelrivalscheat.net/
-http://meccacheats.com/
-http://rusthack.net
-http://warzonecheat.org/
-http://grayzonecheats.net/
-http://palworldhack.net/
-http://r6siegecheats.net/
-http://eftcheat.net/
-http://eftcheat.net/
-https://calibercheats.com/
-https://codcheats.net/
-https://huntcheats.com/
-https://lolcheat.net/
-https://marathonhacks.net/
-https://mecchahacks.com/
-https://palworldhack.com/
-https://tarkovhack.net/
-https://warthundercheats.net/
-https://huntshowdowncheats.com/
-https://destiny2cheats.com/
-https://tarkovhacks.net/
-https://r6siegecheats.com/
-https://sandraiderscheat.com/
-https://sandraiderscheat.com/
-https://palworldhacks.com/
-https://squadhacks.com/
-https://eftcheats.net/
-https://marathonhack.net/
-https://abicheats.com/
-https://bodycamcheats.com/
-https://grayzonehacks.com/
-https://lolcheats.net/
-https://oncehumanhacks.com/
-https://palworldhacks.net/
-https://reforgercheats.com/
-https://rivalshacks.com/
-https://oncehumancheats.net/
-https://overwatchcheat.net/
-https://dayzhack.net/
-https://battlefieldcheat.com/
-https://abihacks.com/
-https://arcraidershack.com/
-https://backroomscheats.com/
-https://marvelrivalshacks.net/
-https://mecchachameleonhacks.com/
-https://mecchachameleonhacks.net/
-https://overwatch2cheats.com/
-https://sandraiderscheats.com/
-https://rivalscheats.net/
-https://squadcheat.com/
-https://sandraidersofsophiecheats.net/
-https://tarkovcheat.net/
-https://thefinalscheats.net/
-https://theislehacks.net/
-https://valoranthack.net/
-https://warzonehacks.net/
-`.trim().split(/\s+/);
+const RAW_URLS = (await readFile(URL_LIST, 'utf8'))
+	.trim()
+	.split(/\s+/)
+	.filter(Boolean);
 
 const ANCHOR_TEXTS = [
 	'this resource',
@@ -112,40 +24,62 @@ const ANCHOR_TEXTS = [
 	'related resources',
 ];
 
-/** IGN-hosted images per game (assets-prd.ignimgs.com, sm.ign.com, assets2.ignimgs.com). */
+/** IGN-hosted images per game (assets-prd.ignimgs.com / assets*.ignimgs.com). */
 const IGN_IMAGES = {
+	'ARK: Survival Ascended': 'https://assets-prd.ignimgs.com/2023/04/01/arkascended-1680312404931.jpg',
 	'ARC Raiders': 'https://assets-prd.ignimgs.com/2021/12/15/arc-raiders-button-01-1639552157827.jpg',
-	'Genshin Impact': 'https://assets-prd.ignimgs.com/2020/09/29/genshin-impact-button-fin-1601346152039.jpg',
-	'Dead by Daylight': 'https://assets-prd.ignimgs.com/2024/05/14/dead-by-daylight-button-replacement-1715713276872.jpg',
-	'Escape from Tarkov': 'https://assets-prd.ignimgs.com/2021/12/07/escapefromtarkov-1638898094839.jpg',
-	Unturned: 'https://assets-prd.ignimgs.com/2020/12/10/unturned-button-fin-1607643147558.jpg',
-	'War Thunder': 'https://assets-prd.ignimgs.com/2021/12/20/warthunder-1640044666858.jpg',
-	Fortnite: 'https://assets-prd.ignimgs.com/2025/04/02/nintendoswitch2-fortnite-keyart-square-1743635675429.jpg',
-	Marathon: 'https://assets-prd.ignimgs.com/2023/05/24/marathon-announce-key-art-1x1-1684967675071.jpg',
-	Battlefield: 'https://assets-prd.ignimgs.com/2024/03/20/battlefields7-1710977997041.jpg',
-	'League of Legends': 'https://assets-prd.ignimgs.com/2021/12/14/leagueoflegends-1639513774570.jpg',
-	'Call of Duty: Warzone': 'https://sm.ign.com/t/ign_pk/screenshot/default/wz-verdansksubway-1601169413816_x2hg.1400.jpg',
-	Valorant: 'https://assets-prd.ignimgs.com/2021/12/21/valorant-1640045685890.jpg',
-	'Gray Zone Warfare': 'https://assets-prd.ignimgs.com/2023/11/30/gray-zone-warfare-button-1701383116349.jpg',
-	'Overwatch 2': 'https://assets-prd.ignimgs.com/2026/03/11/overwatch-1773211203379.jpg',
-	'The Isle': 'https://assets-prd.ignimgs.com/2023/09/12/library-600x900-1694540297721.jpg',
-	'The Finals': 'https://assets-prd.ignimgs.com/2022/08/23/the-finals-button-01-1661293340151.jpg',
-	DayZ: 'https://ps3media.ign.com/ps3/image/object/133/133826/PC_MAX_DAYZTEMP.jpg',
-	'Marvel Rivals': 'https://assets-prd.ignimgs.com/2024/03/27/marvelrivals-1711557092104.jpg',
-	'Mecha BREAK': 'https://assets-prd.ignimgs.com/2023/12/08/mechabreak-1701997906808.jpg',
-	Rust: 'https://assets-prd.ignimgs.com/2021/12/07/rust-1638841834256.png',
-	Palworld: 'https://assets-prd.ignimgs.com/2024/01/19/palworld-1705691572614.jpg',
-	'Rainbow Six Siege': 'https://assets-prd.ignimgs.com/2025/06/30/siegex-1751319986948.jpg',
-	Caliber: 'https://assets-prd.ignimgs.com/2023/04/06/caliber-1680811698787.jpg',
-	'Hunt: Trials of Osiris': 'https://assets-prd.ignimgs.com/2024/08/28/hunt-showdown-1896-button-1724846899827.jpg',
-	'Destiny 2': 'https://assets-prd.ignimgs.com/2025/03/12/destiny2heresy-1741800139522.jpg',
-	Squad: 'https://assets2.ignimgs.com/2015/12/17/squad-buttonjpg-19bbc6.jpg',
-	'Sand Raiders': 'https://assets-prd.ignimgs.com/2026/01/09/sand-raiders-of-sophie-button-1767971628115.jpg',
 	'Arena Breakout Infinite': 'https://assets-prd.ignimgs.com/2024/04/17/infinite-button-1713363504862.jpg',
-	Bodycam: 'https://assets-prd.ignimgs.com/2024/01/21/untitled-1-1705872632310.jpg',
-	'Once Human': 'https://assets-prd.ignimgs.com/2022/06/13/once-human-button-22-1655151627567.jpg',
 	'Arma Reforger': 'https://assets-prd.ignimgs.com/2022/05/17/arma-reforger-button-1652812465455.jpg',
 	Backrooms: 'https://assets-prd.ignimgs.com/2024/02/13/backrooms-1707864765589.jpg',
+	Battlefield: 'https://assets-prd.ignimgs.com/2024/03/20/battlefields7-1710977997041.jpg',
+	Bodycam: 'https://assets-prd.ignimgs.com/2024/01/21/untitled-1-1705872632310.jpg',
+	Caliber: 'https://assets-prd.ignimgs.com/2023/04/06/caliber-1680811698787.jpg',
+	'Call of Duty': 'https://assets-prd.ignimgs.com/2024/06/10/blackops6-1718038493393.jpg',
+	'Call of Duty: Warzone': 'https://sm.ign.com/t/ign_pk/screenshot/default/wz-verdansksubway-1601169413816_x2hg.1400.jpg',
+	'Combat Master': 'https://assets-prd.ignimgs.com/2023/09/03/combatmaster-1693783237844.jpg',
+	DayZ: 'https://ps3media.ign.com/ps3/image/object/133/133826/PC_MAX_DAYZTEMP.jpg',
+	'Dead by Daylight': 'https://assets-prd.ignimgs.com/2024/05/14/dead-by-daylight-button-replacement-1715713276872.jpg',
+	Deadside: 'https://assets-prd.ignimgs.com/2022/11/16/deadside-1668635482936.jpg',
+	'Delta Force': 'https://assets-prd.ignimgs.com/2024/08/28/delta-force-button-replacement-1724855313566.jpg',
+	'Destiny 2': 'https://assets-prd.ignimgs.com/2025/03/12/destiny2heresy-1741800139522.jpg',
+	'Dune: Awakening': 'https://assets-prd.ignimgs.com/2024/08/21/duneawak-1724235247826.jpg',
+	Enlisted: 'https://assets-prd.ignimgs.com/2021/04/09/enlisted-button-fin-1617993248241.jpg',
+	'Escape from Tarkov': 'https://assets-prd.ignimgs.com/2021/12/07/escapefromtarkov-1638898094839.jpg',
+	Exoborne: 'https://assets-prd.ignimgs.com/2023/12/08/exoborne-1702005698486.jpg',
+	Fortnite: 'https://assets-prd.ignimgs.com/2025/04/02/nintendoswitch2-fortnite-keyart-square-1743635675429.jpg',
+	Foxhole: 'https://assets-prd.ignimgs.com/2023/10/31/foxhole-1698766398992.jpg',
+	'Genshin Impact': 'https://assets-prd.ignimgs.com/2020/09/29/genshin-impact-button-fin-1601346152039.jpg',
+	'Gray Zone Warfare': 'https://assets-prd.ignimgs.com/2023/11/30/gray-zone-warfare-button-1701383116349.jpg',
+	Grounded: 'https://assets-prd.ignimgs.com/2024/04/01/grounded-replacement-button-1712013698268.jpg',
+	'Hunt: Showdown': 'https://assets-prd.ignimgs.com/2024/08/28/hunt-showdown-1896-button-1724846899827.jpg',
+	'League of Legends': 'https://assets-prd.ignimgs.com/2021/12/14/leagueoflegends-1639513774570.jpg',
+	'Lost Ark': 'https://assets2.ignimgs.com/2014/11/15/lostark-buttonjpg-bc185d.jpg',
+	Marathon: 'https://assets-prd.ignimgs.com/2023/05/24/marathon-announce-key-art-1x1-1684967675071.jpg',
+	'Marvel Rivals': 'https://assets-prd.ignimgs.com/2024/03/27/marvelrivals-1711557092104.jpg',
+	'Mecha BREAK': 'https://assets-prd.ignimgs.com/2023/12/08/mechabreak-1701997906808.jpg',
+	Minecraft: 'https://assets-prd.ignimgs.com/2021/12/14/minecraft-1639513933156.jpg',
+	'Naraka: Bladepoint': 'https://assets1.ignimgs.com/2019/12/13/naraka---button-00-1576208838937.jpg',
+	'NBA 2K26': 'https://assets-prd.ignimgs.com/2025/07/09/nba-2k26-button-replacement-1752079432392.jpg',
+	'Once Human': 'https://assets-prd.ignimgs.com/2022/06/13/once-human-button-22-1655151627567.jpg',
+	'Overwatch 2': 'https://assets-prd.ignimgs.com/2026/03/11/overwatch-1773211203379.jpg',
+	Palworld: 'https://assets-prd.ignimgs.com/2024/01/19/palworld-1705691572614.jpg',
+	'Path of Exile': 'https://assets1.ignimgs.com/2017/08/24/path-of-exile---button-1503612705551.jpg',
+	Raft: 'https://assets-prd.ignimgs.com/2022/07/29/raftfinal-1659126121018.jpg',
+	'Rainbow Six Siege': 'https://assets-prd.ignimgs.com/2025/06/30/siegex-1751319986948.jpg',
+	Rust: 'https://assets-prd.ignimgs.com/2021/12/07/rust-1638841834256.png',
+	'Sand Raiders': 'https://assets-prd.ignimgs.com/2026/01/09/sand-raiders-of-sophie-button-1767971628115.jpg',
+	SCUM: 'https://assets-prd.ignimgs.com/2022/10/08/scum-1665249692342.jpg',
+	'Sea of Thieves': 'https://assets-prd.ignimgs.com/2026/06/09/sot-customthieves-1781027869323.jpg',
+	Squad: 'https://assets2.ignimgs.com/2015/12/17/squad-buttonjpg-19bbc6.jpg',
+	'Team Fortress 2': 'https://assets-prd.ignimgs.com/2022/01/26/team-fortress-2-button-1643168687556.jpg',
+	'The Finals': 'https://assets-prd.ignimgs.com/2022/08/23/the-finals-button-01-1661293340151.jpg',
+	'The Front': 'https://assets-prd.ignimgs.com/2023/02/27/thefront-1677525834490.jpg',
+	'The Isle': 'https://assets-prd.ignimgs.com/2023/09/12/library-600x900-1694540297721.jpg',
+	Unturned: 'https://assets-prd.ignimgs.com/2020/12/10/unturned-button-fin-1607643147558.jpg',
+	Valorant: 'https://assets-prd.ignimgs.com/2021/12/21/valorant-1640045685890.jpg',
+	'War Thunder': 'https://assets-prd.ignimgs.com/2021/12/20/warthunder-1640044666858.jpg',
+	Warframe: 'https://assets1.ignimgs.com/2019/02/22/warframe---button-1550875935085.jpg',
+	'Wuthering Waves': 'https://assets-prd.ignimgs.com/2024/11/20/wutheringwaves-1732060928478.jpg',
 };
 
 const GAME_PROFILES = {
@@ -287,7 +221,7 @@ const GAME_PROFILES = {
 		mechanics: ['operator abilities', 'mission routing', 'cover trades'],
 		antiCheat: 'proprietary anti-cheat with server checks',
 	},
-	'Hunt: Trials of Osiris': {
+	'Hunt: Showdown': {
 		genre: 'extraction bounty hunter',
 		setting: 'Louisiana bayou with boss bounties and rival hunters',
 		mechanics: ['sound traps', 'boss burn timing', 'extract ambushes'],
@@ -341,6 +275,138 @@ const GAME_PROFILES = {
 		mechanics: ['level routing', 'entity sound cues', 'team extraction'],
 		antiCheat: 'lightweight server validation',
 	},
+	'ARK: Survival Ascended': {
+		genre: 'survival sandbox',
+		setting: 'prehistoric open worlds with tames, tribes, and raids',
+		mechanics: ['tribe logistics', 'breeding lines', 'orbital drops'],
+		antiCheat: 'BattlEye on official servers',
+	},
+	Deadside: {
+		genre: 'post-apocalyptic shooter',
+		setting: 'realistic survival zones with looting and PvP',
+		mechanics: ['loot routes', 'base raids', 'weapon modding'],
+		antiCheat: 'Easy Anti-Cheat with server validation',
+	},
+	'Call of Duty': {
+		genre: 'arcade FPS',
+		setting: 'fast TTK multiplayer with killstreaks and loadouts',
+		mechanics: ['loadout tuning', 'map lanes', 'scorestreak timing'],
+		antiCheat: 'Ricochet anti-cheat on PC',
+	},
+	'Combat Master': {
+		genre: 'mobile-style FPS',
+		setting: 'fast arena matches with low-TTK gunplay',
+		mechanics: ['slide cancel routes', 'ADS timing', 'ranked climb'],
+		antiCheat: 'server-side hit validation',
+	},
+	'Delta Force': {
+		genre: 'tactical military FPS',
+		setting: 'large-scale raids with vehicles and extraction',
+		mechanics: ['squad roles', 'armor plates', 'extraction windows'],
+		antiCheat: 'ACE anti-cheat stack',
+	},
+	'Dune: Awakening': {
+		genre: 'survival MMO',
+		setting: 'Arrakis sandstorms with spice harvesting and faction wars',
+		mechanics: ['spice runs', 'stilltent crafting', 'ornithopter travel'],
+		antiCheat: 'kernel anti-cheat at launch',
+	},
+	Enlisted: {
+		genre: 'WWII squad shooter',
+		setting: 'historical fronts with infantry, tanks, and air support',
+		mechanics: ['squad orders', 'objective pushes', 'vehicle flanks'],
+		antiCheat: 'Easy Anti-Cheat on PC',
+	},
+	Exoborne: {
+		genre: 'extraction shooter',
+		setting: 'dynamic storm zones with vertical traversal',
+		mechanics: ['storm timing', 'loot risk', 'squad extracts'],
+		antiCheat: 'planned live-service anti-cheat',
+	},
+	Foxhole: {
+		genre: 'persistent war sandbox',
+		setting: 'player-driven fronts with logistics and construction',
+		mechanics: ['supply lines', 'base building', 'tank pushes'],
+		antiCheat: 'server-side moderation tools',
+	},
+	Grounded: {
+		genre: 'survival co-op',
+		setting: 'backyard scale with insects and base building',
+		mechanics: ['base defense', 'insect tiers', 'story labs'],
+		antiCheat: 'lightweight anti-cheat on co-op',
+	},
+	'Lost Ark': {
+		genre: 'action MMORPG',
+		setting: 'Arkesia raids, islands, and competitive PvP',
+		mechanics: ['raid mechanics', 'island routes', 'build tuning'],
+		antiCheat: 'Easy Anti-Cheat with kernel module',
+	},
+	'Naraka: Bladepoint': {
+		genre: 'melee battle royale',
+		setting: 'wuxia arenas with grappling and weapon mastery',
+		mechanics: ['parry timing', 'grapple routes', 'soul jade economy'],
+		antiCheat: 'NetEase anti-cheat stack',
+	},
+	Minecraft: {
+		genre: 'sandbox survival',
+		setting: 'procedural worlds with crafting and multiplayer servers',
+		mechanics: ['redstone logic', 'base hidden entrances', 'PvP crystal meta'],
+		antiCheat: 'server-side plugin moderation',
+	},
+	'NBA 2K26': {
+		genre: 'sports simulation',
+		setting: 'MyCareer, Park, and competitive online leagues',
+		mechanics: ['badge builds', 'shooting timing', 'defensive sticks'],
+		antiCheat: '2K anti-cheat on PC',
+	},
+	'Path of Exile': {
+		genre: 'action RPG',
+		setting: 'Wraeclast leagues with deep skill trees and loot filters',
+		mechanics: ['league mechanics', 'atlas progression', 'crafting currency'],
+		antiCheat: 'server-side validation with client checks',
+	},
+	Raft: {
+		genre: 'co-op survival',
+		setting: 'ocean drifts with crafting and island expeditions',
+		mechanics: ['resource hooks', 'island routing', 'shark defense'],
+		antiCheat: 'co-op host validation',
+	},
+	SCUM: {
+		genre: 'hardcore survival',
+		setting: 'prison island with metabolism and PvP events',
+		mechanics: ['metabolism tuning', 'vehicle repair', 'mech events'],
+		antiCheat: 'Easy Anti-Cheat on official servers',
+	},
+	'Sea of Thieves': {
+		genre: 'pirate adventure',
+		setting: 'open seas with voyages, forts, and naval combat',
+		mechanics: ['ship roles', 'fort chains', 'sword combat'],
+		antiCheat: 'server-side validation with report review',
+	},
+	'Team Fortress 2': {
+		genre: 'class-based shooter',
+		setting: 'payload, control point, and arena modes',
+		mechanics: ['class counters', 'uber timing', 'rocket jumps'],
+		antiCheat: 'VAC with community servers',
+	},
+	'The Front': {
+		genre: 'survival sandbox',
+		setting: 'post-collapse zones with base raids and vehicles',
+		mechanics: ['base raids', 'vehicle convoys', 'season wipes'],
+		antiCheat: 'Easy Anti-Cheat on official servers',
+	},
+	Warframe: {
+		genre: 'looter shooter',
+		setting: 'Origin System missions with frames and modding',
+		mechanics: ['frame ability loops', 'mod polarity', 'steel path'],
+		antiCheat: 'client integrity checks',
+	},
+	'Wuthering Waves': {
+		genre: 'action RPG',
+		setting: 'open-world exploration with resonator teams',
+		mechanics: ['resonator synergies', 'echo farming', 'boss rotations'],
+		antiCheat: 'server-side validation',
+	},
 };
 
 function normalizeUrl(raw) {
@@ -353,17 +419,19 @@ function hostname(url) {
 
 function classifyGame(host) {
 	const h = host;
+	if (h.includes('arkascended') || h === 'arkcheats.net') return 'ARK: Survival Ascended';
+	if (h.includes('deadside')) return 'Deadside';
 	if (h.includes('arcraider')) return 'ARC Raiders';
 	if (h.includes('genshin')) return 'Genshin Impact';
 	if (h.includes('dbd')) return 'Dead by Daylight';
 	if (h.includes('tarkov') || h.includes('eft')) return 'Escape from Tarkov';
 	if (h.includes('unturned')) return 'Unturned';
 	if (h.includes('warthunder')) return 'War Thunder';
-	if (h.includes('fortnite') || h === 'fncheats.net') return 'Fortnite';
+	if (h.includes('fortnite') || h === 'fncheats.net' || h === 'fncheat.com') return 'Fortnite';
 	if (h.includes('marathon')) return 'Marathon';
 	if (h.includes('battlefield')) return 'Battlefield';
 	if (h.includes('lol')) return 'League of Legends';
-	if (h.includes('warzone') || h.includes('codcheat')) return 'Call of Duty: Warzone';
+	if (h.includes('warzone')) return 'Call of Duty: Warzone';
 	if (h.includes('valo') || h.includes('valorant')) return 'Valorant';
 	if (h.includes('grayzone')) return 'Gray Zone Warfare';
 	if (h.includes('overwatch')) return 'Overwatch 2';
@@ -376,15 +444,35 @@ function classifyGame(host) {
 	if (h.includes('palworld')) return 'Palworld';
 	if (h.includes('r6') || h.includes('siege')) return 'Rainbow Six Siege';
 	if (h.includes('caliber')) return 'Caliber';
-	if (h.includes('hunt')) return 'Hunt: Trials of Osiris';
+	if (h.includes('hunt')) return 'Hunt: Showdown';
 	if (h.includes('destiny')) return 'Destiny 2';
 	if (h.includes('squad')) return 'Squad';
-	if (h.includes('sandraid') || h.includes('sophie')) return 'Sand Raiders';
+	if (h.includes('sandraid') || h.includes('sophie') || h.includes('sandhack')) return 'Sand Raiders';
 	if (h.includes('abi')) return 'Arena Breakout Infinite';
 	if (h.includes('bodycam')) return 'Bodycam';
 	if (h.includes('oncehuman')) return 'Once Human';
 	if (h.includes('reforger')) return 'Arma Reforger';
 	if (h.includes('backroom')) return 'Backrooms';
+	if (h.includes('lostark')) return 'Lost Ark';
+	if (h.includes('warframe')) return 'Warframe';
+	if (h.includes('naraka')) return 'Naraka: Bladepoint';
+	if (h.includes('minecraft')) return 'Minecraft';
+	if (h.includes('poe')) return 'Path of Exile';
+	if (h.includes('raft')) return 'Raft';
+	if (h.includes('seaofthieves')) return 'Sea of Thieves';
+	if (h.includes('deltaforce')) return 'Delta Force';
+	if (h.includes('dune')) return 'Dune: Awakening';
+	if (h.includes('wuthering')) return 'Wuthering Waves';
+	if (h.includes('combatmaster')) return 'Combat Master';
+	if (h.includes('foxhole')) return 'Foxhole';
+	if (h.includes('exoborne')) return 'Exoborne';
+	if (h.includes('cod')) return 'Call of Duty';
+	if (h.includes('nba2k')) return 'NBA 2K26';
+	if (h.includes('tf2')) return 'Team Fortress 2';
+	if (h.includes('enlisted')) return 'Enlisted';
+	if (h.includes('scum')) return 'SCUM';
+	if (h.includes('grounded')) return 'Grounded';
+	if (h.includes('thefront')) return 'The Front';
 	return 'PC Gaming';
 }
 
@@ -516,15 +604,20 @@ function serializeGuide(guide) {
 
 async function main() {
 	const urls = uniqueUrls(RAW_URLS);
-	if (urls.length !== 81) {
-		throw new Error(`Expected 81 unique URLs, got ${urls.length}`);
+	const expectedUnique = 152;
+
+	if (urls.length !== expectedUnique) {
+		throw new Error(`Expected ${expectedUnique} unique URLs, got ${urls.length}`);
 	}
 
 	const guides = urls.map((url, i) => buildGuide(url, i));
 	const slugs = new Set();
+	const externalUrls = new Set();
 	for (const g of guides) {
 		if (slugs.has(g.slug)) throw new Error(`Duplicate slug: ${g.slug}`);
+		if (externalUrls.has(g.externalUrl)) throw new Error(`Duplicate external URL: ${g.externalUrl}`);
 		slugs.add(g.slug);
+		externalUrls.add(g.externalUrl);
 	}
 
 	const body = `/** Auto-generated by scripts/generate-guides.mjs — do not edit by hand. */\nimport type { GuideDefinition } from './types';\n\nexport const guides: GuideDefinition[] = [\n${guides.map((g) => `\t${serializeGuide(g)},`).join('\n')}\n];\n`;
