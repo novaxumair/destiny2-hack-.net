@@ -72,8 +72,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 	.hero__media img {
 		object-fit: cover;
-		/* Character sits on the right; keep left dark for headline copy */
-		object-position: 72% center;
+		/* Character sits on the right; anchor high so helmets stay in frame */
+		object-position: 72% 12%;
 		image-rendering: auto;
 		transform: translateZ(0);
 		filter: brightness(0.78) contrast(1.04);
@@ -316,7 +316,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 		.hero__media img {
 			object-fit: cover;
-			object-position: 72% 38%;
+			object-position: 72% 15%;
 		}
 
 		.hero__veil {
