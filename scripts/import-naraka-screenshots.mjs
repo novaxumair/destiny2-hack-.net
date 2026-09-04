@@ -1,6 +1,6 @@
 /**
- * Import Naraka cheat screenshots from Supabase public storage.
- * Writes crawl URLs: /images/naraka-screenshot-01.webp … 08.webp
+ * Import Destiny 2 cheat screenshots from Supabase public storage.
+ * Writes crawl URLs: /images/destiny2-screenshot-01.webp … 08.webp
  * plus -480w / -960w responsive variants. Does not touch hero assets.
  */
 import { mkdir, writeFile } from 'node:fs/promises';
@@ -10,7 +10,7 @@ import sharp from 'sharp';
 const BASE =
 	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/';
 
-/** User-provided Naraka screenshots (Aug 2026). */
+/** User-provided Destiny 2 screenshots (Aug 2026). */
 const SOURCE_URLS = [
 	`${BASE}Screenshot%202026-08-13%20185425.png`,
 	`${BASE}Screenshot%202026-08-13%20185442.png`,
@@ -25,29 +25,29 @@ const SOURCE_URLS = [
 const SCREENSHOT_COUNT = SOURCE_URLS.length;
 
 const imagesDir = path.resolve('public/images');
-const tmpDir = path.resolve('tmp/naraka-screenshots/sources');
+const tmpDir = path.resolve('tmp/destiny2-screenshots/sources');
 
 const CONTENT_WIDTHS = [480, 960];
 const WEBP = { quality: 82, effort: 6, smartSubsample: true };
 
 const LEGACY_MAP = {
-	'naraka-screenshot-01': [
-		'naraka-cheats-esp.webp',
-		'naraka-esp-player-tags.webp',
+	'destiny2-screenshot-01': [
+		'destiny-2-cheats-esp.webp',
+		'destiny-2-esp-player-tags.webp',
 	],
-	'naraka-screenshot-02': ['naraka-cheats-wallhack.webp', 'naraka-cheats-session.webp'],
-	'naraka-screenshot-03': ['naraka-cheats-aimbot.webp', 'naraka-cheats-combat.webp'],
-	'naraka-screenshot-04': [
-		'naraka-cheats-aimbot-view.webp',
-		'naraka-aimbot-skeleton.webp',
-		'naraka-aimbot-sniper.webp',
+	'destiny2-screenshot-02': ['destiny-2-cheats-wallhack.webp', 'destiny-2-cheats-session.webp'],
+	'destiny2-screenshot-03': ['destiny-2-cheats-aimbot.webp', 'destiny-2-cheats-combat.webp'],
+	'destiny2-screenshot-04': [
+		'destiny-2-cheats-aimbot-view.webp',
+		'destiny-2-aimbot-skeleton.webp',
+		'destiny-2-aimbot-sniper.webp',
 	],
-	'naraka-screenshot-05': ['naraka-cheats-radar.webp', 'naraka-esp-radar.webp'],
+	'destiny2-screenshot-05': ['destiny-2-cheats-radar.webp', 'destiny-2-esp-radar.webp'],
 };
 
 async function fetchSource(url, index) {
 	const res = await fetch(url, {
-		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NarakaCheatsSite/1.0)' },
+		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Destiny2CheatsSite/1.0)' },
 	});
 	if (!res.ok) throw new Error(`Download failed (${index + 1}): HTTP ${res.status} — ${url}`);
 	const buf = Buffer.from(await res.arrayBuffer());
@@ -99,7 +99,7 @@ let totalBytes = 0;
 
 for (let n = 1; n <= SCREENSHOT_COUNT; n += 1) {
 	const num = String(n).padStart(2, '0');
-	const base = `naraka-screenshot-${num}`;
+	const base = `destiny2-screenshot-${num}`;
 	const png = sourceFiles[n - 1];
 
 	console.log(`Processing ${base}…`);

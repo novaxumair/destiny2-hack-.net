@@ -30,7 +30,7 @@ function readBrand() {
 	const url = str('url').replace(/\/$/, '');
 	if (/valorantcheats\.org/i.test(url)) {
 		throw new Error(
-			`brand.ts url is ${url} — must be https://narakacheats.org. Run: node scripts/rebrand-naraka-cheats.mjs`,
+			`brand.ts url is ${url} — must be https://destiny2hack.net. Run: node scripts/rebrand-destiny-2-cheats.mjs`,
 		);
 	}
 	return {

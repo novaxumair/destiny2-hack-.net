@@ -7,91 +7,91 @@ export const PAGE_CONTENT = {
 		"0": {
 			"en": [
 				"Full package access for Windows 10 / 11.",
-				"Same ESP, soft aim, and radar on monthly and lifetime plans."
+				"Same ESP, aimbot, and radar on monthly and lifetime plans."
 			],
 			"es": [
 				"Acceso completo al paquete para Windows 10 / 11.",
-				"Mismo ESP, soft aim y radar en planes mensuales y de por vida."
+				"Mismo ESP, aimbot y radar en planes mensuales y de por vida."
 			],
 			"fr": [
 				"Accès complet au squad pour Windows 10 / 11.",
-				"Même ESP, soft aim et radar sur les formules mensuelles et à vie."
+				"Même ESP, aimbot et radar sur les formules mensuelles et à vie."
 			],
 			"de": [
 				"Voller Paketzugang für Windows 10 / 11.",
-				"Gleiches ESP, Soft Aim und Radar bei Monats- und Lifetime-Plänen."
+				"Gleiches ESP, aimbot und Radar bei Monats- und Lifetime-Plänen."
 			],
 			"pt": [
 				"Acesso completo ao pacote para Windows 10 / 11.",
-				"Mesmo ESP, soft aim e radar nos planos mensais e vitalícios."
+				"Mesmo ESP, aimbot e radar nos planos mensais e vitalícios."
 			],
 			"it": [
 				"Accesso completo al pacchetto per Windows 10 / 11.",
-				"Stesso ESP, soft aim e radar su piani mensili e lifetime."
+				"Stesso ESP, aimbot e radar su piani mensili e lifetime."
 			],
 			"nl": [
 				"Volledige pakkettoegang voor Windows 10 / 11.",
-				"Dezelfde ESP, soft aim en radar op maand- en lifetime-plannen."
+				"Dezelfde ESP, aimbot en radar op maand- en lifetime-plannen."
 			],
 			"pl": [
 				"Pełny dostęp do pakietu na Windows 10 / 11.",
-				"Ten sam ESP, soft aim i radar w planach miesięcznych i lifetime."
+				"Ten sam ESP, aimbot i radar w planach miesięcznych i lifetime."
 			],
 			"ru": [
 				"Полный доступ к пакету для Windows 10 / 11.",
-				"Тот же ESP, soft aim и radar в месячных и lifetime тарифах."
+				"Тот же ESP, aimbot и radar в месячных и lifetime тарифах."
 			],
 			"tr": [
 				"Windows 10 / 11 için tam paket erişimi.",
-				"Aylık ve lifetime planlarda aynı ESP, soft aim ve radar."
+				"Aylık ve lifetime planlarda aynı ESP, aimbot ve radar."
 			],
 			"ar": [
 				"وصول كامل للحزمة على Windows 10 / 11.",
-				"نفس ESP وsoft aim وradar في الخطط الشهرية وlifetime."
+				"نفس ESP وaimbot وradar في الخطط الشهرية وlifetime."
 			],
 			"ja": [
 				"Windows 10 / 11向けフルパッケージアクセス。",
-				"月額・lifetimeプランで同じESP、soft aim、radar。"
+				"月額・lifetimeプランで同じESP、aimbot、radar。"
 			],
 			"ko": [
 				"Windows 10 / 11용 전체 패키지 액세스.",
-				"월간 및 lifetime 요금제에서 동일한 ESP, soft aim, radar."
+				"월간 및 lifetime 요금제에서 동일한 ESP, aimbot, radar."
 			],
 			"zh": [
 				"Windows 10 / 11 完整套餐访问。",
-				"月付和 lifetime 方案包含相同的 ESP、soft aim 和 radar。"
+				"月付和 lifetime 方案包含相同的 ESP、aimbot 和 radar。"
 			],
 			"hi": [
 				"Windows 10 / 11 के लिए पूरा पैकेज एक्सेस।",
-				"मासिक और lifetime प्लान पर एक जैसा ESP, soft aim और radar।"
+				"मासिक और lifetime प्लान पर एक जैसा ESP, aimbot और radar।"
 			],
 			"id": [
 				"Akses paket penuh untuk Windows 10 / 11.",
-				"ESP, soft aim, dan radar yang sama di paket bulanan dan lifetime."
+				"ESP, aimbot, dan radar yang sama di paket bulanan dan lifetime."
 			],
 			"th": [
 				"การเข้าถึงแพ็กเกจเต็มรูปแบบสำหรับ Windows 10 / 11",
-				"ESP, soft aim และ radar เหมือนกันทั้งแพ็กเกจรายเดือนและ lifetime"
+				"ESP, aimbot และ radar เหมือนกันทั้งแพ็กเกจรายเดือนและ lifetime"
 			],
 			"vi": [
 				"Truy cập đầy đủ gói cho Windows 10 / 11.",
-				"Cùng ESP, soft aim và radar trên gói tháng và lifetime."
+				"Cùng ESP, aimbot và radar trên gói tháng và lifetime."
 			],
 			"uk": [
 				"Повний доступ до пакета для Windows 10 / 11.",
-				"Той самий ESP, soft aim і radar у місячних і lifetime тарифах."
+				"Той самий ESP, aimbot і radar у місячних і lifetime тарифах."
 			],
 			"cs": [
 				"Plný přístup k balíčku pro Windows 10 / 11.",
-				"Stejné ESP, soft aim a radar u měsíčních i lifetime plánů."
+				"Stejné ESP, aimbot a radar u měsíčních i lifetime plánů."
 			],
 			"ro": [
 				"Acces complet la pachet pentru Windows 10 / 11.",
-				"Același ESP, soft aim și radar pe planurile lunare și lifetime."
+				"Același ESP, aimbot și radar pe planurile lunare și lifetime."
 			],
 			"sv": [
 				"Full paketåtkomst för Windows 10 / 11.",
-				"Samma ESP, soft aim och radar på månads- och lifetime-planer."
+				"Samma ESP, aimbot och radar på månads- och lifetime-planer."
 			]
 		},
 		"1": {
@@ -593,91 +593,91 @@ export const PAGE_CONTENT = {
 	"updates": {
 		"0": {
 			"en": [
-				"As of 13 Aug 2026 the package is online for Naraka on Windows PC. We post a new note here when a game or NEAC patch needs a rebuild.",
+				"As of 13 Aug 2026 the package is online for Destiny 2 on Windows PC. We post a new note here when a game or BattlEye patch needs a rebuild.",
 				"If Status is green, you can match. If we are rebuilding, wait for the next note."
 			],
 			"es": [
-				"A 13 ago 2026 el paquete está online para Naraka en Windows PC. Publicamos una nota aquí cuando un parche de Naraka o NEAC requiere rebuild.",
+				"A 13 ago 2026 el paquete está online para Destiny 2 en Windows PC. Publicamos una nota aquí cuando un parche de Destiny 2 o BattlEye requiere rebuild.",
 				"Si el Estado está en verde, puedes matchear. Si estamos reconstruyendo, espera la siguiente nota."
 			],
 			"fr": [
-				"Au 13 août 2026, le squad est en ligne pour Naraka sur PC Windows. Nous publions une note ici quand un patch Naraka ou NEAC nécessite une reconstruction.",
+				"Au 13 août 2026, le squad est en ligne pour Destiny 2 sur PC Windows. Nous publions une note ici quand un patch Destiny 2 ou BattlEye nécessite une reconstruction.",
 				"Si le Statut est vert, vous pouvez matcher. Si nous reconstruisons, attendez la prochaine note."
 			],
 			"de": [
-				"Stand 13. Aug. 2026 ist das Paket für Naraka auf Windows PC online. Wir posten hier eine Notiz, wenn ein Naraka- oder NEAC-Patch einen Rebuild braucht.",
+				"Stand 13. Aug. 2026 ist das Paket für Destiny 2 auf Windows PC online. Wir posten hier eine Notiz, wenn ein Destiny 2- oder BattlEye-Patch einen Rebuild braucht.",
 				"Ist der Status grün, kannst du matchen. Bei Rebuild warte auf die nächste Notiz."
 			],
 			"pt": [
-				"Em 13 ago 2026 o pacote está online para Naraka no Windows PC. Publicamos uma nota aqui quando um patch de Naraka ou NEAC precisa de rebuild.",
+				"Em 13 ago 2026 o pacote está online para Destiny 2 no Windows PC. Publicamos uma nota aqui quando um patch de Destiny 2 ou BattlEye precisa de rebuild.",
 				"Se o Status estiver verde, pode matchear. Se estivermos reconstruindo, aguarde a próxima nota."
 			],
 			"it": [
-				"Al 13 ago 2026 il pacchetto è online per Naraka su Windows PC. Pubblichiamo una nota qui quando una patch Naraka o NEAC richiede rebuild.",
+				"Al 13 ago 2026 il pacchetto è online per Destiny 2 su Windows PC. Pubblichiamo una nota qui quando una patch Destiny 2 o BattlEye richiede rebuild.",
 				"Se lo Stato è verde, puoi matchare. Se stiamo ricostruendo, attendi la prossima nota."
 			],
 			"nl": [
-				"Per 13 aug 2026 is het pakket online voor Naraka op Windows PC. We plaatsen hier een notitie wanneer een Naraka- of NEAC-patch een rebuild nodig heeft.",
+				"Per 13 aug 2026 is het pakket online voor Destiny 2 op Windows PC. We plaatsen hier een notitie wanneer een Destiny 2- of BattlEye-patch een rebuild nodig heeft.",
 				"Is Status groen, dan kun je matchen. Bij rebuild wacht op de volgende notitie."
 			],
 			"pl": [
-				"Na 13 sie 2026 pakiet jest online dla Naraka na Windows PC. Publikujemy tu notatkę, gdy patch Naraka lub NEAC wymaga rebuildu.",
+				"Na 13 sie 2026 pakiet jest online dla Destiny 2 na Windows PC. Publikujemy tu notatkę, gdy patch Destiny 2 lub BattlEye wymaga rebuildu.",
 				"Gdy Status jest zielony, możesz matchić. Przy rebuildzie czekaj na kolejną notatkę."
 			],
 			"ru": [
-				"На 13 авг. 2026 пакет онлайн для Naraka на Windows PC. Мы публикуем заметку, когда патч Naraka или NEAC требует пересборки.",
+				"На 13 авг. 2026 пакет онлайн для Destiny 2 на Windows PC. Мы публикуем заметку, когда патч Destiny 2 или BattlEye требует пересборки.",
 				"Если Статус зелёный — можно играть. При пересборке ждите следующую заметку."
 			],
 			"tr": [
-				"13 Ağu 2026 itibarıyla paket Naraka için Windows PC'de online. Naraka veya NEAC yaması rebuild gerektirdiğinde burada not paylaşırız.",
+				"13 Ağu 2026 itibarıyla paket Destiny 2 için Windows PC'de online. Destiny 2 veya BattlEye yaması rebuild gerektirdiğinde burada not paylaşırız.",
 				"Durum yeşilse match atabilirsiniz. Rebuild sırasında sonraki notu bekleyin."
 			],
 			"ar": [
-				"اعتباراً من 13 أغسطس 2026 الحزمة متاحة لـ Naraka على Windows PC. ننشر ملاحظة هنا عندما يتطلب تصحيح Naraka أو NEAC إعادة بناء.",
+				"اعتباراً من 13 أغسطس 2026 الحزمة متاحة لـ Destiny 2 على Windows PC. ننشر ملاحظة هنا عندما يتطلب تصحيح Destiny 2 أو BattlEye إعادة بناء.",
 				"إذا كانت الحالة خضراء يمكنك الraid. أثناء إعادة البناء انتظر الملاحظة التالية."
 			],
 			"ja": [
-				"2026年8月13日時点で、Windows PC向けNarakaパッケージはオンラインです。NarakaまたはNEACパッチでリビルドが必要な際はここに投稿します。",
+				"2026年8月13日時点で、Windows PC向けDestiny 2パッケージはオンラインです。Destiny 2またはBattlEyeパッチでリビルドが必要な際はここに投稿します。",
 				"ステータスが緑ならレイド可能。リビルド中は次の投稿を待ってください。"
 			],
 			"ko": [
-				"2026년 8월 13일 기준 Naraka Windows PC 패키지는 온라인입니다. Naraka 또는 NEAC 패치로 리빌드가 필요하면 여기에 공지합니다.",
+				"2026년 8월 13일 기준 Destiny 2 Windows PC 패키지는 온라인입니다. Destiny 2 또는 BattlEye 패치로 리빌드가 필요하면 여기에 공지합니다.",
 				"상태가 녹색이면 레이드 가능. 리빌드 중에는 다음 공지를 기다리세요."
 			],
 			"zh": [
-				"截至2026年8月13日，Naraka Windows PC 套餐已上线。Naraka 或 NEAC 补丁需要重建时我们会在此发布说明。",
+				"截至2026年8月13日，Destiny 2 Windows PC 套餐已上线。Destiny 2 或 BattlEye 补丁需要重建时我们会在此发布说明。",
 				"状态为绿色即可 match。重建中请等待下一条说明。"
 			],
 			"hi": [
-				"13 अगस्त 2026 तक पैकेज Naraka Windows PC पर online है। Naraka या NEAC पैच पर rebuild नोट यहाँ पोस्ट होता है।",
+				"13 अगस्त 2026 तक पैकेज Destiny 2 Windows PC पर online है। Destiny 2 या BattlEye पैच पर rebuild नोट यहाँ पोस्ट होता है।",
 				"स्टेटस हरा हो तो match करें। rebuild पर अगली नोट का इंतज़ार करें।"
 			],
 			"id": [
-				"Per 13 Agu 2026 paket online untuk Naraka di Windows PC. Kami posting catatan di sini saat patch Naraka atau NEAC butuh rebuild.",
+				"Per 13 Agu 2026 paket online untuk Destiny 2 di Windows PC. Kami posting catatan di sini saat patch Destiny 2 atau BattlEye butuh rebuild.",
 				"Jika Status hijau, Anda bisa match. Saat rebuild, tunggu catatan berikutnya."
 			],
 			"th": [
-				"ณ 13 ส.ค. 2026 แพ็กเกจออนไลน์สำหรับ Naraka บน Windows PC เราโพสต์บันทึกเมื่อแพตช์ Naraka หรือ NEAC ต้อง rebuild",
+				"ณ 13 ส.ค. 2026 แพ็กเกจออนไลน์สำหรับ Destiny 2 บน Windows PC เราโพสต์บันทึกเมื่อแพตช์ Destiny 2 หรือ BattlEye ต้อง rebuild",
 				"ถ้าสถานะเป็นสีเขียว match ได้ หากกำลัง rebuild รอบันทึกถัดไป"
 			],
 			"vi": [
-				"Tính đến 13/8/2026 gói đang online cho Naraka trên Windows PC. Chúng tôi đăng ghi chú khi bản vá Naraka hoặc NEAC cần rebuild.",
+				"Tính đến 13/8/2026 gói đang online cho Destiny 2 trên Windows PC. Chúng tôi đăng ghi chú khi bản vá Destiny 2 hoặc BattlEye cần rebuild.",
 				"Nếu Trạng thái xanh, bạn có thể match. Đang rebuild thì chờ ghi chú tiếp theo."
 			],
 			"uk": [
-				"Станом на 13 серп. 2026 пакет онлайн для Naraka на Windows PC. Публікуємо нотатку, коли патч Naraka або NEAC потребує перезбірки.",
+				"Станом на 13 серп. 2026 пакет онлайн для Destiny 2 на Windows PC. Публікуємо нотатку, коли патч Destiny 2 або BattlEye потребує перезбірки.",
 				"Якщо Статус зелений — можна matchiти. Під час перезбірки чекайте наступну нотатку."
 			],
 			"cs": [
-				"K 13. 8. 2026 je balíček online pro Naraka na Windows PC. Zde zveřejníme poznámku, když patch Naraka nebo NEAC vyžaduje rebuild.",
+				"K 13. 8. 2026 je balíček online pro Destiny 2 na Windows PC. Zde zveřejníme poznámku, když patch Destiny 2 nebo BattlEye vyžaduje rebuild.",
 				"Je-li Stav zelený, můžete matchovat. Při rebuildu počkejte na další poznámku."
 			],
 			"ro": [
-				"La 13 aug 2026 pachetul este online pentru Naraka pe Windows PC. Postăm o notă aici când un patch Naraka sau NEAC necesită rebuild.",
+				"La 13 aug 2026 pachetul este online pentru Destiny 2 pe Windows PC. Postăm o notă aici când un patch Destiny 2 sau BattlEye necesită rebuild.",
 				"Dacă Statusul e verde, poți matcha. La rebuild așteaptă următoarea notă."
 			],
 			"sv": [
-				"Per 13 aug 2026 är paketet online för Naraka på Windows PC. Vi postar en notis här när en Naraka- eller NEAC-patch kräver rebuild.",
+				"Per 13 aug 2026 är paketet online för Destiny 2 på Windows PC. Vi postar en notis här när en Destiny 2- eller BattlEye-patch kräver rebuild.",
 				"Är Status grön kan du matcha. Vid rebuild vänta på nästa notis."
 			]
 		},
@@ -1005,7 +1005,7 @@ export const PAGE_CONTENT = {
 			"hi": [
 				"नवीनतम स्टेटस नोट पढ़ें",
 				"समस्या हो तो सेटअप फॉलो करें",
-				"ऑर्डर ID के साथ support@narakacheats.org"
+				"ऑर्डर ID के साथ support@destiny2hack.net"
 			],
 			"id": [
 				"Baca catatan status terbaru",
@@ -1137,182 +1137,182 @@ export const PAGE_CONTENT = {
 	"hacks": {
 		"0": {
 			"en": [
-				"Naraka cheats are third-party tools that give you extra information and combat assist during matches. Most players search for naraka cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
-				"Naraka Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot."
+				"Destiny 2 cheats are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
+				"Destiny 2 Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot."
 			],
 			"es": [
-				"Los trucos de Naraka son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca naraka cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
-				"Naraka Cheats agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot."
+				"Los trucos de Destiny 2 son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca destiny 2 cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
+				"Destiny 2 Cheats agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot."
 			],
 			"fr": [
-				"Les triches Naraka sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent naraka cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
-				"Naraka Cheats regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément."
+				"Les triches Destiny 2 sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent destiny 2 cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
+				"Destiny 2 Cheats regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément."
 			],
 			"de": [
-				"Naraka Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe in matches. Die meisten suchen naraka cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
-				"Naraka Cheats bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot."
+				"Destiny 2 Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe in matches. Die meisten suchen destiny 2 cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
+				"Destiny 2 Cheats bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot."
 			],
 			"pt": [
-				"Naraka cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura naraka cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
-				"Naraka Cheats reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados."
+				"Destiny 2 cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura destiny 2 cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
+				"Destiny 2 Cheats reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados."
 			],
 			"it": [
-				"I cheat Naraka sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano naraka cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
-				"Naraka Cheats raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot."
+				"I cheat Destiny 2 sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano destiny 2 cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
+				"Destiny 2 Cheats raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot."
 			],
 			"nl": [
-				"Naraka cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken naraka cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
-				"Naraka Cheats bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads."
+				"Destiny 2 cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken destiny 2 cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
+				"Destiny 2 Cheats bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads."
 			],
 			"pl": [
-				"Naraka cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka naraka cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
-				"Naraka Cheats łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot."
+				"Destiny 2 cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka destiny 2 cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
+				"Destiny 2 Cheats łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot."
 			],
 			"ru": [
-				"Naraka cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут naraka cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
-				"Naraka Cheats объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot."
+				"Destiny 2 cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут destiny 2 cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
+				"Destiny 2 Cheats объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot."
 			],
 			"tr": [
-				"Naraka hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için naraka cheats arar.",
-				"Naraka Cheats bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok."
+				"Destiny 2 hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için destiny 2 cheats arar.",
+				"Destiny 2 Cheats bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok."
 			],
 			"ar": [
-				"naraka cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن naraka cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
-				"Naraka Cheats يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot."
+				"destiny 2 cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن destiny 2 cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
+				"Destiny 2 Cheats يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot."
 			],
 			"ja": [
-				"Narakaチートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でnaraka cheatsを探す人が多いです。",
-				"Naraka Cheatsはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。"
+				"Destiny 2チートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でdestiny 2 cheatsを探す人が多いです。",
+				"Destiny 2 Cheatsはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。"
 			],
 			"ko": [
-				"Naraka 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 naraka cheats를 찾습니다.",
-				"Naraka Cheats는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요."
+				"Destiny 2 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 destiny 2 cheats를 찾습니다.",
+				"Destiny 2 Cheats는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요."
 			],
 			"zh": [
-				"Naraka cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 naraka cheats。",
-				"Naraka Cheats 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。"
+				"Destiny 2 cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 destiny 2 cheats。",
+				"Destiny 2 Cheats 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。"
 			],
 			"hi": [
-				"Naraka cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए naraka cheats खोजते हैं।",
-				"Naraka Cheats इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।"
+				"Destiny 2 cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए destiny 2 cheats खोजते हैं।",
+				"Destiny 2 Cheats इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।"
 			],
 			"id": [
-				"Naraka cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari naraka cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
-				"Naraka Cheats menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot."
+				"Destiny 2 cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari destiny 2 cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
+				"Destiny 2 Cheats menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot."
 			],
 			"th": [
-				"Naraka cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา naraka cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
-				"Naraka Cheats รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก"
+				"Destiny 2 cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา destiny 2 cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
+				"Destiny 2 Cheats รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก"
 			],
 			"vi": [
-				"Naraka cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm naraka cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
-				"Naraka Cheats gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot."
+				"Destiny 2 cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm destiny 2 cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
+				"Destiny 2 Cheats gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot."
 			],
 			"uk": [
-				"Naraka cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають naraka cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
-				"Naraka Cheats об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot."
+				"Destiny 2 cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають destiny 2 cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
+				"Destiny 2 Cheats об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot."
 			],
 			"cs": [
-				"Naraka cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá naraka cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
-				"Naraka Cheats spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot."
+				"Destiny 2 cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá destiny 2 cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
+				"Destiny 2 Cheats spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot."
 			],
 			"ro": [
-				"Naraka cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută naraka cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
-				"Naraka Cheats grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot."
+				"Destiny 2 cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută destiny 2 cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
+				"Destiny 2 Cheats grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot."
 			],
 			"sv": [
-				"Naraka cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker naraka cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
-				"Naraka Cheats buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot."
+				"Destiny 2 cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker destiny 2 cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
+				"Destiny 2 Cheats buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot."
 			]
 		},
 		"1": {
 			"en": [
-				"One license covers the full match stack: player ESP with distance, hero markers, 2D radar for flanks, and configurable soft aim profiles per weapon.",
-				"Monthly and lifetime plans include the same feature stack with NEAC rebuilds."
+				"One license covers the full match stack: player ESP with distance, guardian markers, radar overlay for flanks, and configurable aimbot profiles per weapon.",
+				"Monthly and lifetime plans include the same feature stack with BattlEye rebuilds."
 			],
 			"es": [
-				"Una licencia cubre el stack completo de match: ESP de jugadores con distancia, marcadores de héroe, radar 2D para flancos y perfiles soft aim configurables por arma.",
-				"Los planes mensual y de por vida incluyen el mismo stack de funciones con rebuilds NEAC."
+				"Una licencia cubre el stack completo de match: ESP de jugadores con distancia, marcadores de héroe, radar 2D para flancos y perfiles aimbot configurables por arma.",
+				"Los planes mensual y de por vida incluyen el mismo stack de funciones con rebuilds BattlEye."
 			],
 			"fr": [
-				"Une licence couvre la stack match complète : ESP joueurs avec distance, marqueurs de héros, radar 2D pour les flancs et profils soft aim configurables par arme.",
-				"Les formules mensuelle et à vie incluent la même stack de fonctionnalités avec rebuilds NEAC."
+				"Une licence couvre la stack match complète : ESP joueurs avec distance, marqueurs de héros, radar 2D pour les flancs et profils aimbot configurables par arme.",
+				"Les formules mensuelle et à vie incluent la même stack de fonctionnalités avec rebuilds BattlEye."
 			],
 			"de": [
 				"Eine Lizenz deckt den kompletten Match-Stack ab: Spieler-ESP mit Distanz, Helden-Marker, 2D-Radar für Flanken und konfigurierbare Soft-Aim-Profile pro Waffe.",
-				"Monats- und Lifetime-Pläne enthalten denselben Feature-Stack mit NEAC-Rebuilds."
+				"Monats- und Lifetime-Pläne enthalten denselben Feature-Stack mit BattlEye-Rebuilds."
 			],
 			"pt": [
-				"Uma licença cobre a stack completa de match: ESP de jogadores com distância, marcadores de herói, radar 2D para flancos e perfis soft aim configuráveis por arma.",
-				"Planos mensais e vitalícios incluem o mesmo stack de recursos com rebuilds NEAC."
+				"Uma licença cobre a stack completa de match: ESP de jogadores com distância, marcadores de herói, radar 2D para flancos e perfis aimbot configuráveis por arma.",
+				"Planos mensais e vitalícios incluem o mesmo stack de recursos com rebuilds BattlEye."
 			],
 			"it": [
-				"Una licenza copre lo stack match completo: ESP giocatori con distanza, marker eroe, radar 2D per i fianchi e profili soft aim configurabili per arma.",
-				"I piani mensili e lifetime includono lo stesso stack di funzioni con rebuild NEAC."
+				"Una licenza copre lo stack match completo: ESP giocatori con distanza, marker eroe, radar 2D per i fianchi e profili aimbot configurabili per arma.",
+				"I piani mensili e lifetime includono lo stesso stack di funzioni con rebuild BattlEye."
 			],
 			"nl": [
-				"Eén licentie dekt de volledige match-stack: speler-ESP met afstand, hero-markers, 2D-radar voor flanks en configureerbare soft aim-profielen per wapen.",
-				"Maand- en lifetime-plannen bevatten dezelfde feature-stack met NEAC-rebuilds."
+				"Eén licentie dekt de volledige match-stack: speler-ESP met afstand, hero-markers, 2D-radar voor flanks en configureerbare aimbot-profielen per wapen.",
+				"Maand- en lifetime-plannen bevatten dezelfde feature-stack met BattlEye-rebuilds."
 			],
 			"pl": [
-				"Jedna licencja obejmuje pełny stack match: ESP graczy z dystansem, markery bohaterów, radar 2D na flanki i konfigurowalne profile soft aim na broń.",
-				"Plany miesięczne i lifetime obejmują ten sam stack funkcji z rebuildami NEAC."
+				"Jedna licencja obejmuje pełny stack match: ESP graczy z dystansem, markery bohaterów, radar 2D na flanki i konfigurowalne profile aimbot na broń.",
+				"Plany miesięczne i lifetime obejmują ten sam stack funkcji z rebuildami BattlEye."
 			],
 			"ru": [
-				"Одна лицензия покрывает полный match-стек: ESP игроков с дистанцией, маркеры героев, 2D radar для флангов и настраиваемые soft aim профили по оружию.",
-				"Месячные и lifetime-планы включают тот же набор функций с NEAC rebuilds."
+				"Одна лицензия покрывает полный match-стек: ESP игроков с дистанцией, маркеры героев, radar overlay для флангов и настраиваемые aimbot профили по оружию.",
+				"Месячные и lifetime-планы включают тот же набор функций с BattlEye rebuilds."
 			],
 			"tr": [
-				"Tek lisans tam match yığınını kapsar: mesafeli oyuncu ESP, kahraman işaretleri, kanat için 2D radar ve silah başına yapılandırılabilir soft aim profilleri.",
-				"Aylık ve lifetime planlar aynı özellik yığınını NEAC rebuilds ile içerir."
+				"Tek lisans tam match yığınını kapsar: mesafeli oyuncu ESP, kahraman işaretleri, kanat için radar overlay ve silah başına yapılandırılabilir aimbot profilleri.",
+				"Aylık ve lifetime planlar aynı özellik yığınını BattlEye rebuilds ile içerir."
 			],
 			"ar": [
-				"ترخيص واحد يغطي stack المباراة الكامل: ESP للاعبين مع المسافة وعلامات الأبطال وradar 2D للمناورات وملفات soft aim قابلة للضبط لكل سلاح.",
-				"تتضمن خطط الشهرية ومدى الحياة نفس مجموعة الميزات مع NEAC rebuilds."
+				"ترخيص واحد يغطي stack المباراة الكامل: ESP للاعبين مع المسافة وعلامات الأبطال وradar 2D للمناورات وملفات aimbot قابلة للضبط لكل سلاح.",
+				"تتضمن خطط الشهرية ومدى الحياة نفس مجموعة الميزات مع BattlEye rebuilds."
 			],
 			"ja": [
-				"1ライセンスでフル match stack をカバー: 距離付きプレイヤーESP、ヒーローマーカー、側面用2D radar、武器別soft aimプロファイル。",
-				"月額とライフタイムプランは同じ機能 stack を NEAC rebuilds 付きで含みます。"
+				"1ライセンスでフル match stack をカバー: 距離付きプレイヤーESP、ヒーローマーカー、側面用radar overlay、武器別aimbotプロファイル。",
+				"月額とライフタイムプランは同じ機能 stack を BattlEye rebuilds 付きで含みます。"
 			],
 			"ko": [
-				"하나의 라이선스로 전체 match stack: 거리 표시 플레이어 ESP, 영웅 마커, 측면 2D radar, 무기별 soft aim 프로필.",
-				"월간 및 lifetime 플랜은 NEAC rebuilds가 포함된 동일한 기능 stack을 제공합니다."
+				"하나의 라이선스로 전체 match stack: 거리 표시 플레이어 ESP, 영웅 마커, 측면 radar overlay, 무기별 aimbot 프로필.",
+				"월간 및 lifetime 플랜은 BattlEye rebuilds가 포함된 동일한 기능 stack을 제공합니다."
 			],
 			"zh": [
-				"一份许可证覆盖完整 match 套件：带距离的玩家 ESP、英雄标记、侧翼 2D radar 和按武器可调的 soft aim 配置。",
-				"月付和终身计划包含相同功能 stack，并提供 NEAC rebuilds。"
+				"一份许可证覆盖完整 match 套件：带距离的玩家 ESP、英雄标记、侧翼 radar overlay 和按武器可调的 aimbot 配置。",
+				"月付和终身计划包含相同功能 stack，并提供 BattlEye rebuilds。"
 			],
 			"hi": [
-				"एक लाइसेंस पूरा match stack कवर करता है: दूरी के साथ player ESP, hero markers, flanks के लिए 2D radar, और प्रति हथियार soft aim profiles।",
-				"Monthly और lifetime plans में NEAC rebuilds के साथ same feature stack शामिल है।"
+				"एक लाइसेंस पूरा match stack कवर करता है: दूरी के साथ player ESP, guardian markers, flanks के लिए radar overlay, और प्रति हथियार aimbot profiles।",
+				"Monthly और lifetime plans में BattlEye rebuilds के साथ same feature stack शामिल है।"
 			],
 			"id": [
-				"Satu lisensi mencakup stack match lengkap: ESP pemain dengan jarak, marker hero, radar 2D untuk flank, dan profil soft aim per senjata.",
-				"Paket bulanan dan lifetime mencakup stack fitur yang sama dengan NEAC rebuilds."
+				"Satu lisensi mencakup stack match lengkap: ESP pemain dengan jarak, marker hero, radar 2D untuk flank, dan profil aimbot per senjata.",
+				"Paket bulanan dan lifetime mencakup stack fitur yang sama dengan BattlEye rebuilds."
 			],
 			"th": [
-				"ใบอนุญาตเดียวครอบคลุม match stack เต็ม: ESP ผู้เล่นพร้อมระยะ มาร์กเกอร์ฮีโร่ radar 2D สำหรับ flank และโปรไฟล์ soft aim ต่ออาวุธ",
-				"แผนรายเดือนและตลอดชีพรวม feature stack เดียวกันพร้อม NEAC rebuilds"
+				"ใบอนุญาตเดียวครอบคลุม match stack เต็ม: ESP ผู้เล่นพร้อมระยะ มาร์กเกอร์ฮีโร่ radar 2D สำหรับ flank และโปรไฟล์ aimbot ต่ออาวุธ",
+				"แผนรายเดือนและตลอดชีพรวม feature stack เดียวกันพร้อม BattlEye rebuilds"
 			],
 			"vi": [
-				"Một giấy phép bao trùm stack match đầy đủ: ESP người chơi kèm khoảng cách, marker tướng, radar 2D cho flank, profile soft aim theo vũ khí.",
-				"Gói tháng và lifetime bao gồm cùng feature stack với NEAC rebuilds."
+				"Một giấy phép bao trùm stack match đầy đủ: ESP người chơi kèm khoảng cách, marker tướng, radar 2D cho flank, profile aimbot theo vũ khí.",
+				"Gói tháng và lifetime bao gồm cùng feature stack với BattlEye rebuilds."
 			],
 			"uk": [
-				"Одна ліцензія покриває повний match stack: ESP гравців з дистанцією, маркери героїв, 2D radar для флангів і профілі soft aim на зброю.",
-				"Місячні та lifetime тарифи включають той самий feature stack з NEAC rebuilds."
+				"Одна ліцензія покриває повний match stack: ESP гравців з дистанцією, маркери героїв, radar overlay для флангів і профілі aimbot на зброю.",
+				"Місячні та lifetime тарифи включають той самий feature stack з BattlEye rebuilds."
 			],
 			"cs": [
-				"Jedna licence pokrývá celý match stack: ESP hráčů s distancí, hero markery, 2D radar pro flanky a konfigurovatelné soft aim profily na zbraň.",
-				"Měsíční i lifetime plány obsahují stejný feature stack s NEAC rebuilds."
+				"Jedna licence pokrývá celý match stack: ESP hráčů s distancí, hero markery, radar overlay pro flanky a konfigurovatelné aimbot profily na zbraň.",
+				"Měsíční i lifetime plány obsahují stejný feature stack s BattlEye rebuilds."
 			],
 			"ro": [
-				"O licență acoperă stack-ul complet de match: ESP jucători cu distanță, markeri eroi, radar 2D pentru flancuri și profile soft aim per armă.",
-				"Planurile lunare și lifetime includ același feature stack cu NEAC rebuilds."
+				"O licență acoperă stack-ul complet de match: ESP jucători cu distanță, markeri eroi, radar 2D pentru flancuri și profile aimbot per armă.",
+				"Planurile lunare și lifetime includ același feature stack cu BattlEye rebuilds."
 			],
 			"sv": [
-				"En licens täcker hela match-stacken: spelar-ESP med avstånd, hjältemarkörer, 2D-radar för flanker och konfigurerbara soft aim-profiler per vapen.",
-				"Månads- och lifetime-planer inkluderar samma feature stack med NEAC rebuilds."
+				"En licens täcker hela match-stacken: spelar-ESP med avstånd, hjältemarkörer, 2D-radar för flanker och konfigurerbara aimbot-profiler per vapen.",
+				"Månads- och lifetime-planer inkluderar samma feature stack med BattlEye rebuilds."
 			]
 		},
 		"2": {
@@ -1386,71 +1386,71 @@ export const PAGE_CONTENT = {
 		},
 		"3": {
 			"en": [
-				"Naraka uses NEAC. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every Naraka or NEAC update before you load in.",
-				"Read the undetected cheats guide and NEAC maintenance notes for the full workflow."
+				"Destiny 2 uses BattlEye. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every Destiny 2 or BattlEye update before you load in.",
+				"Read the undetected cheats guide and BattlEye maintenance notes for the full workflow."
 			],
 			"es": [
-				"Naraka usa NEAC. Ningún cheat permanece indetectable para siempre — lo importante es el mantenimiento tras parches. Revisa la página de Estado tras cada actualización de Naraka o NEAC antes de entrar."
+				"Destiny 2 usa BattlEye. Ningún cheat permanece indetectable para siempre — lo importante es el mantenimiento tras parches. Revisa la página de Estado tras cada actualización de Destiny 2 o BattlEye antes de entrar."
 			],
 			"fr": [
-				"Naraka utilise NEAC. Aucune triche ne reste indétectable éternellement — la maintenance après patchs compte. Consultez la page Statut après chaque mise à jour Naraka ou NEAC avant de jouer."
+				"Destiny 2 utilise BattlEye. Aucune triche ne reste indétectable éternellement — la maintenance après patchs compte. Consultez la page Statut après chaque mise à jour Destiny 2 ou BattlEye avant de jouer."
 			],
 			"de": [
-				"Naraka nutzt NEAC. Kein Cheat bleibt für immer undetected — Wartung nach Patches zählt. Prüfe die Status-Seite nach jedem Naraka- oder NEAC-Update vor dem Spielen."
+				"Destiny 2 nutzt BattlEye. Kein Cheat bleibt für immer undetected — Wartung nach Patches zählt. Prüfe die Status-Seite nach jedem Destiny 2- oder BattlEye-Update vor dem Spielen."
 			],
 			"pt": [
-				"Naraka usa NEAC. Nenhum cheat fica indetectável para sempre — manutenção após patches importa. Verifique a página Status após cada update Naraka ou NEAC antes de entrar."
+				"Destiny 2 usa BattlEye. Nenhum cheat fica indetectável para sempre — manutenção após patches importa. Verifique a página Status após cada update Destiny 2 ou BattlEye antes de entrar."
 			],
 			"it": [
-				"Naraka usa NEAC. Nessun cheat resta indetectable per sempre — conta la manutenzione post-patch. Controlla la pagina Stato dopo ogni update Naraka o NEAC prima di giocare."
+				"Destiny 2 usa BattlEye. Nessun cheat resta indetectable per sempre — conta la manutenzione post-patch. Controlla la pagina Stato dopo ogni update Destiny 2 o BattlEye prima di giocare."
 			],
 			"nl": [
-				"Naraka gebruikt NEAC. Geen cheat blijft voor altijd undetected — onderhoud na patches telt. Check de Status-pagina na elke Naraka- of EAC-update vóór je speelt."
+				"Destiny 2 gebruikt BattlEye. Geen cheat blijft voor altijd undetected — onderhoud na patches telt. Check de Status-pagina na elke Destiny 2- of EAC-update vóór je speelt."
 			],
 			"pl": [
-				"Naraka używa NEAC. Żaden cheat nie jest undetected na zawsze — liczy się konserwacja po patchach. Sprawdź stronę Status po każdej aktualizacji Naraka lub EAC przed grą."
+				"Destiny 2 używa BattlEye. Żaden cheat nie jest undetected na zawsze — liczy się konserwacja po patchach. Sprawdź stronę Status po każdej aktualizacji Destiny 2 lub EAC przed grą."
 			],
 			"ru": [
-				"Naraka использует NEAC. Ни один чит не undetected навсегда — важно обслуживание после патчей. Проверяйте страницу Статус после каждого обновления Naraka или NEAC перед игрой."
+				"Destiny 2 использует BattlEye. Ни один чит не undetected навсегда — важно обслуживание после патчей. Проверяйте страницу Статус после каждого обновления Destiny 2 или BattlEye перед игрой."
 			],
 			"tr": [
-				"Naraka NEAC kullanır. Hiçbir hile sonsuza kadar undetected kalmaz — yama sonrası bakım önemlidir. Oyuna girmeden önce her Naraka veya NEAC güncellemesinden sonra Durum sayfasını kontrol edin."
+				"Destiny 2 BattlEye kullanır. Hiçbir hile sonsuza kadar undetected kalmaz — yama sonrası bakım önemlidir. Oyuna girmeden önce her Destiny 2 veya BattlEye güncellemesinden sonra Durum sayfasını kontrol edin."
 			],
 			"ar": [
-				"Naraka يستخدم NEAC. لا يبقى أي cheat غير مكتشف للأبد — الصيانة بعد التصحيحات هي المهم. تحقق من صفحة الحالة بعد كل تحديث Naraka أو EAC قبل الدخول."
+				"Destiny 2 يستخدم BattlEye. لا يبقى أي cheat غير مكتشف للأبد — الصيانة بعد التصحيحات هي المهم. تحقق من صفحة الحالة بعد كل تحديث Destiny 2 أو EAC قبل الدخول."
 			],
 			"ja": [
-				"NarakaはNEACを使用。チートは永久にundetectedではありません — パッチ後のメンテナンスが重要です。プレイ前にNarakaまたはNEAC更新後はステータスページを確認してください。"
+				"Destiny 2はBattlEyeを使用。チートは永久にundetectedではありません — パッチ後のメンテナンスが重要です。プレイ前にDestiny 2またはBattlEye更新後はステータスページを確認してください。"
 			],
 			"ko": [
-				"Naraka는 NEAC를 사용합니다. 치트는 영원히 undetected가 아닙니다 — 패치 후 유지보수가 중요합니다. 접속 전 Naraka 또는 NEAC 업데이트마다 상태 페이지를 확인하세요."
+				"Destiny 2는 BattlEye를 사용합니다. 치트는 영원히 undetected가 아닙니다 — 패치 후 유지보수가 중요합니다. 접속 전 Destiny 2 또는 BattlEye 업데이트마다 상태 페이지를 확인하세요."
 			],
 			"zh": [
-				"Naraka 使用 NEAC。没有作弊能永远 undetected — 补丁后维护才是关键。每次 Naraka 或 NEAC 更新后、进游戏前先查状态页。"
+				"Destiny 2 使用 BattlEye。没有作弊能永远 undetected — 补丁后维护才是关键。每次 Destiny 2 或 BattlEye 更新后、进游戏前先查状态页。"
 			],
 			"hi": [
-				"Naraka NEAC उपयोग करता है। कोई cheat हमेशा undetected नहीं रहता — पैच के बाद maintenance मायने रखती है। खेलने से पहले हर Naraka या NEAC अपडेट के बाद Status पेज देखें।"
+				"Destiny 2 BattlEye उपयोग करता है। कोई cheat हमेशा undetected नहीं रहता — पैच के बाद maintenance मायने रखती है। खेलने से पहले हर Destiny 2 या BattlEye अपडेट के बाद Status पेज देखें।"
 			],
 			"id": [
-				"Naraka memakai NEAC. Tidak ada cheat undetected selamanya — pemeliharaan setelah patch yang penting. Cek halaman Status setelah setiap update Naraka atau NEAC sebelum main."
+				"Destiny 2 memakai BattlEye. Tidak ada cheat undetected selamanya — pemeliharaan setelah patch yang penting. Cek halaman Status setelah setiap update Destiny 2 atau BattlEye sebelum main."
 			],
 			"th": [
-				"Naraka ใช้ NEAC ไม่มี cheat undetected ตลอดไป — การดูแลหลังแพตช์สำคัญ ตรวจหน้าสถานะหลังอัปเดต Naraka หรือ NEAC ก่อนเข้าเกม"
+				"Destiny 2 ใช้ BattlEye ไม่มี cheat undetected ตลอดไป — การดูแลหลังแพตช์สำคัญ ตรวจหน้าสถานะหลังอัปเดต Destiny 2 หรือ BattlEye ก่อนเข้าเกม"
 			],
 			"vi": [
-				"Naraka dùng NEAC. Không cheat nào undetected mãi — bảo trì sau bản vá mới quan trọng. Kiểm tra trang Trạng thái sau mỗi cập nhật Naraka hoặc NEAC trước khi vào game."
+				"Destiny 2 dùng BattlEye. Không cheat nào undetected mãi — bảo trì sau bản vá mới quan trọng. Kiểm tra trang Trạng thái sau mỗi cập nhật Destiny 2 hoặc BattlEye trước khi vào game."
 			],
 			"uk": [
-				"Naraka використовує NEAC. Жоден чит не undetected назавжди — важливе обслуговування після патчів. Перевіряйте сторінку Статус після кожного оновлення Naraka або EAC перед грою."
+				"Destiny 2 використовує BattlEye. Жоден чит не undetected назавжди — важливе обслуговування після патчів. Перевіряйте сторінку Статус після кожного оновлення Destiny 2 або EAC перед грою."
 			],
 			"cs": [
-				"Naraka používá NEAC. Žádný cheat není undetected navždy — záleží na údržbě po patchi. Před hrou zkontrolujte stránku Stav po každé aktualizaci Naraka nebo EAC."
+				"Destiny 2 používá BattlEye. Žádný cheat není undetected navždy — záleží na údržbě po patchi. Před hrou zkontrolujte stránku Stav po každé aktualizaci Destiny 2 nebo EAC."
 			],
 			"ro": [
-				"Naraka folosește NEAC. Niciun cheat nu rămâne undetected pentru totdeauna — mentenanța după patch contează. Verifică pagina Status după fiecare update Naraka sau EAC înainte de joc."
+				"Destiny 2 folosește BattlEye. Niciun cheat nu rămâne undetected pentru totdeauna — mentenanța după patch contează. Verifică pagina Status după fiecare update Destiny 2 sau EAC înainte de joc."
 			],
 			"sv": [
-				"Naraka använder NEAC. Ingen cheat förblir undetected för evigt — underhåll efter patchar räknas. Kontrollera Status-sidan efter varje Naraka- eller EAC-uppdatering före spel."
+				"Destiny 2 använder BattlEye. Ingen cheat förblir undetected för evigt — underhåll efter patchar räknas. Kontrollera Status-sidan efter varje Destiny 2- eller EAC-uppdatering före spel."
 			]
 		},
 		"4": {
@@ -1524,359 +1524,359 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Naraka cheats add ESP, radar, and soft aim on top of the base game. This page explains what naraka cheats are, what Naraka Cheats includes, how NEAC maintenance works, and where to go next before you buy."
+				"Destiny 2 cheats add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 cheats are, what Destiny 2 Cheats includes, how BattlEye maintenance works, and where to go next before you buy."
 			],
 			"es": [
-				"Los trucos de Naraka añaden ESP, radar y soft aim sobre el juego base. Esta página explica qué son los naraka cheats, qué incluye Naraka Cheats, cómo funciona el mantenimiento de NEAC y dónde ir antes de comprar."
+				"Los trucos de Destiny 2 añaden ESP, radar y aimbot sobre el juego base. Esta página explica qué son los destiny 2 cheats, qué incluye Destiny 2 Cheats, cómo funciona el mantenimiento de BattlEye y dónde ir antes de comprar."
 			],
 			"fr": [
-				"Les triches Naraka ajoutent ESP, radar et soft aim au jeu de base. Cette page explique ce que sont les naraka cheats, ce que Naraka Cheats inclut, la maintenance NEAC et où aller avant d'acheter."
+				"Les triches Destiny 2 ajoutent ESP, radar et aimbot au jeu de base. Cette page explique ce que sont les destiny 2 cheats, ce que Destiny 2 Cheats inclut, la maintenance BattlEye et où aller avant d'acheter."
 			],
 			"de": [
-				"Naraka Cheats fügen ESP, Radar und Soft Aim zum Basisspiel hinzu. Diese Seite erklärt naraka cheats, den Naraka Cheats-Umfang, NEAC-Wartung und nächste Schritte vor dem Kauf."
+				"Destiny 2 Cheats fügen ESP, Radar und aimbot zum Basisspiel hinzu. Diese Seite erklärt destiny 2 cheats, den Destiny 2 Cheats-Umfang, BattlEye-Wartung und nächste Schritte vor dem Kauf."
 			],
 			"pt": [
-				"Naraka cheats adicionam ESP, radar e soft aim ao jogo base. Esta página explica o que são naraka cheats, o que o Naraka Cheats inclui, manutenção NEAC e próximos passos antes de comprar."
+				"Destiny 2 cheats adicionam ESP, radar e aimbot ao jogo base. Esta página explica o que são destiny 2 cheats, o que o Destiny 2 Cheats inclui, manutenção BattlEye e próximos passos antes de comprar."
 			],
 			"it": [
-				"I cheat Naraka aggiungono ESP, radar e soft aim al gioco base. Questa pagina spiega cosa sono i naraka cheats, cosa include Naraka Cheats, manutenzione NEAC e dove andare prima dell'acquisto."
+				"I cheat Destiny 2 aggiungono ESP, radar e aimbot al gioco base. Questa pagina spiega cosa sono i destiny 2 cheats, cosa include Destiny 2 Cheats, manutenzione BattlEye e dove andare prima dell'acquisto."
 			],
 			"nl": [
-				"Naraka cheats voegen ESP, radar en soft aim toe aan het basisspel. Deze pagina legt uit wat naraka cheats zijn, wat Naraka Cheats bevat, NEAC-onderhoud en volgende stappen vóór aankoop."
+				"Destiny 2 cheats voegen ESP, radar en aimbot toe aan het basisspel. Deze pagina legt uit wat destiny 2 cheats zijn, wat Destiny 2 Cheats bevat, BattlEye-onderhoud en volgende stappen vóór aankoop."
 			],
 			"pl": [
-				"Naraka cheats dodają ESP, radar i soft aim do gry bazowej. Ta strona wyjaśnia czym są naraka cheats, co zawiera Naraka Cheats, konserwację NEAC i co dalej przed zakupem."
+				"Destiny 2 cheats dodają ESP, radar i aimbot do gry bazowej. Ta strona wyjaśnia czym są destiny 2 cheats, co zawiera Destiny 2 Cheats, konserwację BattlEye i co dalej przed zakupem."
 			],
 			"ru": [
-				"Naraka cheats добавляют ESP, radar и soft aim к базовой игре. Эта страница объясняет что такое naraka cheats, что входит в Naraka Cheats, обслуживание NEAC и куда идти перед покупкой."
+				"Destiny 2 cheats добавляют ESP, radar и aimbot к базовой игре. Эта страница объясняет что такое destiny 2 cheats, что входит в Destiny 2 Cheats, обслуживание BattlEye и куда идти перед покупкой."
 			],
 			"tr": [
-				"Naraka hileleri temel oyuna ESP, radar ve soft aim ekler. Bu sayfa naraka cheats nedir, Naraka Cheats neleri içerir, NEAC bakımı ve satın almadan önce nereye gidileceğini açıklar."
+				"Destiny 2 hileleri temel oyuna ESP, radar ve aimbot ekler. Bu sayfa destiny 2 cheats nedir, Destiny 2 Cheats neleri içerir, BattlEye bakımı ve satın almadan önce nereye gidileceğini açıklar."
 			],
 			"ar": [
-				"تضيف naraka cheats الـ ESP والرادار وsoft aim فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي naraka cheats وما يتضمنه Naraka Cheats وصيانة NEAC وأين تذهب قبل الشراء."
+				"تضيف destiny 2 cheats الـ ESP والرادار وaimbot فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي destiny 2 cheats وما يتضمنه Destiny 2 Cheats وصيانة BattlEye وأين تذهب قبل الشراء."
 			],
 			"ja": [
-				"NarakaチートはベースゲームにESP、radar、soft aimを追加します。このページではnaraka cheatsの概要、Naraka Cheatsの内容、NEACメンテナンス、購入前の確認先を説明します。"
+				"Destiny 2チートはベースゲームにESP、radar、aimbotを追加します。このページではdestiny 2 cheatsの概要、Destiny 2 Cheatsの内容、BattlEyeメンテナンス、購入前の確認先を説明します。"
 			],
 			"ko": [
-				"Naraka 치트는 기본 게임 위에 ESP, radar, soft aim을 추가합니다. 이 페이지는 naraka cheats란, Naraka Cheats 포함 사항, NEAC 유지보수, 구매 전 확인할 곳을 설명합니다."
+				"Destiny 2 치트는 기본 게임 위에 ESP, radar, aimbot을 추가합니다. 이 페이지는 destiny 2 cheats란, Destiny 2 Cheats 포함 사항, BattlEye 유지보수, 구매 전 확인할 곳을 설명합니다."
 			],
 			"zh": [
-				"Naraka cheats 在基础游戏上添加 ESP、radar 和 soft aim。本页说明什么是 naraka cheats、Naraka Cheats 包含什么、NEAC 维护以及购买前该看哪里。"
+				"Destiny 2 cheats 在基础游戏上添加 ESP、radar 和 aimbot。本页说明什么是 destiny 2 cheats、Destiny 2 Cheats 包含什么、BattlEye 维护以及购买前该看哪里。"
 			],
 			"hi": [
-				"Naraka cheats बेस गेम पर ESP, radar और soft aim जोड़ते हैं। यह पेज बताता है naraka cheats क्या हैं, Naraka Cheats में क्या है, NEAC रखरखाव और खरीद से पहले कहाँ जाएँ।"
+				"Destiny 2 cheats बेस गेम पर ESP, radar और aimbot जोड़ते हैं। यह पेज बताता है destiny 2 cheats क्या हैं, Destiny 2 Cheats में क्या है, BattlEye रखरखाव और खरीद से पहले कहाँ जाएँ।"
 			],
 			"id": [
-				"Naraka cheats menambahkan ESP, radar, dan soft aim di atas game dasar. Halaman ini menjelaskan apa itu naraka cheats, apa yang termasuk Naraka Cheats, pemeliharaan NEAC, dan langkah sebelum membeli."
+				"Destiny 2 cheats menambahkan ESP, radar, dan aimbot di atas game dasar. Halaman ini menjelaskan apa itu destiny 2 cheats, apa yang termasuk Destiny 2 Cheats, pemeliharaan BattlEye, dan langkah sebelum membeli."
 			],
 			"th": [
-				"Naraka cheats เพิ่ม ESP, radar และ soft aim บนเกมหลัก หน้านี้อธิบาย naraka cheats คืออะไร Naraka Cheats รวมอะไร การดูแล NEAC และขั้นตอนก่อนซื้อ"
+				"Destiny 2 cheats เพิ่ม ESP, radar และ aimbot บนเกมหลัก หน้านี้อธิบาย destiny 2 cheats คืออะไร Destiny 2 Cheats รวมอะไร การดูแล BattlEye และขั้นตอนก่อนซื้อ"
 			],
 			"vi": [
-				"Naraka cheats thêm ESP, radar và soft aim lên game gốc. Trang này giải thích naraka cheats là gì, Naraka Cheats gồm gì, bảo trì NEAC và bước tiếp theo trước khi mua."
+				"Destiny 2 cheats thêm ESP, radar và aimbot lên game gốc. Trang này giải thích destiny 2 cheats là gì, Destiny 2 Cheats gồm gì, bảo trì BattlEye và bước tiếp theo trước khi mua."
 			],
 			"uk": [
-				"Naraka cheats додають ESP, radar і soft aim до базової гри. Ця сторінка пояснює що таке naraka cheats, що входить у Naraka Cheats, обслуговування NEAC і куди йти перед покупкою."
+				"Destiny 2 cheats додають ESP, radar і aimbot до базової гри. Ця сторінка пояснює що таке destiny 2 cheats, що входить у Destiny 2 Cheats, обслуговування BattlEye і куди йти перед покупкою."
 			],
 			"cs": [
-				"Naraka cheaty přidávají ESP, radar a soft aim k základní hře. Tato stránka vysvětluje co jsou naraka cheats, co obsahuje Naraka Cheats, údržbu NEAC a kam jít před nákupem."
+				"Destiny 2 cheaty přidávají ESP, radar a aimbot k základní hře. Tato stránka vysvětluje co jsou destiny 2 cheats, co obsahuje Destiny 2 Cheats, údržbu BattlEye a kam jít před nákupem."
 			],
 			"ro": [
-				"Naraka cheats adaugă ESP, radar și soft aim peste jocul de bază. Această pagină explică ce sunt naraka cheats, ce include Naraka Cheats, mentenanța NEAC și pașii înainte de cumpărare."
+				"Destiny 2 cheats adaugă ESP, radar și aimbot peste jocul de bază. Această pagină explică ce sunt destiny 2 cheats, ce include Destiny 2 Cheats, mentenanța BattlEye și pașii înainte de cumpărare."
 			],
 			"sv": [
-				"Naraka cheats lägger till ESP, radar och soft aim ovanpå basspelet. Den här sidan förklarar vad naraka cheats är, vad Naraka Cheats innehåller, NEAC-underhåll och nästa steg före köp."
+				"Destiny 2 cheats lägger till ESP, radar och aimbot ovanpå basspelet. Den här sidan förklarar vad destiny 2 cheats är, vad Destiny 2 Cheats innehåller, BattlEye-underhåll och nästa steg före köp."
 			]
 		},
 		"list1": {
 			"en": [
 				"ESP / wallhack with distance readouts",
 				"Loot and resource markers",
-				"2D radar for off-screen threats",
-				"Soft aim & aimbot profiles",
-				"NEAC rebuilds after patches"
+				"radar overlay for off-screen threats",
+				"aimbot & aimbot profiles",
+				"BattlEye rebuilds after patches"
 			],
 			"es": [
 				"ESP / wallhack con distancias",
 				"Marcadores de loot y recursos",
 				"Radar 2D para amenazas fuera de pantalla",
-				"Perfiles soft aim y aimbot",
-				"Reconstrucciones NEAC tras parches"
+				"Perfiles aimbot y aimbot",
+				"Reconstrucciones BattlEye tras parches"
 			],
 			"fr": [
 				"ESP / wallhack avec distances",
 				"Marqueurs de loot et ressources",
 				"Radar 2D pour menaces hors écran",
-				"Profils soft aim et aimbot",
-				"Reconstructions NEAC après patchs"
+				"Profils aimbot et aimbot",
+				"Reconstructions BattlEye après patchs"
 			],
 			"de": [
 				"ESP / Wallhack mit Distanzanzeige",
 				"Loot- und Ressourcen-Marker",
 				"2D-Radar für Off-Screen-Bedrohungen",
 				"Soft-Aim- & Aimbot-Profile",
-				"NEAC Rebuilds nach Patches"
+				"BattlEye Rebuilds nach Patches"
 			],
 			"pt": [
 				"ESP / wallhack com distâncias",
 				"Marcadores de loot e recursos",
 				"Radar 2D para ameaças off-screen",
-				"Perfis soft aim e aimbot",
-				"Rebuilds NEAC após patches"
+				"Perfis aimbot e aimbot",
+				"Rebuilds BattlEye após patches"
 			],
 			"it": [
 				"ESP / wallhack con distanze",
 				"Marker loot e risorse",
 				"Radar 2D per minacce off-screen",
-				"Profili soft aim e aimbot",
-				"Rebuild NEAC dopo patch"
+				"Profili aimbot e aimbot",
+				"Rebuild BattlEye dopo patch"
 			],
 			"nl": [
 				"ESP / wallhack met afstand",
 				"Loot- en resource-markers",
 				"2D-radar voor off-screen dreiging",
-				"Soft aim- en aimbot-profielen",
-				"NEAC rebuilds na patches"
+				"aimbot- en aimbot-profielen",
+				"BattlEye rebuilds na patches"
 			],
 			"pl": [
 				"ESP / wallhack z dystansem",
 				"Markery lootu i zasobów",
 				"Radar 2D na zagrożenia off-screen",
-				"Profile soft aim i aimbot",
-				"Rebuildy NEAC po patchach"
+				"Profile aimbot i aimbot",
+				"Rebuildy BattlEye po patchach"
 			],
 			"ru": [
 				"ESP / wallhack с дистанцией",
 				"Маркеры лута и ресурсов",
-				"2D radar для off-screen угроз",
-				"Профили soft aim и aimbot",
-				"Пересборки NEAC после патчей"
+				"radar overlay для off-screen угроз",
+				"Профили aimbot и aimbot",
+				"Пересборки BattlEye после патчей"
 			],
 			"tr": [
 				"Mesafeli ESP / wallhack",
 				"Loot ve kaynak işaretleri",
-				"Off-screen tehditler için 2D radar",
-				"Soft aim ve aimbot profilleri",
-				"Yama sonrası NEAC rebuild"
+				"Off-screen tehditler için radar overlay",
+				"aimbot ve aimbot profilleri",
+				"Yama sonrası BattlEye rebuild"
 			],
 			"ar": [
 				"ESP / wallhack مع المسافات",
 				"علامات loot والموارد",
 				"radar 2D للتهديدات خارج الشاشة",
-				"ملفات soft aim وaimbot",
-				"إعادة بناء NEAC بعد التصحيحات"
+				"ملفات aimbot وaimbot",
+				"إعادة بناء BattlEye بعد التصحيحات"
 			],
 			"ja": [
 				"距離表示ESP / wallhack",
 				"loot・資源マーカー",
-				"オフスクリーン脅威用2D radar",
-				"soft aim・aimbotプロファイル",
-				"パッチ後のNEACリビルド"
+				"オフスクリーン脅威用radar overlay",
+				"aimbot・aimbotプロファイル",
+				"パッチ後のBattlEyeリビルド"
 			],
 			"ko": [
 				"거리 표시 ESP / wallhack",
 				"loot 및 자원 마커",
-				"off-screen 위협용 2D radar",
-				"soft aim 및 aimbot 프로필",
-				"패치 후 NEAC 리빌드"
+				"off-screen 위협용 radar overlay",
+				"aimbot 및 aimbot 프로필",
+				"패치 후 BattlEye 리빌드"
 			],
 			"zh": [
 				"带距离 ESP / wallhack",
 				"物资和资源标记",
-				"屏幕外威胁 2D radar",
-				"soft aim 和 aimbot 配置",
-				"NEAC 补丁后重建"
+				"屏幕外威胁 radar overlay",
+				"aimbot 和 aimbot 配置",
+				"BattlEye 补丁后重建"
 			],
 			"hi": [
 				"दूरी के साथ ESP / wallhack",
 				"Loot और resource markers",
-				"Off-screen threats के लिए 2D radar",
-				"Soft aim और aimbot profiles",
-				"NEAC पैच के बाद rebuild"
+				"Off-screen threats के लिए radar overlay",
+				"aimbot और aimbot profiles",
+				"BattlEye पैच के बाद rebuild"
 			],
 			"id": [
 				"ESP / wallhack dengan jarak",
 				"Marker loot dan resource",
 				"Radar 2D untuk ancaman off-screen",
-				"Profil soft aim & aimbot",
-				"Rebuild NEAC setelah patch"
+				"Profil aimbot & aimbot",
+				"Rebuild BattlEye setelah patch"
 			],
 			"th": [
 				"ESP / wallhack พร้อมระยะ",
 				"มาร์กเกอร์ loot และทรัพยากร",
 				"radar 2D สำหรับภัยคุกคามนอกจอ",
-				"โปรไฟล์ soft aim และ aimbot",
-				"รีบิลด์ NEAC หลังแพตช์"
+				"โปรไฟล์ aimbot และ aimbot",
+				"รีบิลด์ BattlEye หลังแพตช์"
 			],
 			"vi": [
 				"ESP / wallhack kèm khoảng cách",
 				"Marker loot và tài nguyên",
 				"Radar 2D cho mối đe dọa off-screen",
-				"Profile soft aim & aimbot",
-				"Rebuild NEAC sau bản vá"
+				"Profile aimbot & aimbot",
+				"Rebuild BattlEye sau bản vá"
 			],
 			"uk": [
 				"ESP / wallhack з дистанцією",
 				"Маркери loot і ресурсів",
-				"2D radar для off-screen загроз",
-				"Профілі soft aim і aimbot",
-				"Перезбірки NEAC після патчів"
+				"radar overlay для off-screen загроз",
+				"Профілі aimbot і aimbot",
+				"Перезбірки BattlEye після патчів"
 			],
 			"cs": [
 				"ESP / wallhack s distancí",
 				"Loot a resource markery",
-				"2D radar pro off-screen hrozby",
-				"Soft aim a aimbot profily",
-				"Rebuildy NEAC po patchi"
+				"radar overlay pro off-screen hrozby",
+				"aimbot a aimbot profily",
+				"Rebuildy BattlEye po patchi"
 			],
 			"ro": [
 				"ESP / wallhack cu distanță",
 				"Markeri loot și resurse",
 				"Radar 2D pentru amenințări off-screen",
-				"Profile soft aim și aimbot",
-				"Rebuild-uri NEAC după patch"
+				"Profile aimbot și aimbot",
+				"Rebuild-uri BattlEye după patch"
 			],
 			"sv": [
 				"ESP / wallhack med avstånd",
 				"Loot- och resursmarkörer",
 				"2D-radar för off-screen hot",
-				"Soft aim- och aimbot-profiler",
-				"NEAC rebuilds efter patchar"
+				"aimbot- och aimbot-profiler",
+				"BattlEye rebuilds efter patchar"
 			]
 		},
 		"list2": {
 			"en": [
-				"<a href=\"/naraka-esp/\">Naraka ESP & wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot & soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP & wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot & aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Full feature list</a>"
 			],
 			"es": [
-				"<a href=\"/naraka-esp/\">Naraka ESP y wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot y soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP y wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot y aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Lista completa de funciones</a>"
 			],
 			"fr": [
-				"<a href=\"/naraka-esp/\">Naraka ESP et wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot et soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP et wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot et aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Liste complète des fonctions</a>"
 			],
 			"de": [
-				"<a href=\"/naraka-esp/\">Naraka ESP & Wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot & Soft Aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar-Hack-Overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP & Wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot & aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar-Hack-Overlay</a>",
 				"<a href=\"/features/\">Vollständige Feature-Liste</a>"
 			],
 			"pt": [
-				"<a href=\"/naraka-esp/\">Naraka ESP e wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot e soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP e wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot e aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Lista completa de recursos</a>"
 			],
 			"it": [
-				"<a href=\"/naraka-esp/\">Naraka ESP e wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot e soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP e wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot e aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Elenco completo funzioni</a>"
 			],
 			"nl": [
-				"<a href=\"/naraka-esp/\">Naraka ESP & wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot & soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP & wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot & aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Volledige functielijst</a>"
 			],
 			"pl": [
-				"<a href=\"/naraka-esp/\">Naraka ESP i wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot i soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP i wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot i aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Pełna lista funkcji</a>"
 			],
 			"ru": [
-				"<a href=\"/naraka-esp/\">Naraka ESP и wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot и soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP и wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot и aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Полный список функций</a>"
 			],
 			"tr": [
-				"<a href=\"/naraka-esp/\">Naraka ESP ve wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot ve soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP ve wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot ve aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Tam özellik listesi</a>"
 			],
 			"ar": [
-				"<a href=\"/naraka-esp/\">Naraka ESP وWallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot وSoft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">تراكب radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP وWallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot وaimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">تراكب radar hack</a>",
 				"<a href=\"/features/\">قائمة الميزات الكاملة</a>"
 			],
 			"ja": [
-				"<a href=\"/naraka-esp/\">Naraka ESP・Wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot・Soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">レーダーハックオーバーレイ</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP・Wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot・aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">レーダーハックオーバーレイ</a>",
 				"<a href=\"/features/\">全機能リスト</a>"
 			],
 			"ko": [
-				"<a href=\"/naraka-esp/\">Naraka ESP 및 wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot 및 soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">레이더 핵 오버레이</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP 및 wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot 및 aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">레이더 핵 오버레이</a>",
 				"<a href=\"/features/\">전체 기능 목록</a>"
 			],
 			"zh": [
-				"<a href=\"/naraka-esp/\">Naraka ESP和透视</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka自瞄和软瞄准</a>",
-				"<a href=\"/naraka-radar-hack/\">雷达hack覆盖</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP和透视</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2自瞄和软瞄准</a>",
+				"<a href=\"/destiny-2-radar-hack/\">雷达hack覆盖</a>",
 				"<a href=\"/features/\">完整功能列表</a>"
 			],
 			"hi": [
-				"<a href=\"/naraka-esp/\">Naraka ESP और wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot और soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP और wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot और aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">पूरी फ़ीचर सूची</a>"
 			],
 			"id": [
-				"<a href=\"/naraka-esp/\">Naraka ESP & wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot & soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP & wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot & aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Daftar fitur lengkap</a>"
 			],
 			"th": [
-				"<a href=\"/naraka-esp/\">Naraka ESP และ wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot และ soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">โอเวอร์เลย์ radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP และ wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot และ aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">โอเวอร์เลย์ radar hack</a>",
 				"<a href=\"/features/\">รายการฟีเจอร์ทั้งหมด</a>"
 			],
 			"vi": [
-				"<a href=\"/naraka-esp/\">Naraka ESP & wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot & soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP & wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot & aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Danh sách tính năng đầy đủ</a>"
 			],
 			"uk": [
-				"<a href=\"/naraka-esp/\">Naraka ESP і wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot і soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP і wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot і aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Повний список функцій</a>"
 			],
 			"cs": [
-				"<a href=\"/naraka-esp/\">Naraka ESP a wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot a soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP a wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot a aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Úplný seznam funkcí</a>"
 			],
 			"ro": [
-				"<a href=\"/naraka-esp/\">Naraka ESP și wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot și soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP și wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot și aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Lista completă de funcții</a>"
 			],
 			"sv": [
-				"<a href=\"/naraka-esp/\">Naraka ESP & wallhack</a>",
-				"<a href=\"/naraka-aimbot/\">Naraka Aimbot & soft aim</a>",
-				"<a href=\"/naraka-radar-hack/\">Radar hack-overlay</a>",
+				"<a href=\"/destiny-2-esp/\">Destiny 2 ESP & wallhack</a>",
+				"<a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot & aimbot</a>",
+				"<a href=\"/destiny-2-radar-hack/\">Radar hack-overlay</a>",
 				"<a href=\"/features/\">Fullständig funktionslista</a>"
 			]
 		},
@@ -1884,133 +1884,133 @@ export const PAGE_CONTENT = {
 			"en": [
 				"<a href=\"/updates/\">Live status & patch notes</a>",
 				"<a href=\"/updates/\">Undetected cheats guide</a>",
-				"<a href=\"/updates/\">NEAC maintenance</a>",
+				"<a href=\"/updates/\">BattlEye maintenance</a>",
 				"<a href=\"/faq/\">FAQ before you buy</a>"
 			],
 			"es": [
 				"<a href=\"/updates/\">Estado en vivo y notas de parche</a>",
 				"<a href=\"/updates/\">Guía de trucos indetectables</a>",
-				"<a href=\"/updates/\">Mantenimiento NEAC</a>",
+				"<a href=\"/updates/\">Mantenimiento BattlEye</a>",
 				"<a href=\"/faq/\">FAQ antes de comprar</a>"
 			],
 			"fr": [
 				"<a href=\"/updates/\">Statut en direct et notes de patch</a>",
 				"<a href=\"/updates/\">Guide triches indétectables</a>",
-				"<a href=\"/updates/\">Maintenance NEAC</a>",
+				"<a href=\"/updates/\">Maintenance BattlEye</a>",
 				"<a href=\"/faq/\">FAQ avant achat</a>"
 			],
 			"de": [
 				"<a href=\"/updates/\">Live-Status & Patchnotes</a>",
 				"<a href=\"/updates/\">Undetected Cheats Guide</a>",
-				"<a href=\"/updates/\">NEAC Wartung</a>",
+				"<a href=\"/updates/\">BattlEye Wartung</a>",
 				"<a href=\"/faq/\">FAQ vor dem Kauf</a>"
 			],
 			"pt": [
 				"<a href=\"/updates/\">Status ao vivo e notas de patch</a>",
 				"<a href=\"/updates/\">Guia de cheats indetectáveis</a>",
-				"<a href=\"/updates/\">Manutenção NEAC</a>",
+				"<a href=\"/updates/\">Manutenção BattlEye</a>",
 				"<a href=\"/faq/\">FAQ antes de comprar</a>"
 			],
 			"it": [
 				"<a href=\"/updates/\">Stato live e note patch</a>",
 				"<a href=\"/updates/\">Guida cheat indetectable</a>",
-				"<a href=\"/updates/\">Manutenzione NEAC</a>",
+				"<a href=\"/updates/\">Manutenzione BattlEye</a>",
 				"<a href=\"/faq/\">FAQ prima di acquistare</a>"
 			],
 			"nl": [
 				"<a href=\"/updates/\">Live status en patchnotes</a>",
 				"<a href=\"/updates/\">Undetected cheats gids</a>",
-				"<a href=\"/updates/\">NEAC onderhoud</a>",
+				"<a href=\"/updates/\">BattlEye onderhoud</a>",
 				"<a href=\"/faq/\">FAQ voor aankoop</a>"
 			],
 			"pl": [
 				"<a href=\"/updates/\">Status na żywo i notatki patch</a>",
 				"<a href=\"/updates/\">Przewodnik cheatów undetected</a>",
-				"<a href=\"/updates/\">Konserwacja NEAC</a>",
+				"<a href=\"/updates/\">Konserwacja BattlEye</a>",
 				"<a href=\"/faq/\">FAQ przed zakupem</a>"
 			],
 			"ru": [
 				"<a href=\"/updates/\">Статус онлайн и патч-ноуты</a>",
 				"<a href=\"/updates/\">Гайд undetected читов</a>",
-				"<a href=\"/updates/\">Обслуживание NEAC</a>",
+				"<a href=\"/updates/\">Обслуживание BattlEye</a>",
 				"<a href=\"/faq/\">FAQ перед покупкой</a>"
 			],
 			"tr": [
 				"<a href=\"/updates/\">Canlı durum ve yama notları</a>",
 				"<a href=\"/updates/\">Undetected hile rehberi</a>",
-				"<a href=\"/updates/\">NEAC bakımı</a>",
+				"<a href=\"/updates/\">BattlEye bakımı</a>",
 				"<a href=\"/faq/\">Satın almadan önce SSS</a>"
 			],
 			"ar": [
 				"<a href=\"/updates/\">الحالة المباشرة وملاحظات التصحيح</a>",
 				"<a href=\"/updates/\">دليل الغش غير المكتشف</a>",
-				"<a href=\"/updates/\">صيانة NEAC</a>",
+				"<a href=\"/updates/\">صيانة BattlEye</a>",
 				"<a href=\"/faq/\">الأسئلة الشائعة قبل الشراء</a>"
 			],
 			"ja": [
 				"<a href=\"/updates/\">ライブステータスとパッチノート</a>",
 				"<a href=\"/updates/\">Undetectedチートガイド</a>",
-				"<a href=\"/updates/\">NEACメンテナンス</a>",
+				"<a href=\"/updates/\">BattlEyeメンテナンス</a>",
 				"<a href=\"/faq/\">購入前FAQ</a>"
 			],
 			"ko": [
 				"<a href=\"/updates/\">실시간 상태 및 패치 노트</a>",
 				"<a href=\"/updates/\">Undetected 치트 가이드</a>",
-				"<a href=\"/updates/\">NEAC 유지보수</a>",
+				"<a href=\"/updates/\">BattlEye 유지보수</a>",
 				"<a href=\"/faq/\">구매 전 FAQ</a>"
 			],
 			"zh": [
 				"<a href=\"/updates/\">实时状态和补丁说明</a>",
 				"<a href=\"/updates/\">Undetected作弊指南</a>",
-				"<a href=\"/updates/\">NEAC维护</a>",
+				"<a href=\"/updates/\">BattlEye维护</a>",
 				"<a href=\"/faq/\">购买前常见问题</a>"
 			],
 			"hi": [
 				"<a href=\"/updates/\">लाइव स्टेटस और पैच नोट्स</a>",
 				"<a href=\"/updates/\">Undetected cheats गाइड</a>",
-				"<a href=\"/updates/\">NEAC रखरखाव</a>",
+				"<a href=\"/updates/\">BattlEye रखरखाव</a>",
 				"<a href=\"/faq/\">खरीदने से पहले FAQ</a>"
 			],
 			"id": [
 				"<a href=\"/updates/\">Status langsung & catatan patch</a>",
 				"<a href=\"/updates/\">Panduan cheat undetected</a>",
-				"<a href=\"/updates/\">Pemeliharaan NEAC</a>",
+				"<a href=\"/updates/\">Pemeliharaan BattlEye</a>",
 				"<a href=\"/faq/\">FAQ sebelum membeli</a>"
 			],
 			"th": [
 				"<a href=\"/updates/\">สถานะสดและบันทึกแพตช์</a>",
 				"<a href=\"/updates/\">คู่มือ cheat undetected</a>",
-				"<a href=\"/updates/\">การดูแล NEAC</a>",
+				"<a href=\"/updates/\">การดูแล BattlEye</a>",
 				"<a href=\"/faq/\">FAQ ก่อนซื้อ</a>"
 			],
 			"vi": [
 				"<a href=\"/updates/\">Trạng thái trực tiếp & ghi chú bản vá</a>",
 				"<a href=\"/updates/\">Hướng dẫn cheat undetected</a>",
-				"<a href=\"/updates/\">Bảo trì NEAC</a>",
+				"<a href=\"/updates/\">Bảo trì BattlEye</a>",
 				"<a href=\"/faq/\">FAQ trước khi mua</a>"
 			],
 			"uk": [
 				"<a href=\"/updates/\">Статус онлайн і патч-ноти</a>",
 				"<a href=\"/updates/\">Гайд undetected чітів</a>",
-				"<a href=\"/updates/\">Обслуговування NEAC</a>",
+				"<a href=\"/updates/\">Обслуговування BattlEye</a>",
 				"<a href=\"/faq/\">FAQ перед покупкою</a>"
 			],
 			"cs": [
 				"<a href=\"/updates/\">Živý stav a patch poznámky</a>",
 				"<a href=\"/updates/\">Průvodce undetected cheaty</a>",
-				"<a href=\"/updates/\">Údržba NEAC</a>",
+				"<a href=\"/updates/\">Údržba BattlEye</a>",
 				"<a href=\"/faq/\">FAQ před nákupem</a>"
 			],
 			"ro": [
 				"<a href=\"/updates/\">Status live și note patch</a>",
 				"<a href=\"/updates/\">Ghid cheats undetected</a>",
-				"<a href=\"/updates/\">Mentenanță NEAC</a>",
+				"<a href=\"/updates/\">Mentenanță BattlEye</a>",
 				"<a href=\"/faq/\">FAQ înainte de cumpărare</a>"
 			],
 			"sv": [
 				"<a href=\"/updates/\">Livestatus och patchanteckningar</a>",
 				"<a href=\"/updates/\">Undetected cheats-guide</a>",
-				"<a href=\"/updates/\">NEAC-underhåll</a>",
+				"<a href=\"/updates/\">BattlEye-underhåll</a>",
 				"<a href=\"/faq/\">FAQ innan köp</a>"
 			]
 		},
@@ -2127,7 +2127,7 @@ export const PAGE_CONTENT = {
 			]
 		}
 	},
-	"naraka-esp": {
+	"destiny-2-esp": {
 		"0": {
 			"en": [
 				"Boxes, distance, and filters for players, objects, and loot.",
@@ -2199,71 +2199,71 @@ export const PAGE_CONTENT = {
 		},
 		"1": {
 			"en": [
-				"Clear high-traffic POIs and grapple routes without flooding the screen.",
+				"Clear high-traffic POIs and movement routes without flooding the screen.",
 				"Tune opacity and filters for arena zones, vault sectors, and high-traffic PvP areas."
 			],
 			"es": [
-				"Limpia zonas de POI de alto tráfico y grapple routes sin inundar la pantalla."
+				"Limpia zonas de POI de alto tráfico y movement routes sin inundar la pantalla."
 			],
 			"fr": [
-				"Gardez les zones de high-traffic POIs et grapple routes lisibles sans saturer l'écran."
+				"Gardez les zones de high-traffic POIs et movement routes lisibles sans saturer l'écran."
 			],
 			"de": [
 				"Monument-Zonen und Loot-Runs klar halten, ohne den Bildschirm zu überladen."
 			],
 			"pt": [
-				"Mantenha POI de alto tráfico e grapple routes claros sem lotar a tela."
+				"Mantenha POI de alto tráfico e movement routes claros sem lotar a tela."
 			],
 			"it": [
 				"POI e rotazioni chiari chiari senza riempire lo schermo."
 			],
 			"nl": [
-				"Monumentzones en grapple routes helder houden zonder scherm overload."
+				"Monumentzones en movement routes helder houden zonder scherm overload."
 			],
 			"pl": [
-				"Czytelne high-traffic POIs i grapple routes bez przepełnienia ekranu."
+				"Czytelne high-traffic POIs i movement routes bez przepełnienia ekranu."
 			],
 			"ru": [
 				"Чистые зоны POI и маршрутов ротации без перегрузки экрана."
 			],
 			"tr": [
-				"Ekranı doldurmadan POI ve grapple routes bölgelerini net tutun."
+				"Ekranı doldurmadan POI ve movement routes bölgelerini net tutun."
 			],
 			"ar": [
-				"اجعل مناطق المعالم وgrapple routes واضحة دون إغراق الشاشة."
+				"اجعل مناطق المعالم وmovement routes واضحة دون إغراق الشاشة."
 			],
 			"ja": [
 				"画面を埋め尽くさずマップとスパイク設置ルートを見やすく。"
 			],
 			"ko": [
-				"화면을 가리지 않고 POI와 grapple routes 구역을 깔끔하게."
+				"화면을 가리지 않고 POI와 movement routes 구역을 깔끔하게."
 			],
 			"zh": [
 				"清晰显示 POI 和 loot 路线，不遮挡屏幕。"
 			],
 			"hi": [
-				"स्क्रीन भरे बिना POI zones और grapple routes साफ रखें।"
+				"स्क्रीन भरे बिना POI zones और movement routes साफ रखें।"
 			],
 			"id": [
-				"Jaga zona POI dan grapple routes jelas tanpa membanjiri layar."
+				"Jaga zona POI dan movement routes jelas tanpa membanjiri layar."
 			],
 			"th": [
-				"ทำให้ POI และ grapple routes ชัดเจนโดยไม่เต็มหน้าจอ"
+				"ทำให้ POI และ movement routes ชัดเจนโดยไม่เต็มหน้าจอ"
 			],
 			"vi": [
-				"Giữ vùng POI và grapple routes rõ ràng không che màn hình."
+				"Giữ vùng POI và movement routes rõ ràng không che màn hình."
 			],
 			"uk": [
-				"Чіткі зони POI і grapple routes без перевантаження екрана."
+				"Чіткі зони POI і movement routes без перевантаження екрана."
 			],
 			"cs": [
-				"Přehledné high-traffic POIs a grapple routes bez zaplnění obrazovky."
+				"Přehledné high-traffic POIs a movement routes bez zaplnění obrazovky."
 			],
 			"ro": [
-				"Zone POI și grapple routes clare fără a umple ecranul."
+				"Zone POI și movement routes clare fără a umple ecranul."
 			],
 			"sv": [
-				"Håll POIzoner och grapple routes tydliga utan att fylla skärmen."
+				"Håll POIzoner och movement routes tydliga utan att fylla skärmen."
 			]
 		},
 		"2": {
@@ -2337,70 +2337,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"See players and loot through walls during Naraka matches. Part of the same Naraka Cheats license."
+				"See players and loot through walls during Destiny 2 matches. Part of the same Destiny 2 Cheats license."
 			],
 			"es": [
-				"Ve jugadores y loot a través de las paredes durante matches de Naraka. Parte de la misma licencia Naraka Cheats."
+				"Ve jugadores y loot a través de las paredes durante matches de Destiny 2. Parte de la misma licencia Destiny 2 Cheats."
 			],
 			"fr": [
-				"Voyez joueurs et loot à travers les murs pendant les matches Naraka. Inclus dans la même licence Naraka Cheats."
+				"Voyez joueurs et loot à travers les murs pendant les matches Destiny 2. Inclus dans la même licence Destiny 2 Cheats."
 			],
 			"de": [
-				"Sieh Spieler und Loot durch Wände bei Naraka matches. Teil derselben Naraka Cheats-Lizenz."
+				"Sieh Spieler und Loot durch Wände bei Destiny 2 matches. Teil derselben Destiny 2 Cheats-Lizenz."
 			],
 			"pt": [
-				"Veja jogadores e loot através das paredes em matches de Naraka. Parte da mesma licença Naraka Cheats."
+				"Veja jogadores e loot através das paredes em matches de Destiny 2. Parte da mesma licença Destiny 2 Cheats."
 			],
 			"it": [
-				"Vedi giocatori e loot attraverso i muri durante i match Naraka. Parte della stessa licenza Naraka Cheats."
+				"Vedi giocatori e loot attraverso i muri durante i match Destiny 2. Parte della stessa licenza Destiny 2 Cheats."
 			],
 			"nl": [
-				"Zie spelers en loot door muren tijdens Naraka matches. Onderdeel van dezelfde Naraka Cheats-licentie."
+				"Zie spelers en loot door muren tijdens Destiny 2 matches. Onderdeel van dezelfde Destiny 2 Cheats-licentie."
 			],
 			"pl": [
-				"Widz graczy i loot przez ściany podczas matchów Naraka. Część tej samej licencji Naraka Cheats."
+				"Widz graczy i loot przez ściany podczas matchów Destiny 2. Część tej samej licencji Destiny 2 Cheats."
 			],
 			"ru": [
-				"Видьте игроков и лут сквозь стены в рейдах Naraka. Часть той же лицензии Naraka Cheats."
+				"Видьте игроков и лут сквозь стены в рейдах Destiny 2. Часть той же лицензии Destiny 2 Cheats."
 			],
 			"tr": [
-				"Naraka matchlerinde duvarların ardından oyuncuları ve loot'u görün. Aynı Naraka Cheats lisansının parçası."
+				"Destiny 2 matchlerinde duvarların ardından oyuncuları ve loot'u görün. Aynı Destiny 2 Cheats lisansının parçası."
 			],
 			"ar": [
-				"شاهد اللاعبين والloot عبر الجدران أثناء matches في Naraka. جزء من نفس ترخيص Naraka Cheats."
+				"شاهد اللاعبين والloot عبر الجدران أثناء matches في Destiny 2. جزء من نفس ترخيص Destiny 2 Cheats."
 			],
 			"ja": [
-				"Narakaレイド中に壁越しでプレイヤーとlootを確認。同じNaraka Cheatsライセンスに含まれます。"
+				"Destiny 2レイド中に壁越しでプレイヤーとlootを確認。同じDestiny 2 Cheatsライセンスに含まれます。"
 			],
 			"ko": [
-				"Naraka 레이드 중 벽 너머로 플레이어와 loot를 확인하세요. 동일 Naraka Cheats 라이선스에 포함됩니다."
+				"Destiny 2 레이드 중 벽 너머로 플레이어와 loot를 확인하세요. 동일 Destiny 2 Cheats 라이선스에 포함됩니다."
 			],
 			"zh": [
-				"在 Naraka match 中透视玩家和物资。包含在同一 Naraka Cheats 许可证中。"
+				"在 Destiny 2 match 中透视玩家和物资。包含在同一 Destiny 2 Cheats 许可证中。"
 			],
 			"hi": [
-				"Naraka matches में दीवारों के पार players और loot देखें। उसी Naraka Cheats लाइसेंस का हिस्सा।"
+				"Destiny 2 matches में दीवारों के पार players और loot देखें। उसी Destiny 2 Cheats लाइसेंस का हिस्सा।"
 			],
 			"id": [
-				"Lihat pemain dan loot menembus dinding saat match Naraka. Bagian dari lisensi Naraka Cheats yang sama."
+				"Lihat pemain dan loot menembus dinding saat match Destiny 2. Bagian dari lisensi Destiny 2 Cheats yang sama."
 			],
 			"th": [
-				"มองเห็นผู้เล่นและ loot ผ่านกำแพงระหว่าง match ใน Naraka ส่วนหนึ่งของใบอนุญาต Naraka Cheats เดียวกัน"
+				"มองเห็นผู้เล่นและ loot ผ่านกำแพงระหว่าง match ใน Destiny 2 ส่วนหนึ่งของใบอนุญาต Destiny 2 Cheats เดียวกัน"
 			],
 			"vi": [
-				"Nhìn xuyên tường thấy người chơi và loot khi match Naraka. Thuộc cùng giấy phép Naraka Cheats."
+				"Nhìn xuyên tường thấy người chơi và loot khi match Destiny 2. Thuộc cùng giấy phép Destiny 2 Cheats."
 			],
 			"uk": [
-				"Бачте гравців і loot крізь стіни під час match у Naraka. Частина тієї самої ліцензії Naraka Cheats."
+				"Бачте гравців і loot крізь стіни під час match у Destiny 2. Частина тієї самої ліцензії Destiny 2 Cheats."
 			],
 			"cs": [
-				"Vidíte hráče a loot skrz zdi během matchů Naraka. Součást stejné licence Naraka Cheats."
+				"Vidíte hráče a loot skrz zdi během matchů Destiny 2. Součást stejné licence Destiny 2 Cheats."
 			],
 			"ro": [
-				"Vezi jucători și loot prin pereți în match-uri Naraka. Parte din aceeași licență Naraka Cheats."
+				"Vezi jucători și loot prin pereți în match-uri Destiny 2. Parte din aceeași licență Destiny 2 Cheats."
 			],
 			"sv": [
-				"Se spelare och loot genom väggar under Naraka matches. Ingår i samma Naraka Cheats-licens."
+				"Se spelare och loot genom väggar under Destiny 2 matches. Ingår i samma Destiny 2 Cheats-licens."
 			]
 		},
 		"list0": {
@@ -2740,7 +2740,7 @@ export const PAGE_CONTENT = {
 			]
 		}
 	},
-	"naraka-aimbot": {
+	"destiny-2-aimbot": {
 		"0": {
 			"en": [
 				"Set FOV, smoothness, and bone priority before you queue.",
@@ -2813,7 +2813,7 @@ export const PAGE_CONTENT = {
 		"1": {
 			"en": [
 				"Keep settings subtle for longer matches. Raise strength only when you accept more risk.",
-				"Soft aim works alongside ESP and radar in the same license."
+				"aimbot works alongside ESP and radar in the same license."
 			],
 			"es": [
 				"Mantén ajustes sutiles para matches largos. Sube la fuerza solo cuando aceptes más riesgo."
@@ -2950,85 +2950,85 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Soft aim and aim assist you can tune for Naraka. Included in the same Naraka Cheats license."
+				"aimbot and aim assist you can tune for Destiny 2. Included in the same Destiny 2 Cheats license."
 			],
 			"es": [
-				"Soft aim y asistencia de puntería que puedes ajustar para Naraka. Incluido en la misma licencia Naraka Cheats."
+				"aimbot y asistencia de puntería que puedes ajustar para Destiny 2. Incluido en la misma licencia Destiny 2 Cheats."
 			],
 			"fr": [
-				"Soft aim et aide à la visée réglables pour Naraka. Inclus dans la même licence Naraka Cheats."
+				"aimbot et aide à la visée réglables pour Destiny 2. Inclus dans la même licence Destiny 2 Cheats."
 			],
 			"de": [
-				"Soft Aim und Zielhilfe, die du für Naraka einstellen kannst. In derselben Naraka Cheats-Lizenz enthalten."
+				"aimbot und Zielhilfe, die du für Destiny 2 einstellen kannst. In derselben Destiny 2 Cheats-Lizenz enthalten."
 			],
 			"pt": [
-				"Soft aim e assistência de mira ajustáveis para Naraka. Incluído na mesma licença Naraka Cheats."
+				"aimbot e assistência de mira ajustáveis para Destiny 2. Incluído na mesma licença Destiny 2 Cheats."
 			],
 			"it": [
-				"Soft aim e assistenza mira regolabili per Naraka. Incluso nella stessa licenza Naraka Cheats."
+				"aimbot e assistenza mira regolabili per Destiny 2. Incluso nella stessa licenza Destiny 2 Cheats."
 			],
 			"nl": [
-				"Soft aim en richt-hulp die je voor Naraka kunt afstellen. Inbegrepen in dezelfde Naraka Cheats-licentie."
+				"aimbot en richt-hulp die je voor Destiny 2 kunt afstellen. Inbegrepen in dezelfde Destiny 2 Cheats-licentie."
 			],
 			"pl": [
-				"Soft aim i asysta celowania do ustawienia w Naraka. W tej samej licencji Naraka Cheats."
+				"aimbot i asysta celowania do ustawienia w Destiny 2. W tej samej licencji Destiny 2 Cheats."
 			],
 			"ru": [
-				"Soft aim и помощь прицеливания, настраиваемые для Naraka. Включено в ту же лицензию Naraka Cheats."
+				"aimbot и помощь прицеливания, настраиваемые для Destiny 2. Включено в ту же лицензию Destiny 2 Cheats."
 			],
 			"tr": [
-				"Naraka için ayarlayabileceğiniz soft aim ve nişan desteği. Aynı Naraka Cheats lisansına dahil."
+				"Destiny 2 için ayarlayabileceğiniz aimbot ve nişan desteği. Aynı Destiny 2 Cheats lisansına dahil."
 			],
 			"ar": [
-				"Soft aim ومساعدة تصويب قابلة للضبط لـ Naraka. مضمن في نفس ترخيص Naraka Cheats."
+				"aimbot ومساعدة تصويب قابلة للضبط لـ Destiny 2. مضمن في نفس ترخيص Destiny 2 Cheats."
 			],
 			"ja": [
-				"Naraka向けに調整できるsoft aimとエイム支援。同じNaraka Cheatsライセンスに含まれます。"
+				"Destiny 2向けに調整できるaimbotとエイム支援。同じDestiny 2 Cheatsライセンスに含まれます。"
 			],
 			"ko": [
-				"Naraka용으로 조절 가능한 soft aim 및 에임 보조. 동일 Naraka Cheats 라이선스에 포함."
+				"Destiny 2용으로 조절 가능한 aimbot 및 에임 보조. 동일 Destiny 2 Cheats 라이선스에 포함."
 			],
 			"zh": [
-				"可为 Naraka 调节的 soft aim 和瞄准辅助。包含在同一 Naraka Cheats 许可证中。"
+				"可为 Destiny 2 调节的 aimbot 和瞄准辅助。包含在同一 Destiny 2 Cheats 许可证中。"
 			],
 			"hi": [
-				"Naraka के लिए ट्यून करने योग्य soft aim और aim assist। उसी Naraka Cheats लाइसेंस में शामिल।"
+				"Destiny 2 के लिए ट्यून करने योग्य aimbot और aim assist। उसी Destiny 2 Cheats लाइसेंस में शामिल।"
 			],
 			"id": [
-				"Soft aim dan bantuan aim yang bisa disesuaikan untuk Naraka. Termasuk dalam lisensi Naraka Cheats yang sama."
+				"aimbot dan bantuan aim yang bisa disesuaikan untuk Destiny 2. Termasuk dalam lisensi Destiny 2 Cheats yang sama."
 			],
 			"th": [
-				"Soft aim และการช่วยเล็งที่ปรับได้สำหรับ Naraka รวมในใบอนุญาต Naraka Cheats เดียวกัน"
+				"aimbot และการช่วยเล็งที่ปรับได้สำหรับ Destiny 2 รวมในใบอนุญาต Destiny 2 Cheats เดียวกัน"
 			],
 			"vi": [
-				"Soft aim và hỗ trợ ngắm có thể tinh chỉnh cho Naraka. Thuộc cùng giấy phép Naraka Cheats."
+				"aimbot và hỗ trợ ngắm có thể tinh chỉnh cho Destiny 2. Thuộc cùng giấy phép Destiny 2 Cheats."
 			],
 			"uk": [
-				"Soft aim і допомога прицілювання, які можна налаштувати для Naraka. У тій самій ліцензії Naraka Cheats."
+				"aimbot і допомога прицілювання, які можна налаштувати для Destiny 2. У тій самій ліцензії Destiny 2 Cheats."
 			],
 			"cs": [
-				"Soft aim a aim assist nastavitelný pro Naraka. Součást stejné licence Naraka Cheats."
+				"aimbot a aim assist nastavitelný pro Destiny 2. Součást stejné licence Destiny 2 Cheats."
 			],
 			"ro": [
-				"Soft aim și asistență țintire reglabile pentru Naraka. Inclus în aceeași licență Naraka Cheats."
+				"aimbot și asistență țintire reglabile pentru Destiny 2. Inclus în aceeași licență Destiny 2 Cheats."
 			],
 			"sv": [
-				"Soft aim och siktehjälp du kan ställa in för Naraka. Ingår i samma Naraka Cheats-licens."
+				"aimbot och siktehjälp du kan ställa in för Destiny 2. Ingår i samma Destiny 2 Cheats-licens."
 			]
 		},
 		"list0": {
 			"en": [
-				"Soft aim strength",
+				"aimbot strength",
 				"Bone priority",
 				"Hotkeys mid-match"
 			],
 			"es": [
-				"Fuerza de soft aim",
+				"Fuerza de aimbot",
 				"Prioridad de huesos",
 				"Teclas rápidas en partida"
 			],
 			"fr": [
-				"Force du soft aim",
+				"Force du aimbot",
 				"Priorité d'os",
 				"Raccourcis en match"
 			],
@@ -3038,204 +3038,204 @@ export const PAGE_CONTENT = {
 				"Hotkeys im Match"
 			],
 			"pt": [
-				"Força do soft aim",
+				"Força do aimbot",
 				"Prioridade de ossos",
 				"Teclas rápidas em partida"
 			],
 			"it": [
-				"Forza soft aim",
+				"Forza aimbot",
 				"Priorità ossa",
 				"Tasti rapidi in match"
 			],
 			"nl": [
-				"Soft aim-sterkte",
+				"aimbot-sterkte",
 				"Bot-prioriteit",
 				"Hotkeys tijdens match"
 			],
 			"pl": [
-				"Siła soft aim",
+				"Siła aimbot",
 				"Priorytet kości",
 				"Skróty w trakcie meczu"
 			],
 			"ru": [
-				"Сила soft aim",
+				"Сила aimbot",
 				"Приоритет костей",
 				"Хоткеи в матче"
 			],
 			"tr": [
-				"Soft aim gücü",
+				"aimbot gücü",
 				"Kemik önceliği",
 				"Maç içi kısayollar"
 			],
 			"ar": [
-				"قوة soft aim",
+				"قوة aimbot",
 				"أولوية العظام",
 				"اختصارات أثناء المباراة"
 			],
 			"ja": [
-				"soft aim強度",
+				"aimbot強度",
 				"ボーン優先度",
 				"マッチ中ホットキー"
 			],
 			"ko": [
-				"soft aim 강도",
+				"aimbot 강도",
 				"본 우선순위",
 				"매치 중 단축키"
 			],
 			"zh": [
-				"soft aim 强度",
+				"aimbot 强度",
 				"骨骼优先级",
 				"对局中热键"
 			],
 			"hi": [
-				"Soft aim strength",
+				"aimbot strength",
 				"Bone priority",
 				"मैच में hotkeys"
 			],
 			"id": [
-				"Kekuatan soft aim",
+				"Kekuatan aimbot",
 				"Prioritas tulang",
 				"Hotkey saat match"
 			],
 			"th": [
-				"ความแรง soft aim",
+				"ความแรง aimbot",
 				"ลำดับกระดูก",
 				"ปุ่มลัดระหว่างแมตช์"
 			],
 			"vi": [
-				"Cường độ soft aim",
+				"Cường độ aimbot",
 				"Ưu tiên xương",
 				"Phím tắt giữa trận"
 			],
 			"uk": [
-				"Сила soft aim",
+				"Сила aimbot",
 				"Пріоритет кісток",
 				"Гарячі клавіші в матчі"
 			],
 			"cs": [
-				"Síla soft aim",
+				"Síla aimbot",
 				"Priorita kostí",
 				"Klávesové zkratky v zápase"
 			],
 			"ro": [
-				"Putere soft aim",
+				"Putere aimbot",
 				"Prioritate oase",
 				"Hotkey-uri în meci"
 			],
 			"sv": [
-				"Soft aim-styrka",
+				"aimbot-styrka",
 				"Benprioritet",
 				"Snabbtangenter i match"
 			]
 		},
 		"list1": {
 			"en": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Per-weapon profiles",
 				"Works with ESP"
 			],
 			"es": [
-				"Soft aim legit",
+				"aimbot legit",
 				"Perfiles por arma",
 				"Funciona con ESP"
 			],
 			"fr": [
-				"Soft aim discret",
+				"aimbot discret",
 				"Profils par arme",
 				"Fonctionne avec ESP"
 			],
 			"de": [
-				"Legit Soft Aim",
+				"Legit aimbot",
 				"Profile pro Waffe",
 				"Funktioniert mit ESP"
 			],
 			"pt": [
-				"Soft aim legit",
+				"aimbot legit",
 				"Perfis por arma",
 				"Funciona com ESP"
 			],
 			"it": [
-				"Soft aim legit",
+				"aimbot legit",
 				"Profili per arma",
 				"Funziona con ESP"
 			],
 			"nl": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Profielen per wapen",
 				"Werkt met ESP"
 			],
 			"pl": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Profile na broń",
 				"Działa z ESP"
 			],
 			"ru": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Профили по оружию",
 				"Работает с ESP"
 			],
 			"tr": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Silah başına profiller",
 				"ESP ile çalışır"
 			],
 			"ar": [
-				"Soft aim شرعي",
+				"aimbot شرعي",
 				"ملفات لكل سلاح",
 				"يعمل مع ESP"
 			],
 			"ja": [
-				"自然なsoft aim",
+				"自然なaimbot",
 				"武器別プロファイル",
 				"ESPと併用"
 			],
 			"ko": [
-				"자연스러운 soft aim",
+				"자연스러운 aimbot",
 				"무기별 프로필",
 				"ESP와 호환"
 			],
 			"zh": [
-				"低调 soft aim",
+				"低调 aimbot",
 				"按武器配置",
 				"配合 ESP"
 			],
 			"hi": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"प्रति-हथियार profiles",
 				"ESP के साथ"
 			],
 			"id": [
-				"Soft aim legit",
+				"aimbot legit",
 				"Profil per senjata",
 				"Bekerja dengan ESP"
 			],
 			"th": [
-				"Soft aim แบบ legit",
+				"aimbot แบบ legit",
 				"โปรไฟล์ต่ออาวุธ",
 				"ใช้กับ ESP"
 			],
 			"vi": [
-				"Soft aim legit",
+				"aimbot legit",
 				"Profile theo vũ khí",
 				"Hoạt động với ESP"
 			],
 			"uk": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Профілі на зброю",
 				"Працює з ESP"
 			],
 			"cs": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Profily na zbraň",
 				"Funguje s ESP"
 			],
 			"ro": [
-				"Soft aim legit",
+				"aimbot legit",
 				"Profile per armă",
 				"Funcționează cu ESP"
 			],
 			"sv": [
-				"Legit soft aim",
+				"Legit aimbot",
 				"Profiler per vapen",
 				"Fungerar med ESP"
 			]
@@ -3494,70 +3494,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"A simple 2D radar for threats outside your view. Included in the same Naraka Cheats license."
+				"A simple radar overlay for threats outside your view. Included in the same Destiny 2 Cheats license."
 			],
 			"es": [
-				"Un radar 2D simple para amenazas fuera de tu vista. Incluido en la misma licencia Naraka Cheats."
+				"Un radar 2D simple para amenazas fuera de tu vista. Incluido en la misma licencia Destiny 2 Cheats."
 			],
 			"fr": [
-				"Un radar 2D simple pour les menaces hors champ. Inclus dans la même licence Naraka Cheats."
+				"Un radar 2D simple pour les menaces hors champ. Inclus dans la même licence Destiny 2 Cheats."
 			],
 			"de": [
-				"Ein einfaches 2D-Radar für Bedrohungen außerhalb deines Sichtfelds. In derselben Naraka Cheats-Lizenz enthalten."
+				"Ein einfaches 2D-Radar für Bedrohungen außerhalb deines Sichtfelds. In derselben Destiny 2 Cheats-Lizenz enthalten."
 			],
 			"pt": [
-				"Um radar 2D simples para ameaças fora da sua visão. Incluído na mesma licença Naraka Cheats."
+				"Um radar 2D simples para ameaças fora da sua visão. Incluído na mesma licença Destiny 2 Cheats."
 			],
 			"it": [
-				"Un radar 2D semplice per minacce fuori vista. Incluso nella stessa licenza Naraka Cheats."
+				"Un radar 2D semplice per minacce fuori vista. Incluso nella stessa licenza Destiny 2 Cheats."
 			],
 			"nl": [
-				"Een eenvoudige 2D-radar voor dreigingen buiten beeld. Inbegrepen in dezelfde Naraka Cheats-licentie."
+				"Een eenvoudige 2D-radar voor dreigingen buiten beeld. Inbegrepen in dezelfde Destiny 2 Cheats-licentie."
 			],
 			"pl": [
-				"Prosty radar 2D na zagrożenia poza widokiem. W tej samej licencji Naraka Cheats."
+				"Prosty radar 2D na zagrożenia poza widokiem. W tej samej licencji Destiny 2 Cheats."
 			],
 			"ru": [
-				"Простой 2D radar для угроз вне поля зрения. Включён в ту же лицензию Naraka Cheats."
+				"Простой radar overlay для угроз вне поля зрения. Включён в ту же лицензию Destiny 2 Cheats."
 			],
 			"tr": [
-				"Görüş alanı dışındaki tehditler için basit 2D radar. Aynı Naraka Cheats lisansına dahil."
+				"Görüş alanı dışındaki tehditler için basit radar overlay. Aynı Destiny 2 Cheats lisansına dahil."
 			],
 			"ar": [
-				"radar 2D بسيط للتهديدات خارج مجال رؤيتك. مضمن في نفس ترخيص Naraka Cheats."
+				"radar 2D بسيط للتهديدات خارج مجال رؤيتك. مضمن في نفس ترخيص Destiny 2 Cheats."
 			],
 			"ja": [
-				"視界外の脅威向けシンプル2D radar。同じNaraka Cheatsライセンスに含まれます。"
+				"視界外の脅威向けシンプルradar overlay。同じDestiny 2 Cheatsライセンスに含まれます。"
 			],
 			"ko": [
-				"시야 밖 위협을 위한 간단한 2D radar. 동일 Naraka Cheats 라이선스에 포함."
+				"시야 밖 위협을 위한 간단한 radar overlay. 동일 Destiny 2 Cheats 라이선스에 포함."
 			],
 			"zh": [
-				"用于屏幕外威胁的简单 2D radar。包含在同一 Naraka Cheats 许可证中。"
+				"用于屏幕外威胁的简单 radar overlay。包含在同一 Destiny 2 Cheats 许可证中。"
 			],
 			"hi": [
-				"आपकी दृष्टि से बाहर threats के लिए सरल 2D radar। उसी Naraka Cheats लाइसेंस में शामिल।"
+				"आपकी दृष्टि से बाहर threats के लिए सरल radar overlay। उसी Destiny 2 Cheats लाइसेंस में शामिल।"
 			],
 			"id": [
-				"Radar 2D sederhana untuk ancaman di luar pandangan. Termasuk dalam lisensi Naraka Cheats yang sama."
+				"Radar 2D sederhana untuk ancaman di luar pandangan. Termasuk dalam lisensi Destiny 2 Cheats yang sama."
 			],
 			"th": [
-				"radar 2D เรียบง่ายสำหรับภัยคุกคามนอกสายตา รวมในใบอนุญาต Naraka Cheats เดียวกัน"
+				"radar 2D เรียบง่ายสำหรับภัยคุกคามนอกสายตา รวมในใบอนุญาต Destiny 2 Cheats เดียวกัน"
 			],
 			"vi": [
-				"Radar 2D đơn giản cho mối đe dọa ngoài tầm nhìn. Thuộc cùng giấy phép Naraka Cheats."
+				"Radar 2D đơn giản cho mối đe dọa ngoài tầm nhìn. Thuộc cùng giấy phép Destiny 2 Cheats."
 			],
 			"uk": [
-				"Простий 2D radar для загроз поза полем зору. У тій самій ліцензії Naraka Cheats."
+				"Простий radar overlay для загроз поза полем зору. У тій самій ліцензії Destiny 2 Cheats."
 			],
 			"cs": [
-				"Jednoduchý 2D radar pro hrozby mimo dohled. Součást stejné licence Naraka Cheats."
+				"Jednoduchý radar overlay pro hrozby mimo dohled. Součást stejné licence Destiny 2 Cheats."
 			],
 			"ro": [
-				"Radar 2D simplu pentru amenințări în afara vederii. Inclus în aceeași licență Naraka Cheats."
+				"Radar 2D simplu pentru amenințări în afara vederii. Inclus în aceeași licență Destiny 2 Cheats."
 			],
 			"sv": [
-				"En enkel 2D-radar för hot utanför synfältet. Ingår i samma Naraka Cheats-licens."
+				"En enkel 2D-radar för hot utanför synfältet. Ingår i samma Destiny 2 Cheats-licens."
 			]
 		},
 		"list0": {
@@ -3674,112 +3674,112 @@ export const PAGE_CONTENT = {
 		},
 		"list1": {
 			"en": [
-				"<a href=\"/naraka-esp/\">ESP guide</a>",
+				"<a href=\"/destiny-2-esp/\">ESP guide</a>",
 				"<a href=\"/\">Full product</a>",
 				"<a href=\"/pricing/\">Store</a>"
 			],
 			"es": [
-				"<a href=\"/naraka-esp/\">Guía ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Guía ESP</a>",
 				"<a href=\"/\">Producto completo</a>",
 				"<a href=\"/pricing/\">Tienda</a>"
 			],
 			"fr": [
-				"<a href=\"/naraka-esp/\">Guide ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Guide ESP</a>",
 				"<a href=\"/\">Produit complet</a>",
 				"<a href=\"/pricing/\">Boutique</a>"
 			],
 			"de": [
-				"<a href=\"/naraka-esp/\">ESP-Guide</a>",
+				"<a href=\"/destiny-2-esp/\">ESP-Guide</a>",
 				"<a href=\"/\">Vollständiges Produkt</a>",
 				"<a href=\"/pricing/\">Shop</a>"
 			],
 			"pt": [
-				"<a href=\"/naraka-esp/\">Guia ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Guia ESP</a>",
 				"<a href=\"/\">Produto completo</a>",
 				"<a href=\"/pricing/\">Loja</a>"
 			],
 			"it": [
-				"<a href=\"/naraka-esp/\">Guida ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Guida ESP</a>",
 				"<a href=\"/\">Prodotto completo</a>",
 				"<a href=\"/pricing/\">Negozio</a>"
 			],
 			"nl": [
-				"<a href=\"/naraka-esp/\">ESP-gids</a>",
+				"<a href=\"/destiny-2-esp/\">ESP-gids</a>",
 				"<a href=\"/\">Volledig product</a>",
 				"<a href=\"/pricing/\">Winkel</a>"
 			],
 			"pl": [
-				"<a href=\"/naraka-esp/\">Przewodnik ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Przewodnik ESP</a>",
 				"<a href=\"/\">Pełny produkt</a>",
 				"<a href=\"/pricing/\">Sklep</a>"
 			],
 			"ru": [
-				"<a href=\"/naraka-esp/\">Гайд ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Гайд ESP</a>",
 				"<a href=\"/\">Полный продукт</a>",
 				"<a href=\"/pricing/\">Магазин</a>"
 			],
 			"tr": [
-				"<a href=\"/naraka-esp/\">ESP rehberi</a>",
+				"<a href=\"/destiny-2-esp/\">ESP rehberi</a>",
 				"<a href=\"/\">Tam ürün</a>",
 				"<a href=\"/pricing/\">Mağaza</a>"
 			],
 			"ar": [
-				"<a href=\"/naraka-esp/\">دليل ESP</a>",
+				"<a href=\"/destiny-2-esp/\">دليل ESP</a>",
 				"<a href=\"/\">المنتج الكامل</a>",
 				"<a href=\"/pricing/\">المتجر</a>"
 			],
 			"ja": [
-				"<a href=\"/naraka-esp/\">ESPガイド</a>",
+				"<a href=\"/destiny-2-esp/\">ESPガイド</a>",
 				"<a href=\"/\">製品全体</a>",
 				"<a href=\"/pricing/\">ストア</a>"
 			],
 			"ko": [
-				"<a href=\"/naraka-esp/\">ESP 가이드</a>",
+				"<a href=\"/destiny-2-esp/\">ESP 가이드</a>",
 				"<a href=\"/\">전체 제품</a>",
 				"<a href=\"/pricing/\">스토어</a>"
 			],
 			"zh": [
-				"<a href=\"/naraka-esp/\">ESP指南</a>",
+				"<a href=\"/destiny-2-esp/\">ESP指南</a>",
 				"<a href=\"/\">完整产品</a>",
 				"<a href=\"/pricing/\">商店</a>"
 			],
 			"hi": [
-				"<a href=\"/naraka-esp/\">ESP गाइड</a>",
+				"<a href=\"/destiny-2-esp/\">ESP गाइड</a>",
 				"<a href=\"/\">पूरा उत्पाद</a>",
 				"<a href=\"/pricing/\">स्टोर</a>"
 			],
 			"id": [
-				"<a href=\"/naraka-esp/\">Panduan ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Panduan ESP</a>",
 				"<a href=\"/\">Produk lengkap</a>",
 				"<a href=\"/pricing/\">Toko</a>"
 			],
 			"th": [
-				"<a href=\"/naraka-esp/\">คู่มือ ESP</a>",
+				"<a href=\"/destiny-2-esp/\">คู่มือ ESP</a>",
 				"<a href=\"/\">ผลิตภัณฑ์เต็มรูปแบบ</a>",
 				"<a href=\"/pricing/\">ร้านค้า</a>"
 			],
 			"vi": [
-				"<a href=\"/naraka-esp/\">Hướng dẫn ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Hướng dẫn ESP</a>",
 				"<a href=\"/\">Sản phẩm đầy đủ</a>",
 				"<a href=\"/pricing/\">Cửa hàng</a>"
 			],
 			"uk": [
-				"<a href=\"/naraka-esp/\">Гайд ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Гайд ESP</a>",
 				"<a href=\"/\">Повний продукт</a>",
 				"<a href=\"/pricing/\">Магазин</a>"
 			],
 			"cs": [
-				"<a href=\"/naraka-esp/\">Průvodce ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Průvodce ESP</a>",
 				"<a href=\"/\">Kompletní produkt</a>",
 				"<a href=\"/pricing/\">Obchod</a>"
 			],
 			"ro": [
-				"<a href=\"/naraka-esp/\">Ghid ESP</a>",
+				"<a href=\"/destiny-2-esp/\">Ghid ESP</a>",
 				"<a href=\"/\">Produs complet</a>",
 				"<a href=\"/pricing/\">Magazin</a>"
 			],
 			"sv": [
-				"<a href=\"/naraka-esp/\">ESP-guide</a>",
+				"<a href=\"/destiny-2-esp/\">ESP-guide</a>",
 				"<a href=\"/\">Fullständig produkt</a>",
 				"<a href=\"/pricing/\">Butik</a>"
 			]
@@ -3790,7 +3790,7 @@ export const PAGE_CONTENT = {
 			"en": [
 				"Buy a plan first. You get a license by email.",
 				"Have your order email ready before you start installation.",
-				"Naraka Cheats runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy melee combats."
+				"Destiny 2 Cheats runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy PvP gunfightss."
 			],
 			"es": [
 				"Compra un plan primero. Recibes la licencia por email."
@@ -3858,140 +3858,140 @@ export const PAGE_CONTENT = {
 		},
 		"1": {
 			"en": [
-				"Run the loader as admin, paste your license, then launch Naraka.",
+				"Run the loader as admin, paste your license, then launch Destiny 2.",
 				"Download the loader from your delivery email and follow the steps in order."
 			],
 			"es": [
-				"Ejecuta el loader como admin, pega tu licencia y lanza Naraka."
+				"Ejecuta el loader como admin, pega tu licencia y lanza Destiny 2."
 			],
 			"fr": [
-				"Lancez le loader en admin, collez votre licence puis lancez Naraka."
+				"Lancez le loader en admin, collez votre licence puis lancez Destiny 2."
 			],
 			"de": [
-				"Loader als Admin starten, Lizenz einfügen, dann Naraka starten."
+				"Loader als Admin starten, Lizenz einfügen, dann Destiny 2 starten."
 			],
 			"pt": [
-				"Execute o loader como admin, cole a licença e inicie Naraka."
+				"Execute o loader como admin, cole a licença e inicie Destiny 2."
 			],
 			"it": [
-				"Avvia il loader come admin, incolla la licenza e lancia Naraka."
+				"Avvia il loader come admin, incolla la licenza e lancia Destiny 2."
 			],
 			"nl": [
-				"Start loader als admin, plak licentie, start Naraka."
+				"Start loader als admin, plak licentie, start Destiny 2."
 			],
 			"pl": [
-				"Uruchom loader jako admin, wklej licencję, uruchom Naraka."
+				"Uruchom loader jako admin, wklej licencję, uruchom Destiny 2."
 			],
 			"ru": [
-				"Запустите loader от админа, вставьте лицензию, запустите Naraka."
+				"Запустите loader от админа, вставьте лицензию, запустите Destiny 2."
 			],
 			"tr": [
-				"Loader'ı yönetici olarak çalıştırın, lisansı yapıştırın, Naraka'ı başlatın."
+				"Loader'ı yönetici olarak çalıştırın, lisansı yapıştırın, Destiny 2'ı başlatın."
 			],
 			"ar": [
-				"شغّل loader كمسؤول، الصق الترخيص، ثم شغّل Naraka."
+				"شغّل loader كمسؤول، الصق الترخيص، ثم شغّل Destiny 2."
 			],
 			"ja": [
-				"loaderを管理者実行、ライセンス貼り付け、Naraka起動。"
+				"loaderを管理者実行、ライセンス貼り付け、Destiny 2起動。"
 			],
 			"ko": [
-				"loader를 관리자로 실행, 라이선스 붙여넣기, Naraka 실행."
+				"loader를 관리자로 실행, 라이선스 붙여넣기, Destiny 2 실행."
 			],
 			"zh": [
-				"以管理员身份运行 loader，粘贴许可证，启动 Naraka。"
+				"以管理员身份运行 loader，粘贴许可证，启动 Destiny 2。"
 			],
 			"hi": [
-				"Loader admin के रूप में चलाएँ, license paste करें, Naraka launch करें।"
+				"Loader admin के रूप में चलाएँ, license paste करें, Destiny 2 launch करें।"
 			],
 			"id": [
-				"Jalankan loader sebagai admin, tempel lisensi, lalu buka Naraka."
+				"Jalankan loader sebagai admin, tempel lisensi, lalu buka Destiny 2."
 			],
 			"th": [
-				"รัน loader แบบ admin วางใบอนุญาต แล้วเปิด Naraka"
+				"รัน loader แบบ admin วางใบอนุญาต แล้วเปิด Destiny 2"
 			],
 			"vi": [
-				"Chạy loader quyền admin, dán giấy phép, khởi động Naraka."
+				"Chạy loader quyền admin, dán giấy phép, khởi động Destiny 2."
 			],
 			"uk": [
-				"Запустіть loader від адміна, вставте ліцензію, запустіть Naraka."
+				"Запустіть loader від адміна, вставте ліцензію, запустіть Destiny 2."
 			],
 			"cs": [
-				"Spusťte loader jako admin, vložte licenci, spusťte Naraka."
+				"Spusťte loader jako admin, vložte licenci, spusťte Destiny 2."
 			],
 			"ro": [
-				"Rulează loader ca admin, lipește licența, lansează Naraka."
+				"Rulează loader ca admin, lipește licența, lansează Destiny 2."
 			],
 			"sv": [
-				"Kör loader som admin, klistra in licens, starta Naraka."
+				"Kör loader som admin, klistra in licens, starta Destiny 2."
 			]
 		},
 		"2": {
 			"en": [
-				"Check Status after a patch. Email support@narakacheats.org with your order ID.",
+				"Check Status after a patch. Email support@destiny2hack.net with your order ID.",
 				"Include your Windows version and what you already tried for faster replies."
 			],
 			"es": [
-				"Revisa Estado tras un parche. Email a support@narakacheats.org con tu ID de pedido."
+				"Revisa Estado tras un parche. Email a support@destiny2hack.net con tu ID de pedido."
 			],
 			"fr": [
-				"Consultez Statut après un patch. Email support@narakacheats.org avec votre ID commande."
+				"Consultez Statut après un patch. Email support@destiny2hack.net avec votre ID commande."
 			],
 			"de": [
-				"Status nach Patch prüfen. E-Mail an support@narakacheats.org mit Bestell-ID."
+				"Status nach Patch prüfen. E-Mail an support@destiny2hack.net mit Bestell-ID."
 			],
 			"pt": [
-				"Verifique Status após patch. Email support@narakacheats.org com ID do pedido."
+				"Verifique Status após patch. Email support@destiny2hack.net com ID do pedido."
 			],
 			"it": [
-				"Controlla Stato dopo patch. Email support@narakacheats.org con ID ordine."
+				"Controlla Stato dopo patch. Email support@destiny2hack.net con ID ordine."
 			],
 			"nl": [
-				"Check Status na patch. E-mail support@narakacheats.org met order-ID."
+				"Check Status na patch. E-mail support@destiny2hack.net met order-ID."
 			],
 			"pl": [
-				"Sprawdź Status po patchu. Email support@narakacheats.org z ID zamówienia."
+				"Sprawdź Status po patchu. Email support@destiny2hack.net z ID zamówienia."
 			],
 			"ru": [
-				"Проверьте Статус после патча. Email support@narakacheats.org с ID заказа."
+				"Проверьте Статус после патча. Email support@destiny2hack.net с ID заказа."
 			],
 			"tr": [
-				"Yama sonrası Durum kontrol edin. Sipariş ID ile support@narakacheats.org."
+				"Yama sonrası Durum kontrol edin. Sipariş ID ile support@destiny2hack.net."
 			],
 			"ar": [
-				"تحقق من الحالة بعد التصحيح. راسل support@narakacheats.org مع معرف الطلب."
+				"تحقق من الحالة بعد التصحيح. راسل support@destiny2hack.net مع معرف الطلب."
 			],
 			"ja": [
-				"パッチ後はステータス確認。注文IDを添えてsupport@narakacheats.orgへ。"
+				"パッチ後はステータス確認。注文IDを添えてsupport@destiny2hack.netへ。"
 			],
 			"ko": [
-				"패치 후 상태 확인. 주문 ID와 함께 support@narakacheats.org."
+				"패치 후 상태 확인. 주문 ID와 함께 support@destiny2hack.net."
 			],
 			"zh": [
-				"补丁后查看状态。携带订单 ID 邮件 support@narakacheats.org。"
+				"补丁后查看状态。携带订单 ID 邮件 support@destiny2hack.net。"
 			],
 			"hi": [
-				"पैच के बाद Status जांचें। ऑर्डर ID के साथ support@narakacheats.org।"
+				"पैच के बाद Status जांचें। ऑर्डर ID के साथ support@destiny2hack.net।"
 			],
 			"id": [
-				"Cek Status setelah patch. Email support@narakacheats.org dengan ID pesanan."
+				"Cek Status setelah patch. Email support@destiny2hack.net dengan ID pesanan."
 			],
 			"th": [
-				"ตรวจสถานะหลังแพตช์ อีเมล support@narakacheats.org พร้อมรหัสคำสั่งซื้อ"
+				"ตรวจสถานะหลังแพตช์ อีเมล support@destiny2hack.net พร้อมรหัสคำสั่งซื้อ"
 			],
 			"vi": [
-				"Kiểm tra Trạng thái sau bản vá. Email support@narakacheats.org kèm ID đơn."
+				"Kiểm tra Trạng thái sau bản vá. Email support@destiny2hack.net kèm ID đơn."
 			],
 			"uk": [
-				"Перевірте Статус після патчу. Email support@narakacheats.org з ID замовлення."
+				"Перевірте Статус після патчу. Email support@destiny2hack.net з ID замовлення."
 			],
 			"cs": [
-				"Po patchi zkontrolujte Stav. Email support@narakacheats.org s ID objednávky."
+				"Po patchi zkontrolujte Stav. Email support@destiny2hack.net s ID objednávky."
 			],
 			"ro": [
-				"Verifică Status după patch. Email support@narakacheats.org cu ID comandă."
+				"Verifică Status după patch. Email support@destiny2hack.net cu ID comandă."
 			],
 			"sv": [
-				"Kontrollera Status efter patch. Mejla support@narakacheats.org med order-ID."
+				"Kontrollera Status efter patch. Mejla support@destiny2hack.net med order-ID."
 			]
 		},
 		"intro": {
@@ -4402,77 +4402,77 @@ export const PAGE_CONTENT = {
 	"support": {
 		"0": {
 			"en": [
-				"Email support@narakacheats.org. Include your order ID and a short note about the issue.",
+				"Email support@destiny2hack.net. Include your order ID and a short note about the issue.",
 				"We review support requests daily for delivery, billing, and setup issues."
 			],
 			"es": [
-				"Email a support@narakacheats.org. Incluye tu ID de pedido y una nota breve sobre el problema."
+				"Email a support@destiny2hack.net. Incluye tu ID de pedido y una nota breve sobre el problema."
 			],
 			"fr": [
-				"Email support@narakacheats.org. Incluez votre ID commande et une brève note."
+				"Email support@destiny2hack.net. Incluez votre ID commande et une brève note."
 			],
 			"de": [
-				"E-Mail an support@narakacheats.org. Bestell-ID und kurze Problembeschreibung angeben."
+				"E-Mail an support@destiny2hack.net. Bestell-ID und kurze Problembeschreibung angeben."
 			],
 			"pt": [
-				"Email support@narakacheats.org. Inclua ID do pedido e nota breve sobre o problema."
+				"Email support@destiny2hack.net. Inclua ID do pedido e nota breve sobre o problema."
 			],
 			"it": [
-				"Email support@narakacheats.org. Includi ID ordine e breve nota sul problema."
+				"Email support@destiny2hack.net. Includi ID ordine e breve nota sul problema."
 			],
 			"nl": [
-				"E-mail support@narakacheats.org. Voeg order-ID en korte probleemnotitie toe."
+				"E-mail support@destiny2hack.net. Voeg order-ID en korte probleemnotitie toe."
 			],
 			"pl": [
-				"Email support@narakacheats.org. Dołącz ID zamówienia i krótki opis problemu."
+				"Email support@destiny2hack.net. Dołącz ID zamówienia i krótki opis problemu."
 			],
 			"ru": [
-				"Email support@narakacheats.org. Укажите ID заказа и краткое описание проблемы."
+				"Email support@destiny2hack.net. Укажите ID заказа и краткое описание проблемы."
 			],
 			"tr": [
-				"support@narakacheats.org adresine email. Sipariş ID ve kısa sorun notu ekleyin."
+				"support@destiny2hack.net adresine email. Sipariş ID ve kısa sorun notu ekleyin."
 			],
 			"ar": [
-				"راسل support@narakacheats.org. أرفق معرف الطلب وملاحظة قصيرة."
+				"راسل support@destiny2hack.net. أرفق معرف الطلب وملاحظة قصيرة."
 			],
 			"ja": [
-				"support@narakacheats.orgへメール。注文IDと問題の概要を記載。"
+				"support@destiny2hack.netへメール。注文IDと問題の概要を記載。"
 			],
 			"ko": [
-				"support@narakacheats.org로 이메일. 주문 ID와 문제 요약 포함."
+				"support@destiny2hack.net로 이메일. 주문 ID와 문제 요약 포함."
 			],
 			"zh": [
-				"邮件 support@narakacheats.org，附上订单 ID 和简要问题说明。"
+				"邮件 support@destiny2hack.net，附上订单 ID 和简要问题说明。"
 			],
 			"hi": [
-				"support@narakacheats.org पर email। ऑर्डर ID और समस्या का संक्षिप्त विवरण दें।"
+				"support@destiny2hack.net पर email। ऑर्डर ID और समस्या का संक्षिप्त विवरण दें।"
 			],
 			"id": [
-				"Email support@narakacheats.org. Sertakan ID pesanan dan catatan singkat masalah."
+				"Email support@destiny2hack.net. Sertakan ID pesanan dan catatan singkat masalah."
 			],
 			"th": [
-				"อีเมล support@narakacheats.org พร้อมรหัสคำสั่งซื้อและรายละเอียดปัญหา"
+				"อีเมล support@destiny2hack.net พร้อมรหัสคำสั่งซื้อและรายละเอียดปัญหา"
 			],
 			"vi": [
-				"Email support@narakacheats.org kèm ID đơn và mô tả ngắn."
+				"Email support@destiny2hack.net kèm ID đơn và mô tả ngắn."
 			],
 			"uk": [
-				"Email support@narakacheats.org. Додайте ID замовлення і короткий опис проблеми."
+				"Email support@destiny2hack.net. Додайте ID замовлення і короткий опис проблеми."
 			],
 			"cs": [
-				"Email support@narakacheats.org. Uveďte ID objednávky a stručný popis problému."
+				"Email support@destiny2hack.net. Uveďte ID objednávky a stručný popis problému."
 			],
 			"ro": [
-				"Email support@narakacheats.org. Include ID comandă și notă scurtă despre problemă."
+				"Email support@destiny2hack.net. Include ID comandă și notă scurtă despre problemă."
 			],
 			"sv": [
-				"Mejla support@narakacheats.org. Inkludera order-ID och kort problembeskrivning."
+				"Mejla support@destiny2hack.net. Inkludera order-ID och kort problembeskrivning."
 			]
 		},
 		"1": {
 			"en": [
 				"Check FAQ and Status before you write. Many setup questions are already covered.",
-				"Self-service guides often resolve activation issues faster than a new ticket. For patch timing, follow official Naraka channels on Riot and the <a href=\"https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/\" target=\"_blank\" rel=\"noopener noreferrer\">official site</a>."
+				"Self-service guides often resolve activation issues faster than a new ticket. For patch timing, follow official Destiny 2 channels on Riot and the <a href=\"https://store.steampowered.com/app/1085660/Destiny_2/\" target=\"_blank\" rel=\"noopener noreferrer\">official site</a>."
 			],
 			"es": [
 				"Revisa FAQ y Estado antes de escribir. Muchas dudas de instalación ya están cubiertas."
@@ -4540,70 +4540,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Get help with licenses, setup, and billing for Naraka Cheats on Windows PC."
+				"Get help with licenses, setup, and billing for Destiny 2 Cheats on Windows PC."
 			],
 			"es": [
-				"Obtén ayuda con licencias, instalación y facturación de Naraka Cheats en Windows PC."
+				"Obtén ayuda con licencias, instalación y facturación de Destiny 2 Cheats en Windows PC."
 			],
 			"fr": [
-				"Obtenez de l'aide pour licences, installation et facturation Naraka Cheats sur PC Windows."
+				"Obtenez de l'aide pour licences, installation et facturation Destiny 2 Cheats sur PC Windows."
 			],
 			"de": [
-				"Hilfe zu Lizenzen, Setup und Abrechnung für Naraka Cheats auf Windows PC."
+				"Hilfe zu Lizenzen, Setup und Abrechnung für Destiny 2 Cheats auf Windows PC."
 			],
 			"pt": [
-				"Obtenha ajuda com licenças, instalação e faturamento do Naraka Cheats no Windows PC."
+				"Obtenha ajuda com licenças, instalação e faturamento do Destiny 2 Cheats no Windows PC."
 			],
 			"it": [
-				"Assistenza per licenze, setup e fatturazione Naraka Cheats su Windows PC."
+				"Assistenza per licenze, setup e fatturazione Destiny 2 Cheats su Windows PC."
 			],
 			"nl": [
-				"Hulp bij licenties, setup en facturering voor Naraka Cheats op Windows PC."
+				"Hulp bij licenties, setup en facturering voor Destiny 2 Cheats op Windows PC."
 			],
 			"pl": [
-				"Pomoc z licencjami, instalacją i rozliczeniami Naraka Cheats na Windows PC."
+				"Pomoc z licencjami, instalacją i rozliczeniami Destiny 2 Cheats na Windows PC."
 			],
 			"ru": [
-				"Помощь с лицензиями, установкой и оплатой Naraka Cheats на Windows PC."
+				"Помощь с лицензиями, установкой и оплатой Destiny 2 Cheats на Windows PC."
 			],
 			"tr": [
-				"Windows PC'de Naraka Cheats lisans, kurulum ve faturalama desteği."
+				"Windows PC'de Destiny 2 Cheats lisans, kurulum ve faturalama desteği."
 			],
 			"ar": [
-				"احصل على مساعدة للتراخيص والتثبيت والفوترة لـ Naraka Cheats على Windows PC."
+				"احصل على مساعدة للتراخيص والتثبيت والفوترة لـ Destiny 2 Cheats على Windows PC."
 			],
 			"ja": [
-				"Windows PC向けNaraka Cheatsのライセンス、セットアップ、請求のサポート。"
+				"Windows PC向けDestiny 2 Cheatsのライセンス、セットアップ、請求のサポート。"
 			],
 			"ko": [
-				"Windows PC Naraka Cheats 라이선스, 설치, 결제 지원."
+				"Windows PC Destiny 2 Cheats 라이선스, 설치, 결제 지원."
 			],
 			"zh": [
-				"获取 Windows PC 上 Naraka Cheats 的许可证、安装和账单帮助。"
+				"获取 Windows PC 上 Destiny 2 Cheats 的许可证、安装和账单帮助。"
 			],
 			"hi": [
-				"Windows PC पर Naraka Cheats लाइसेंस, setup और billing सहायता।"
+				"Windows PC पर Destiny 2 Cheats लाइसेंस, setup और billing सहायता।"
 			],
 			"id": [
-				"Bantuan lisensi, setup, dan billing Naraka Cheats di Windows PC."
+				"Bantuan lisensi, setup, dan billing Destiny 2 Cheats di Windows PC."
 			],
 			"th": [
-				"ความช่วยเหลือด้านใบอนุญาต การติดตั้ง และการเรียกเก็บเงิน Naraka Cheats บน Windows PC"
+				"ความช่วยเหลือด้านใบอนุญาต การติดตั้ง และการเรียกเก็บเงิน Destiny 2 Cheats บน Windows PC"
 			],
 			"vi": [
-				"Hỗ trợ giấy phép, cài đặt và thanh toán Naraka Cheats trên Windows PC."
+				"Hỗ trợ giấy phép, cài đặt và thanh toán Destiny 2 Cheats trên Windows PC."
 			],
 			"uk": [
-				"Допомога з ліцензіями, встановленням і оплатою Naraka Cheats на Windows PC."
+				"Допомога з ліцензіями, встановленням і оплатою Destiny 2 Cheats на Windows PC."
 			],
 			"cs": [
-				"Pomoc s licencemi, instalací a fakturací Naraka Cheats na Windows PC."
+				"Pomoc s licencemi, instalací a fakturací Destiny 2 Cheats na Windows PC."
 			],
 			"ro": [
-				"Ajutor pentru licențe, instalare și facturare Naraka Cheats pe Windows PC."
+				"Ajutor pentru licențe, instalare și facturare Destiny 2 Cheats pe Windows PC."
 			],
 			"sv": [
-				"Hjälp med licenser, setup och fakturering för Naraka Cheats på Windows PC."
+				"Hjälp med licenser, setup och fakturering för Destiny 2 Cheats på Windows PC."
 			]
 		},
 		"list0": {
@@ -4903,71 +4903,71 @@ export const PAGE_CONTENT = {
 		},
 		"1": {
 			"en": [
-				"Follow Setup after you buy. Check Status after big Naraka or NEAC patches.",
+				"Follow Setup after you buy. Check Status after big Destiny 2 or BattlEye patches.",
 				"Maintenance rebuilds publish on the Status page when patches require updates."
 			],
 			"es": [
-				"Sigue Instalación tras comprar. Revisa Estado tras parches grandes de Naraka o NEAC."
+				"Sigue Instalación tras comprar. Revisa Estado tras parches grandes de Destiny 2 o BattlEye."
 			],
 			"fr": [
-				"Suivez Installation après achat. Consultez Statut après gros patchs Naraka ou NEAC."
+				"Suivez Installation après achat. Consultez Statut après gros patchs Destiny 2 ou BattlEye."
 			],
 			"de": [
-				"Folge Setup nach Kauf. Prüfe Status nach großen Naraka- oder NEAC-Patches."
+				"Folge Setup nach Kauf. Prüfe Status nach großen Destiny 2- oder BattlEye-Patches."
 			],
 			"pt": [
-				"Siga Instalação após comprar. Verifique Status após patches grandes de Naraka ou NEAC."
+				"Siga Instalação após comprar. Verifique Status após patches grandes de Destiny 2 ou BattlEye."
 			],
 			"it": [
-				"Segui Setup dopo l'acquisto. Controlla Stato dopo patch importanti Naraka o NEAC."
+				"Segui Setup dopo l'acquisto. Controlla Stato dopo patch importanti Destiny 2 o BattlEye."
 			],
 			"nl": [
-				"Volg Setup na aankoop. Check Status na grote Naraka- of NEAC-patches."
+				"Volg Setup na aankoop. Check Status na grote Destiny 2- of BattlEye-patches."
 			],
 			"pl": [
-				"Postępuj według Instalacji po zakupie. Sprawdź Status po dużych patchach Naraka lub NEAC."
+				"Postępuj według Instalacji po zakupie. Sprawdź Status po dużych patchach Destiny 2 lub BattlEye."
 			],
 			"ru": [
-				"Следуйте Установке после покупки. Проверяйте Статус после крупных патчей Naraka или NEAC."
+				"Следуйте Установке после покупки. Проверяйте Статус после крупных патчей Destiny 2 или BattlEye."
 			],
 			"tr": [
-				"Satın aldıktan sonra Kurulumu izleyin. Büyük Naraka veya NEAC yamalarından sonra Durumu kontrol edin."
+				"Satın aldıktan sonra Kurulumu izleyin. Büyük Destiny 2 veya BattlEye yamalarından sonra Durumu kontrol edin."
 			],
 			"ar": [
-				"اتبع التثبيت بعد الشراء. تحقق من الحالة بعد تصحيحات Naraka أو NEAC الكبيرة."
+				"اتبع التثبيت بعد الشراء. تحقق من الحالة بعد تصحيحات Destiny 2 أو BattlEye الكبيرة."
 			],
 			"ja": [
-				"購入後はセットアップに従い、NarakaまたはNEAC大型パッチ後はステータスを確認。"
+				"購入後はセットアップに従い、Destiny 2またはBattlEye大型パッチ後はステータスを確認。"
 			],
 			"ko": [
-				"구매 후 설치를 따르고 Naraka 또는 NEAC 대규모 패치 후 상태를 확인하세요."
+				"구매 후 설치를 따르고 Destiny 2 또는 BattlEye 대규모 패치 후 상태를 확인하세요."
 			],
 			"zh": [
-				"购买后按安装指南操作。Naraka 或 NEAC 重大补丁后查看状态。"
+				"购买后按安装指南操作。Destiny 2 或 BattlEye 重大补丁后查看状态。"
 			],
 			"hi": [
-				"खरीद के बाद Setup फॉलो करें। बड़े Naraka या NEAC पैच के बाद Status जांचें।"
+				"खरीद के बाद Setup फॉलो करें। बड़े Destiny 2 या BattlEye पैच के बाद Status जांचें।"
 			],
 			"id": [
-				"Ikuti Setup setelah beli. Cek Status setelah patch besar Naraka atau NEAC."
+				"Ikuti Setup setelah beli. Cek Status setelah patch besar Destiny 2 atau BattlEye."
 			],
 			"th": [
-				"ทำตามการติดตั้งหลังซื้อ ตรวจสถานะหลังแพตช์ใหญ่ของ Naraka หรือ NEAC"
+				"ทำตามการติดตั้งหลังซื้อ ตรวจสถานะหลังแพตช์ใหญ่ของ Destiny 2 หรือ BattlEye"
 			],
 			"vi": [
-				"Làm theo Cài đặt sau khi mua. Kiểm tra Trạng thái sau bản vá lớn Naraka hoặc NEAC."
+				"Làm theo Cài đặt sau khi mua. Kiểm tra Trạng thái sau bản vá lớn Destiny 2 hoặc BattlEye."
 			],
 			"uk": [
-				"Дотримуйтесь Встановлення після покупки. Перевіряйте Статус після великих патчів Naraka або NEAC."
+				"Дотримуйтесь Встановлення після покупки. Перевіряйте Статус після великих патчів Destiny 2 або BattlEye."
 			],
 			"cs": [
-				"Po nákupu postupujte podle Instalace. Po velkých patchích Naraka nebo NEAC kontrolujte Stav."
+				"Po nákupu postupujte podle Instalace. Po velkých patchích Destiny 2 nebo BattlEye kontrolujte Stav."
 			],
 			"ro": [
-				"Urmează Instalarea după cumpărare. Verifică Status după patch-uri mari Naraka sau NEAC."
+				"Urmează Instalarea după cumpărare. Verifică Status după patch-uri mari Destiny 2 sau BattlEye."
 			],
 			"sv": [
-				"Följ Setup efter köp. Kontrollera Status efter stora Naraka- eller NEAC-patchar."
+				"Följ Setup efter köp. Kontrollera Status efter stora Destiny 2- eller BattlEye-patchar."
 			]
 		},
 		"2": {
@@ -5041,70 +5041,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Common questions about Naraka Cheats — delivery, setup, updates, and refunds."
+				"Common questions about Destiny 2 Cheats — delivery, setup, updates, and refunds."
 			],
 			"es": [
-				"Preguntas frecuentes sobre Naraka Cheats — entrega, instalación, actualizaciones y reembolsos."
+				"Preguntas frecuentes sobre Destiny 2 Cheats — entrega, instalación, actualizaciones y reembolsos."
 			],
 			"fr": [
-				"Questions fréquentes sur Naraka Cheats — livraison, installation, mises à jour et remboursements."
+				"Questions fréquentes sur Destiny 2 Cheats — livraison, installation, mises à jour et remboursements."
 			],
 			"de": [
-				"Häufige Fragen zu Naraka Cheats — Lieferung, Setup, Updates und Rückerstattungen."
+				"Häufige Fragen zu Destiny 2 Cheats — Lieferung, Setup, Updates und Rückerstattungen."
 			],
 			"pt": [
-				"Perguntas frequentes sobre Naraka Cheats — entrega, instalação, atualizações e reembolsos."
+				"Perguntas frequentes sobre Destiny 2 Cheats — entrega, instalação, atualizações e reembolsos."
 			],
 			"it": [
-				"Domande frequenti su Naraka Cheats — consegna, setup, aggiornamenti e rimborsi."
+				"Domande frequenti su Destiny 2 Cheats — consegna, setup, aggiornamenti e rimborsi."
 			],
 			"nl": [
-				"Veelgestelde vragen over Naraka Cheats — levering, setup, updates en restituties."
+				"Veelgestelde vragen over Destiny 2 Cheats — levering, setup, updates en restituties."
 			],
 			"pl": [
-				"FAQ o Naraka Cheats — dostawa, instalacja, aktualizacje i zwroty."
+				"FAQ o Destiny 2 Cheats — dostawa, instalacja, aktualizacje i zwroty."
 			],
 			"ru": [
-				"Частые вопросы о Naraka Cheats — доставка, установка, обновления и возвраты."
+				"Частые вопросы о Destiny 2 Cheats — доставка, установка, обновления и возвраты."
 			],
 			"tr": [
-				"Naraka Cheats SSS — teslimat, kurulum, güncellemeler ve iadeler."
+				"Destiny 2 Cheats SSS — teslimat, kurulum, güncellemeler ve iadeler."
 			],
 			"ar": [
-				"أسئلة شائعة عن Naraka Cheats — التسليم والتثبيت والتحديثات والاسترداد."
+				"أسئلة شائعة عن Destiny 2 Cheats — التسليم والتثبيت والتحديثات والاسترداد."
 			],
 			"ja": [
-				"Naraka Cheats FAQ — 配信、セットアップ、更新、返金。"
+				"Destiny 2 Cheats FAQ — 配信、セットアップ、更新、返金。"
 			],
 			"ko": [
-				"Naraka Cheats FAQ — 배송, 설치, 업데이트, 환불."
+				"Destiny 2 Cheats FAQ — 배송, 설치, 업데이트, 환불."
 			],
 			"zh": [
-				"Naraka Cheats 常见问题 — 交付、安装、更新和退款。"
+				"Destiny 2 Cheats 常见问题 — 交付、安装、更新和退款。"
 			],
 			"hi": [
-				"Naraka Cheats FAQ — डिलीवरी, setup, अपडेट और रिफंड।"
+				"Destiny 2 Cheats FAQ — डिलीवरी, setup, अपडेट और रिफंड।"
 			],
 			"id": [
-				"FAQ Naraka Cheats — pengiriman, setup, pembaruan, dan refund."
+				"FAQ Destiny 2 Cheats — pengiriman, setup, pembaruan, dan refund."
 			],
 			"th": [
-				"FAQ Naraka Cheats — การจัดส่ง การติดตั้ง อัปเดต และการคืนเงิน"
+				"FAQ Destiny 2 Cheats — การจัดส่ง การติดตั้ง อัปเดต และการคืนเงิน"
 			],
 			"vi": [
-				"FAQ Naraka Cheats — giao hàng, cài đặt, cập nhật và hoàn tiền."
+				"FAQ Destiny 2 Cheats — giao hàng, cài đặt, cập nhật và hoàn tiền."
 			],
 			"uk": [
-				"FAQ Naraka Cheats — доставка, встановлення, оновлення та повернення."
+				"FAQ Destiny 2 Cheats — доставка, встановлення, оновлення та повернення."
 			],
 			"cs": [
-				"FAQ Naraka Cheats — doručení, instalace, aktualizace a vrácení peněz."
+				"FAQ Destiny 2 Cheats — doručení, instalace, aktualizace a vrácení peněz."
 			],
 			"ro": [
-				"FAQ Naraka Cheats — livrare, instalare, actualizări și rambursări."
+				"FAQ Destiny 2 Cheats — livrare, instalare, actualizări și rambursări."
 			],
 			"sv": [
-				"Naraka Cheats FAQ — leverans, setup, uppdateringar och återbetalningar."
+				"Destiny 2 Cheats FAQ — leverans, setup, uppdateringar och återbetalningar."
 			]
 		},
 		"list0": {

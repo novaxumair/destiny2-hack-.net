@@ -8,7 +8,7 @@ import { globalSeoKeywords } from './seo-keywords';
 export function seoPageTitle(template: string): string {
 	let text = fillBrandTokens(template).trim();
 	if (text.length < 30) {
-		text = `${text} | Naraka Cheats PC`;
+		text = `${text} | Destiny 2 Cheats PC`;
 	}
 	/** Google SERP titles typically display ~50–60 chars; clamp at 60. */
 	if (text.length <= 60) return text;
@@ -22,7 +22,7 @@ export { brand, fillBrandTokens, seoDescription, seoTitle };
 const copyDefaults = {
 	tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
 	summary:
-		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, aimbot, and radar, with {antiCheat} maintenance after patches.',
 	heroLede: 'Hacks and cheats available — 0% detection.',
 	blogLabel: '{game} Intel',
 	ctaBuy: 'Buy now',
@@ -35,10 +35,10 @@ const copyDefaults = {
 	supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 	faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
 	reviewsIntro:
-		'Real feedback on Naraka cheats and Naraka Bladepoint hacks — ESP, soft aim, radar, and support from {brand} buyers.',
+		'Real feedback on Destiny 2 cheats and Destiny 2 hacks — ESP, aimbot, radar, and support from {brand} buyers.',
 	chipEsp: 'ESP / wallhack',
-	chipAim: 'Soft aim',
-	chipRadar: '2D radar',
+	chipAim: 'aimbot',
+	chipRadar: 'radar overlay',
 	chipUpdates: 'Patch updates',
 	navPreview: 'Preview',
 	navFeatures: 'Features',
@@ -48,36 +48,36 @@ const copyDefaults = {
 } as const;
 
 const seoDefaults = {
-	homeTitle: 'Naraka Cheats | Undetected ESP, Aimbot & Radar',
+	homeTitle: 'Destiny 2 Cheats | Undetected ESP, Aimbot & Radar',
 	homeDescription:
-		'Buy undetected Naraka cheats at narakacheats.org — ESP, aimbot, wallhack & radar for PC. NEAC updates included. Plans from $35/month.',
-	featuresTitle: 'Naraka Cheats Features | ESP, Aimbot & Radar',
+		'Buy undetected Destiny 2 cheats at destiny2hack.net — ESP, aimbot, wallhack & radar for PC. BattlEye updates included. Plans from $35/month.',
+	featuresTitle: 'Destiny 2 Cheats Features | ESP, Aimbot & Radar',
 	featuresDescription:
-		'Full Naraka cheats feature list — ESP wallhack, soft aim, 2D radar & mod menu toggles on PC. {antiCheat} maintenance at narakacheats.org.',
-	storeTitle: 'Naraka Cheats Pricing | $35/mo or $150 Lifetime',
+		'Full Destiny 2 cheats feature list — ESP wallhack, aimbot, radar overlay & mod menu toggles on PC. {antiCheat} maintenance at destiny2hack.net.',
+	storeTitle: 'Destiny 2 Cheats Pricing | $35/mo or $150 Lifetime',
 	storeDescription:
-		'Buy Naraka cheats at narakacheats.org — $35/month or $150 lifetime. ESP, aimbot & radar on PC. Same features, instant delivery.',
-	statusTitle: 'Naraka Status | Undetected {antiCheat} Updates',
+		'Buy Destiny 2 cheats at destiny2hack.net — $35/month or $150 lifetime. ESP, aimbot & radar on PC. Same features, instant delivery.',
+	statusTitle: 'Destiny 2 Status | Undetected {antiCheat} Updates',
 	statusDescription:
-		'Live status after {game} & {antiCheat} patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. narakacheats.org.',
-	previewTitle: 'Naraka Cheats | ESP, Aimbot & Wallhack Guide',
+		'Live status after {game} & {antiCheat} patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. destiny2hack.net.',
+	previewTitle: 'Destiny 2 Cheats | ESP, Aimbot & Wallhack Guide',
 	previewDescription:
-		'Naraka cheats guide — undetected ESP wallhack, soft aim, radar & {antiCheat} rebuilds on PC. Compare features & buy from $35 at narakacheats.org.',
-	setupTitle: 'Naraka Cheats Setup | Windows PC Install Guide',
+		'Destiny 2 cheats guide — undetected ESP wallhack, aimbot, radar & {antiCheat} rebuilds on PC. Compare features & buy from $35 at destiny2hack.net.',
+	setupTitle: 'Destiny 2 Cheats Setup | Windows PC Install Guide',
 	setupDescription:
-		'Install {brand} on PC — activate ESP, soft aim & radar step by step. Setup guide at narakacheats.org. Check {antiCheat} status before your first match.',
-	supportTitle: 'Naraka Cheats Support | License & Setup Help',
+		'Install {brand} on PC — activate ESP, aimbot & radar step by step. Setup guide at destiny2hack.net. Check {antiCheat} status before your first match.',
+	supportTitle: 'Destiny 2 Cheats Support | License & Setup Help',
 	supportDescription:
-		'Support for license delivery, ESP setup & billing on PC. Email {email} with your order ID. narakacheats.org/support.',
-	faqTitle: 'Naraka Cheats FAQ | ESP, Aimbot & {antiCheat}',
+		'Support for license delivery, ESP setup & billing on PC. Email {email} with your order ID. destiny2hack.net/support.',
+	faqTitle: 'Destiny 2 Cheats FAQ | ESP, Aimbot & {antiCheat}',
 	faqDescription:
-		'FAQ for naraka cheats — delivery, setup, undetected status, {antiCheat} updates & pricing on PC. Answers at narakacheats.org before you buy.',
-	reviewsTitle: 'Naraka Cheats Reviews | Bladepoint Hacks & Cheats',
+		'FAQ for destiny 2 cheats — delivery, setup, undetected status, {antiCheat} updates & pricing on PC. Answers at destiny2hack.net before you buy.',
+	reviewsTitle: 'Destiny 2 Cheats Reviews | Hacks & Cheats Feedback',
 	reviewsDescription:
-		'Real buyer reviews for Naraka cheats and Naraka Bladepoint hacks — ESP, soft aim, radar & {antiCheat} maintenance on PC. See what license holders say at narakacheats.org.',
-	blogTitle: 'Naraka Blog | Guides & Patch Tips | {brand}',
+		'Real buyer reviews for Destiny 2 cheats and Destiny 2 hacks — ESP, aimbot, radar & {antiCheat} maintenance on PC. See what license holders say at destiny2hack.net.',
+	blogTitle: 'Destiny 2 Blog | Guides & Patch Tips | {brand}',
 	blogDescription:
-		'Naraka guides — ranked tips, ESP & aimbot notes, hero tiers & {antiCheat} updates for PC. Read the blog at narakacheats.org/blog.',
+		'Destiny 2 guides — ranked tips, ESP & aimbot notes, loadout tiers & {antiCheat} updates for PC. Read the blog at destiny2hack.net/blog.',
 } as const;
 
 type SeoShape = typeof seoDefaults;
@@ -144,19 +144,19 @@ export const productInfo = {
 		esp: [
 			'Solo farmers and matchers ESP / wallhack',
 			'Player growth stage and threat cues',
-			'Loot and hero markers',
+			'Loot and guardian markers',
 			'Distance readouts',
 			'Toggleable ESP categories',
 			'Corpse and loot highlights',
 		],
 		aimbot: [
-			'Soft aim and aimbot controls',
+			'aimbot and aimbot controls',
 			'Smoothness and FOV settings',
 			'Bone priority',
 			'Hotkeys mid-session',
 			'Per-weapon profiles',
 		],
-		radar: ['2D radar overlay', 'Adjustable range', 'Works in battle royale rounds and ranked matches'],
+		radar: ['radar overlay overlay', 'Adjustable range', 'Works in Crucible matches and Competitive matches'],
 		general: [
 			fillBrandTokens('{antiCheat} maintenance after patches'),
 			'Digital delivery after checkout',

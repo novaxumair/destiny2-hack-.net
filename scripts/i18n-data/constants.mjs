@@ -6,39 +6,39 @@ export const LOCALES = [
 ];
 
 export const PAGE_IDS = [
-	'home', 'naraka-esp', 'naraka-aimbot', 'features', 'pricing', 'setup',
-	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'neac',
+	'home', 'destiny-2-esp', 'destiny-2-aimbot', 'features', 'pricing', 'setup',
+	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'battleye',
 	'cheats-2026', 'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
 	'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
 ];
 
-/** Hero image per page — simple naraka cheats keyword filenames. */
+/** Hero image per page — unique screenshot per page where possible. */
 export const HERO_IMAGES = {
-	home: '/images/naraka-cheats-hero-1199w.webp',
-	'naraka-esp': '/images/naraka-cheats-radar.webp',
-	'naraka-aimbot': '/images/naraka-cheats-aimbot.webp',
-	features: '/images/naraka-cheats-aimbot-view.webp',
-	pricing: '/images/naraka-cheats-session.webp',
-	setup: '/images/naraka-cheats-radar.webp',
-	updates: '/images/naraka-cheats-esp.webp',
-	faq: '/images/naraka-cheats-aimbot-view.webp',
-	support: '/images/naraka-cheats-session.webp',
-	undetected: '/images/naraka-cheats-wallhack.webp',
-	wallhack: '/images/naraka-cheats-wallhack.webp',
-	radar: '/images/naraka-cheats-radar.webp',
-	neac: '/images/naraka-cheats-aimbot.webp',
-	'cheats-2026': '/images/naraka-cheats-esp.webp',
-	hacks: '/images/naraka-cheats-combat.webp',
-	'cheat-download': '/images/naraka-cheats-session.webp',
-	'mod-menu': '/images/naraka-cheats-radar.webp',
-	'soft-aim': '/images/naraka-cheats-aimbot-view.webp',
-	'best-cheats': '/images/naraka-cheats-esp.webp',
-	'aimbot-hack': '/images/naraka-cheats-aimbot-view.webp',
-	'esp-hack': '/images/naraka-cheats-wallhack.webp',
-	'unlock-all': '/images/naraka-cheats-radar.webp',
-	privacy: '/images/naraka-cheats-aimbot.webp',
-	refund: '/images/naraka-cheats-session.webp',
-	terms: '/images/naraka-cheats-aimbot-view.webp',
+	home: '/images/destiny2-cheats-hero-1199w.webp',
+	'destiny-2-esp': '/images/destiny2-screenshot-11.webp',
+	'destiny-2-aimbot': '/images/destiny2-screenshot-16.webp',
+	features: '/images/destiny2-screenshot-13.webp',
+	pricing: '/images/destiny2-screenshot-12.webp',
+	setup: '/images/destiny2-screenshot-17.webp',
+	updates: '/images/destiny2-screenshot-15.webp',
+	faq: '/images/destiny2-screenshot-14.webp',
+	support: '/images/destiny2-screenshot-12.webp',
+	undetected: '/images/destiny2-screenshot-13.webp',
+	wallhack: '/images/destiny2-screenshot-11.webp',
+	radar: '/images/destiny2-screenshot-17.webp',
+	battleye: '/images/destiny2-screenshot-15.webp',
+	'cheats-2026': '/images/destiny2-screenshot-16.webp',
+	hacks: '/images/destiny2-cheats-hero-1199w.webp',
+	'cheat-download': '/images/destiny2-screenshot-12.webp',
+	'mod-menu': '/images/destiny2-screenshot-13.webp',
+	'soft-aim': '/images/destiny2-screenshot-16.webp',
+	'best-cheats': '/images/destiny2-screenshot-11.webp',
+	'aimbot-hack': '/images/destiny2-screenshot-16.webp',
+	'esp-hack': '/images/destiny2-screenshot-11.webp',
+	'unlock-all': '/images/destiny2-screenshot-14.webp',
+	privacy: '/images/destiny2-screenshot-12.webp',
+	refund: '/images/destiny2-screenshot-12.webp',
+	terms: '/images/destiny2-screenshot-12.webp',
 };
 
 export const TS_HEADER = `import type { LocaleCode } from './locales';
@@ -70,7 +70,7 @@ export type LocaleUi = {
 \t\theaderArt: string; hacksPackage: string; matchFight: string; battleRoyale: string; matchMap: string;
 \t};
 };
-export type PageId = 'home' | 'naraka-esp' | 'naraka-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'neac' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'destiny-2-esp' | 'destiny-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'battleye' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
 `;
 
 /** Clamp meta strings to SEO limits without ugly ellipsis. */
@@ -86,9 +86,9 @@ export function clampDesc(s) {
 	const MIN = 140;
 	const MAX = 160;
 	if (text.length < MIN) {
-		const pad = text.toLowerCase().includes('narakacheats.org')
-			? ' Windows PC license with NEAC maintenance after patches.'
-			: ' Compare plans and guides at narakacheats.org.';
+		const pad = text.toLowerCase().includes('destiny2hack.net')
+			? ' Windows PC license with BattlEye maintenance after patches.'
+			: ' Compare plans and guides at destiny2hack.net.';
 		text = `${text.replace(/[.…]+$/, '')}.${pad}`;
 	}
 	if (text.length <= MAX) return text;
@@ -97,20 +97,20 @@ export function clampDesc(s) {
 	return lastSpace > 130 ? trimmed.slice(0, lastSpace) : trimmed.slice(0, MAX);
 }
 
-/** Remove Zadeyo from meta title/description strings only. */
-export function stripZadeyoFromMeta(text) {
+/** Remove order from meta title/description strings only. */
+export function stripResellerFromMeta(text) {
 	return text
-		.replace(/\s*[—–-]\s*checkout via Zadeyo\.?/gi, '.')
-		.replace(/\s*[—–-]\s*checkout en Zadeyo\.?/gi, '.')
-		.replace(/\s*[—–-]\s*checkout über Zadeyo\.?/gi, '.')
-		.replace(/\s*with Zadeyo checkout\.?/gi, '.')
-		.replace(/\s*via Zadeyo checkout\.?/gi, '.')
-		.replace(/\s*Checkout via Zadeyo\.?/gi, '')
-		.replace(/\s*Zadeyo checkout,?\s*/gi, ' ')
-		.replace(/\s*Zadeyo delivery\.?/gi, ' instant digital delivery.')
-		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
-		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy Naraka Cheats')
+		.replace(/\s*[—–-]\s*secure checkout\.?/gi, '.')
+		.replace(/\s*[—–-]\s*secure checkout\.?/gi, '.')
+		.replace(/\s*[—–-]\s*secure checkout\.?/gi, '.')
+		.replace(/\s*with secure checkout\.?/gi, '.')
+		.replace(/\s*via secure checkout\.?/gi, '.')
+		.replace(/\s*Checkout secure checkout\.?/gi, '')
+		.replace(/\s*secure checkout,?\s*/gi, ' ')
+		.replace(/\s*order delivery\.?/gi, ' instant digital delivery.')
+		.replace(/\s*and order delivery\.?/gi, ' and instant digital delivery.')
+		.replace(/\|\s*Instant order Delivery/g, '| Instant Digital Delivery')
+		.replace(/Buy on secure checkout/g, 'Buy Destiny 2 Cheats')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -133,19 +133,21 @@ export function section(h2, ...args) {
 /** Authoritative external citation helpers (open in new tab). */
 export const EXT = {
 	activision:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" target="_blank" rel="noopener noreferrer">Naraka</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
 	rust:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" target="_blank" rel="noopener noreferrer">Naraka</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
 	finals:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" target="_blank" rel="noopener noreferrer">Naraka</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
 	naraka:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" target="_blank" rel="noopener noreferrer">Naraka</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
 	valorant:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" target="_blank" rel="noopener noreferrer">Naraka</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
 	status:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" target="_blank" rel="noopener noreferrer">Naraka on Steam</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2 on Steam</a>',
 	eac:
-		'<a href="https://www.naraka.com/en/" target="_blank" rel="noopener noreferrer">NEAC</a>',
-	neac:
-		'<a href="https://www.naraka.com/en/" target="_blank" rel="noopener noreferrer">NEAC</a>',
+		'<a href="https://www.battleye.com/" target="_blank" rel="noopener noreferrer">BattlEye</a>',
+	battleye:
+		'<a href="https://www.battleye.com/" target="_blank" rel="noopener noreferrer">BattlEye</a>',
+	bungie:
+		'<a href="https://www.bungie.net/" target="_blank" rel="noopener noreferrer">Bungie</a>',
 };

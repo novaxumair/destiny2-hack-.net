@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Final-pass Naraka lexicon cleanup — removes leftover Valorant/Vanguard strings.
- * Run: node scripts/fix-naraka-lexicon.mjs
+ * Final-pass Destiny 2 lexicon cleanup — removes leftover Valorant/Vanguard strings.
+ * Run: node scripts/fix-destiny2-lexicon.mjs
  */
 import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import path from 'node:path';
@@ -13,29 +13,29 @@ const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'tmp', '.astro', 'val
 
 /** Ordered — specific patterns first. */
 const REPLACEMENTS = [
-	['valorant vanguard bypass', 'naraka neac bypass'],
+	['valorant vanguard bypass', 'naraka battleye bypass'],
 	['valorant soft aim', 'naraka soft aim'],
 	['valorant mod menu', 'naraka mod menu'],
 	['valorant external hack', 'naraka external cheat'],
 	['valorant 2d radar', 'naraka 2d radar'],
 	['soft aim valorant', 'soft aim naraka'],
-	['vanguard bypass valorant', 'neac bypass naraka'],
+	['vanguard bypass valorant', 'battleye bypass naraka'],
 	['valorant anti cheat bypass', 'naraka anti cheat bypass'],
 	['hwid spoofer valorant', 'hwid spoofer naraka'],
-	['vanguard update', 'NEAC update'],
-	['vanguard undetected', 'NEAC undetected'],
-	['Vanguard Safe', 'NEAC Safe'],
-	['Vanguard maintenance', 'NEAC maintenance'],
-	['Vanguard rebuilds', 'NEAC rebuilds'],
-	['Vanguard patches', 'NEAC patches'],
-	['Vanguard and Naraka', 'NEAC and Naraka'],
-	['Vanguard or Naraka', 'NEAC or Naraka'],
-	['Vanguard', 'NEAC'],
-	['vanguard', 'neac'],
+	['vanguard update', 'BattlEye update'],
+	['vanguard undetected', 'BattlEye undetected'],
+	['Vanguard Safe', 'BattlEye Safe'],
+	['Vanguard maintenance', 'BattlEye maintenance'],
+	['Vanguard rebuilds', 'BattlEye rebuilds'],
+	['Vanguard patches', 'BattlEye patches'],
+	['Vanguard and Destiny 2', 'BattlEye and Destiny 2'],
+	['Vanguard or Destiny 2', 'BattlEye or Destiny 2'],
+	['Vanguard', 'BattlEye'],
+	['vanguard', 'battleye'],
 	['vanlifevalorant', 'vanlifenaraka'],
-	['vanLifeValorant', 'vanLifeNaraka'],
-	['valo hack', 'naraka cheat'],
-	['valo cheats', 'naraka cheats'],
+	['vanLifeValorant', 'vanLifeDestiny 2'],
+	['valo hack', 'destiny 2 cheat'],
+	['valo cheats', 'destiny 2 cheats'],
 	['valorant-patch-notes', 'naraka-patch-notes'],
 	['valorant-cosmetics', 'naraka-cosmetics'],
 	['valorant-weapon-tier-list', 'naraka-weapon-tier-list'],
@@ -44,24 +44,24 @@ const REPLACEMENTS = [
 	['valorant-cashout-routes', 'naraka-loot-routes'],
 	['valorant-pro-settings', 'naraka-pro-settings'],
 	['valorant-warmup-routine', 'naraka-warmup-routine'],
-	['free-valorant-hack-download', 'free-naraka-cheat-download'],
-	['how-long-valorant-hack-setup-takes', 'how-long-naraka-cheat-setup-takes'],
-	['agent tiers', 'hero tiers'],
+	['free-valorant-hack-download', 'free-destiny-2-cheat-download'],
+	['how-long-valorant-hack-setup-takes', 'how-long-destiny-2-cheat-setup-takes'],
+	['agent tiers', 'loadout tiers'],
 	['agents and abilities', 'heroes and weapons'],
 	['agents &', 'heroes &'],
-	['agent ESP', 'hero ESP'],
-	['agent markers', 'hero markers'],
-	['internalLinks.vanguard', 'internalLinks.neac'],
-	['Naraka hacks', 'Naraka cheats'],
-	['naraka hacks', 'naraka cheats'],
-	['naraka hack', 'naraka cheat'],
+	['agent ESP', 'guardian ESP'],
+	['agent markers', 'guardian markers'],
+	['internalLinks.vanguard', 'internalLinks.battleye'],
+	['Destiny 2 hacks', 'Destiny 2 cheats'],
+	['destiny 2 hacks', 'destiny 2 cheats'],
+	['destiny 2 hack', 'destiny 2 cheat'],
 	['{game} hacks', '{game} cheats'],
 	['Hacks FAQ', 'Cheats FAQ'],
 	['navPreview: \'Hacks\'', "navPreview: 'Cheats'"],
 	["navPreview: 'Hacks'", "navPreview: 'Cheats'"],
-	['/products/valorant', '/products/naraka'],
-	['valo/valo cheats', 'naraka/naraka cheats'],
-	['antiCheat: \'Vanguard\'', "antiCheat: 'NEAC'"],
+	['/products/valorant', '/products/destiny-2'],
+	['valo/valo cheats', 'naraka/destiny 2 cheats'],
+	['antiCheat: \'Vanguard\'', "antiCheat: 'BattlEye'"],
 	['sitemap-meta.ts', 'sitemap-meta.ts'], // noop anchor
 ];
 
@@ -80,8 +80,8 @@ let changed = 0;
 
 for (const file of walk(ROOT)) {
 	if (!TEXT_EXT.test(file)) continue;
-	if (path.basename(file) === 'fix-naraka-lexicon.mjs') continue;
-	if (path.basename(file) === 'adapt-naraka.mjs') continue;
+	if (path.basename(file) === 'fix-destiny2-lexicon.mjs') continue;
+	if (path.basename(file) === 'adapt-destiny2.mjs') continue;
 	if (path.basename(file) === 'adapt-valorant.mjs') continue;
 	let text = readFileSync(file, 'utf8');
 	const original = text;
@@ -95,4 +95,4 @@ for (const file of walk(ROOT)) {
 	}
 }
 
-console.log(`fix-naraka-lexicon: ${changed} file(s) updated`);
+console.log(`fix-destiny2-lexicon: ${changed} file(s) updated`);

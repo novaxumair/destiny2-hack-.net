@@ -53,10 +53,10 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'See players, scientists, and loot through walls with distance readouts.',
 					'Use filters so the overlay stays clear in monument zones, compounds, and high-traffic PvP areas.',
 				],
-				list: ['Player boxes & distance', 'Loot and hero markers', 'Heli and Bradley filters'],
+				list: ['Player boxes & distance', 'Loot and guardian markers', 'Heli and Bradley filters'],
 			},
 			{
-				h2: 'Aimbot & soft aim',
+				h2: 'Aimbot & aimbot',
 				paragraphs: [
 					'Aim help you can tune to feel natural.',
 					'Set FOV, smoothness, and bone priority per weapon before you queue.',
@@ -66,7 +66,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Radar',
 				paragraphs: [
-					'A simple 2D radar for threats outside your view.',
+					'A simple radar overlay for threats outside your view.',
 					'Spot flanks near maps and combat zones without filling the whole screen.',
 				],
 				list: ['Nearby enemy cues', 'Adjustable range', 'Works in matches & roaming'],
@@ -77,14 +77,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'Most {game} cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:',
 				],
 				list: [
-					'<a href="/naraka-esp/">ESP & wallhack guide</a>',
-					'<a href="/naraka-aimbot/">Aimbot & soft aim</a>',
-					'<a href="/naraka-radar-hack/">2D radar overlay</a>',
+					'<a href="/destiny-2-esp/">ESP & wallhack guide</a>',
+					'<a href="/destiny-2-aimbot/">Aimbot & aimbot</a>',
+					'<a href="/destiny-2-radar-hack/">radar overlay overlay</a>',
 					'<a href="/setup/">Setup guide</a>',
 					'<a href="/updates/">Live status</a>',
-					'<a href="/blog/">Naraka Intel blog</a>',
-					'<a href="https://store.steampowered.com/app/1203220/news/" target="_blank" rel="noopener noreferrer">Official Naraka patch notes</a>',
-					'<a href="https://naraka.fandom.com/wiki/NARAKA:_BLADEPOINT" target="_blank" rel="noopener noreferrer">Naraka Wiki (Fandom)</a>',
+					'<a href="/blog/">Destiny 2 Intel blog</a>',
+					'<a href="https://www.bungie.net/en/Explore/Detail/News/" target="_blank" rel="noopener noreferrer">Official Destiny 2 patch notes</a>',
+					'<a href="https://destiny.fandom.com/wiki/Destiny_2" target="_blank" rel="noopener noreferrer">Destiny 2 Wiki (Fandom)</a>',
 				],
 			},
 			{
@@ -92,7 +92,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: [
 					'We rebuild after big {game} or {antiCheat} patches.',
 					'Check Status before you play after a patch day.',
-					'Verify official changes on <a href="https://store.steampowered.com/app/1203220/news/" target="_blank" rel="noopener noreferrer">Naraka patch notes</a> and the <a href="https://naraka.fandom.com/wiki/NARAKA:_BLADEPOINT" target="_blank" rel="noopener noreferrer">Naraka Wiki</a> before you tune overlays.',
+					'Verify official changes on <a href="https://www.bungie.net/en/Explore/Detail/News/" target="_blank" rel="noopener noreferrer">Destiny 2 patch notes</a> and the <a href="https://destiny.fandom.com/wiki/Destiny_2" target="_blank" rel="noopener noreferrer">Destiny 2 Wiki</a> before you tune overlays.',
 				],
 				list: ['Status on the Status page', 'Setup guide included', 'Email support with your order ID'],
 			},
@@ -112,7 +112,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'What you get',
 				paragraphs: [
 					'Full package access for Windows 10 / 11.',
-					'Same ESP, soft aim, and radar on monthly and lifetime plans.',
+					'Same ESP, aimbot, and radar on monthly and lifetime plans.',
 				],
 				list: ['ESP, aimbot, and radar', 'Patch rebuilds while active', 'Digital delivery after checkout'],
 			},
@@ -141,14 +141,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Status',
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Naraka Cheats overview',
+		ctaSecondary: 'Destiny 2 Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'In-game look',
 		sections: [
 			{
 				h2: 'Current status',
 				paragraphs: [
-					'As of 13 Aug 2026 the package is online for Naraka on Windows PC. We post a new note here when a game or NEAC patch needs a rebuild.',
+					'As of 13 Aug 2026 the package is online for Destiny 2 on Windows PC. We post a new note here when a game or BattlEye patch needs a rebuild.',
 					'If Status is green, you can match. If we are rebuilding, wait for the next note.',
 				],
 				list: [
@@ -174,33 +174,33 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'Naraka Cheats — Full Guide',
+		h1: 'Destiny 2 Cheats — Full Guide',
 		intro:
-			'Naraka cheats add ESP, radar, and soft aim on top of the base game. This page explains what naraka cheats are, what Naraka Cheats includes, how NEAC maintenance works, and where to go next before you buy.',
+			'Destiny 2 cheats add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 cheats are, what Destiny 2 Cheats includes, how BattlEye maintenance works, and where to go next before you buy.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
 		ctaSecondaryHref: '/features/',
-		galleryTitle: 'Naraka cheats in action',
+		galleryTitle: 'Destiny 2 cheats in action',
 		sections: [
 			{
-				h2: 'What are naraka cheats?',
+				h2: 'What are destiny 2 cheats?',
 				paragraphs: [
-					'Naraka cheats are third-party tools that give you extra information and combat assist during matches. Most players search for naraka cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
-					'Naraka Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
+					'Destiny 2 cheats are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
+					'Destiny 2 Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
 				],
 			},
 			{
-				h2: 'What Naraka Cheats includes',
+				h2: 'What Destiny 2 Cheats includes',
 				paragraphs: [
-					'One license covers the full match stack: player ESP with distance, hero markers, 2D radar for flanks, and configurable soft aim profiles per weapon.',
-					'Monthly and lifetime plans include the same feature stack with NEAC rebuilds.',
+					'One license covers the full match stack: player ESP with distance, guardian markers, radar overlay for flanks, and configurable aimbot profiles per weapon.',
+					'Monthly and lifetime plans include the same feature stack with BattlEye rebuilds.',
 				],
 				list: [
 					'ESP / wallhack with distance readouts',
 					'Loot and resource markers',
-					'2D radar for off-screen threats',
-					'Soft aim & aimbot profiles',
-					'NEAC rebuilds after patches',
+					'radar overlay for off-screen threats',
+					'aimbot & aimbot profiles',
+					'BattlEye rebuilds after patches',
 				],
 			},
 			{
@@ -209,21 +209,21 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'Each tool has its own deep-dive page if you want details before checkout.',
 				],
 				list: [
-					'<a href="/naraka-esp/">Naraka ESP & wallhack</a>',
-					'<a href="/naraka-aimbot/">Naraka Aimbot & soft aim</a>',
-					'<a href="/naraka-radar-hack/">Radar hack overlay</a>',
+					'<a href="/destiny-2-esp/">Destiny 2 ESP & wallhack</a>',
+					'<a href="/destiny-2-aimbot/">Destiny 2 Aimbot & aimbot</a>',
+					'<a href="/destiny-2-radar-hack/">Radar hack overlay</a>',
 					'<a href="/features/">Full feature list</a>',
 				],
 			},
 			{
 				h2: 'Undetected status & patches',
 				paragraphs: [
-					'Naraka uses NEAC. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every Naraka or NEAC update before you load in.',
+					'Destiny 2 uses BattlEye. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every Destiny 2 or BattlEye update before you load in.',
 				],
 				list: [
 					'<a href="/updates/">Live status & patch notes</a>',
 					'<a href="/updates/">Undetected status guide</a>',
-					'<a href="/neac-bypass/">NEAC maintenance</a>',
+					'<a href="/battleye-bypass/">BattlEye maintenance</a>',
 					'<a href="/faq/">FAQ before you buy</a>',
 				],
 			},
@@ -240,14 +240,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	'naraka-esp': page({
-		title: 'Naraka ESP | Wallhack & Player Boxes | {brand}',
+	'destiny-2-esp': page({
+		title: 'Destiny 2 ESP | Wallhack & Player Boxes | {brand}',
 		description:
-			'Naraka ESP wallhack — player boxes, hero markers & distance tags on PC. Undetected cheats with aimbot & radar. Shop at narakacheats.org.',
+			'Destiny 2 ESP wallhack — player boxes, guardian markers & distance tags on PC. Undetected cheats with aimbot & radar. Shop at destiny2hack.net.',
 		h1: 'ESP',
-		intro: 'See players and loot through walls during Naraka matches. Part of the same {brand} license.',
+		intro: 'See players and loot through walls during Destiny 2 matches. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Naraka Cheats overview',
+		ctaSecondary: 'Destiny 2 Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'ESP in match',
 		sections: [
@@ -272,26 +272,26 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	'naraka-aimbot': page({
-		title: 'Naraka Aimbot | Soft Aim & FOV Settings | {brand}',
+	'destiny-2-aimbot': page({
+		title: 'Destiny 2 Aimbot | aimbot & FOV Settings | {brand}',
 		description:
-			'Naraka aimbot with soft aim, FOV, bone priority & hotkeys on PC. Undetected {brand} with ESP & radar included. narakacheats.org.',
+			'Destiny 2 aimbot with aimbot, FOV, bone priority & hotkeys on PC. Undetected {brand} with ESP & radar included. destiny2hack.net.',
 		h1: 'Aimbot',
-		intro: 'Soft aim and aim assist you can tune for Naraka. Included in the same {brand} license.',
+		intro: 'aimbot and aim assist you can tune for Destiny 2. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Naraka Cheats overview',
+		ctaSecondary: 'Destiny 2 Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Aimbot view',
 		sections: [
 			{
 				h2: 'Controls',
 				paragraphs: ['Set FOV, smoothness, and bone priority before you queue.'],
-				list: ['Soft aim strength', 'Bone priority', 'Hotkeys mid-match'],
+				list: ['aimbot strength', 'Bone priority', 'Hotkeys mid-match'],
 			},
 			{
 				h2: 'Play styles',
 				paragraphs: ['Keep settings subtle for longer matches. Raise strength only when you accept more risk.'],
-				list: ['Legit soft aim', 'Per-weapon profiles', 'Works with ESP'],
+				list: ['Legit aimbot', 'Per-weapon profiles', 'Works with ESP'],
 			},
 			{
 				h2: 'Next steps',
@@ -305,13 +305,13 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	radar: page({
-		title: 'Naraka Radar Hack | 2D Threat Map | {brand}',
+		title: 'Destiny 2 Radar Hack | 2D Threat Map | {brand}',
 		description:
-			'2D radar hack for flank awareness on PC. Bundled with ESP wallhack & soft aim in one license. NEAC maintenance at narakacheats.org.',
+			'radar overlay hack for flank awareness on PC. Bundled with ESP wallhack & aimbot in one license. BattlEye maintenance at destiny2hack.net.',
 		h1: 'Radar',
-		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
+		intro: 'A simple radar overlay for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Naraka Cheats overview',
+		ctaSecondary: 'Destiny 2 Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Radar overlay',
 		sections: [
@@ -324,7 +324,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'With ESP',
 				paragraphs: ['Use radar for threats you cannot see yet. Use ESP when you push.'],
 				list: [
-					'<a href="/naraka-esp/">ESP guide</a>',
+					'<a href="/destiny-2-esp/">ESP guide</a>',
 					'<a href="/">Full product</a>',
 					'<a href="/pricing/">Store</a>',
 				],

@@ -1,11 +1,11 @@
 {
-  "name": "Naraka Cheats",
-  "short_name": "Naraka Cheats",
-  "description": "Undetected naraka cheats — ESP, aimbot, and radar for PC",
+  "name": "Destiny 2 Cheats",
+  "short_name": "Destiny 2 Cheats",
+  "description": "Undetected destiny 2 cheats — ESP, aimbot, and radar for PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#07090A",
-  "theme_color": "#07090A",
+  "background_color": "#071232",
+  "theme_color": "#071232",
   "icons": [
     {
       "src": "/favicon.png",

@@ -4,141 +4,141 @@ import { FAQ_ACCURACY_FIXES } from './faq-accuracy-fixes.mjs';
 
 export const FAQ_I18N = {
 	es: {
-		'what-are-naraka-cheats': {
-			q: '¿Qué es Naraka Cheats?',
-			a: 'Naraka Cheats es un paquete de trucos indetectables para Naraka en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento NEAC y soporte de instalación.',
+		'what-are-destiny-2-cheats': {
+			q: '¿Qué es Destiny 2 Cheats?',
+			a: 'Destiny 2 Cheats es un paquete de trucos indetectables para Destiny 2 en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento BattlEye y soporte de instalación.',
 		},
-		'are-naraka-cheats-undetected-in-2026': {
-			q: '¿Los trucos de Naraka son indetectables en 2026?',
-			a: 'Naraka Cheats se mantiene para Naraka con reconstrucciones tras parches de NEAC y del juego. Revisa la página de Estado antes de entrar en match. Ningún cheat puede garantizar indetectabilidad permanente.',
+		'are-destiny-2-cheats-undetected-in-2026': {
+			q: '¿Los trucos de Destiny 2 son indetectables en 2026?',
+			a: 'Destiny 2 Cheats se mantiene para Destiny 2 con reconstrucciones tras parches de BattlEye y del juego. Revisa la página de Estado antes de entrar en match. Ningún cheat puede garantizar indetectabilidad permanente.',
 		},
 		'solo-farmer-and-raider-sessions': {
 			q: '¿Funciona en matches de base y PvP?',
-			a: 'Sí. ESP, radar y aimbot están pensados para el flujo de match de Naraka: leer jugadores y agents, detectar loot y mantener conciencia cerca de sitios de bomba y vault sectors.',
+			a: 'Sí. ESP, radar y aimbot están pensados para el flujo de match de Destiny 2: leer jugadores y agents, detectar loot y mantener conciencia cerca de sitios de bomba y vault sectors.',
 		},
 		'esp-wallhack-radar-or-aimbot': {
 			q: '¿Qué incluye: ESP, wallhack, radar o Aimbot?',
-			a: 'Naraka Cheats agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta Funciones para la lista completa.',
+			a: 'Destiny 2 Cheats agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta Funciones para la lista completa.',
 		},
 		'how-are-licenses-delivered': {
 			q: '¿Cómo se entregan las licencias?',
 			a: 'Tras confirmar el pago, los datos de la licencia se entregan digitalmente en el checkout. El tiempo puede variar según el método de pago. Guarda la confirmación del pedido si contactas soporte.',
 		},
 		'where-to-check-updates': {
-			q: '¿Dónde reviso actualizaciones tras un parche de Naraka o NEAC?',
+			q: '¿Dónde reviso actualizaciones tras un parche de Destiny 2 o BattlEye?',
 			a: 'Las notas de mantenimiento se publican en la página de Estado cuando un parche afecta al paquete. Es el lugar más rápido para confirmar si hay una nueva build.',
 		},
 		'how-to-contact-support': {
 			q: '¿Cómo contacto soporte?',
-			a: 'Usa la página de Soporte o escribe a support@narakacheats.org. Incluye los datos del pedido y una descripción clara del problema de instalación.',
+			a: 'Usa la página de Soporte o escribe a support@destiny2hack.net. Incluye los datos del pedido y una descripción clara del problema de instalación.',
 		},
-		'what-is-a-naraka-wallhack': {
-			q: '¿Qué es un wallhack de Naraka?',
-			a: 'Un wallhack de Naraka es un overlay ESP que muestra jugadores, agents y loot a través de las paredes. Naraka Cheats incluye distancias, señales de match y categorías configurables.',
+		'what-is-a-destiny-2-wallhack': {
+			q: '¿Qué es un wallhack de Destiny 2?',
+			a: 'Un wallhack de Destiny 2 es un overlay ESP que muestra jugadores, agents y loot a través de las paredes. Destiny 2 Cheats incluye distancias, señales de match y categorías configurables.',
 		},
-		'does-naraka-cheats-include-radar-hack': {
-			q: '¿Naraka Cheats incluye radar hack?',
-			a: 'Sí. Naraka Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de zone.',
+		'does-destiny-2-cheats-include-radar-hack': {
+			q: '¿Destiny 2 Cheats incluye radar hack?',
+			a: 'Sí. Destiny 2 Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de zone.',
 		},
-		'neac-anti-cheat-and-naraka-cheats': {
-			q: '¿Cómo afecta NEAC a los trucos de Naraka?',
-			a: 'NEAC monitoriza Naraka en PC Windows. Naraka Cheats publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar.',
+		'battleye-anti-cheat-and-destiny-2-cheats': {
+			q: '¿Cómo afecta BattlEye a los trucos de Destiny 2?',
+			a: 'BattlEye monitoriza Destiny 2 en PC Windows. Destiny 2 Cheats publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar.',
 		},
-		'buy-undetected-naraka-cheats-windows-pc': {
-			q: '¿Puedo comprar trucos indetectables de Naraka para PC Windows?',
-			a: 'Sí: Naraka Cheats vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la Tienda antes del checkout.',
+		'buy-undetected-destiny-2-cheats-windows-pc': {
+			q: '¿Puedo comprar trucos indetectables de Destiny 2 para PC Windows?',
+			a: 'Sí: Destiny 2 Cheats vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la Tienda antes del checkout.',
 		},
 	},
 	fr: {
-		'what-are-naraka-cheats': {
-			q: "Qu'est-ce que Naraka Cheats ?",
-			a: "Naraka Cheats est un squad de triches indétectables pour Naraka sur PC Windows. Il inclut ESP wallhack, radar 2D et contrôles aimbot, avec maintenance NEAC et aide à l'installation.",
+		'what-are-destiny-2-cheats': {
+			q: "Qu'est-ce que Destiny 2 Cheats ?",
+			a: "Destiny 2 Cheats est un squad de triches indétectables pour Destiny 2 sur PC Windows. Il inclut ESP wallhack, radar 2D et contrôles aimbot, avec maintenance BattlEye et aide à l'installation.",
 		},
-		'are-naraka-cheats-undetected-in-2026': {
-			q: 'Les triches Naraka sont-elles indétectables en 2026 ?',
-			a: "Naraka Cheats est maintenu pour Naraka avec des rebuilds après les patchs NEAC et du jeu. Consultez la page Statut avant de match. Aucune triche ne garantit une indétectabilité permanente.",
+		'are-destiny-2-cheats-undetected-in-2026': {
+			q: 'Les triches Destiny 2 sont-elles indétectables en 2026 ?',
+			a: "Destiny 2 Cheats est maintenu pour Destiny 2 avec des rebuilds après les patchs BattlEye et du jeu. Consultez la page Statut avant de match. Aucune triche ne garantit une indétectabilité permanente.",
 		},
 		'solo-farmer-and-raider-sessions': {
 			q: 'Est-ce que ça fonctionne en matches de base et en PvP ?',
-			a: "Oui. ESP, radar et aimbot sont conçus pour le flux de match Naraka — lire les joueurs et agents, repérer le loot et rester vigilant près des bomb sites.",
+			a: "Oui. ESP, radar et aimbot sont conçus pour le flux de match Destiny 2 — lire les joueurs et agents, repérer le loot et rester vigilant près des bomb sites.",
 		},
 		'esp-wallhack-radar-or-aimbot': {
 			q: "Qu'est-ce qui est inclus — ESP, wallhack, radar ou Aimbot ?",
-			a: "Naraka Cheats regroupe ESP wallhack, marqueurs de loot, radar 2D et Aimbot configurable dans une licence. Voir Fonctions pour la liste complète.",
+			a: "Destiny 2 Cheats regroupe ESP wallhack, marqueurs de loot, radar 2D et Aimbot configurable dans une licence. Voir Fonctions pour la liste complète.",
 		},
 		'how-are-licenses-delivered': {
 			q: 'Comment les licences sont-elles livrées ?',
 			a: "Après confirmation du paiement, les détails de licence sont livrés numériquement via le checkout. Gardez la confirmation de commande si vous contactez le support.",
 		},
 		'where-to-check-updates': {
-			q: 'Où vérifier les mises à jour après un patch Naraka ou NEAC ?',
+			q: 'Où vérifier les mises à jour après un patch Destiny 2 ou BattlEye ?',
 			a: "Les notes de maintenance sont publiées sur la page Statut quand un patch affecte le squad. C'est l'endroit le plus rapide pour confirmer une nouvelle build.",
 		},
 		'how-to-contact-support': {
 			q: 'Comment contacter le support ?',
-			a: "Utilisez la page Support ou écrivez à support@narakacheats.org avec les détails de votre commande et une description claire du problème.",
+			a: "Utilisez la page Support ou écrivez à support@destiny2hack.net avec les détails de votre commande et une description claire du problème.",
 		},
-		'what-is-a-naraka-wallhack': {
-			q: "Qu'est-ce qu'un wallhack Naraka ?",
-			a: "Un wallhack Naraka est un overlay ESP qui affiche joueurs, agents et loot à travers les murs. Naraka Cheats inclut distances, signaux de match et catégories configurables.",
+		'what-is-a-destiny-2-wallhack': {
+			q: "Qu'est-ce qu'un wallhack Destiny 2 ?",
+			a: "Un wallhack Destiny 2 est un overlay ESP qui affiche joueurs, agents et loot à travers les murs. Destiny 2 Cheats inclut distances, signaux de match et catégories configurables.",
 		},
-		'does-naraka-cheats-include-radar-hack': {
-			q: 'Naraka Cheats inclut-il un radar hack ?',
-			a: "Oui. Naraka Cheats inclut des overlays radar 2D qui mettent en évidence les menaces proches hors de votre champ de vision.",
+		'does-destiny-2-cheats-include-radar-hack': {
+			q: 'Destiny 2 Cheats inclut-il un radar hack ?',
+			a: "Oui. Destiny 2 Cheats inclut des overlays radar 2D qui mettent en évidence les menaces proches hors de votre champ de vision.",
 		},
-		'neac-anti-cheat-and-naraka-cheats': {
-			q: 'Comment NEAC affecte-t-il les triches Naraka ?',
-			a: "NEAC surveille Naraka sur PC Windows. Naraka Cheats publie des notes de maintenance après les patchs. Consultez Statut avant de jouer.",
+		'battleye-anti-cheat-and-destiny-2-cheats': {
+			q: 'Comment BattlEye affecte-t-il les triches Destiny 2 ?',
+			a: "BattlEye surveille Destiny 2 sur PC Windows. Destiny 2 Cheats publie des notes de maintenance après les patchs. Consultez Statut avant de jouer.",
 		},
-		'buy-undetected-naraka-cheats-windows-pc': {
-			q: 'Puis-je acheter des triches Naraka indétectables pour PC Windows ?',
-			a: "Oui — Naraka Cheats vend des licences mensuelles et à vie pour PC Windows avec ESP, radar et aimbot. Comparez les formules sur la page Tarifs.",
+		'buy-undetected-destiny-2-cheats-windows-pc': {
+			q: 'Puis-je acheter des triches Destiny 2 indétectables pour PC Windows ?',
+			a: "Oui — Destiny 2 Cheats vend des licences mensuelles et à vie pour PC Windows avec ESP, radar et aimbot. Comparez les formules sur la page Tarifs.",
 		},
 	},
 	de: {
-		'what-are-naraka-cheats': {
-			q: 'Was ist Naraka Cheats?',
-			a: 'Naraka Cheats ist ein undetected Paket für Naraka auf Windows PC. Es enthält ESP Wallhack, 2D-Radar und Aimbot-Steuerung mit NEAC-Wartung und Setup-Support.',
+		'what-are-destiny-2-cheats': {
+			q: 'Was ist Destiny 2 Cheats?',
+			a: 'Destiny 2 Cheats ist ein undetected Paket für Destiny 2 auf Windows PC. Es enthält ESP Wallhack, 2D-Radar und Aimbot-Steuerung mit BattlEye-Wartung und Setup-Support.',
 		},
-		'are-naraka-cheats-undetected-in-2026': {
-			q: 'Sind Naraka Cheats 2026 undetected?',
-			a: 'Naraka Cheats wird für Naraka mit Rebuilds nach NEAC- und Spiel-Patches gewartet. Prüfe die Status-Seite before queueing. Kein Cheat kann dauerhafte Undetected-Garantie geben.',
+		'are-destiny-2-cheats-undetected-in-2026': {
+			q: 'Sind Destiny 2 Cheats 2026 undetected?',
+			a: 'Destiny 2 Cheats wird für Destiny 2 mit Rebuilds nach BattlEye- und Spiel-Patches gewartet. Prüfe die Status-Seite before queueing. Kein Cheat kann dauerhafte Undetected-Garantie geben.',
 		},
 		'solo-farmer-and-raider-sessions': {
 			q: 'Funktioniert das bei Basis-Raids und PvP?',
-			a: 'Ja. ESP, Radar und Aimbot sind für den Naraka-Raid-Flow gebaut — Spieler und agents lesen, Loot erkennen und bei Monumenten wachsam bleiben.',
+			a: 'Ja. ESP, Radar und Aimbot sind für den Destiny 2-Raid-Flow gebaut — Spieler und agents lesen, Loot erkennen und bei Monumenten wachsam bleiben.',
 		},
 		'esp-wallhack-radar-or-aimbot': {
 			q: 'Was ist enthalten — ESP, Wallhack, Radar oder Aimbot?',
-			a: 'Naraka Cheats bündelt ESP Wallhack, Loot-Marker, 2D-Radar und konfigurierbaren Aimbot in einer Lizenz. Siehe Features für die vollständige Liste.',
+			a: 'Destiny 2 Cheats bündelt ESP Wallhack, Loot-Marker, 2D-Radar und konfigurierbaren Aimbot in einer Lizenz. Siehe Features für die vollständige Liste.',
 		},
 		'how-are-licenses-delivered': {
 			q: 'Wie werden Lizenzen geliefert?',
 			a: 'Nach Zahlungsbestätigung werden Lizenzdetails digital über den Checkout geliefert. Bewahre die Bestellbestätigung für Support-Anfragen auf.',
 		},
 		'where-to-check-updates': {
-			q: 'Wo prüfe ich Updates nach einem Naraka- oder NEAC-Patch?',
+			q: 'Wo prüfe ich Updates nach einem Destiny 2- oder BattlEye-Patch?',
 			a: 'Wartungshinweise erscheinen auf der Status-Seite, wenn ein Patch das Paket betrifft. Dort siehst du am schnellsten, ob ein neuer Build live ist.',
 		},
 		'how-to-contact-support': {
 			q: 'Wie kontaktiere ich den Support?',
-			a: 'Nutze die Support-Seite oder schreibe an support@narakacheats.org mit Bestelldetails und einer klaren Problembeschreibung.',
+			a: 'Nutze die Support-Seite oder schreibe an support@destiny2hack.net mit Bestelldetails und einer klaren Problembeschreibung.',
 		},
-		'what-is-a-naraka-wallhack': {
-			q: 'Was ist ein Naraka Wallhack?',
-			a: 'Ein Naraka Wallhack ist ein ESP-Overlay, das Spieler, agents und Loot durch Wände zeigt. Naraka Cheats enthält Distanzen, Raid-Hinweise und umschaltbare Kategorien.',
+		'what-is-a-destiny-2-wallhack': {
+			q: 'Was ist ein Destiny 2 Wallhack?',
+			a: 'Ein Destiny 2 Wallhack ist ein ESP-Overlay, das Spieler, agents und Loot durch Wände zeigt. Destiny 2 Cheats enthält Distanzen, Raid-Hinweise und umschaltbare Kategorien.',
 		},
-		'does-naraka-cheats-include-radar-hack': {
-			q: 'Enthält Naraka Cheats einen Radar Hack?',
-			a: 'Ja. Naraka Cheats enthält 2D-Radar-Overlays für nahe Bedrohungen außerhalb deines Sichtfelds.',
+		'does-destiny-2-cheats-include-radar-hack': {
+			q: 'Enthält Destiny 2 Cheats einen Radar Hack?',
+			a: 'Ja. Destiny 2 Cheats enthält 2D-Radar-Overlays für nahe Bedrohungen außerhalb deines Sichtfelds.',
 		},
-		'neac-anti-cheat-and-naraka-cheats': {
-			q: 'Wie wirkt sich NEAC auf Naraka Cheats aus?',
-			a: 'NEAC überwacht Naraka auf Windows PC. Naraka Cheats veröffentlicht Wartungshinweise nach Patches. Prüfe Status vor dem Spielen.',
+		'battleye-anti-cheat-and-destiny-2-cheats': {
+			q: 'Wie wirkt sich BattlEye auf Destiny 2 Cheats aus?',
+			a: 'BattlEye überwacht Destiny 2 auf Windows PC. Destiny 2 Cheats veröffentlicht Wartungshinweise nach Patches. Prüfe Status vor dem Spielen.',
 		},
-		'buy-undetected-naraka-cheats-windows-pc': {
-			q: 'Kann ich undetected Naraka Cheats für Windows PC kaufen?',
-			a: 'Ja — Naraka Cheats verkauft Monats- und Lifetime-Lizenzen für Windows PC mit ESP, Radar und Aimbot. Vergleiche Pläne auf der Preisseite.',
+		'buy-undetected-destiny-2-cheats-windows-pc': {
+			q: 'Kann ich undetected Destiny 2 Cheats für Windows PC kaufen?',
+			a: 'Ja — Destiny 2 Cheats verkauft Monats- und Lifetime-Lizenzen für Windows PC mit ESP, Radar und Aimbot. Vergleiche Pläne auf der Preisseite.',
 		},
 	},
 };
@@ -177,7 +177,7 @@ for (const [locale, labels] of Object.entries(FAQ_TEMPLATES)) {
 				.replace(/Tienda/g, labels.store)
 				.replace(/Instalación/g, labels.setup)
 				.replace(/Soporte/g, labels.support)
-				.replace(/trucos de Naraka/g, 'Naraka Cheats')
+				.replace(/trucos de Destiny 2/g, 'Destiny 2 Cheats')
 				.replace(/indetectables/g, 'undetected'),
 			a: entry.a
 				.replace(/página de Estado/g, labels.status)
@@ -191,7 +191,7 @@ for (const [locale, labels] of Object.entries(FAQ_TEMPLATES)) {
 	FAQ_I18N[locale] = items;
 }
 
-/** Apply Naraka-accurate FAQ copy over legacy Valorant terminology. */
+/** Apply Destiny 2-accurate FAQ copy over legacy Valorant terminology. */
 for (const [locale, fixes] of Object.entries(FAQ_ACCURACY_FIXES)) {
 	if (!FAQ_I18N[locale]) FAQ_I18N[locale] = {};
 	Object.assign(FAQ_I18N[locale], fixes);

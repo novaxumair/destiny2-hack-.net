@@ -1,11 +1,11 @@
-# Deploy narakacheats.org
+# Deploy destiny2hack.net
 
-Step-by-step guide to deploy the Naraka Cheats static site to **narakacheats.org** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
+Step-by-step guide to deploy the Destiny 2 Cheats static site to **destiny2hack.net** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
 
 ## Prerequisites
 
 - Node.js **≥ 22.12.0**
-- Cloudflare account with access to **narakacheats.org** DNS
+- Cloudflare account with access to **destiny2hack.net** DNS
 - Wrangler CLI (included as dev dependency): `npx wrangler login`
 
 ## 1. Build and validate locally
@@ -21,7 +21,7 @@ npm run build:validate
 
 `build:validate` runs `astro build` then `scripts/validate-sitemaps.mjs`. All sitemap checks must pass before deploying.
 
-Expected output: **556** indexable HTML pages (25 English marketing + 15 blog URLs + 21 locales × 25 pages NEAC).
+Expected output: **556** indexable HTML pages (25 English marketing + 15 blog URLs + 21 locales × 25 pages BattlEye).
 
 ## 2. Cloudflare Workers (Git-connected)
 
@@ -55,7 +55,7 @@ If the build command is left empty, `package.json` `postinstall` still builds on
    - **Build command:** `npm run build`
    - **Build output directory:** `dist`
    - **Node.js version:** 22 (set via environment variable `NODE_VERSION=22` if needed)
-4. Save and deploy. Cloudflare runs the build on NEAC push.
+4. Save and deploy. Cloudflare runs the build on BattlEye push.
 
 ### Option B — Direct upload / Wrangler CLI
 
@@ -64,13 +64,13 @@ npm run build:validate
 npm run pages:deploy
 ```
 
-This runs `wrangler pages deploy dist --project-name=narakacheats` (see `wrangler.toml`).
+This runs `wrangler pages deploy dist --project-name=destiny2hack` (see `wrangler.toml`).
 
 ## 3. Custom domain and DNS
 
-Add **narakacheats.org** as the primary custom domain on the Pages project.
+Add **destiny2hack.net** as the primary custom domain on the Pages project.
 
-### Apex (narakacheats.org)
+### Apex (destiny2hack.net)
 
 In **Cloudflare DNS** for the zone:
 
@@ -84,11 +84,11 @@ Cloudflare CNAME flattening handles apex records automatically.
 
 1. Add a DNS record for `www` pointing to the same Pages project (proxied CNAME or A record).
 2. In **Rules** → **Redirect Rules** (or Bulk Redirects), create:
-   - **Source:** `www.narakacheats.org/*`
-   - **Target:** `https://narakacheats.org/${1}`
+   - **Source:** `destiny2hack.net/*`
+   - **Target:** `https://destiny2hack.net/${1}`
    - **Status:** 301
 
-The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`narakacheats.org`, `.net`, `.com`), and legacy path redirects.
+The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`destiny2hack.net`, `.net`, `.com`), and legacy path redirects.
 
 ### SSL / HTTPS
 
@@ -100,35 +100,35 @@ The deployed `functions/_middleware.js` also enforces apex canonical host, legac
 
 Verify these URLs return **200** with correct content:
 
-- `https://narakacheats.org/`
-- `https://narakacheats.org/es/`
-- `https://narakacheats.org/naraka-cheats/`
-- `https://narakacheats.org/naraka-aimbot/`
-- `https://narakacheats.org/sitemap.xml`
-- `https://narakacheats.org/robots.txt`
+- `https://destiny2hack.net/`
+- `https://destiny2hack.net/es/`
+- `https://destiny2hack.net/destiny-2-cheats/`
+- `https://destiny2hack.net/destiny-2-aimbot/`
+- `https://destiny2hack.net/sitemap.xml`
+- `https://destiny2hack.net/robots.txt`
 
 Verify redirects:
 
-- `http://narakacheats.org` → `https://narakacheats.org` (301)
-- `https://www.narakacheats.org` → `https://narakacheats.org` (301)
-- Legacy domains (e.g. `narakacheats.org`) → `https://narakacheats.org` (301)
+- `http://destiny2hack.net` → `https://destiny2hack.net` (301)
+- `https://destiny2hack.net` → `https://destiny2hack.net` (301)
+- Legacy domains (e.g. `destiny2hack.net`) → `https://destiny2hack.net` (301)
 - `/sitemap-index.xml` → `/sitemap.xml` (301)
-- Legacy paths (e.g. `/fortnite-hacks/`) → Naraka equivalents (301)
+- Legacy paths (e.g. `/fortnite-hacks/`) → Destiny 2 equivalents (301)
 
 ## 5. Google Search Console
 
 1. Go to [Google Search Console](https://search.google.com/search-console).
-2. **Add property** → choose **Domain** → enter `narakacheats.org`.
+2. **Add property** → choose **Domain** → enter `destiny2hack.net`.
 3. Verify ownership via the **DNS TXT record** Cloudflare provides (add in Cloudflare DNS, wait for propagation, then confirm in GSC).
 4. After verification, open **Sitemaps** and submit:
    ```
-   https://narakacheats.org/sitemap.xml
+   https://destiny2hack.net/sitemap.xml
    ```
-   Remove any legacy submissions (`sitemap-index.xml`, old `narakacheats.org` URLs).
+   Remove any legacy submissions (`sitemap-index.xml`, old `destiny2hack.net` URLs).
 5. Use **URL Inspection** to request indexing for:
    - Homepage (`/`)
-   - Pillar page (`/naraka-cheats/`)
-   - Key landing pages (`/naraka-aimbot/`, `/naraka-esp/`, `/naraka-cheats-2026/`, etc.)
+   - Pillar page (`/destiny-2-cheats/`)
+   - Key landing pages (`/destiny-2-aimbot/`, `/destiny-2-esp/`, `/destiny-2-cheats-2026/`, etc.)
    - A sample of locale homepages (`/es/`, `/de/`, `/fr/`)
 6. Monitor **Pages** (Coverage), **Core Web Vitals**, and **International targeting** (hreflang) over the following weeks.
 
@@ -146,11 +146,11 @@ Verify redirects:
 
 - [ ] `npm run build:validate` passes locally
 - [ ] Cloudflare Pages project attached to this repo
-- [ ] Custom domain `narakacheats.org` attached and active
+- [ ] Custom domain `destiny2hack.net` attached and active
 - [ ] `www` redirects to apex
-- [ ] Legacy domains 301 to `narakacheats.org`
+- [ ] Legacy domains 301 to `destiny2hack.net`
 - [ ] Always Use HTTPS enabled
-- [ ] `robots.txt` and sitemaps serve from `https://narakacheats.org`
+- [ ] `robots.txt` and sitemaps serve from `https://destiny2hack.net`
 - [ ] Google Search Console domain verified
 - [ ] `sitemap.xml` submitted in GSC
-- [ ] Homepage and `/naraka-cheats/` requested for indexing
+- [ ] Homepage and `/destiny-2-cheats/` requested for indexing

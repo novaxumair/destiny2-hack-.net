@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Rebuild routing.ts and constants.mjs from clea Naraka source. */
+/** Rebuild routing.ts and constants.mjs from clea Destiny 2 source. */
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -13,43 +13,43 @@ const REMOVE_IDS = [
 ];
 
 const REPLACEMENTS = [
-	['naraka-esp', 'naraka-esp'],
-	['naraka-aimbot', 'naraka-aimbot'],
-	['neac', 'neac'],
-	['undetected-naraka-cheats', 'undetected-naraka-cheats'],
-	['naraka-wallhack', 'naraka-wallhack'],
-	['naraka-radar-hack', 'naraka-radar-hack'],
-	['naraka-cheats-2026', 'naraka-cheats-2026'],
-	['neac-bypass', 'neac-bypass'],
-	['narakacheats.org', 'narakacheats.org'],
-	['trucos-naraka', 'trucos-naraka'],
-	['triche-naraka', 'triche-naraka'],
-	['naraka-cheats', 'naraka-cheats'],
-	['cheats-naraka', 'cheats-naraka'],
-	['trucchi-naraka', 'trucchi-naraka'],
-	['cheaty-naraka', 'cheaty-naraka'],
-	['chity-naraka', 'chity-naraka'],
-	['chitov-naraka', 'chitov-naraka'],
-	['chitiv-naraka', 'chitiv-naraka'],
-	['cheatow-naraka', 'cheatow-naraka'],
-	['hile-naraka', 'hile-naraka'],
-	['naraka-hile', 'naraka-hile'],
-	['naraka-esp-chity', 'naraka-esp-chity'],
-	['naraka-aimbot-chity', 'naraka-aimbot-chity'],
-	['unentdeckte-naraka-cheats', 'unentdeckte-naraka-cheats'],
-	['cheats-naraka-indetectaveis', 'cheats-naraka-indetectaveis'],
-	['trucchi-naraka-indetectabili', 'trucchi-naraka-indetectabili'],
-	['niewykrywalne-cheats-naraka', 'niewykrywalne-cheats-naraka'],
-	['nedecektiruemye-chity-naraka', 'nedecektiruemye-chity-naraka'],
-	['tespit-edilemeyen-naraka-hileleri', 'tespit-edilemeyen-naraka-hileleri'],
-	['nedecektovani-chity-naraka', 'nedecektovani-chity-naraka'],
-	['cheats-naraka-nedetectabile', 'cheats-naraka-nedetectabile'],
-	['basta-naraka-cheats', 'basta-naraka-cheats'],
-	['neac-bypass-trucos-naraka', 'neac-bypass-trucos-naraka'],
-	['neac-bypass-triche-naraka', 'neac-bypass-triche-naraka'],
-	['neac-bypass-hacks-valorant', 'neac-bypass-hacks-valorant'],
-	['neac-bypass-chity-naraka', 'neac-bypass-chity-naraka'],
-	['neac-bypass-rust', 'neac-bypass'],
+	['destiny-2-esp', 'destiny-2-esp'],
+	['destiny-2-aimbot', 'destiny-2-aimbot'],
+	['battleye', 'battleye'],
+	['undetected-destiny-2-cheats', 'undetected-destiny-2-cheats'],
+	['destiny-2-wallhack', 'destiny-2-wallhack'],
+	['destiny-2-radar-hack', 'destiny-2-radar-hack'],
+	['destiny-2-cheats-2026', 'destiny-2-cheats-2026'],
+	['battleye-bypass', 'battleye-bypass'],
+	['destiny2hack.net', 'destiny2hack.net'],
+	['trucos-destiny-2', 'trucos-destiny-2'],
+	['triche-destiny-2', 'triche-destiny-2'],
+	['destiny-2-cheats', 'destiny-2-cheats'],
+	['cheats-destiny-2', 'cheats-destiny-2'],
+	['trucchi-destiny-2', 'trucchi-destiny-2'],
+	['cheaty-destiny-2', 'cheaty-destiny-2'],
+	['chity-destiny-2', 'chity-destiny-2'],
+	['chitov-destiny-2', 'chitov-destiny-2'],
+	['chitiv-destiny-2', 'chitiv-destiny-2'],
+	['cheatow-destiny-2', 'cheatow-destiny-2'],
+	['hile-destiny-2', 'hile-destiny-2'],
+	['destiny-2-hile', 'destiny-2-hile'],
+	['destiny-2-esp-chity', 'destiny-2-esp-chity'],
+	['destiny-2-aimbot-chity', 'destiny-2-aimbot-chity'],
+	['unentdeckte-destiny-2-cheats', 'unentdeckte-destiny-2-cheats'],
+	['cheats-destiny-2-indetectaveis', 'cheats-destiny-2-indetectaveis'],
+	['trucchi-destiny-2-indetectabili', 'trucchi-destiny-2-indetectabili'],
+	['niewykrywalne-cheats-destiny-2', 'niewykrywalne-cheats-destiny-2'],
+	['nedecektiruemye-chity-destiny-2', 'nedecektiruemye-chity-destiny-2'],
+	['tespit-edilemeyen-destiny-2-hileleri', 'tespit-edilemeyen-destiny-2-hileleri'],
+	['nedecektovani-chity-destiny-2', 'nedecektovani-chity-destiny-2'],
+	['cheats-destiny-2-nedetectabile', 'cheats-destiny-2-nedetectabile'],
+	['basta-destiny-2-cheats', 'basta-destiny-2-cheats'],
+	['battleye-bypass-trucos-destiny-2', 'battleye-bypass-trucos-destiny-2'],
+	['battleye-bypass-triche-destiny-2', 'battleye-bypass-triche-destiny-2'],
+	['battleye-bypass-hacks-valorant', 'battleye-bypass-hacks-valorant'],
+	['battleye-bypass-chity-destiny-2', 'battleye-bypass-chity-destiny-2'],
+	['battleye-bypass-rust', 'battleye-bypass'],
 ];
 
 function apply(content) {
@@ -78,31 +78,31 @@ async function fixRouting() {
 	content = apply(content);
 	for (const id of REMOVE_IDS) content = removePageBlocks(content, id);
 	// Fix eac key in englishPaths
-	content = content.replace(/\teac: '/, "\t'neac': '");
+	content = content.replace(/\teac: '/, "\t'battleye': '");
 	await writeFile(path.join(ROOT, 'src/data/i18n/routing.ts'), content);
 	console.log('Fixed routing.ts');
 }
 
 async function fixConstants() {
-	const heroImages = `/** Hero image per page topic — keyword-rich naraka-cheats paths. */
+	const heroImages = `/** Hero image per page topic — keyword-rich destiny-2-cheats paths. */
 export const HERO_IMAGES = {
-	home: '/images/the-naraka-cheats-hero.webp',
-	'naraka-esp': '/images/the-naraka-cheats-esp-wallhack.webp',
-	'naraka-aimbot': '/images/the-naraka-cheats-aimbot-combat.webp',
-	features: '/images/naraka-cheats-package.webp',
-	pricing: '/images/naraka-cheats-cover.webp',
+	home: '/images/the-destiny-2-cheats-hero.webp',
+	'destiny-2-esp': '/images/the-destiny-2-cheats-esp-wallhack.webp',
+	'destiny-2-aimbot': '/images/the-destiny-2-cheats-aimbot-combat.webp',
+	features: '/images/destiny-2-cheats-package.webp',
+	pricing: '/images/destiny-2-cheats-cover.webp',
 	setup: '/images/rust-loadout-builder.webp',
 	updates: '/images/rust-header-art.webp',
 	faq: '/images/rust-pack-fight.webp',
-	support: '/images/naraka-cheats-package.webp',
+	support: '/images/destiny-2-cheats-package.webp',
 	undetected: '/images/rust-survival-combat.webp',
-	wallhack: '/images/the-naraka-cheats-esp-wallhack.webp',
+	wallhack: '/images/the-destiny-2-cheats-esp-wallhack.webp',
 	radar: '/images/rust-player-esp.webp',
-	'neac': '/images/rust-reboot-van-fight.webp',
-	'cheats-2026': '/images/the-naraka-cheats-hero.webp',
-	privacy: '/images/the-naraka-cheats-aimbot-combat.webp',
-	refund: '/images/naraka-cheats-cover.webp',
-	terms: '/images/naraka-cheats-package.webp',
+	'battleye': '/images/rust-reboot-van-fight.webp',
+	'cheats-2026': '/images/the-destiny-2-cheats-hero.webp',
+	privacy: '/images/the-destiny-2-cheats-aimbot-combat.webp',
+	refund: '/images/destiny-2-cheats-cover.webp',
+	terms: '/images/destiny-2-cheats-package.webp',
 };`;
 
 	let content = await readFile(path.join(SRC, 'scripts/i18n-data/constants.mjs'), 'utf8');
@@ -112,12 +112,12 @@ export const HERO_IMAGES = {
 	}
 	content = content.replace(
 		/export const PAGE_IDS = \[[\s\S]*?\];/,
-		`export const PAGE_IDS = [\n\t'home', 'naraka-esp', 'naraka-aimbot', 'features', 'pricing', 'setup',\n\t'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'neac',\n\t'cheats-2026', 'privacy', 'refund', 'terms',\n];`,
+		`export const PAGE_IDS = [\n\t'home', 'destiny-2-esp', 'destiny-2-aimbot', 'features', 'pricing', 'setup',\n\t'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'battleye',\n\t'cheats-2026', 'privacy', 'refund', 'terms',\n];`,
 	);
 	content = content.replace(/\/\*\* Hero image[\s\S]*?};/, heroImages);
 	content = content.replace(
 		/export type PageId = [^;]+;/,
-		"export type PageId = 'home' | 'naraka-esp' | 'naraka-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'neac' | 'cheats-2026' | 'privacy' | 'refund' | 'terms';",
+		"export type PageId = 'home' | 'destiny-2-esp' | 'destiny-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'battleye' | 'cheats-2026' | 'privacy' | 'refund' | 'terms';",
 	);
 	content = content.replace(/operatorEsp/g, 'playerEsp');
 	content = content.replace(/extractFight/g, 'raidFight');

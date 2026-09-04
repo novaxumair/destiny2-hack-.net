@@ -55,7 +55,7 @@ const seoDefaults = {
 	faqDescription: 'Short answers about {brand} — delivery, setup, updates, and refunds.',
 	reviewsTitle: '{brand} Reviews | Buyer Feedback',
 	reviewsDescription:
-		'Real buyer reviews for {brand} — ESP, soft aim, radar, and patch updates on Windows PC.',
+		'Real buyer reviews for {brand} — ESP, aimbot, radar, and patch updates on Windows PC.',
 	blogTitle: '{game} Intel | {brand}',
 	blogDescription: 'Guides and notes for {game} — meta tips, ESP, aimbot, and {antiCheat} updates.',
 };
@@ -63,7 +63,7 @@ const seoDefaults = {
 const copyDefaults = {
 	tagline: 'Undetected {primaryKeyword} -- ESP, aimbot, and radar for PC',
 	summary:
-		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, aimbot, and radar, with {antiCheat} maintenance after patches.',
 	heroLede: 'Hacks and cheats available -- 0% detection.',
 	blogLabel: '{game} Intel',
 	ctaBuy: 'Buy now',
@@ -75,10 +75,10 @@ const copyDefaults = {
 	setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
 	supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 	faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
-	reviewsIntro: 'Real feedback from {brand} buyers — ESP, soft aim, radar, and support.',
+	reviewsIntro: 'Real feedback from {brand} buyers — ESP, aimbot, radar, and support.',
 	chipEsp: 'ESP / wallhack',
-	chipAim: 'Soft aim',
-	chipRadar: '2D radar',
+	chipAim: 'aimbot',
+	chipRadar: 'radar overlay',
 	chipUpdates: 'Patch updates',
 	navPreview: 'Preview',
 	navFeatures: 'Features',
@@ -176,7 +176,7 @@ const product: Field[] = [
 	{
 		name: 'game',
 		label: 'Game',
-		tip: 'What: The game this template instance is for. | Why: Fills {game} in titles, FAQs, Status copy, and SEO titles like "Naraka Features | Brand". | Example: Fortnite, Apex Legends, Marathon',
+		tip: 'What: The game this template instance is for. | Why: Fills {game} in titles, FAQs, Status copy, and SEO titles like "Destiny 2 Features | Brand". | Example: Fortnite, Apex Legends, Marathon',
 		value: brand.game,
 		required: true,
 		maxlength: 80,
@@ -184,7 +184,7 @@ const product: Field[] = [
 	{
 		name: 'antiCheat',
 		label: 'Anti-cheat',
-		tip: 'What: The game anti-cheat system name. | Why: Status / FAQ text mentions rebuilds after this anti-cheat patches. Use {antiCheat} token. | Example: NEAC, NEAC, NEAC',
+		tip: 'What: The game anti-cheat system name. | Why: Status / FAQ text mentions rebuilds after this anti-cheat patches. Use {antiCheat} token. | Example: BattlEye, BattlEye, BattlEye',
 		value: brand.antiCheat,
 		required: true,
 		maxlength: 80,
@@ -319,7 +319,7 @@ const seoFields: Field[] = [
 	{
 		name: 'statusDescription',
 		label: 'Status description',
-		tip: 'What: Meta description for Status. | Why: Mention {antiCheat} and patch checks. | Example: Live status for Marathon Hacks after Marathon or NEAC patches...',
+		tip: 'What: Meta description for Status. | Why: Mention {antiCheat} and patch checks. | Example: Live status for Marathon Hacks after Marathon or BattlEye patches...',
 		value: seo.statusDescription,
 		textarea: true,
 		rows: 2,
@@ -495,7 +495,7 @@ const copyFields: Field[] = [
 	{
 		name: 'blogLabel',
 		label: 'Blog / intel label',
-		tip: 'What: Nav label for blog or intel section. | Why: Shown in navigation when blog is enabled. | Example: Marathon Intel, Naraka Intel',
+		tip: 'What: Nav label for blog or intel section. | Why: Shown in navigation when blog is enabled. | Example: Marathon Intel, Destiny 2 Intel',
 		value: copy.blogLabel,
 		required: true,
 		maxlength: 80,
@@ -605,14 +605,14 @@ const copyFields: Field[] = [
 	{
 		name: 'chipAim',
 		label: 'Hero chip: Aim',
-		tip: 'What: Homepage feature chip. | Why: Hero bullets. | Example: Soft aim',
+		tip: 'What: Homepage feature chip. | Why: Hero bullets. | Example: aimbot',
 		value: copy.chipAim,
 		maxlength: 40,
 	},
 	{
 		name: 'chipRadar',
 		label: 'Hero chip: Radar',
-		tip: 'What: Homepage feature chip. | Why: Hero bullets. | Example: 2D radar',
+		tip: 'What: Homepage feature chip. | Why: Hero bullets. | Example: radar overlay',
 		value: copy.chipRadar,
 		maxlength: 40,
 	},
@@ -769,13 +769,13 @@ const seoAuditRows = [
 	{ page: 'Features', path: '/features/', fields: 'featuresTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Store', path: '/pricing/', fields: 'storeTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Status', path: '/updates/', fields: 'statusTitle / Description + intro', status: 'Live · permanent' },
-	{ page: 'Preview', path: '/naraka-cheats/', fields: 'previewTitle / Description + intro', status: 'Live · permanent' },
+	{ page: 'Preview', path: '/destiny-2-cheats/', fields: 'previewTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Setup', path: '/setup/', fields: 'setupTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Support', path: '/support/', fields: 'supportTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'FAQ index', path: '/faq/', fields: 'faqTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Reviews index', path: '/reviews/', fields: 'reviewsTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Blog index', path: '/blog/', fields: 'blogTitle / blogDescription', status: 'Live · EN permanent' },
-	{ page: 'Keyword landings', path: '/naraka-esp/ …', fields: 'content.generated.ts', status: 'Manual file' },
+	{ page: 'Keyword landings', path: '/destiny-2-esp/ …', fields: 'content.generated.ts', status: 'Manual file' },
 	{ page: 'FAQ answers', path: '/faq/[slug]/', fields: 'site.ts faqs', status: 'Manual file' },
 	{ page: 'Review posts', path: '/reviews/[slug]/', fields: 'site.ts reviews', status: 'Manual file' },
 ] as const;
@@ -1527,7 +1527,7 @@ const sections = [
 					faqDescription: 'Short answers about {brand} — delivery, setup, updates, and refunds.',
 					reviewsTitle: '{brand} Reviews | Buyer Feedback',
 					reviewsDescription:
-						'Real buyer reviews for {brand} — ESP, soft aim, radar, and patch updates on Windows PC.',
+						'Real buyer reviews for {brand} — ESP, aimbot, radar, and patch updates on Windows PC.',
 					blogTitle: '{game} Intel | {brand}',
 					blogDescription: 'Guides and notes for {game} — meta tips, ESP, aimbot, and {antiCheat} updates.',
 				};
@@ -1535,7 +1535,7 @@ const sections = [
 				const copyTemplates = {
 					tagline: 'Undetected {primaryKeyword} -- ESP, aimbot, and radar for PC',
 					summary:
-						'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+						'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, aimbot, and radar, with {antiCheat} maintenance after patches.',
 					heroLede: 'Hacks and cheats available -- 0% detection.',
 					blogLabel: '{game} Intel',
 					ctaBuy: 'Buy now',
@@ -1547,7 +1547,7 @@ const sections = [
 					setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
 					supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 					faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
-					reviewsIntro: 'Real feedback from {brand} buyers — ESP, soft aim, radar, and support.',
+					reviewsIntro: 'Real feedback from {brand} buyers — ESP, aimbot, radar, and support.',
 				};
 
 				function show(msg, ok) {
@@ -1753,7 +1753,7 @@ const sections = [
 							features: '/features/',
 							store: '/pricing/',
 							status: '/updates/',
-							preview: '/naraka-cheats/',
+							preview: '/destiny-2-cheats/',
 							setup: '/setup/',
 							support: '/support/',
 							faq: '/faq/',

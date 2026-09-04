@@ -17,9 +17,9 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catFeaturesHint',
 			links: [
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
-				{ href: '/naraka-esp/', labelKey: 'homeSeo.linkEsp' },
-				{ href: '/naraka-aimbot/', labelKey: 'homeSeo.linkAimbot' },
-				{ href: '/naraka-radar-hack/', labelKey: 'homeSeo.linkRadar' },
+				{ href: '/destiny-2-esp/', labelKey: 'homeSeo.linkEsp' },
+				{ href: '/destiny-2-aimbot/', labelKey: 'homeSeo.linkAimbot' },
+				{ href: '/destiny-2-radar-hack/', labelKey: 'homeSeo.linkRadar' },
 			],
 		},
 		{

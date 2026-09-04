@@ -1,5 +1,5 @@
 import { siteConfig } from '../site';
-import { narakaImages } from '../naraka';
+import { destiny2Images } from '../destiny2';
 import { blogSitemapImageMeta } from '../brand-sitemap';
 import {
 	defaultLocale,
@@ -12,20 +12,20 @@ import type { BlogImageKey, BlogPostDefinition, BlogTranslation, ResolvedBlogPos
 import { blogPosts as rawBlogPosts } from './posts.generated';
 
 const imageMap: Record<BlogImageKey, string> = {
-	hero: narakaImages.espWallhack,
-	espWallhack: narakaImages.espWallhack,
-	aimbotCombat: narakaImages.aimbotCombat,
-	aimbotSkeleton: narakaImages.aimbotSkeleton,
-	squadFight: narakaImages.aimbotCombat,
-	headerArt: narakaImages.playerEsp,
-	hacksPackage: narakaImages.espWallhack,
-	playerEsp: narakaImages.playerEsp,
-	raidFight: narakaImages.aimbotCombat,
-	raidCombat: narakaImages.hacksCombat,
-	raidMapMap: narakaImages.espWallhack,
+	hero: destiny2Images.espWallhack,
+	espWallhack: destiny2Images.espWallhack,
+	aimbotCombat: destiny2Images.aimbotCombat,
+	aimbotSkeleton: destiny2Images.aimbotSkeleton,
+	squadFight: destiny2Images.aimbotCombat,
+	headerArt: destiny2Images.playerEsp,
+	hacksPackage: destiny2Images.espWallhack,
+	playerEsp: destiny2Images.playerEsp,
+	raidFight: destiny2Images.aimbotCombat,
+	raidCombat: destiny2Images.hacksCombat,
+	raidMapMap: destiny2Images.espWallhack,
 };
 
-const FALLBACK_BLOG_IMAGE = narakaImages.espWallhack;
+const FALLBACK_BLOG_IMAGE = destiny2Images.espWallhack;
 
 function expandTranslations(
 	translations: Partial<Record<LocaleCode, BlogTranslation>> & { en: BlogTranslation },
@@ -206,7 +206,7 @@ export function getBlogSitemapEntriesForLocale(locale: LocaleCode) {
 	for (const post of blogPosts) {
 		const t = post.translations[locale];
 		const imageSrc = getBlogImageSrc(post.imageKey);
-		const isProductPost = /Naraka Cheats|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
+		const isProductPost = /Destiny 2 Cheats|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
 		entries.push({
 			path: getBlogPostPath(locale, t.slug),
 			lastmod: post.updated,

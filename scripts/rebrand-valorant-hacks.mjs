@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Rebrand narakacheats.org → narakacheats.org (Naraka Cheats → Naraka Cheats).
- * Run from project root: node scripts/rebrand-naraka-cheats.mjs
+ * Rebrand destiny2hack.net → destiny2hack.net (Destiny 2 Cheats → Destiny 2 Cheats).
+ * Run from project root: node scripts/rebrand-destiny-2-cheats.mjs
  */
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -10,18 +10,18 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'tmp', '.astro']);
-const SKIP_FILES = new Set(['package-lock.json', 'rebrand-naraka-cheats.mjs']);
+const SKIP_FILES = new Set(['package-lock.json', 'rebrand-destiny-2-cheats.mjs']);
 
 /** Ordered — most specific first. */
 const REPLACEMENTS = [
-	['https://www.narakacheats.org', 'https://www.narakacheats.org'],
-	['https://narakacheats.org', 'https://narakacheats.org'],
-	['www.narakacheats.org', 'www.narakacheats.org'],
-	['support@narakacheats.org', 'support@narakacheats.org'],
-	['narakacheats.org', 'narakacheats.org'],
-	['project-name=narakacheats', 'project-name=narakacheats'],
-	['name = "valorantcheats"', 'name = "naraka-cheats-org"'],
-	['Naraka Cheats', 'Naraka Cheats'],
+	['https://destiny2hack.net', 'https://destiny2hack.net'],
+	['https://destiny2hack.net', 'https://destiny2hack.net'],
+	['destiny2hack.net', 'destiny2hack.net'],
+	['support@destiny2hack.net', 'support@destiny2hack.net'],
+	['destiny2hack.net', 'destiny2hack.net'],
+	['project-name=destiny2hack', 'project-name=destiny2hack'],
+	['name = "valorantcheats"', 'name = "destiny2hack"'],
+	['Destiny 2 Cheats', 'Destiny 2 Cheats'],
 ];
 
 async function walk(dir, files = []) {
@@ -59,4 +59,4 @@ for (const file of files) {
 	}
 }
 
-console.log(`\nrebrand-naraka-cheats: ${changed} file(s) updated`);
+console.log(`\nrebrand-destiny-2-cheats: ${changed} file(s) updated`);

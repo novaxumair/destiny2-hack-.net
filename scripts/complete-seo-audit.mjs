@@ -41,9 +41,9 @@ const LEGACY_TERMS = [
 ];
 
 const BRAND_DRIFT = [
-  'naraka cheats org',
-  'naraka-cheats.org',
-  'naraka cheats .org',
+  'destiny 2 cheats org',
+  'destiny-2-cheats.org',
+  'destiny 2 cheats .org',
 ];
 
 function walkHtml(dir, files = []) {

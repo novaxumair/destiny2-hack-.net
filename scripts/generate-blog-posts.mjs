@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generates src/data/blog/posts.generated.ts — NLP-first Naraka Intel posts.
+ * Generates src/data/blog/posts.generated.ts — NLP-first Destiny 2 Intel posts.
  * Natural language, entity-rich copy for Google semantic matching.
  * Run: node scripts/generate-blog-posts.mjs
  */
@@ -15,11 +15,11 @@ const LOCALES = ['en'];
 
 const EXT = {
 	finals:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/" target="_blank" rel="noopener noreferrer">Naraka</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
 	status:
-		'<a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT//" target="_blank" rel="noopener noreferrer">Naraka on PC</a>',
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2//" target="_blank" rel="noopener noreferrer">Destiny 2 on PC</a>',
 	eac:
-		'<a href="https://www.easy.ac/" target="_blank" rel="noopener noreferrer">NEAC</a>',
+		'<a href="https://www.battleye.com/" target="_blank" rel="noopener noreferrer">BattlEye</a>',
 };
 
 /** @typedef {{ h2: string, paragraphs: string[] }} Section */
@@ -35,34 +35,34 @@ const sources = [
 		category: 'Patch Notes',
 		featured: false,
 		slug: 'naraka-patch-notes-guide',
-		title: 'How to Read Naraka Patch Notes',
+		title: 'How to Read Destiny 2 Patch Notes',
 		metaDescription:
-			'Learn how Naraka patch notes change player builds, resource economy, and maps. What to do after NEAC and major updates in 2026.',
-		h1: 'How to Read Naraka Patch Notes Without Guessing',
+			'Learn how Destiny 2 patch notes change player builds, resource economy, and maps. What to do after BattlEye and major updates in 2026.',
+		h1: 'How to Read Destiny 2 Patch Notes Without Guessing',
 		intro:
-			'When 24 Entertainment drops a patch, most players skim the headline and load in anyway. That is how you walk into Map with the wrong ammo and a gun that just lost its damage output. Here is a calmer way to read Naraka patch notes so your next match still makes sense.',
+			'When Bungie drops a patch, most players skim the headline and load in anyway. That is how you walk into Map with the wrong ammo and a gun that just lost its damage output. Here is a calmer way to read Destiny 2 patch notes so your next match still makes sense.',
 		keywords: [
-			'Naraka patch notes',
-			'Naraka major update',
-			'neac patch',
+			'Destiny 2 patch notes',
+			'Destiny 2 major update',
+			'battleye patch',
 			'player build',
 			'Finals intel',
 		],
-		imageAlt: 'Player reviewing Naraka patch notes before a match',
+		imageAlt: 'Player reviewing Destiny 2 patch notes before a match',
 		sections: [
 			{
-				h2: 'What actually matters in a Naraka patch?',
+				h2: 'What actually matters in a Destiny 2 patch?',
 				paragraphs: [
 					`Official notes live on ${EXT.naraka}. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how shield tiers fight? Does this change what economy rounds are worth saving? Does this change which site or map I should play tonight?`,
 					'Growth stat tables, armor tiers, heli spawn rates, and blueprint unlocks move the real economy. A small recoil control tweak on an mid-tier weapons looks boring in a video title, but it quietly reshapes mid-range fights on maps and Map. Cosmetic lines and UI polish almost never decide whether you survive high-traffic zones.',
-					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">Naraka Cheats status page</a> before you blame your own aim.`,
+					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">Destiny 2 Cheats status page</a> before you blame your own aim.`,
 				],
 			},
 			{
 				h2: 'Buffs, nerfs, and removed items — a simple framework',
 				paragraphs: [
 					'When an item is removed from match loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused matches — before you rebuild your entire progress around them.',
-					'Growth stats and bite damage changes usually matter more than a single gun’s recoil control number. If a popular round loses penetration against shield tiers, your Map push into squad melee combats suddenly needs a different mag. Pair this reading habit with our <a href="/blog/naraka-weapon-tier-list/">Naraka player tier list</a> so you are not chasing streamer builds that ignore your budget.',
+					'Growth stats and bite damage changes usually matter more than a single gun’s recoil control number. If a popular round loses penetration against shield tiers, your Map push into squad PvP gunfightss suddenly needs a different mag. Pair this reading habit with our <a href="/blog/naraka-weapon-tier-list/">Destiny 2 player tier list</a> so you are not chasing streamer builds that ignore your budget.',
 				],
 			},
 			{
@@ -83,20 +83,20 @@ const sources = [
 		category: 'Cosmetics',
 		featured: false,
 		slug: 'naraka-cosmetics-guide',
-		title: 'Naraka Cosmetics & Skin Previews: What Is Worth Buying',
+		title: 'Destiny 2 Cosmetics & Skin Previews: What Is Worth Buying',
 		metaDescription:
-			'Sensible advice on Naraka cosmetics and skin previews — what to buy on the in-game store, what to skip, and how looks affect match readability.',
-		h1: 'Naraka Cosmetics and Skin Previews: Buy Smart, Not Impulsive',
+			'Sensible advice on Destiny 2 cosmetics and skin previews — what to buy on the in-game store, what to skip, and how looks affect match readability.',
+		h1: 'Destiny 2 Cosmetics and Skin Previews: Buy Smart, Not Impulsive',
 		intro:
-			'Leaks make every patch cycle feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play Naraka — or just looks cool in a screenshot.',
+			'Leaks make every patch cycle feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play Destiny 2 — or just looks cool in a screenshot.',
 		keywords: [
-			'Naraka cosmetics',
-			'Naraka cosmetics',
+			'Destiny 2 cosmetics',
+			'Destiny 2 cosmetics',
 			'in-game store skins',
-			'the Naraka cosmetics',
+			'the Destiny 2 cosmetics',
 			'Finals intel',
 		],
-		imageAlt: 'Naraka character cosmetics and skin appearance options',
+		imageAlt: 'Destiny 2 character cosmetics and skin appearance options',
 		sections: [
 			{
 				h2: 'Why most impulse cosmetic buys feel bad after a week',
@@ -106,7 +106,7 @@ const sources = [
 				],
 			},
 			{
-				h2: 'A simple worth-it checklist for Naraka cosmetics',
+				h2: 'A simple worth-it checklist for Destiny 2 cosmetics',
 				paragraphs: [
 					'Buy if you will still wear it in ninety days and it stays readable in night matches. Pause if it overlaps three outfits you already own. Skip FOMO bundles squaded with fillers you will never equip. Always keep a credit floor for ammo and healing before fashion.',
 					'Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the in-game store. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.',
@@ -129,23 +129,23 @@ const sources = [
 		category: 'Weapons',
 		featured: true,
 		slug: 'naraka-weapon-tier-list',
-		title: 'Naraka Player Tier List: Best Weapons for Raids',
+		title: 'Destiny 2 Player Tier List: Best Weapons for Raids',
 		metaDescription:
-			'A practical Naraka player tier list for solo farmers and matchers matches — ARs, SMGs, and long-range rifles, ammo, and when each gun actually wins fights.',
-		h1: 'Naraka Player Tier List: What Wins matches in 2026',
+			'A practical Destiny 2 player tier list for solo farmers and matchers matches — ARs, SMGs, and long-range rifles, ammo, and when each gun actually wins fights.',
+		h1: 'Destiny 2 Player Tier List: What Wins matches in 2026',
 		intro:
-			'Creator tier lists love flashy guns. Naraka rewards expected value: damage output, recoil control you can control, and a kit you can rebuild after you die. Here is how to rank players for real matches — not highlight reels.',
+			'Creator tier lists love flashy guns. Destiny 2 rewards expected value: damage output, recoil control you can control, and a kit you can rebuild after you die. Here is how to rank players for real matches — not highlight reels.',
 		keywords: [
-			'Naraka weapon tier list',
+			'Destiny 2 weapon tier list',
 			'best naraka weapons',
 			'naraka meta loadouts',
 			'naraka weapon builds',
 			'Finals intel',
 		],
-		imageAlt: 'Naraka players laid out for a weapon comparison for a weapon loadout comparison',
+		imageAlt: 'Destiny 2 players laid out for a weapon comparison for a weapon loadout comparison',
 		sections: [
 			{
-				h2: 'How should you define S-tier in Naraka?',
+				h2: 'How should you define S-tier in Destiny 2?',
 				paragraphs: [
 					'S-tier means the best expected value across a hundred player encounters on maps like Map, Woods, and Map — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide matches: forty to seventy meters through doorways, parking lots, and tree lines.',
 					'Shotguns still own tight interiors. Long-ranges still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant patch cycle after patch cycle when ammo and mods are available.',
@@ -155,15 +155,15 @@ const sources = [
 			{
 				h2: 'Ammo, TTK, and peek discipline matter more than brand names',
 				paragraphs: [
-					'Time-to-kill in Naraka is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this patch cycle, then pick a platform that controls recoil control at your skill level.',
-					'First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href="/blog/naraka-loot-routes-guide/">grapple routes guide</a> so you actually load in with the ammo you planned to use.',
+					'Time-to-kill in Destiny 2 is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this patch cycle, then pick a platform that controls recoil control at your skill level.',
+					'First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href="/blog/naraka-loot-routes-guide/">movement routes guide</a> so you actually load in with the ammo you planned to use.',
 				],
 			},
 			{
 				h2: 'Loadout pairings and common mistakes',
 				paragraphs: [
-					'A durable kit is usually a reliable mid-tier AR, an SMG build in combat zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In Quick Match sessions, that same spine supports the aggression patterns in our <a href="/blog/naraka-loot-run-strategies/">economy round strategies article</a>.',
-					'Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href="/naraka-aimbot/">Naraka Aimbot settings</a>.',
+					'A durable kit is usually a reliable mid-tier AR, an SMG build in combat zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In Quickplay sessions, that same spine supports the aggression patterns in our <a href="/blog/naraka-loot-run-strategies/">economy round strategies article</a>.',
+					'Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href="/destiny-2-aimbot/">Destiny 2 Aimbot settings</a>.',
 				],
 			},
 		],
@@ -176,25 +176,25 @@ const sources = [
 		category: 'Economy Rounds',
 		featured: true,
 		slug: 'naraka-loot-run-strategies',
-		title: 'Naraka Economy Round Strategies That Win More Fights',
+		title: 'Destiny 2 Economy Round Strategies That Win More Fights',
 		metaDescription:
-			'Five smart Naraka economy strategies — timings, buys, third-parties, and how to leave eco rounds with better guns instead of wasted credits.',
-		h1: 'Naraka Economy Round Strategies: How to Win More Fights',
+			'Five smart Destiny 2 economy strategies — timings, buys, third-parties, and how to leave eco rounds with better guns instead of wasted credits.',
+		h1: 'Destiny 2 Economy Round Strategies: How to Win More Fights',
 		intro:
 			'Passive players save every round and show up with weak buys while the enemy stacks rifles. Strong eco rounds manufacture a short advantage, buy what matters, and swing before the round timer collapses on you.',
 		keywords: [
-			'Naraka grapple routes',
+			'Destiny 2 movement routes',
 			'economy round strategies',
 			'zone collapse timing',
-			'grapple routes',
-			'Naraka ESP',
+			'movement routes',
+			'Destiny 2 ESP',
 		],
-		imageAlt: 'Naraka heroes pushing toward a contested POI',
+		imageAlt: 'Destiny 2 heroes pushing toward a contested POI',
 		sections: [
 			{
-				h2: 'Why so many Quick Match lobbies feel soft',
+				h2: 'Why so many Quickplay lobbies feel soft',
 				paragraphs: [
-					'starter kits are random, timers are limited, and player enemy players can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a patched lobby with nothing left. Information tools like <a href="/naraka-esp/">Naraka ESP</a> can help you see fights early — but you still need an exit plan.',
+					'starter kits are random, timers are limited, and player enemy players can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a patched lobby with nothing left. Information tools like <a href="/destiny-2-esp/">Destiny 2 ESP</a> can help you see fights early — but you still need an exit plan.',
 					'Decide your match route before you swing. Take a clear damage window, grab high-value loot, then leave. The usual third-party clock in hot POIs is only a few seconds long once gunfire starts.',
 				],
 			},
@@ -208,7 +208,7 @@ const sources = [
 			{
 				h2: 'Warmup checklist before you load in with a starter kit',
 				paragraphs: [
-					'Know your map’s main bases, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href="/blog/naraka-loot-routes-guide/">grapple routes</a>, <a href="/blog/naraka-weapon-tier-list/">player tiers</a>, and <a href="/blog/naraka-warmup-routine/">warmup routines</a>.',
+					'Know your map’s main bases, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href="/blog/naraka-loot-routes-guide/">movement routes</a>, <a href="/blog/naraka-weapon-tier-list/">player tiers</a>, and <a href="/blog/naraka-warmup-routine/">warmup routines</a>.',
 					'Try one match where you force early contact only when you have armor and a usable gun — then track whether you extracted before the third-party window closed.',
 				],
 			},
@@ -222,20 +222,20 @@ const sources = [
 		category: 'Competitive',
 		featured: false,
 		slug: 'naraka-competitive-meta-guide',
-		title: 'What Competitive Naraka Players Optimize For',
+		title: 'What Competitive Destiny 2 Players Optimize For',
 		metaDescription:
-			'What strong Naraka competitors optimize — match plans, loadouts, mid-session habits, and which competitive habits help normal match sessions.',
-		h1: 'What Competitive Naraka Players Optimize For',
+			'What strong Destiny 2 competitors optimize — match plans, loadouts, mid-session habits, and which competitive habits help normal match sessions.',
+		h1: 'What Competitive Destiny 2 Players Optimize For',
 		intro:
-			'Tournament winners and high-level pairs are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-session habits, and fights they choose on purpose. Here is what translates into your normal Naraka load ins.',
+			'Tournament winners and high-level pairs are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-session habits, and fights they choose on purpose. Here is what translates into your normal Destiny 2 load ins.',
 		keywords: [
-			'Naraka ranked',
-			'Naraka competitive meta',
+			'Destiny 2 ranked',
+			'Destiny 2 competitive meta',
 			'naraka competitive meta',
 			'arena habits',
 			'Finals intel',
 		],
-		imageAlt: 'Competitive Naraka players reviewing match strategy',
+		imageAlt: 'Competitive Destiny 2 players reviewing match strategy',
 		sections: [
 			{
 				h2: 'Watch official server stream replays like a coach, not a fan',
@@ -268,26 +268,26 @@ const sources = [
 		category: 'Loot Routes',
 		featured: true,
 		slug: 'naraka-loot-routes-guide',
-		title: 'Naraka Loot Routes That Leave Spawn Ready to Fight',
+		title: 'Destiny 2 Loot Routes That Leave Spawn Ready to Fight',
 		metaDescription:
-			'High-percentage Naraka grapple routes for Map, Woods, and Map — how to leave load in with guns, armor, and ability cooldowns that win mid-session fights.',
-		h1: 'Naraka Loot Routes: Leave Spawn Ready to Fight',
+			'High-percentage Destiny 2 movement routes for Map, Woods, and Map — how to leave load in with guns, armor, and ability cooldowns that win mid-session fights.',
+		h1: 'Destiny 2 Loot Routes: Leave Spawn Ready to Fight',
 		intro:
-			'Winning in Naraka starts before the first gunfight. Poor buys get you punished with a pistol and no ability cooldowns. These route habits consistently convert a load into a kit you can actually fight with.',
+			'Winning in Destiny 2 starts before the first gunfight. Poor buys get you punished with a pistol and no ability cooldowns. These route habits consistently convert a load into a kit you can actually fight with.',
 		keywords: [
-			'naraka grapple routes',
-			'Map grapple routes',
+			'naraka movement routes',
+			'Map movement routes',
 			'Map control points',
 			'naraka map guide',
-			'Naraka ESP',
+			'Destiny 2 ESP',
 		],
-		imageAlt: 'Loot route planning across a Naraka map',
+		imageAlt: 'Loot route planning across a Destiny 2 map',
 		sections: [
 			{
 				h2: 'Why early inventory is the real bottleneck',
 				paragraphs: [
 					'Many early match deaths happen because players loot like tourists. Strong players treat the first ninety seconds like a shopping list: usable gun, enough ammo, basic armor, and a heal. Drop spot matters less than sequence — a mediocre POI with discipline beats a stacked landmark with panic looting.',
-					'Secure a primary growth stage and ability cooldowns before melee combating kills. Early ego chases are how hot-spawn players stay broke.',
+					'Secure a primary growth stage and ability cooldowns before PvP gunfightsing kills. Early ego chases are how hot-spawn players stay broke.',
 				],
 			},
 			{
@@ -301,7 +301,7 @@ const sources = [
 				h2: 'Convert a strong load into a win',
 				paragraphs: [
 					'Pair these routes with <a href="/blog/naraka-loot-run-strategies/">eco round aggression</a> and <a href="/blog/naraka-weapon-tier-list/">player tiers</a>. Leave load in with gear advantage so mid-session becomes a skill check instead of a desperate growth panic.',
-					'If you practice with hero markers, read <a href="/naraka-esp/">Naraka ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.',
+					'If you practice with guardian markers, read <a href="/destiny-2-esp/">Destiny 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.',
 				],
 			},
 		],
@@ -314,20 +314,20 @@ const sources = [
 		category: 'Settings',
 		featured: false,
 		slug: 'naraka-pro-settings-guide',
-		title: 'Naraka Pro Settings That Actually Help You See Enemies',
+		title: 'Destiny 2 Pro Settings That Actually Help You See Enemies',
 		metaDescription:
-			'Practical Naraka settings used by strong players — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.',
-		h1: 'Naraka Settings Guide: See More, Panic Less',
+			'Practical Destiny 2 settings used by strong players — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.',
+		h1: 'Destiny 2 Settings Guide: See More, Panic Less',
 		intro:
-			'Copying a champion’s entire config will not make you one. But a few Naraka settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.',
+			'Copying a champion’s entire config will not make you one. But a few Destiny 2 settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.',
 		keywords: [
-			'Naraka settings',
+			'Destiny 2 settings',
 			'naraka aim smoothing',
 			'naraka visibility',
 			'naraka audio settings',
 			'Finals intel',
 		],
-		imageAlt: 'Naraka graphics and control settings menu',
+		imageAlt: 'Destiny 2 graphics and control settings menu',
 		sections: [
 			{
 				h2: 'Visibility and performance before fancy numbers',
@@ -340,14 +340,14 @@ const sources = [
 				h2: 'Sensitivity, ADS, and muscle memory',
 				paragraphs: [
 					'Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href="/blog/naraka-warmup-routine/">warmup guide</a> so your hands match the new numbers.',
-					'If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href="/naraka-aimbot/">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.',
+					'If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href="/destiny-2-aimbot/">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.',
 				],
 			},
 			{
 				h2: 'Audio cues that win bases',
 				paragraphs: [
 					'Footsteps, ability cooldowns, and footstep audio often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a footstep shuffle and a player push.',
-					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/blog/naraka-loot-routes-guide/">grapple routes</a> article so you know where those sounds are coming from.',
+					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/blog/naraka-loot-routes-guide/">movement routes</a> article so you know where those sounds are coming from.',
 				],
 			},
 		],
@@ -360,26 +360,26 @@ const sources = [
 		category: 'Warmup',
 		featured: false,
 		slug: 'naraka-warmup-routine',
-		title: 'Naraka Warmup Routine Before Serious match Raids',
+		title: 'Destiny 2 Warmup Routine Before Serious match Raids',
 		metaDescription:
-			'A short Naraka warmup routine before matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.',
-		h1: 'Naraka Warmup Routine Before You Queue player',
+			'A short Destiny 2 warmup routine before matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.',
+		h1: 'Destiny 2 Warmup Routine Before You Queue player',
 		intro:
-			'Queuing cold into high-traffic zones or high-traffic zones is how you donate a kit. A short Naraka warmup — even ten to fifteen minutes — makes your first real fight feel like your third.',
+			'Queuing cold into high-traffic zones or high-traffic zones is how you donate a kit. A short Destiny 2 warmup — even ten to fifteen minutes — makes your first real fight feel like your third.',
 		keywords: [
-			'Naraka warmup',
+			'Destiny 2 warmup',
 			'naraka aim practice',
 			'arena warmup routine',
 			'naraka aim train sessions',
 			'Finals intel',
 		],
-		imageAlt: 'Player warming up aim before a Naraka match',
+		imageAlt: 'Player warming up aim before a Destiny 2 match',
 		sections: [
 			{
 				h2: 'Why your first match should not be the warmup',
 				paragraphs: [
 					'Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the match, not optional fluff.',
-					'Offline practice, practice server habits, and a couple of low-stakes Quick Match sessions exist so your expensive grown player is not the experiment.',
+					'Offline practice, practice server habits, and a couple of low-stakes Quickplay sessions exist so your expensive grown player is not the experiment.',
 				],
 			},
 			{
@@ -399,93 +399,93 @@ const sources = [
 		],
 	},
 	{
-		id: 'naraka-cheats-complete-guide',
+		id: 'destiny-2-cheats-complete-guide',
 		imageKey: 'espWallhack',
 		published: '2026-07-30',
 		updated: '2026-08-13',
 		category: 'Cheats Guide',
 		featured: true,
-		slug: 'naraka-cheats-complete-guide-2026',
-		title: 'Naraka Cheats 2026: Complete Undetected Guide',
+		slug: 'destiny-2-cheats-complete-guide-2026',
+		title: 'Destiny 2 Cheats 2026: Complete Undetected Guide',
 		metaDescription:
-			'A clear 2026 guide to naraka cheats — what ESP, soft aim, and radar actually do in Naraka, how NEAC maintenance works, and how to buy safely.',
-		h1: 'Naraka Cheats in 2026: What They Are and How to Use Them Carefully',
+			'A clear 2026 guide to destiny 2 cheats — what ESP, soft aim, and radar actually do in Destiny 2, how BattlEye maintenance works, and how to buy safely.',
+		h1: 'Destiny 2 Cheats in 2026: What They Are and How to Use Them Carefully',
 		intro:
-			'People search “naraka cheats” for a simple reason: Naraka is information-heavy, punishing, and full of defenders. This guide explains what modern undetected packages actually include, how NEAC maintenance works, and how to decide whether a tool fits your play style.',
+			'People search “destiny 2 cheats” for a simple reason: Destiny 2 is information-heavy, punishing, and full of defenders. This guide explains what modern undetected packages actually include, how BattlEye maintenance works, and how to decide whether a tool fits your play style.',
 		keywords: [
-			'naraka cheats',
-			'undetected naraka cheats',
-			'Naraka ESP',
-			'Naraka Aimbot',
-			'neac',
+			'destiny 2 cheats',
+			'undetected destiny 2 cheats',
+			'Destiny 2 ESP',
+			'Destiny 2 Aimbot',
+			'battleye',
 		],
-		imageAlt: 'Overview of Naraka Cheats ESP soft aim and radar tools for 2026',
+		imageAlt: 'Overview of Destiny 2 Cheats ESP soft aim and radar tools for 2026',
 		sections: [
 			{
-				h2: 'What do people mean when they say naraka cheats?',
+				h2: 'What do people mean when they say destiny 2 cheats?',
 				paragraphs: [
-					'In plain language, naraka cheats are third-party tools that add information or aim assistance on top of Naraka client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for melee combats. One license should cover that loop instead of forcing you to juggle separate downloads.',
-					'Searchers also say “naraka cheats,” “naraka cheats,” or “naraka wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">Naraka Cheats pillar</a> if you want the product overview without the long essay.',
+					'In plain language, destiny 2 cheats are third-party tools that add information or aim assistance on top of Destiny 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for PvP gunfightss. One license should cover that loop instead of forcing you to juggle separate downloads.',
+					'Searchers also say “destiny 2 cheats,” “destiny 2 cheats,” or “destiny 2 wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">Destiny 2 Cheats pillar</a> if you want the product overview without the long essay.',
 				],
 			},
 			{
 				h2: 'ESP, soft aim, and radar — what each tool is for',
 				paragraphs: [
 					'ESP answers “who is near me and what is worth looting?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.',
-					'Deep dives live on <a href="/naraka-esp/">ESP</a>, <a href="/naraka-aimbot/">aimbot</a>, <a href="/naraka-esp/">wallhack</a>, and <a href="/naraka-radar-hack/">radar</a>. Read those before you buy if you only need one job done well.',
+					'Deep dives live on <a href="/destiny-2-esp/">ESP</a>, <a href="/destiny-2-aimbot/">aimbot</a>, <a href="/destiny-2-esp/">wallhack</a>, and <a href="/destiny-2-radar-hack/">radar</a>. Read those before you buy if you only need one job done well.',
 				],
 			},
 			{
-				h2: 'NEAC, “undetected,” and honest expectations',
+				h2: 'BattlEye, “undetected,” and honest expectations',
 				paragraphs: [
-					`${EXT.eac} protects Naraka. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/updates/">undetected naraka cheats</a> and <a href="/updates/">NEAC maintenance</a>.`,
+					`${EXT.eac} protects Destiny 2. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/updates/">undetected destiny 2 cheats</a> and <a href="/updates/">BattlEye maintenance</a>.`,
 					'Before every patch-day load in, read <a href="/updates/">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.',
 				],
 			},
 			{
 				h2: 'How to buy and set up without wasting a night',
 				paragraphs: [
-					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/naraka-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
-					'Naraka Cheats is built for Windows PC solo farmers and matchers play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
+					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/destiny-2-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
+					'Destiny 2 Cheats is built for Windows PC solo farmers and matchers play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
 				],
 			},
 		],
 	},
 	{
-		id: 'naraka-cheats-buyers-guide',
+		id: 'destiny-2-cheats-buyers-guide',
 		imageKey: 'hacksPackage',
 		published: '2026-07-28',
 		updated: '2026-08-13',
 		category: 'Buyers Guide',
 		featured: true,
-		slug: 'naraka-cheats-buyers-guide',
-		title: 'Naraka Cheats Buyers Guide',
+		slug: 'destiny-2-cheats-buyers-guide',
+		title: 'Destiny 2 Cheats Buyers Guide',
 		metaDescription:
-			'What to check before you buy naraka cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
-		h1: 'Naraka Cheats: What to Check Before You Buy',
+			'What to check before you buy destiny 2 cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
+		h1: 'Destiny 2 Cheats: What to Check Before You Buy',
 		intro:
-			'Buying naraka cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
+			'Buying destiny 2 cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
 		keywords: [
-			'naraka cheats',
-			'naraka cheats buyers guide',
-			'buy naraka cheats',
-			'undetected naraka cheats',
-			'naraka cheats pricing',
+			'destiny 2 cheats',
+			'destiny 2 cheats buyers guide',
+			'buy destiny 2 cheats',
+			'undetected destiny 2 cheats',
+			'destiny 2 cheats pricing',
 		],
-		imageAlt: 'Checklist for buying Naraka Cheats safely',
+		imageAlt: 'Checklist for buying Destiny 2 Cheats safely',
 		sections: [
 			{
 				h2: 'Start with status, not screenshots',
 				paragraphs: [
-					'Ask whether the seller publishes a dated status page after NEAC or client patches. Fancy galleries do not help if the tool is offline for three days. Naraka Cheats posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
+					'Ask whether the seller publishes a dated status page after BattlEye or client patches. Fancy galleries do not help if the tool is offline for three days. Destiny 2 Cheats posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
 					'If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.',
 				],
 			},
 			{
-				h2: 'Feature checklist that matches real Naraka matches',
+				h2: 'Feature checklist that matches real Destiny 2 matches',
 				paragraphs: [
-					'For Naraka, useful features usually mean player ESP with distance, agent filters, site awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and other-game leftovers are red flags that the page was cloned from another game.',
-					'Compare the stack on <a href="/features/">Features</a>, <a href="/naraka-esp/">ESP</a>, and <a href="/naraka-aimbot/">Aimbot</a>. If radar matters to how you hold bases, confirm it exists before checkout.',
+					'For Destiny 2, useful features usually mean player ESP with distance, agent filters, site awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and other-game leftovers are red flags that the page was cloned from another game.',
+					'Compare the stack on <a href="/features/">Features</a>, <a href="/destiny-2-esp/">ESP</a>, and <a href="/destiny-2-aimbot/">Aimbot</a>. If radar matters to how you hold bases, confirm it exists before checkout.',
 				],
 			},
 			{
@@ -498,79 +498,79 @@ const sources = [
 		],
 	},
 	{
-		id: 'naraka-cheats-2026-whats-new',
+		id: 'destiny-2-cheats-2026-whats-new',
 		imageKey: 'hero',
 		published: '2026-07-26',
 		updated: '2026-08-13',
 		category: 'Product Updates',
 		featured: false,
-		slug: 'naraka-cheats-2026-whats-new',
-		title: 'Naraka Cheats 2026: What Changed This Year',
+		slug: 'destiny-2-cheats-2026-whats-new',
+		title: 'Destiny 2 Cheats 2026: What Changed This Year',
 		metaDescription:
-			'What changed for naraka cheats in 2026 — patch cycle cadence, NEAC maintenance habits, ESP focus, and how Naraka Cheats adapted for Naraka.',
-		h1: 'What Changed for Naraka Cheats in 2026',
+			'What changed for destiny 2 cheats in 2026 — patch cycle cadence, BattlEye maintenance habits, ESP focus, and how Destiny 2 Cheats adapted for Destiny 2.',
+		h1: 'What Changed for Destiny 2 Cheats in 2026',
 		intro:
-			'2026 did not invent cheating in Naraka — it raised the bar for maintenance. Wipes, NEAC pushes, and map updates punish stale builds. Here is what changed in how serious Naraka Cheats packages need to operate.',
+			'2026 did not invent cheating in Destiny 2 — it raised the bar for maintenance. Wipes, BattlEye pushes, and map updates punish stale builds. Here is what changed in how serious Destiny 2 Cheats packages need to operate.',
 		keywords: [
-			'naraka cheats 2026',
-			'naraka cheats 2026',
-			'neac 2026',
+			'destiny 2 cheats 2026',
+			'destiny 2 cheats 2026',
+			'battleye 2026',
 			'naraka patch cycle',
-			'naraka cheats updates',
+			'destiny 2 cheats updates',
 		],
-		imageAlt: '2026 updates for Naraka Cheats on Naraka',
+		imageAlt: '2026 updates for Destiny 2 Cheats on Destiny 2',
 		sections: [
 			{
 				h2: 'Why 2026 buyers care more about status pages',
 				paragraphs: [
 					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/updates/">undetected explainer</a> instead of empty guarantees.',
-					`${EXT.eac} and Naraka client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
+					`${EXT.eac} and Destiny 2 client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
 				],
 			},
 			{
 				h2: 'Feature focus shifted toward match information',
 				paragraphs: [
-					'The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Naraka fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near maps and combat zones.',
-					'See the current stack on <a href="/features/">Features</a> and the pillar at <a href="/">naraka cheats</a>.',
+					'The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Destiny 2 fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near maps and combat zones.',
+					'See the current stack on <a href="/features/">Features</a> and the pillar at <a href="/">destiny 2 cheats</a>.',
 				],
 			},
 			{
 				h2: 'What we recommend you do differently this year',
 				paragraphs: [
-					'Check status before patch-day load ins. Keep soft aim conservative. Use hero ESP filters so your screen stays clean. Read the <a href="/blog/naraka-cheats-complete-guide-2026/">complete 2026 guide</a> if you are new to the category.',
+					'Check status before patch-day load ins. Keep soft aim conservative. Use guardian ESP filters so your screen stays clean. Read the <a href="/blog/destiny-2-cheats-complete-guide-2026/">complete 2026 guide</a> if you are new to the category.',
 					'Pricing remains monthly and lifetime on <a href="/pricing/">Pricing</a> with digital delivery after payment.',
 				],
 			},
 		],
 	},
 	{
-		id: 'naraka-aimbot-settings-guide',
+		id: 'destiny-2-aimbot-settings-guide',
 		imageKey: 'aimbotCombat',
 		published: '2026-07-24',
 		updated: '2026-08-13',
 		category: 'Aimbot',
 		featured: false,
-		slug: 'naraka-aimbot-settings-guide',
-		title: 'Naraka Aimbot Settings: Smooth FOV Without Looking Robotic',
+		slug: 'destiny-2-aimbot-settings-guide',
+		title: 'Destiny 2 Aimbot Settings: Smooth FOV Without Looking Robotic',
 		metaDescription:
-			'How to tune Naraka Aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Naraka matches.',
-		h1: 'Naraka Aimbot Settings That Feel Natural',
+			'How to tune Destiny 2 Aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Destiny 2 matches.',
+		h1: 'Destiny 2 Aimbot Settings That Feel Natural',
 		intro:
-			'A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Naraka players actually want. Here is how to think about FOV, smoothness, and weapon profiles.',
+			'A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Destiny 2 players actually want. Here is how to think about FOV, smoothness, and weapon profiles.',
 		keywords: [
-			'Naraka Aimbot settings',
+			'Destiny 2 Aimbot settings',
 			'finals soft aim',
 			'aimbot fov',
 			'finals aim assist',
-			'naraka cheats',
+			'destiny 2 cheats',
 		],
-		imageAlt: 'Soft aim and FOV settings for Naraka Aimbot on Windows PC',
+		imageAlt: 'Soft aim and FOV settings for Destiny 2 Aimbot on Windows PC',
 		sections: [
 			{
 				h2: 'Start softer than you think you need',
 				paragraphs: [
 					'Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five matches on Map or high-traffic zones and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.',
-					'Full control docs live on <a href="/naraka-aimbot/">Naraka Aimbot</a> and <a href="/naraka-soft-aim/">soft aim</a>.',
+					'Full control docs live on <a href="/destiny-2-aimbot/">Destiny 2 Aimbot</a> and <a href="/destiny-2-soft-aim/">soft aim</a>.',
 				],
 			},
 			{
@@ -583,143 +583,143 @@ const sources = [
 			{
 				h2: 'Pair aim settings with information tools',
 				paragraphs: [
-					'Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href="/naraka-esp/">ESP categories</a> before blaming aim. After NEAC patches, confirm <a href="/updates/">Updates</a> before you tune anything on an old build.',
+					'Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href="/destiny-2-esp/">ESP categories</a> before blaming aim. After BattlEye patches, confirm <a href="/updates/">Updates</a> before you tune anything on an old build.',
 				],
 			},
 		],
 	},
 	{
-		id: 'naraka-esp-wallhack-explained',
+		id: 'destiny-2-esp-wallhack-explained',
 		imageKey: 'espWallhack',
 		published: '2026-07-21',
 		updated: '2026-08-13',
 		category: 'ESP',
 		featured: false,
-		slug: 'naraka-esp-wallhack-explained',
-		title: 'Naraka ESP and Wallhack Explained in Plain English',
+		slug: 'destiny-2-esp-wallhack-explained',
+		title: 'Destiny 2 ESP and Wallhack Explained in Plain English',
 		metaDescription:
-			'What Naraka ESP and wallhack actually show — players, loot, distance, vaults — and how to keep overlays readable in matches.',
-		h1: 'Naraka ESP and Wallhack Explained Clearly',
+			'What Destiny 2 ESP and wallhack actually show — players, loot, distance, vaults — and how to keep overlays readable in matches.',
+		h1: 'Destiny 2 ESP and Wallhack Explained Clearly',
 		intro:
-			'“ESP” and “wallhack” get used interchangeably. In Naraka they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.',
+			'“ESP” and “wallhack” get used interchangeably. In Destiny 2 they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.',
 		keywords: [
-			'Naraka ESP',
-			'naraka wallhack',
-			'Naraka ESP',
+			'Destiny 2 ESP',
+			'destiny 2 wallhack',
+			'Destiny 2 ESP',
 			'loot esp finals',
-			'naraka cheats',
+			'destiny 2 cheats',
 		],
-		imageAlt: 'ESP wallhack overlay showing players and loot in Naraka',
+		imageAlt: 'ESP wallhack overlay showing players and loot in Destiny 2',
 		sections: [
 			{
 				h2: 'What ESP shows during a real match',
 				paragraphs: [
-					'Player ESP outlines agents through walls and terrain, often with distance. Loot ESP highlights loot or high-value items. Base cues help you avoid camping surprises. That information gap is why people search for Naraka ESP in the first place.',
-					'Read the dedicated pages for <a href="/naraka-esp/">ESP</a> and <a href="/naraka-esp/">wallhack</a> if you want category-level detail.',
+					'Player ESP outlines agents through walls and terrain, often with distance. Loot ESP highlights loot or high-value items. Base cues help you avoid camping surprises. That information gap is why people search for Destiny 2 ESP in the first place.',
+					'Read the dedicated pages for <a href="/destiny-2-esp/">ESP</a> and <a href="/destiny-2-esp/">wallhack</a> if you want category-level detail.',
 				],
 			},
 			{
 				h2: 'How to keep overlays from becoming noise',
 				paragraphs: [
 					'Toggle categories. During a hot push you may want players only. During a loot route you may want loot. Near bases you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.',
-					'Pair ESP with <a href="/naraka-radar-hack/">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the melee combat afterward.',
+					'Pair ESP with <a href="/destiny-2-radar-hack/">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the PvP gunfights afterward.',
 				],
 			},
 			{
 				h2: 'Maintenance and responsible use',
 				paragraphs: [
-					'ESP modules rebuild after NEAC patches like everything else. Check <a href="/updates/">Updates</a> and the <a href="/updates/">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”',
+					'ESP modules rebuild after BattlEye patches like everything else. Check <a href="/updates/">Updates</a> and the <a href="/updates/">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”',
 				],
 			},
 		],
 	},
 	{
-		id: 'undetected-naraka-cheats-eac',
+		id: 'undetected-destiny-2-cheats-eac',
 		imageKey: 'playerEsp',
 		published: '2026-07-19',
 		updated: '2026-08-13',
 		category: 'Undetected',
 		featured: true,
-		slug: 'undetected-naraka-cheats-eac',
-		title: 'Undetected Naraka Cheats and NEAC Reality',
+		slug: 'undetected-destiny-2-cheats-eac',
+		title: 'Undetected Destiny 2 Cheats and BattlEye Reality',
 		metaDescription:
-			'What “undetected naraka cheats” really means under NEAC — maintenance, patch days, risk, and how to read status before you queue Naraka.',
-		h1: 'Undetected Naraka Cheats: What NEAC Reality Looks Like',
+			'What “undetected destiny 2 cheats” really means under BattlEye — maintenance, patch days, risk, and how to read status before you queue Destiny 2.',
+		h1: 'Undetected Destiny 2 Cheats: What BattlEye Reality Looks Like',
 		intro:
-			'“Undetected” is the most abused word in cheat marketing. Under NEAC, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Naraka players.',
+			'“Undetected” is the most abused word in cheat marketing. Under BattlEye, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Destiny 2 players.',
 		keywords: [
-			'undetected naraka cheats',
-			'neac naraka',
+			'undetected destiny 2 cheats',
+			'battleye naraka',
 			'finals ban risk',
 			'finals undetected',
 			'finals status',
 		],
-		imageAlt: 'NEAC maintenance status for undetected naraka cheats',
+		imageAlt: 'BattlEye maintenance status for undetected destiny 2 cheats',
 		sections: [
 			{
 				h2: 'What undetected can honestly mean',
 				paragraphs: [
-					`NEAC is documented at ${EXT.eac}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Naraka Cheats does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/updates/">NEAC maintenance</a>.`,
+					`BattlEye is documented at ${EXT.eac}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Destiny 2 Cheats does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/updates/">BattlEye maintenance</a>.`,
 					'If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.',
 				],
 			},
 			{
 				h2: 'Patch-day habits that reduce pain',
 				paragraphs: [
-					`After a Naraka or NEAC update, wait for a status note before loading in. Confirm Riot services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
+					`After a Destiny 2 or BattlEye update, wait for a status note before loading in. Confirm Riot services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
 					'Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.',
 				],
 			},
 			{
 				h2: 'Where to go next',
 				paragraphs: [
-					'Read <a href="/updates/">undetected naraka cheats</a>, the <a href="/blog/naraka-cheats-complete-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
+					'Read <a href="/updates/">undetected destiny 2 cheats</a>, the <a href="/blog/destiny-2-cheats-complete-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
 				],
 			},
 		],
 	},
 	{
-		id: 'naraka-cheats-vs-cheatvault',
+		id: 'destiny-2-cheats-vs-cheatvault',
 		imageKey: 'hacksPackage',
 		published: '2026-07-15',
 		updated: '2026-08-13',
 		category: 'Comparisons',
 		featured: false,
-		slug: 'naraka-cheats-vs-cheatvault-comparison',
-		title: 'Naraka Cheats vs Typical Budget Naraka Cheat Shops',
+		slug: 'destiny-2-cheats-vs-cheatvault-comparison',
+		title: 'Destiny 2 Cheats vs Typical Budget Destiny 2 Cheat Shops',
 		metaDescription:
-			'How Naraka Cheats compares to typical budget naraka cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
-		h1: 'Naraka Cheats vs Typical Budget Naraka Cheat Shops',
+			'How Destiny 2 Cheats compares to typical budget destiny 2 cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
+		h1: 'Destiny 2 Cheats vs Typical Budget Destiny 2 Cheat Shops',
 		intro:
-			'Budget Naraka stores often look identical: neon banners, “undetected” badges, and a low weekly price. Naraka Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
+			'Budget Destiny 2 stores often look identical: neon banners, “undetected” badges, and a low weekly price. Destiny 2 Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
 		keywords: [
-			'naraka cheats comparison',
-			'budget naraka cheats',
-			'naraka cheats vs other shops',
+			'destiny 2 cheats comparison',
+			'budget destiny 2 cheats',
+			'destiny 2 cheats vs other shops',
 			'esp radar pricing',
-			'naraka cheats',
+			'destiny 2 cheats',
 		],
-		imageAlt: 'Comparing Naraka Cheats features against budget naraka cheat shops',
+		imageAlt: 'Comparing Destiny 2 Cheats features against budget destiny 2 cheat shops',
 		sections: [
 			{
 				h2: 'What budget shops usually optimize for',
 				paragraphs: [
-					'Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin hero ESP, no real radar, Discord-only status, and slow rebuild communication after NEAC pushes.',
-					'Naraka Cheats focuses on a full match stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
+					'Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin guardian ESP, no real radar, Discord-only status, and slow rebuild communication after BattlEye pushes.',
+					'Destiny 2 Cheats focuses on a full match stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
 				],
 			},
 			{
 				h2: 'Price versus what you touch every match',
 				paragraphs: [
-					'If you only want basic player boxes in casual matches, a cheaper shop might feel enough. If you hold bases, run grapple routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.',
-					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/naraka-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
+					'If you only want basic player boxes in casual matches, a cheaper shop might feel enough. If you hold bases, run movement routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.',
+					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/destiny-2-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
 				],
 			},
 			{
 				h2: 'How to decide without brand loyalty',
 				paragraphs: [
-					'Write down must-haves: dated status, hero ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.',
-					'Then return to <a href="/">naraka cheats</a> and <a href="/updates/">undetected notes</a> if that checklist matches what we ship.',
+					'Write down must-haves: dated status, guardian ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.',
+					'Then return to <a href="/">destiny 2 cheats</a> and <a href="/updates/">undetected notes</a> if that checklist matches what we ship.',
 				],
 			},
 		],
@@ -731,41 +731,41 @@ const sources = [
 		updated: '2026-08-13',
 		category: 'Comparisons',
 		featured: false,
-		slug: 'elitefn-vs-naraka-cheats-two-week-test',
-		title: 'I Tested Another Naraka Cheat for 2 Weeks First',
+		slug: 'elitefn-vs-destiny-2-cheats-two-week-test',
+		title: 'I Tested Another Destiny 2 Cheat for 2 Weeks First',
 		metaDescription:
-			'A two-week test of another budget naraka cheat before switching to Naraka Cheats — ESP feel, soft aim, patch downtime, and support differences.',
-		h1: 'I Tested Another Naraka Cheat for Two Weeks Before Switching',
+			'A two-week test of another budget destiny 2 cheat before switching to Destiny 2 Cheats — ESP feel, soft aim, patch downtime, and support differences.',
+		h1: 'I Tested Another Destiny 2 Cheat for Two Weeks Before Switching',
 		intro:
-			'My Discord kept recommending a popular budget naraka cheat shop. I gave it fourteen days on the same PC and official servers, then moved to Naraka Cheats. This is what actually differed — without the usual affiliate script.',
+			'My Discord kept recommending a popular budget destiny 2 cheat shop. I gave it fourteen days on the same PC and official servers, then moved to Destiny 2 Cheats. This is what actually differed — without the usual affiliate script.',
 		keywords: [
-			'naraka cheats review',
-			'naraka cheat comparison',
-			'naraka cheat downtime',
+			'destiny 2 cheats review',
+			'destiny 2 cheat comparison',
+			'destiny 2 cheat downtime',
 			'soft aim test',
-			'naraka cheats',
+			'destiny 2 cheats',
 		],
-		imageAlt: 'Two week hands-on comparison between naraka cheat providers',
+		imageAlt: 'Two week hands-on comparison between destiny 2 cheat providers',
 		sections: [
 			{
 				h2: 'Week one — setup and first impressions',
 				paragraphs: [
 					'Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Loot ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.',
-					'Naraka Cheats later felt similar on install time, but filters for abilities and POI markers were easier to toggle independently during grapple routes.',
+					'Destiny 2 Cheats later felt similar on install time, but filters for abilities and POI markers were easier to toggle independently during movement routes.',
 				],
 			},
 			{
 				h2: 'Soft aim and the mid-session feel',
 				paragraphs: [
 					'Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.',
-					'On Naraka Cheats I relied more on per-weapon profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/naraka-aimbot/">aimbot guide</a>.',
+					'On Destiny 2 Cheats I relied more on per-weapon profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/destiny-2-aimbot/">aimbot guide</a>.',
 				],
 			},
 			{
 				h2: 'The patch window that ended the trial',
 				paragraphs: [
-					'A Naraka plus NEAC update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped load ins while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.',
-					'Naraka Cheats won me over with written notes on <a href="/updates/">Updates</a>. I still do not load in blind after patches on any tool.',
+					'A Destiny 2 plus BattlEye update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped load ins while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.',
+					'Destiny 2 Cheats won me over with written notes on <a href="/updates/">Updates</a>. I still do not load in blind after patches on any tool.',
 				],
 			},
 			{
@@ -778,54 +778,54 @@ const sources = [
 		],
 	},
 	{
-		id: 'naraka-cheats-vs-ghostware',
+		id: 'destiny-2-cheats-vs-ghostware',
 		imageKey: 'espWallhack',
 		published: '2026-07-05',
 		updated: '2026-08-13',
 		category: 'Comparisons',
 		featured: false,
-		slug: 'naraka-cheats-vs-ghostware-features-pricing',
-		title: 'Full-Stack Naraka Cheats vs Minimal ESP Tools',
+		slug: 'destiny-2-cheats-vs-ghostware-features-pricing',
+		title: 'Full-Stack Destiny 2 Cheats vs Minimal ESP Tools',
 		metaDescription:
-			'Full-stack Naraka Cheats versus minimal ESP-only Naraka tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
-		h1: 'Full-Stack Naraka Cheats vs Minimal ESP-Only Tools',
+			'Full-stack Destiny 2 Cheats versus minimal ESP-only Destiny 2 tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
+		h1: 'Full-Stack Destiny 2 Cheats vs Minimal ESP-Only Tools',
 		intro:
-			'Some Naraka tools sell a slim ESP module and call it a day. Naraka Cheats ships the wider match stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.',
+			'Some Destiny 2 tools sell a slim ESP module and call it a day. Destiny 2 Cheats ships the wider match stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.',
 		keywords: [
-			'Naraka ESP only cheat',
-			'naraka cheats features',
+			'Destiny 2 ESP only cheat',
+			'destiny 2 cheats features',
 			'radar vs esp',
-			'naraka cheat pricing',
-			'naraka cheats',
+			'destiny 2 cheat pricing',
+			'destiny 2 cheats',
 		],
-		imageAlt: 'Full stack Naraka Cheats compared with minimal ESP-only tools',
+		imageAlt: 'Full stack Destiny 2 Cheats compared with minimal ESP-only tools',
 		sections: [
 			{
 				h2: 'Two philosophies: minimal surface vs full match loop',
 				paragraphs: [
 					'Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, radar, and soft aim profiles so one menu covers information and fights.',
-					'Naraka Cheats is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, loot, and hold bases, missing radar becomes obvious.',
+					'Destiny 2 Cheats is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, loot, and hold bases, missing radar becomes obvious.',
 				],
 			},
 			{
 				h2: 'Feature and pricing reality check',
 				paragraphs: [
-					'Naraka Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
-					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/naraka-esp/">ESP</a>, <a href="/naraka-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>.',
+					'Destiny 2 Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
+					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/destiny-2-esp/">ESP</a>, <a href="/destiny-2-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>.',
 				],
 			},
 			{
 				h2: 'Detection talk without fairy tales',
 				paragraphs: [
 					'Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.',
-					'Naraka Cheats documents maintenance on <a href="/updates/">NEAC workflow</a> and <a href="/updates/">undetected notes</a>.',
+					'Destiny 2 Cheats documents maintenance on <a href="/updates/">BattlEye workflow</a> and <a href="/updates/">undetected notes</a>.',
 				],
 			},
 			{
 				h2: 'Which style should you buy?',
 				paragraphs: [
-					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Naraka Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.',
-					'Decide your must-haves on paper first. Then open <a href="/">naraka cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
+					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Destiny 2 Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.',
+					'Decide your must-haves on paper first. Then open <a href="/">destiny 2 cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
 				],
 			},
 		],
@@ -849,72 +849,72 @@ function normalizeKeywords(keywords) {
 /** Cleaner on-page H1 titles and shorter keyword sets per post. */
 const POST_META = {
 	'patch-notes-breakdown': {
-		h1: 'How to Read Naraka Patch Notes',
-		keywords: ['Naraka patch notes', 'naraka updates', 'neac patch'],
+		h1: 'How to Read Destiny 2 Patch Notes',
+		keywords: ['Destiny 2 patch notes', 'naraka updates', 'battleye patch'],
 	},
 	'naraka-skin-leaks': {
-		h1: 'Naraka Cosmetics Buying Guide',
-		keywords: ['Naraka cosmetics', 'in-game store skins', 'naraka cosmetics guide'],
+		h1: 'Destiny 2 Cosmetics Buying Guide',
+		keywords: ['Destiny 2 cosmetics', 'in-game store skins', 'naraka cosmetics guide'],
 	},
 	'naraka-weapon-tier-list': {
-		h1: 'Naraka Player Tier List for 2026',
+		h1: 'Destiny 2 Player Tier List for 2026',
 		keywords: ['naraka weapon tier list', 'best naraka loadouts', 'naraka meta'],
 	},
 	'naraka-growth-run-meta': {
-		h1: 'Naraka Economy Round Strategies',
-		keywords: ['Naraka eco rounds', 'economy strategies', 'melee combats'],
+		h1: 'Destiny 2 Economy Round Strategies',
+		keywords: ['Destiny 2 eco rounds', 'economy strategies', 'PvP gunfightss'],
 	},
 	'naraka-competitive-meta': {
-		h1: 'Competitive Naraka Meta Guide',
-		keywords: ['naraka competitive', 'naraka meta', 'ranked matches'],
+		h1: 'Competitive Destiny 2 Meta Guide',
+		keywords: ['naraka competitive', 'naraka meta', 'Competitive matches'],
 	},
 	'naraka-loot-routes': {
-		h1: 'Naraka Map Control Guide',
-		keywords: ['naraka grapple routes', 'map control guide', 'naraka esp'],
+		h1: 'Destiny 2 Map Control Guide',
+		keywords: ['naraka movement routes', 'map control guide', 'destiny 2 esp'],
 	},
 	'naraka-pro-settings': {
-		h1: 'Naraka Pro Settings Guide',
+		h1: 'Destiny 2 Pro Settings Guide',
 		keywords: ['naraka settings', 'naraka visibility', 'naraka audio'],
 	},
 	'naraka-warmup-maps': {
-		h1: 'Naraka Warmup Routine',
-		keywords: ['Naraka warmup', 'naraka aim practice', 'pvp routine'],
+		h1: 'Destiny 2 Warmup Routine',
+		keywords: ['Destiny 2 warmup', 'naraka aim practice', 'pvp routine'],
 	},
-	'naraka-cheats-complete-guide': {
-		h1: 'Naraka Cheats Guide for 2026',
-		keywords: ['naraka cheats', 'undetected hacks', 'naraka esp'],
+	'destiny-2-cheats-complete-guide': {
+		h1: 'Destiny 2 Cheats Guide for 2026',
+		keywords: ['destiny 2 cheats', 'undetected hacks', 'destiny 2 esp'],
 	},
-	'naraka-cheats-buyers-guide': {
-		h1: 'Naraka Cheats Buyers Guide',
-		keywords: ['buy naraka cheats', 'naraka cheats guide', 'naraka pricing'],
+	'destiny-2-cheats-buyers-guide': {
+		h1: 'Destiny 2 Cheats Buyers Guide',
+		keywords: ['buy destiny 2 cheats', 'destiny 2 cheats guide', 'naraka pricing'],
 	},
-	'naraka-cheats-2026-whats-new': {
-		h1: 'Naraka Cheats Updates in 2026',
-		keywords: ['naraka cheats 2026', 'NEAC updates', 'hack status'],
+	'destiny-2-cheats-2026-whats-new': {
+		h1: 'Destiny 2 Cheats Updates in 2026',
+		keywords: ['destiny 2 cheats 2026', 'BattlEye updates', 'hack status'],
 	},
-	'naraka-aimbot-settings-guide': {
-		h1: 'Naraka Aimbot Settings Guide',
-		keywords: ['naraka aimbot', 'soft aim', 'aimbot fov'],
+	'destiny-2-aimbot-settings-guide': {
+		h1: 'Destiny 2 Aimbot Settings Guide',
+		keywords: ['destiny 2 aimbot', 'soft aim', 'aimbot fov'],
 	},
-	'naraka-esp-wallhack-explained': {
-		h1: 'Naraka ESP and Wallhack Guide',
-		keywords: ['naraka esp', 'naraka wallhack', 'naraka cheats'],
+	'destiny-2-esp-wallhack-explained': {
+		h1: 'Destiny 2 ESP and Wallhack Guide',
+		keywords: ['destiny 2 esp', 'destiny 2 wallhack', 'destiny 2 cheats'],
 	},
-	'undetected-naraka-cheats-eac': {
-		h1: 'Undetected Naraka Cheats Explained',
-		keywords: ['undetected naraka cheats', 'neac bypass', 'ban risk'],
+	'undetected-destiny-2-cheats-eac': {
+		h1: 'Undetected Destiny 2 Cheats Explained',
+		keywords: ['undetected destiny 2 cheats', 'battleye bypass', 'ban risk'],
 	},
-	'naraka-cheats-vs-cheatvault': {
-		h1: 'Naraka Cheats vs Budget Shops',
-		keywords: ['naraka cheats comparison', 'budget naraka cheats', 'esp radar'],
+	'destiny-2-cheats-vs-cheatvault': {
+		h1: 'Destiny 2 Cheats vs Budget Shops',
+		keywords: ['destiny 2 cheats comparison', 'budget destiny 2 cheats', 'esp radar'],
 	},
 	'elitefn-two-week-test': {
-		h1: 'Two-Week Naraka Cheat Comparison Test',
-		keywords: ['naraka cheats review', 'hack comparison', 'soft aim test'],
+		h1: 'Two-Week Destiny 2 Cheat Comparison Test',
+		keywords: ['destiny 2 cheats review', 'hack comparison', 'soft aim test'],
 	},
-	'naraka-cheats-vs-ghostware': {
-		h1: 'Full-Stack vs ESP-Only Naraka Cheats',
-		keywords: ['naraka esp cheat', 'full stack hacks', 'radar vs esp'],
+	'destiny-2-cheats-vs-ghostware': {
+		h1: 'Full-Stack vs ESP-Only Destiny 2 Cheats',
+		keywords: ['destiny 2 esp cheat', 'full stack hacks', 'radar vs esp'],
 	},
 };
 
@@ -922,10 +922,10 @@ const POST_META = {
 const EXTRA_SECTIONS = {
 	'patch-notes-breakdown': [
 		{
-			h2: 'Staying ahead after every Naraka update',
+			h2: 'Staying ahead after every Destiny 2 update',
 			paragraphs: [
 				'Patch days are when most players lose progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href="/updates/">status page</a> if you use overlays, then adjust your main loadout and match plan before you queue.',
-				'If you rely on information tools, confirm the stack on <a href="/naraka-cheats/">Naraka Cheats</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
+				'If you rely on information tools, confirm the stack on <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
 			],
 		},
 	],
@@ -933,7 +933,7 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Cosmetics vs survival tools — keep the budget split clear',
 			paragraphs: [
-				'Skins are fun, but they do not replace map reads, match timing, or a stable kit. If you play for information advantage, budget for <a href="/naraka-esp/">ESP</a> and <a href="/features/">features</a> before you chase another cosmetic drop.',
+				'Skins are fun, but they do not replace map reads, match timing, or a stable kit. If you play for information advantage, budget for <a href="/destiny-2-esp/">ESP</a> and <a href="/features/">features</a> before you chase another cosmetic drop.',
 				'When a patch cycle shifts visibility or lighting, revisit your settings in our <a href="/blog/naraka-pro-settings-guide/">pro settings guide</a> before you blame a skin for a lost fight.',
 			],
 		},
@@ -942,8 +942,8 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Turn tier knowledge into match wins',
 			paragraphs: [
-				'A tier list only helps when you load in with the right plan. Match your pick to your map, match route, and whether you solo or trio. Competitive players often pair loadout choice with <a href="/naraka-radar-hack/">radar</a> reads so flanks do not erase a good spawn.',
-				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/naraka-cheats/">Naraka Cheats</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main loadout for the patch.',
+				'A tier list only helps when you load in with the right plan. Match your pick to your map, match route, and whether you solo or trio. Competitive players often pair loadout choice with <a href="/destiny-2-radar-hack/">radar</a> reads so flanks do not erase a good spawn.',
+				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main loadout for the patch.',
 			],
 		},
 	],
@@ -951,17 +951,17 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Growth runs and information tools work together',
 			paragraphs: [
-				'Juvenile timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href="/naraka-esp/">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.',
-				'After a strong Quick Match session, protect the kit with conservative settings from our <a href="/naraka-aimbot/">aimbot guide</a> and check <a href="/updates/">Updates</a> before long matches on patch weeks.',
+				'Juvenile timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href="/destiny-2-esp/">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.',
+				'After a strong Quickplay session, protect the kit with conservative settings from our <a href="/destiny-2-aimbot/">aimbot guide</a> and check <a href="/updates/">Updates</a> before long matches on patch weeks.',
 			],
 		},
 	],
 	'naraka-competitive-meta': [
 		{
-			h2: 'Competitive habits that pair with Naraka Cheats tools',
+			h2: 'Competitive habits that pair with Destiny 2 Cheats tools',
 			paragraphs: [
 				'High-level players win on information timing: who rotates first, who holds the base, who peeks with armor. That is the same loop <a href="/features/">ESP, radar, and soft aim</a> support when tuned conservatively.',
-				'If you study competitive meta, also read <a href="/naraka-cheats/">Naraka Cheats</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
+				'If you study competitive meta, also read <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
 			],
 		},
 	],
@@ -969,8 +969,8 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Route discipline plus loot awareness',
 			paragraphs: [
-				'Routes fail when players loot like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href="/naraka-esp/">hero ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.',
-				'Strong routes feed into Quick Match sessions and Ranked spawns. Link this guide with <a href="/naraka-cheats/">Naraka Cheats</a> if you want radar for combat zones after your kit is online.',
+				'Routes fail when players loot like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href="/destiny-2-esp/">guardian ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.',
+				'Strong routes feed into Quickplay sessions and Ranked spawns. Link this guide with <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> if you want radar for combat zones after your kit is online.',
 			],
 		},
 	],
@@ -978,8 +978,8 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Settings that support ESP and aim tools',
 			paragraphs: [
-				'Stable FPS and clean silhouettes make every tool better. Before you tune <a href="/naraka-aimbot/">soft aim</a>, fix sensitivity and visibility here so assists feel natural instead of robotic.',
-				'Audio and shadow clarity also reduce how much you need to toggle <a href="/naraka-esp/">ESP categories</a> mid-fight. Revisit settings after major patches on <a href="/updates/">Updates</a>.',
+				'Stable FPS and clean silhouettes make every tool better. Before you tune <a href="/destiny-2-aimbot/">soft aim</a>, fix sensitivity and visibility here so assists feel natural instead of robotic.',
+				'Audio and shadow clarity also reduce how much you need to toggle <a href="/destiny-2-esp/">ESP categories</a> mid-fight. Revisit settings after major patches on <a href="/updates/">Updates</a>.',
 			],
 		},
 	],
@@ -988,29 +988,29 @@ const EXTRA_SECTIONS = {
 			h2: 'Warm up before you trust expensive kits',
 			paragraphs: [
 				'Warmup protects grown players and paid licenses alike. Run the routine, then confirm <a href="/updates/">status</a> if you use overlays after a patch.',
-				'Pair warmup with <a href="/naraka-aimbot/">aim profiles</a> and <a href="/naraka-esp/">ESP toggles</a> you already plan to use in-session — not new settings you have never tested under pressure.',
+				'Pair warmup with <a href="/destiny-2-aimbot/">aim profiles</a> and <a href="/destiny-2-esp/">ESP toggles</a> you already plan to use in-session — not new settings you have never tested under pressure.',
 			],
 		},
 	],
-	'naraka-cheats-complete-guide': [
+	'destiny-2-cheats-complete-guide': [
 		{
 			h2: 'Your next steps after reading this guide',
 			paragraphs: [
 				'If the stack fits your play style, compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> line by line. Keep <a href="/updates/">Updates</a> bookmarked for patch weeks.',
-				'For deeper category pages, read <a href="/naraka-esp/">ESP</a>, <a href="/naraka-aimbot/">aimbot</a>, and <a href="/updates/">undetected notes</a>. Questions before checkout go to <a href="/faq/">FAQ</a> and <a href="/support/">Support</a>.',
+				'For deeper category pages, read <a href="/destiny-2-esp/">ESP</a>, <a href="/destiny-2-aimbot/">aimbot</a>, and <a href="/updates/">undetected notes</a>. Questions before checkout go to <a href="/faq/">FAQ</a> and <a href="/support/">Support</a>.',
 			],
 		},
 	],
-	'naraka-cheats-buyers-guide': [
+	'destiny-2-cheats-buyers-guide': [
 		{
 			h2: 'Final checklist before checkout',
 			paragraphs: [
-				'Confirm dated status, hero ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.',
-				'When the checklist passes, open <a href="/naraka-cheats/">Naraka Cheats</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/blog/naraka-cheats-complete-guide-2026/">the 2026 complete guide</a> for feature context.',
+				'Confirm dated status, guardian ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.',
+				'When the checklist passes, open <a href="/destiny-2-cheats/">Destiny 2 Cheats</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/blog/destiny-2-cheats-complete-guide-2026/">the 2026 complete guide</a> for feature context.',
 			],
 		},
 	],
-	'naraka-cheats-2026-whats-new': [
+	'destiny-2-cheats-2026-whats-new': [
 		{
 			h2: 'What to watch for the rest of 2026',
 			paragraphs: [
@@ -1019,39 +1019,39 @@ const EXTRA_SECTIONS = {
 			],
 		},
 	],
-	'naraka-aimbot-settings-guide': [
+	'destiny-2-aimbot-settings-guide': [
 		{
 			h2: 'Build a profile set you can trust in bases',
 			paragraphs: [
 				'Save AR, SMG, and long-range profiles separately. Test each on <a href="/blog/naraka-warmup-routine/">warmup maps</a> before you take a geared player into high-traffic zones.',
-				'Combine tuned aim with <a href="/naraka-esp/">ESP</a> and <a href="/naraka-radar-hack/">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href="/updates/">Updates</a> before you tweak FOV on an old build.',
+				'Combine tuned aim with <a href="/destiny-2-esp/">ESP</a> and <a href="/destiny-2-radar-hack/">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href="/updates/">Updates</a> before you tweak FOV on an old build.',
 			],
 		},
 	],
-	'naraka-esp-wallhack-explained': [
+	'destiny-2-esp-wallhack-explained': [
 		{
-			h2: 'ESP in real Naraka matches — practical takeaways',
+			h2: 'ESP in real Destiny 2 matches — practical takeaways',
 			paragraphs: [
-				'Use player ESP when rotating, hero ESP when routing, and match cues when holding water or cliffs. Switch profiles instead of leaving every box on — clutter kills reaction time.',
-				'For the maintained stack behind this guide, see <a href="/naraka-cheats/">Naraka Cheats</a>, <a href="/naraka-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
+				'Use player ESP when rotating, guardian ESP when routing, and match cues when holding water or cliffs. Switch profiles instead of leaving every box on — clutter kills reaction time.',
+				'For the maintained stack behind this guide, see <a href="/destiny-2-cheats/">Destiny 2 Cheats</a>, <a href="/destiny-2-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
 			],
 		},
 	],
-	'undetected-naraka-cheats-eac': [
+	'undetected-destiny-2-cheats-eac': [
 		{
-			h2: 'Responsible undetected habits for Naraka',
+			h2: 'Responsible undetected habits for Destiny 2',
 			paragraphs: [
 				'Undetected means maintained today — not immune forever. Read public notes, wait for rebuilds, and avoid rage settings that draw reports even on clean builds.',
-				'Use <a href="/updates/">Updates</a>, <a href="/updates/">NEAC maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/naraka-cheats/">Naraka Cheats</a> when you are ready to buy.',
+				'Use <a href="/updates/">Updates</a>, <a href="/updates/">BattlEye maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> when you are ready to buy.',
 			],
 		},
 	],
-	'naraka-cheats-vs-cheatvault': [
+	'destiny-2-cheats-vs-cheatvault': [
 		{
 			h2: 'Side-by-side before you choose a shop',
 			paragraphs: [
 				'Open each seller’s status page, feature list, and support channel on the same screen. If one shop hides status in private Discord only, weigh that against a lower sticker price.',
-				'When the checklist favors a full stack, compare <a href="/features/">Features</a> and <a href="/pricing/">Pricing</a> here, then read <a href="/blog/naraka-cheats-buyers-guide/">the buyers guide</a> before checkout.',
+				'When the checklist favors a full stack, compare <a href="/features/">Features</a> and <a href="/pricing/">Pricing</a> here, then read <a href="/blog/destiny-2-cheats-buyers-guide/">the buyers guide</a> before checkout.',
 			],
 		},
 	],
@@ -1060,16 +1060,16 @@ const EXTRA_SECTIONS = {
 			h2: 'How to run your own fair comparison',
 			paragraphs: [
 				'Match the same PC, servers, and match length for each tool. Track patch downtime hours, not just first-night impressions — that is usually where budget shops lose.',
-				'If you switch, follow <a href="/setup/">Setup</a>, bookmark <a href="/updates/">Updates</a>, and tune <a href="/naraka-aimbot/">aim profiles</a> before you judge the full stack.',
+				'If you switch, follow <a href="/setup/">Setup</a>, bookmark <a href="/updates/">Updates</a>, and tune <a href="/destiny-2-aimbot/">aim profiles</a> before you judge the full stack.',
 			],
 		},
 	],
-	'naraka-cheats-vs-ghostware': [
+	'destiny-2-cheats-vs-ghostware': [
 		{
 			h2: 'Pick the stack that matches how you play',
 			paragraphs: [
-				'Casual outline-only players may tolerate minimal ESP. Players who rotate, loot, and hold bases usually need radar and filters in one menu — that is the full-stack case for <a href="/naraka-cheats/">Naraka Cheats</a>.',
-				'Compare <a href="/naraka-esp/">ESP</a>, <a href="/naraka-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/updates/">undetected notes</a> on whichever path you choose.',
+				'Casual outline-only players may tolerate minimal ESP. Players who rotate, loot, and hold bases usually need radar and filters in one menu — that is the full-stack case for <a href="/destiny-2-cheats/">Destiny 2 Cheats</a>.',
+				'Compare <a href="/destiny-2-esp/">ESP</a>, <a href="/destiny-2-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/updates/">undetected notes</a> on whichever path you choose.',
 			],
 		},
 	],

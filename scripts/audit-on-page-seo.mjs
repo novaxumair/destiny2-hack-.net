@@ -94,8 +94,8 @@ function main() {
 			issues.push({ rel, kind: 'og-description-mismatch' });
 		}
 
-		if (/\bneac \| neac\b/i.test(title) || /\bneac: neac\b/i.test(desc)) {
-			issues.push({ rel, kind: 'broken-neac-meta' });
+		if (/\bbattleye \| battleye\b/i.test(title) || /\bbattleye: battleye\b/i.test(desc)) {
+			issues.push({ rel, kind: 'broken-battleye-meta' });
 		}
 	}
 

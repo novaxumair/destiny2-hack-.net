@@ -7,7 +7,7 @@ import { phrases } from './phrases.mjs';
 import { FOCUS_I18N } from './focus-i18n.mjs';
 import { simplePagesEn } from './simple-pages-en.mjs';
 import { PAGE_CONTENT } from './simple-page-content.mjs';
-import { clampTitle, clampDesc, stripZadeyoFromMeta } from './constants.mjs';
+import { clampTitle, clampDesc, stripResellerFromMeta } from './constants.mjs';
 import { PAGE_META_TAILS, SUFFIX_I18N, TOPIC_NAMES } from './pages-i18n.mjs';
 
 /** Align visible H1 with title intent: topic + localized suffix. */
@@ -22,129 +22,129 @@ function modulePageH1(pageId, locale) {
 const UI = {
 	es: {
 		features: 'Funciones', store: 'Tienda', status: 'Estado', setup: 'Instalación', support: 'Soporte', faq: 'FAQ',
-		gallery: 'Aspecto en juego', buy: 'Comprar Naraka Cheats', viewStore: 'Ver tienda', setupGuide: 'Guía de instalación',
-		checkStatus: 'Ver estado', overview: 'Resumen Naraka Cheats', viewFeatures: 'Ver funciones', contactSupport: 'Contactar soporte',
-		inGame: 'Aspecto en juego', fullGuide: 'Naraka Cheats — Guía completa',
+		gallery: 'Aspecto en juego', buy: 'Comprar Destiny 2 Cheats', viewStore: 'Ver tienda', setupGuide: 'Guía de instalación',
+		checkStatus: 'Ver estado', overview: 'Resumen Destiny 2 Cheats', viewFeatures: 'Ver funciones', contactSupport: 'Contactar soporte',
+		inGame: 'Aspecto en juego', fullGuide: 'Destiny 2 Cheats — Guía completa',
 	},
 	fr: {
 		features: 'Fonctions', store: 'Boutique', status: 'Statut', setup: 'Installation', support: 'Support', faq: 'FAQ',
-		gallery: 'Rendu en jeu', buy: 'Acheter Naraka Cheats', viewStore: 'Voir la boutique', setupGuide: "Guide d'installation",
-		checkStatus: 'Voir le statut', overview: 'Aperçu Naraka Cheats', viewFeatures: 'Voir les fonctions', contactSupport: 'Contacter le support',
-		inGame: 'Rendu en jeu', fullGuide: 'Naraka Cheats — Guide complet',
+		gallery: 'Rendu en jeu', buy: 'Acheter Destiny 2 Cheats', viewStore: 'Voir la boutique', setupGuide: "Guide d'installation",
+		checkStatus: 'Voir le statut', overview: 'Aperçu Destiny 2 Cheats', viewFeatures: 'Voir les fonctions', contactSupport: 'Contacter le support',
+		inGame: 'Rendu en jeu', fullGuide: 'Destiny 2 Cheats — Guide complet',
 	},
 	de: {
 		features: 'Features', store: 'Shop', status: 'Status', setup: 'Setup', support: 'Support', faq: 'FAQ',
-		gallery: 'Ingame-Ansicht', buy: 'Naraka Cheats kaufen', viewStore: 'Shop ansehen', setupGuide: 'Setup-Anleitung',
-		checkStatus: 'Status prüfen', overview: 'Naraka Cheats Übersicht', viewFeatures: 'Features ansehen', contactSupport: 'Support kontaktieren',
-		inGame: 'Ingame-Ansicht', fullGuide: 'Naraka Cheats — Vollständiger Guide',
+		gallery: 'Ingame-Ansicht', buy: 'Destiny 2 Cheats kaufen', viewStore: 'Shop ansehen', setupGuide: 'Setup-Anleitung',
+		checkStatus: 'Status prüfen', overview: 'Destiny 2 Cheats Übersicht', viewFeatures: 'Features ansehen', contactSupport: 'Support kontaktieren',
+		inGame: 'Ingame-Ansicht', fullGuide: 'Destiny 2 Cheats — Vollständiger Guide',
 	},
 	pt: {
 		features: 'Recursos', store: 'Loja', status: 'Status', setup: 'Instalação', support: 'Suporte', faq: 'FAQ',
-		gallery: 'Visual in-game', buy: 'Comprar Naraka Cheats', viewStore: 'Ver loja', setupGuide: 'Guia de instalação',
-		checkStatus: 'Ver status', overview: 'Visão geral Naraka Cheats', viewFeatures: 'Ver recursos', contactSupport: 'Contactar suporte',
-		inGame: 'Visual in-game', fullGuide: 'Naraka Cheats — Guia completo',
+		gallery: 'Visual in-game', buy: 'Comprar Destiny 2 Cheats', viewStore: 'Ver loja', setupGuide: 'Guia de instalação',
+		checkStatus: 'Ver status', overview: 'Visão geral Destiny 2 Cheats', viewFeatures: 'Ver recursos', contactSupport: 'Contactar suporte',
+		inGame: 'Visual in-game', fullGuide: 'Destiny 2 Cheats — Guia completo',
 	},
 	it: {
 		features: 'Funzioni', store: 'Negozio', status: 'Stato', setup: 'Setup', support: 'Supporto', faq: 'FAQ',
-		gallery: 'Aspetto in-game', buy: 'Acquista Naraka Cheats', viewStore: 'Vedi negozio', setupGuide: 'Guida installazione',
-		checkStatus: 'Controlla stato', overview: 'Panoramica Naraka Cheats', viewFeatures: 'Vedi funzioni', contactSupport: 'Contatta supporto',
-		inGame: 'Aspetto in-game', fullGuide: 'Naraka Cheats — Guida completa',
+		gallery: 'Aspetto in-game', buy: 'Acquista Destiny 2 Cheats', viewStore: 'Vedi negozio', setupGuide: 'Guida installazione',
+		checkStatus: 'Controlla stato', overview: 'Panoramica Destiny 2 Cheats', viewFeatures: 'Vedi funzioni', contactSupport: 'Contatta supporto',
+		inGame: 'Aspetto in-game', fullGuide: 'Destiny 2 Cheats — Guida completa',
 	},
 	nl: {
 		features: 'Functies', store: 'Winkel', status: 'Status', setup: 'Setup', support: 'Support', faq: 'FAQ',
-		gallery: 'In-game weergave', buy: 'Naraka Cheats kopen', viewStore: 'Winkel bekijken', setupGuide: 'Installatiegids',
-		checkStatus: 'Status controleren', overview: 'Naraka Cheats overzicht', viewFeatures: 'Functies bekijken', contactSupport: 'Contact support',
-		inGame: 'In-game weergave', fullGuide: 'Naraka Cheats — Volledige gids',
+		gallery: 'In-game weergave', buy: 'Destiny 2 Cheats kopen', viewStore: 'Winkel bekijken', setupGuide: 'Installatiegids',
+		checkStatus: 'Status controleren', overview: 'Destiny 2 Cheats overzicht', viewFeatures: 'Functies bekijken', contactSupport: 'Contact support',
+		inGame: 'In-game weergave', fullGuide: 'Destiny 2 Cheats — Volledige gids',
 	},
 	pl: {
 		features: 'Funkcje', store: 'Sklep', status: 'Status', setup: 'Instalacja', support: 'Wsparcie', faq: 'FAQ',
-		gallery: 'Wygląd w grze', buy: 'Kup Naraka Cheats', viewStore: 'Zobacz sklep', setupGuide: 'Przewodnik instalacji',
-		checkStatus: 'Sprawdź status', overview: 'Przegląd Naraka Cheats', viewFeatures: 'Zobacz funkcje', contactSupport: 'Kontakt z supportem',
-		inGame: 'Wygląd w grze', fullGuide: 'Naraka Cheats — Pełny przewodnik',
+		gallery: 'Wygląd w grze', buy: 'Kup Destiny 2 Cheats', viewStore: 'Zobacz sklep', setupGuide: 'Przewodnik instalacji',
+		checkStatus: 'Sprawdź status', overview: 'Przegląd Destiny 2 Cheats', viewFeatures: 'Zobacz funkcje', contactSupport: 'Kontakt z supportem',
+		inGame: 'Wygląd w grze', fullGuide: 'Destiny 2 Cheats — Pełny przewodnik',
 	},
 	ru: {
 		features: 'Функции', store: 'Магазин', status: 'Статус', setup: 'Установка', support: 'Поддержка', faq: 'FAQ',
-		gallery: 'Вид в игре', buy: 'Купить Naraka Cheats', viewStore: 'Открыть магазин', setupGuide: 'Гайд по установке',
-		checkStatus: 'Проверить статус', overview: 'Обзор Naraka Cheats', viewFeatures: 'Смотреть функции', contactSupport: 'Связаться с поддержкой',
-		inGame: 'Вид в игре', fullGuide: 'Naraka Cheats — Полный гайд',
+		gallery: 'Вид в игре', buy: 'Купить Destiny 2 Cheats', viewStore: 'Открыть магазин', setupGuide: 'Гайд по установке',
+		checkStatus: 'Проверить статус', overview: 'Обзор Destiny 2 Cheats', viewFeatures: 'Смотреть функции', contactSupport: 'Связаться с поддержкой',
+		inGame: 'Вид в игре', fullGuide: 'Destiny 2 Cheats — Полный гайд',
 	},
 	tr: {
 		features: 'Özellikler', store: 'Mağaza', status: 'Durum', setup: 'Kurulum', support: 'Destek', faq: 'SSS',
-		gallery: 'Oyun içi görünüm', buy: 'Naraka Cheats satın al', viewStore: 'Mağazayı gör', setupGuide: 'Kurulum rehberi',
-		checkStatus: 'Durumu kontrol et', overview: 'Naraka Cheats genel bakış', viewFeatures: 'Özellikleri gör', contactSupport: 'Destekle iletişim',
-		inGame: 'Oyun içi görünüm', fullGuide: 'Naraka Cheats — Tam rehber',
+		gallery: 'Oyun içi görünüm', buy: 'Destiny 2 Cheats satın al', viewStore: 'Mağazayı gör', setupGuide: 'Kurulum rehberi',
+		checkStatus: 'Durumu kontrol et', overview: 'Destiny 2 Cheats genel bakış', viewFeatures: 'Özellikleri gör', contactSupport: 'Destekle iletişim',
+		inGame: 'Oyun içi görünüm', fullGuide: 'Destiny 2 Cheats — Tam rehber',
 	},
 	ar: {
 		features: 'الميزات', store: 'المتجر', status: 'الحالة', setup: 'التثبيت', support: 'الدعم', faq: 'الأسئلة الشائعة',
-		gallery: 'المظهر داخل اللعبة', buy: 'اشترِ Naraka Cheats', viewStore: 'عرض المتجر', setupGuide: 'دليل التثبيت',
-		checkStatus: 'تحقق من الحالة', overview: 'نظرة عامة على Naraka Cheats', viewFeatures: 'عرض الميزات', contactSupport: 'اتصل بالدعم',
-		inGame: 'المظهر داخل اللعبة', fullGuide: 'Naraka Cheats — دليل كامل',
+		gallery: 'المظهر داخل اللعبة', buy: 'اشترِ Destiny 2 Cheats', viewStore: 'عرض المتجر', setupGuide: 'دليل التثبيت',
+		checkStatus: 'تحقق من الحالة', overview: 'نظرة عامة على Destiny 2 Cheats', viewFeatures: 'عرض الميزات', contactSupport: 'اتصل بالدعم',
+		inGame: 'المظهر داخل اللعبة', fullGuide: 'Destiny 2 Cheats — دليل كامل',
 	},
 	ja: {
 		features: '機能', store: 'ストア', status: 'ステータス', setup: 'セットアップ', support: 'サポート', faq: 'FAQ',
-		gallery: 'ゲーム内の見た目', buy: 'Naraka Cheatsを購入', viewStore: 'ストアを見る', setupGuide: 'セットアップガイド',
-		checkStatus: 'ステータスを確認', overview: 'Naraka Cheats概要', viewFeatures: '機能を見る', contactSupport: 'サポートに連絡',
-		inGame: 'ゲーム内の見た目', fullGuide: 'Naraka Cheats — 完全ガイド',
+		gallery: 'ゲーム内の見た目', buy: 'Destiny 2 Cheatsを購入', viewStore: 'ストアを見る', setupGuide: 'セットアップガイド',
+		checkStatus: 'ステータスを確認', overview: 'Destiny 2 Cheats概要', viewFeatures: '機能を見る', contactSupport: 'サポートに連絡',
+		inGame: 'ゲーム内の見た目', fullGuide: 'Destiny 2 Cheats — 完全ガイド',
 	},
 	ko: {
 		features: '기능', store: '스토어', status: '상태', setup: '설치', support: '지원', faq: 'FAQ',
-		gallery: '인게임 화면', buy: 'Naraka Cheats 구매', viewStore: '스토어 보기', setupGuide: '설치 가이드',
-		checkStatus: '상태 확인', overview: 'Naraka Cheats 개요', viewFeatures: '기능 보기', contactSupport: '지원 문의',
-		inGame: '인게임 화면', fullGuide: 'Naraka Cheats — 전체 가이드',
+		gallery: '인게임 화면', buy: 'Destiny 2 Cheats 구매', viewStore: '스토어 보기', setupGuide: '설치 가이드',
+		checkStatus: '상태 확인', overview: 'Destiny 2 Cheats 개요', viewFeatures: '기능 보기', contactSupport: '지원 문의',
+		inGame: '인게임 화면', fullGuide: 'Destiny 2 Cheats — 전체 가이드',
 	},
 	zh: {
 		features: '功能', store: '商店', status: '状态', setup: '安装', support: '支持', faq: '常见问题',
-		gallery: '游戏内效果', buy: '购买 Naraka Cheats', viewStore: '查看商店', setupGuide: '安装指南',
-		checkStatus: '查看状态', overview: 'Naraka Cheats概览', viewFeatures: '查看功能', contactSupport: '联系支持',
-		inGame: '游戏内效果', fullGuide: 'Naraka Cheats — 完整指南',
+		gallery: '游戏内效果', buy: '购买 Destiny 2 Cheats', viewStore: '查看商店', setupGuide: '安装指南',
+		checkStatus: '查看状态', overview: 'Destiny 2 Cheats概览', viewFeatures: '查看功能', contactSupport: '联系支持',
+		inGame: '游戏内效果', fullGuide: 'Destiny 2 Cheats — 完整指南',
 	},
 	hi: {
 		features: 'फ़ीचर्स', store: 'स्टोर', status: 'स्टेटस', setup: 'सेटअप', support: 'सहायता', faq: 'FAQ',
-		gallery: 'इन-गेम लुक', buy: 'Naraka Cheats खरीदें', viewStore: 'स्टोर देखें', setupGuide: 'सेटअप गाइड',
-		checkStatus: 'स्टेटस जांचें', overview: 'Naraka Cheats अवलोकन', viewFeatures: 'फ़ीचर्स देखें', contactSupport: 'सहायता से संपर्क',
-		inGame: 'इन-गेम लुक', fullGuide: 'Naraka Cheats — पूर्ण गाइड',
+		gallery: 'इन-गेम लुक', buy: 'Destiny 2 Cheats खरीदें', viewStore: 'स्टोर देखें', setupGuide: 'सेटअप गाइड',
+		checkStatus: 'स्टेटस जांचें', overview: 'Destiny 2 Cheats अवलोकन', viewFeatures: 'फ़ीचर्स देखें', contactSupport: 'सहायता से संपर्क',
+		inGame: 'इन-गेम लुक', fullGuide: 'Destiny 2 Cheats — पूर्ण गाइड',
 	},
 	id: {
 		features: 'Fitur', store: 'Toko', status: 'Status', setup: 'Setup', support: 'Dukungan', faq: 'FAQ',
-		gallery: 'Tampilan in-game', buy: 'Beli Naraka Cheats', viewStore: 'Lihat toko', setupGuide: 'Panduan setup',
-		checkStatus: 'Cek status', overview: 'Ringkasan Naraka Cheats', viewFeatures: 'Lihat fitur', contactSupport: 'Hubungi dukungan',
-		inGame: 'Tampilan in-game', fullGuide: 'Naraka Cheats — Panduan lengkap',
+		gallery: 'Tampilan in-game', buy: 'Beli Destiny 2 Cheats', viewStore: 'Lihat toko', setupGuide: 'Panduan setup',
+		checkStatus: 'Cek status', overview: 'Ringkasan Destiny 2 Cheats', viewFeatures: 'Lihat fitur', contactSupport: 'Hubungi dukungan',
+		inGame: 'Tampilan in-game', fullGuide: 'Destiny 2 Cheats — Panduan lengkap',
 	},
 	th: {
 		features: 'ฟีเจอร์', store: 'ร้านค้า', status: 'สถานะ', setup: 'ติดตั้ง', support: 'สนับสนุน', faq: 'FAQ',
-		gallery: 'ลุคในเกม', buy: 'ซื้อ Naraka Cheats', viewStore: 'ดูร้านค้า', setupGuide: 'คู่มือติดตั้ง',
-		checkStatus: 'ตรวจสอบสถานะ', overview: 'ภาพรวม Naraka Cheats', viewFeatures: 'ดูฟีเจอร์', contactSupport: 'ติดต่อฝ่ายสนับสนุน',
-		inGame: 'ลุคในเกม', fullGuide: 'Naraka Cheats — คู่มือฉบับสมบูรณ์',
+		gallery: 'ลุคในเกม', buy: 'ซื้อ Destiny 2 Cheats', viewStore: 'ดูร้านค้า', setupGuide: 'คู่มือติดตั้ง',
+		checkStatus: 'ตรวจสอบสถานะ', overview: 'ภาพรวม Destiny 2 Cheats', viewFeatures: 'ดูฟีเจอร์', contactSupport: 'ติดต่อฝ่ายสนับสนุน',
+		inGame: 'ลุคในเกม', fullGuide: 'Destiny 2 Cheats — คู่มือฉบับสมบูรณ์',
 	},
 	vi: {
 		features: 'Tính năng', store: 'Cửa hàng', status: 'Trạng thái', setup: 'Cài đặt', support: 'Hỗ trợ', faq: 'FAQ',
-		gallery: 'Giao diện trong game', buy: 'Mua Naraka Cheats', viewStore: 'Xem cửa hàng', setupGuide: 'Hướng dẫn cài đặt',
-		checkStatus: 'Kiểm tra trạng thái', overview: 'Tổng quan Naraka Cheats', viewFeatures: 'Xem tính năng', contactSupport: 'Liên hệ hỗ trợ',
-		inGame: 'Giao diện trong game', fullGuide: 'Naraka Cheats — Hướng dẫn đầy đủ',
+		gallery: 'Giao diện trong game', buy: 'Mua Destiny 2 Cheats', viewStore: 'Xem cửa hàng', setupGuide: 'Hướng dẫn cài đặt',
+		checkStatus: 'Kiểm tra trạng thái', overview: 'Tổng quan Destiny 2 Cheats', viewFeatures: 'Xem tính năng', contactSupport: 'Liên hệ hỗ trợ',
+		inGame: 'Giao diện trong game', fullGuide: 'Destiny 2 Cheats — Hướng dẫn đầy đủ',
 	},
 	uk: {
 		features: 'Функції', store: 'Магазин', status: 'Статус', setup: 'Встановлення', support: 'Підтримка', faq: 'FAQ',
-		gallery: 'Вигляд у грі', buy: 'Купити Naraka Cheats', viewStore: 'Переглянути магазин', setupGuide: 'Гайд з встановлення',
-		checkStatus: 'Перевірити статус', overview: 'Огляд Naraka Cheats', viewFeatures: 'Дивитися функції', contactSupport: "Зв'язатися з підтримкою",
-		inGame: 'Вигляд у грі', fullGuide: 'Naraka Cheats — Повний гайд',
+		gallery: 'Вигляд у грі', buy: 'Купити Destiny 2 Cheats', viewStore: 'Переглянути магазин', setupGuide: 'Гайд з встановлення',
+		checkStatus: 'Перевірити статус', overview: 'Огляд Destiny 2 Cheats', viewFeatures: 'Дивитися функції', contactSupport: "Зв'язатися з підтримкою",
+		inGame: 'Вигляд у грі', fullGuide: 'Destiny 2 Cheats — Повний гайд',
 	},
 	cs: {
 		features: 'Funkce', store: 'Obchod', status: 'Stav', setup: 'Instalace', support: 'Podpora', faq: 'FAQ',
-		gallery: 'Vzhled ve hře', buy: 'Koupit Naraka Cheats', viewStore: 'Zobrazit obchod', setupGuide: 'Průvodce instalací',
-		checkStatus: 'Zkontrolovat stav', overview: 'Přehled Naraka Cheats', viewFeatures: 'Zobrazit funkce', contactSupport: 'Kontaktovat podporu',
-		inGame: 'Vzhled ve hře', fullGuide: 'Naraka Cheats — Kompletní průvodce',
+		gallery: 'Vzhled ve hře', buy: 'Koupit Destiny 2 Cheats', viewStore: 'Zobrazit obchod', setupGuide: 'Průvodce instalací',
+		checkStatus: 'Zkontrolovat stav', overview: 'Přehled Destiny 2 Cheats', viewFeatures: 'Zobrazit funkce', contactSupport: 'Kontaktovat podporu',
+		inGame: 'Vzhled ve hře', fullGuide: 'Destiny 2 Cheats — Kompletní průvodce',
 	},
 	ro: {
 		features: 'Funcții', store: 'Magazin', status: 'Status', setup: 'Instalare', support: 'Suport', faq: 'FAQ',
-		gallery: 'Aspect în joc', buy: 'Cumpără Naraka Cheats', viewStore: 'Vezi magazinul', setupGuide: 'Ghid de instalare',
-		checkStatus: 'Verifică statusul', overview: 'Prezentare Naraka Cheats', viewFeatures: 'Vezi funcțiile', contactSupport: 'Contactează suportul',
-		inGame: 'Aspect în joc', fullGuide: 'Naraka Cheats — Ghid complet',
+		gallery: 'Aspect în joc', buy: 'Cumpără Destiny 2 Cheats', viewStore: 'Vezi magazinul', setupGuide: 'Ghid de instalare',
+		checkStatus: 'Verifică statusul', overview: 'Prezentare Destiny 2 Cheats', viewFeatures: 'Vezi funcțiile', contactSupport: 'Contactează suportul',
+		inGame: 'Aspect în joc', fullGuide: 'Destiny 2 Cheats — Ghid complet',
 	},
 	sv: {
 		features: 'Funktioner', store: 'Butik', status: 'Status', setup: 'Installation', support: 'Support', faq: 'FAQ',
-		gallery: 'Utseende i spelet', buy: 'Köp Naraka Cheats', viewStore: 'Visa butik', setupGuide: 'Installationsguide',
-		checkStatus: 'Kontrollera status', overview: 'Naraka Cheats-översikt', viewFeatures: 'Visa funktioner', contactSupport: 'Kontakta support',
-		inGame: 'Utseende i spelet', fullGuide: 'Naraka Cheats — Fullständig guide',
+		gallery: 'Utseende i spelet', buy: 'Köp Destiny 2 Cheats', viewStore: 'Visa butik', setupGuide: 'Installationsguide',
+		checkStatus: 'Kontrollera status', overview: 'Destiny 2 Cheats-översikt', viewFeatures: 'Visa funktioner', contactSupport: 'Kontakta support',
+		inGame: 'Utseende i spelet', fullGuide: 'Destiny 2 Cheats — Fullständig guide',
 	},
 };
 
@@ -157,50 +157,50 @@ function locSection(sec, locale) {
 }
 
 function buildFeatures(locale, u, p) {
-	const focus = FOCUS_I18N[locale]?.features ?? 'ESP, soft aim, radar controls';
+	const focus = FOCUS_I18N[locale]?.features ?? 'ESP, aimbot, radar controls';
 	const t = {
 		es: {
-			h2: ['ESP y wallhack', 'Aimbot y soft aim', 'Radar', 'Explorar temas relacionados', 'Actualizaciones y soporte'],
+			h2: ['ESP y wallhack', 'Aimbot y aimbot', 'Radar', 'Explorar temas relacionados', 'Actualizaciones y soporte'],
 			p: [
 				['Ve jugadores, científicos y loot a través de las paredes con distancias.', 'Usa filtros para mantener el overlay claro en sitios de bomba, vault sectors y zonas PvP.'],
 				['Asistencia de puntería que puedes ajustar para que se sienta natural.', 'Configura FOV, suavidad y prioridad de huesos por arma antes del match.'],
 				['Un radar 2D simple para amenazas fuera de tu vista.', 'Detecta flancos cerca de sitios de bomba sin llenar toda la pantalla.'],
 				['La mayoría de sitios de trucos cubren ESP, aimbot, radar, instalación y estado en páginas separadas. Usa estas guías:', 'Cada guía cubre una parte del stack de match para que compares antes del checkout.'],
-				['Reconstruimos tras parches grandes de Naraka o NEAC.', 'Revisa Estado antes de jugar después de un día de parche.', 'Verifica cambios oficiales en las notas de Naraka y la Wiki de Naraka antes de ajustar overlays.'],
+				['Reconstruimos tras parches grandes de Destiny 2 o BattlEye.', 'Revisa Estado antes de jugar después de un día de parche.', 'Verifica cambios oficiales en las notas de Destiny 2 y la Wiki de Destiny 2 antes de ajustar overlays.'],
 			],
 			list: [
 				['Cajas de jugador y distancia', 'Marcadores de loot y base', 'Filtros de heli y objective'],
-				['Fuerza de soft aim', 'FOV y prioridad de huesos', 'Teclas rápidas en partida'],
+				['Fuerza de aimbot', 'FOV y prioridad de huesos', 'Teclas rápidas en partida'],
 				['Señales de enemigos cercanos', 'Rango ajustable', 'Funciona en matches y roaming'],
 				null,
 				['Estado en la página de Estado', 'Guía de instalación incluida', 'Soporte por email con tu ID de pedido'],
 			],
 		},
 		fr: {
-			h2: ['ESP et wallhack', 'Aimbot et soft aim', 'Radar', 'Explorer les sujets liés', 'Mises à jour et support'],
+			h2: ['ESP et wallhack', 'Aimbot et aimbot', 'Radar', 'Explorer les sujets liés', 'Mises à jour et support'],
 			p: [
 				['Voyez joueurs, héros et loot à travers les murs avec distances.', 'Utilisez des filtres pour garder l\'overlay lisible dans les POI et zones PvP.'],
 				['Aide à la visée réglable pour un rendu naturel.', 'Définissez FOV, fluidité et priorité d\'os par arme avant le match.'],
 				['Un radar 2D simple pour les menaces hors champ.', 'Repérez les flancs près des POI sans remplir l\'écran.'],
 				['La plupart des sites couvrent ESP, aimbot, radar, installation et statut sur des pages séparées. Utilisez ces guides :', 'Chaque guide couvre une partie du stack de match pour comparer avant le checkout.'],
-				['Nous reconstruisons après les gros patchs Naraka ou NEAC.', 'Consultez Statut avant de jouer après un jour de patch.', 'Vérifiez les notes Naraka et le Wiki Naraka avant d\'ajuster les overlays.'],
+				['Nous reconstruisons après les gros patchs Destiny 2 ou BattlEye.', 'Consultez Statut avant de jouer après un jour de patch.', 'Vérifiez les notes Destiny 2 et le Wiki Destiny 2 avant d\'ajuster les overlays.'],
 			],
 			list: [
 				['Boîtes joueur et distance', 'Marqueurs de loot et base', 'Filtres héli et objective'],
-				['Force du soft aim', 'FOV et priorité d\'os', 'Raccourcis en match'],
+				['Force du aimbot', 'FOV et priorité d\'os', 'Raccourcis en match'],
 				['Indices d\'ennemis proches', 'Portée réglable', 'Fonctionne en matches et roaming'],
 				null,
 				['Statut sur la page Statut', 'Guide d\'installation inclus', 'Support email avec votre ID commande'],
 			],
 		},
 		de: {
-			h2: ['ESP & Wallhack', 'Aimbot & Soft Aim', 'Radar', 'Verwandte Themen', 'Updates & Support'],
+			h2: ['ESP & Wallhack', 'Aimbot & aimbot', 'Radar', 'Verwandte Themen', 'Updates & Support'],
 			p: [
 				['Spieler, Wissenschaftler und Loot durch Wände mit Distanzanzeige sehen.', 'Filter nutzen, damit das Overlay in Monumenten und PvP-Zonen klar bleibt.'],
 				['Zielhilfe, die sich natürlich anfühlt.', 'FOV, Smoothness und Knochenpriorität pro Waffe before queueing einstellen.'],
 				['Einfaches 2D-Radar für Bedrohungen außerhalb des Sichtfelds.', 'Flanken bei Monumenten erkennen, ohne den ganzen Bildschirm zu füllen.'],
 				['Die meisten Cheat-Seiten behandeln ESP, Aimbot, Radar, Setup und Status auf separaten Seiten. Nutze diese Guides:', 'Jeder Guide deckt einen Teil des match stacks ab, damit du vor dem Checkout vergleichen kannst.'],
-				['Wir bauen nach großen Naraka- oder NEAC-Patches neu.', 'Prüfe Status vor dem Spielen nach Patch-Tagen.', 'Offizielle Änderungen in Naraka-Patchnotes und Naraka Wiki prüfen, bevor du Overlays anpasst.'],
+				['Wir bauen nach großen Destiny 2- oder BattlEye-Patches neu.', 'Prüfe Status vor dem Spielen nach Patch-Tagen.', 'Offizielle Änderungen in Destiny 2-Patchnotes und Destiny 2 Wiki prüfen, bevor du Overlays anpasst.'],
 			],
 			list: [
 				['Spielerboxen & Distanz', 'Loot- und Basis-Marker', 'Heli- und objective-Filter'],
@@ -214,10 +214,10 @@ function buildFeatures(locale, u, p) {
 	const content = t[locale];
 	if (!content) {
 		return {
-			title: clampTitle(`${u.features} 2026 | ESP, Aimbot & Radar | Naraka Cheats`),
-			description: clampDesc(stripZadeyoFromMeta(`${u.features}: ${focus}. ${p.delivery}. ${p.undetected}.`)),
+			title: clampTitle(`${u.features} 2026 | ESP, Aimbot & Radar | Destiny 2 Cheats`),
+			description: clampDesc(stripResellerFromMeta(`${u.features}: ${focus}. ${p.delivery}. ${p.undetected}.`)),
 			h1: modulePageH1('features', locale) ?? u.features,
-			intro: p.s1(`${u.features} für Naraka auf ${p.win}.`),
+			intro: p.s1(`${u.features} für Destiny 2 auf ${p.win}.`),
 			ctaPrimary: u.buy,
 			ctaSecondary: u.viewStore,
 			ctaSecondaryHref: '/pricing/',
@@ -231,10 +231,10 @@ function buildFeatures(locale, u, p) {
 	}
 	const en = simplePagesEn.features;
 	return {
-		title: clampTitle(`${u.features} 2026 | ESP, Aimbot & Radar | Naraka Cheats`),
-		description: clampDesc(stripZadeyoFromMeta(`${u.features}: ${focus}. ${p.delivery}. ${p.undetected}.`)),
+		title: clampTitle(`${u.features} 2026 | ESP, Aimbot & Radar | Destiny 2 Cheats`),
+		description: clampDesc(stripResellerFromMeta(`${u.features}: ${focus}. ${p.delivery}. ${p.undetected}.`)),
 		h1: modulePageH1('features', locale) ?? u.features,
-		intro: p.s1(`${u.features} für Naraka auf ${p.win}.`),
+		intro: p.s1(`${u.features} für Destiny 2 auf ${p.win}.`),
 		ctaPrimary: u.buy,
 		ctaSecondary: u.viewStore,
 		ctaSecondaryHref: '/pricing/',
@@ -253,7 +253,7 @@ function buildFeatures(locale, u, p) {
 
 function simplePageTitle(h1, enTitle) {
 	const pipe = enTitle.indexOf('|');
-	const suffix = pipe >= 0 ? enTitle.slice(pipe).replace(/\s*Guide\s*$/i, '').trim() : '| Naraka Cheats';
+	const suffix = pipe >= 0 ? enTitle.slice(pipe).replace(/\s*Guide\s*$/i, '').trim() : '| Destiny 2 Cheats';
 	return `${h1} ${suffix.startsWith('|') ? suffix : `| ${suffix}`}`.replace(/\s+/g, ' ').trim();
 }
 
@@ -276,8 +276,8 @@ export function buildSimplePagesForLocale(locale) {
 			...enPage,
 			title: clampTitle(simplePageTitle(h1, enPage.title)),
 			description: clampDesc(
-				stripZadeyoFromMeta(
-					`${h1} for Naraka Bladepoint ranked & Showdown on Windows PC — ${focus}. ${p.delivery}. Official naraka cheats at narakacheats.org.`,
+				stripResellerFromMeta(
+					`${h1} for Destiny 2 ranked & Trials on Windows PC — ${focus}. ${p.delivery}. Official destiny 2 cheats at destiny2hack.net.`,
 				),
 			),
 			h1,
@@ -352,23 +352,23 @@ function getNativeSimpleContent(locale, u, p) {
 		],
 	});
 
-	mk('naraka-esp', {
-		h1: modulePageH1('naraka-esp', L) ?? 'Naraka ESP',
-		intro: sectionParas(L, 'naraka-esp', 'intro', p)[0],
+	mk('destiny-2-esp', {
+		h1: modulePageH1('destiny-2-esp', L) ?? 'Destiny 2 ESP',
+		intro: sectionParas(L, 'destiny-2-esp', 'intro', p)[0],
 		sections: [
-			{ h2: sectionTitle(L, 'whatEspShows'), paragraphs: sectionParas(L, 'naraka-esp', 0, p), list: sectionList(L, 'naraka-esp', 0) },
-			{ h2: sectionTitle(L, 'whenToUse'), paragraphs: sectionParas(L, 'naraka-esp', 1, p), list: sectionList(L, 'naraka-esp', 1) },
-			{ h2: sectionTitle(L, 'nextSteps'), paragraphs: sectionParas(L, 'naraka-esp', 2, p), list: sectionList(L, 'naraka-esp', 2, L) },
+			{ h2: sectionTitle(L, 'whatEspShows'), paragraphs: sectionParas(L, 'destiny-2-esp', 0, p), list: sectionList(L, 'destiny-2-esp', 0) },
+			{ h2: sectionTitle(L, 'whenToUse'), paragraphs: sectionParas(L, 'destiny-2-esp', 1, p), list: sectionList(L, 'destiny-2-esp', 1) },
+			{ h2: sectionTitle(L, 'nextSteps'), paragraphs: sectionParas(L, 'destiny-2-esp', 2, p), list: sectionList(L, 'destiny-2-esp', 2, L) },
 		],
 	});
 
-	mk('naraka-aimbot', {
-		h1: modulePageH1('naraka-aimbot', L) ?? 'Naraka Aimbot',
-		intro: sectionParas(L, 'naraka-aimbot', 'intro', p)[0],
+	mk('destiny-2-aimbot', {
+		h1: modulePageH1('destiny-2-aimbot', L) ?? 'Destiny 2 Aimbot',
+		intro: sectionParas(L, 'destiny-2-aimbot', 'intro', p)[0],
 		sections: [
-			{ h2: sectionTitle(L, 'controls'), paragraphs: sectionParas(L, 'naraka-aimbot', 0, p), list: sectionList(L, 'naraka-aimbot', 0) },
-			{ h2: sectionTitle(L, 'playStyles'), paragraphs: sectionParas(L, 'naraka-aimbot', 1, p), list: sectionList(L, 'naraka-aimbot', 1) },
-			{ h2: sectionTitle(L, 'nextSteps'), paragraphs: sectionParas(L, 'naraka-aimbot', 2, p), list: sectionList(L, 'naraka-aimbot', 2, L) },
+			{ h2: sectionTitle(L, 'controls'), paragraphs: sectionParas(L, 'destiny-2-aimbot', 0, p), list: sectionList(L, 'destiny-2-aimbot', 0) },
+			{ h2: sectionTitle(L, 'playStyles'), paragraphs: sectionParas(L, 'destiny-2-aimbot', 1, p), list: sectionList(L, 'destiny-2-aimbot', 1) },
+			{ h2: sectionTitle(L, 'nextSteps'), paragraphs: sectionParas(L, 'destiny-2-aimbot', 2, p), list: sectionList(L, 'destiny-2-aimbot', 2, L) },
 		],
 	});
 
@@ -424,8 +424,8 @@ const SECTION_TITLES = {
 	currentStatus: { es: 'Estado actual', fr: 'Statut actuel', de: 'Aktueller Status', pt: 'Status atual', it: 'Stato attuale', nl: 'Huidige status', pl: 'Aktualny status', ru: 'Текущий статус', tr: 'Güncel durum', ar: 'الحالة الحالية', ja: '現在のステータス', ko: '현재 상태', zh: '当前状态', hi: 'वर्तमान स्थिति', id: 'Status saat ini', th: 'สถานะปัจจุบัน', vi: 'Trạng thái hiện tại', uk: 'Поточний статус', cs: 'Aktuální stav', ro: 'Status actual', sv: 'Aktuell status' },
 	afterPatch: { es: 'Después de un parche', fr: 'Après un patch', de: 'Nach einem Patch', pt: 'Após um patch', it: 'Dopo una patch', nl: 'Na een patch', pl: 'Po patchu', ru: 'После патча', tr: 'Yama sonrası', ar: 'بعد التصحيح', ja: 'パッチ後', ko: '패치 후', zh: '补丁后', hi: 'पैच के बाद', id: 'Setelah patch', th: 'หลังแพตช์', vi: 'Sau bản vá', uk: 'Після патчу', cs: 'Po patchi', ro: 'După patch', sv: 'Efter patch' },
 	important: { es: 'Importante', fr: 'Important', de: 'Wichtig', pt: 'Importante', it: 'Importante', nl: 'Belangrijk', pl: 'Ważne', ru: 'Важно', tr: 'Önemli', ar: 'مهم', ja: '重要', ko: '중요', zh: '重要', hi: 'महत्वपूर्ण', id: 'Penting', th: 'สำคัญ', vi: 'Quan trọng', uk: 'Важливо', cs: 'Důležité', ro: 'Important', sv: 'Viktigt' },
-	whatAreCheats: { es: '¿Qué son los trucos de Naraka?', fr: 'Que sont les triches Naraka ?', de: 'Was sind Naraka Cheats?', pt: 'O que são cheats de Naraka?', it: 'Cosa sono i cheat Naraka?', nl: 'Wat zijn Naraka cheats?', pl: 'Czym są cheaty Naraka?', ru: 'Что такое читы Naraka?', tr: 'Naraka hileleri nedir?', ar: 'ما هي غش Naraka؟', ja: 'Narakaチートとは？', ko: 'Naraka 치트란?', zh: '什么是Naraka作弊？', hi: 'Naraka cheats क्या हैं?', id: 'Apa itu cheat Naraka?', th: 'Naraka cheats คืออะไร?', vi: 'Cheat Naraka là gì?', uk: 'Що таке чіти Naraka?', cs: 'Co jsou naraka cheaty?', ro: 'Ce sunt cheats Naraka?', sv: 'Vad är Naraka cheats?' },
-	whatIncludes: { es: 'Qué incluye Naraka Cheats', fr: 'Ce que Naraka Cheats inclut', de: 'Was Naraka Cheats enthält', pt: 'O que o Naraka Cheats inclui', it: 'Cosa include Naraka Cheats', nl: 'Wat Naraka Cheats bevat', pl: 'Co zawiera Naraka Cheats', ru: 'Что входит в Naraka Cheats', tr: 'Naraka Cheats neleri içerir', ar: 'ماذا يتضمن Naraka Cheats', ja: 'Naraka Cheatsの内容', ko: 'Naraka Cheats 포함 사항', zh: 'Naraka Cheats包含什么', hi: 'Naraka Cheats में क्या शामिल है', id: 'Apa yang termasuk Naraka Cheats', th: 'Naraka Cheats รวมอะไรบ้าง', vi: 'Naraka Cheats bao gồm gì', uk: 'Що входить до Naraka Cheats', cs: 'Co obsahuje Naraka Cheats', ro: 'Ce include Naraka Cheats', sv: 'Vad Naraka Cheats innehåller' },
+	whatAreCheats: { es: '¿Qué son los trucos de Destiny 2?', fr: 'Que sont les triches Destiny 2 ?', de: 'Was sind Destiny 2 Cheats?', pt: 'O que são cheats de Destiny 2?', it: 'Cosa sono i cheat Destiny 2?', nl: 'Wat zijn Destiny 2 cheats?', pl: 'Czym są cheaty Destiny 2?', ru: 'Что такое читы Destiny 2?', tr: 'Destiny 2 hileleri nedir?', ar: 'ما هي غش Destiny 2؟', ja: 'Destiny 2チートとは？', ko: 'Destiny 2 치트란?', zh: '什么是Destiny 2作弊？', hi: 'Destiny 2 cheats क्या हैं?', id: 'Apa itu cheat Destiny 2?', th: 'Destiny 2 cheats คืออะไร?', vi: 'Cheat Destiny 2 là gì?', uk: 'Що таке чіти Destiny 2?', cs: 'Co jsou destiny 2 cheaty?', ro: 'Ce sunt cheats Destiny 2?', sv: 'Vad är Destiny 2 cheats?' },
+	whatIncludes: { es: 'Qué incluye Destiny 2 Cheats', fr: 'Ce que Destiny 2 Cheats inclut', de: 'Was Destiny 2 Cheats enthält', pt: 'O que o Destiny 2 Cheats inclui', it: 'Cosa include Destiny 2 Cheats', nl: 'Wat Destiny 2 Cheats bevat', pl: 'Co zawiera Destiny 2 Cheats', ru: 'Что входит в Destiny 2 Cheats', tr: 'Destiny 2 Cheats neleri içerir', ar: 'ماذا يتضمن Destiny 2 Cheats', ja: 'Destiny 2 Cheatsの内容', ko: 'Destiny 2 Cheats 포함 사항', zh: 'Destiny 2 Cheats包含什么', hi: 'Destiny 2 Cheats में क्या शामिल है', id: 'Apa yang termasuk Destiny 2 Cheats', th: 'Destiny 2 Cheats รวมอะไรบ้าง', vi: 'Destiny 2 Cheats bao gồm gì', uk: 'Що входить до Destiny 2 Cheats', cs: 'Co obsahuje Destiny 2 Cheats', ro: 'Ce include Destiny 2 Cheats', sv: 'Vad Destiny 2 Cheats innehåller' },
 	moduleGuides: { es: 'Guías de módulos', fr: 'Guides des modules', de: 'Modul-Guides', pt: 'Guias de módulos', it: 'Guide ai moduli', nl: 'Modulegidsen', pl: 'Przewodniki modułów', ru: 'Гайды по модулям', tr: 'Modül rehberleri', ar: 'أدلة الوحدات', ja: 'モジュールガイド', ko: '모듈 가이드', zh: '模块指南', hi: 'मॉड्यूल गाइड', id: 'Panduan modul', th: 'คู่มือโมดูล', vi: 'Hướng dẫn module', uk: 'Гайди модулів', cs: 'Průvodce moduly', ro: 'Ghiduri module', sv: 'Modulguider' },
 	undetectedPatches: { es: 'Estado indetectable y parches', fr: 'Statut indétectable et patchs', de: 'Undetected-Status & Patches', pt: 'Status indetectável e patches', it: 'Stato indetectable e patch', nl: 'Undetected status en patches', pl: 'Status undetected i patche', ru: 'Undetected статус и патчи', tr: 'Undetected durumu ve yamalar', ar: 'الحالة غير المكتشفة والتصحيحات', ja: 'Undetectedステータスとパッチ', ko: 'Undetected 상태 및 패치', zh: 'Undetected状态和补丁', hi: 'Undetected स्थिति और पैच', id: 'Status undetected dan patch', th: 'สถานะ undetected และแพตช์', vi: 'Trạng thái undetected và bản vá', uk: 'Undetected статус і патчі', cs: 'Undetected stav a patche', ro: 'Status undetected și patch-uri', sv: 'Undetected-status och patchar' },
 	getStarted: { es: 'Cómo empezar', fr: 'Comment commencer', de: 'So startest du', pt: 'Como começar', it: 'Come iniziare', nl: 'Aan de slag', pl: 'Jak zacząć', ru: 'Как начать', tr: 'Nasıl başlanır', ar: 'كيف تبدأ', ja: '始め方', ko: '시작 방법', zh: '如何开始', hi: 'कैसे शुरू करें', id: 'Cara memulai', th: 'วิธีเริ่มต้น', vi: 'Cách bắt đầu', uk: 'Як почати', cs: 'Jak začít', ro: 'Cum să începi', sv: 'Kom igång' },

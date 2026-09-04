@@ -1,17 +1,17 @@
 /**
  * Near-duplicate pageIds → stronger pillars (301 in production via Worker + path-redirects).
  *
- * Long-tail URLs (/naraka-wallhack/, /naraka-mod-menu/, /naraka-cheat-download/, etc.)
+ * Long-tail URLs (/destiny-2-wallhack/, /destiny-2-mod-menu/, /destiny-2-cheat-download/, etc.)
  * stay on 301 — not thin indexable stubs — to consolidate link equity on pillar pages
- * and avoid SERP cannibalization against /naraka-esp/, /naraka-aimbot/, /, and /naraka-cheats/.
+ * and avoid SERP cannibalization against /destiny-2-esp/, /destiny-2-aimbot/, /, and /destiny-2-cheats/.
  */
 export const cannibalRedirectTargets = {
 	'mod-menu': 'home',
 	'unlock-all': 'home',
-	'aimbot-hack': 'naraka-aimbot',
-	'soft-aim': 'naraka-aimbot',
-	'esp-hack': 'naraka-esp',
-	wallhack: 'naraka-esp',
+	'aimbot-hack': 'destiny-2-aimbot',
+	'soft-aim': 'destiny-2-aimbot',
+	'esp-hack': 'destiny-2-esp',
+	wallhack: 'destiny-2-esp',
 	'cheat-download': 'setup',
 } as const;
 

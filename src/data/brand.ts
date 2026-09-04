@@ -5,43 +5,43 @@
  */
 export const brand = {
 	/** Public brand name (nav, footer, H1 hero, schema Organization) */
-	name: 'Naraka Cheats',
+	name: 'Destiny 2 Cheats',
 	/** Short product label if needed */
-	shortName: 'Naraka Cheats',
+	shortName: 'Destiny 2 Cheats',
 	/** Canonical origin — no trailing slash */
-	url: 'https://narakacheats.org',
+	url: 'https://destiny2hack.net',
 	locale: 'en',
 	market: 'Worldwide',
-	supportEmail: 'support@narakacheats.org',
-	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fnaraka-bladepoint-novaxware',
+	supportEmail: 'support@destiny2hack.net',
+	checkoutUrl: 'https://zadeyo.com/go/UMAIR?to=%2Fproducts%2Fdestiny-2',
 
 	/** Public profiles for Organization sameAs + Twitter cards (edit in Brand Studio). */
 	social: {
-		twitterSite: '@narakacheats',
+		twitterSite: '@destiny2hack',
 		sameAs: [
-			'https://x.com/narakacheats',
-			'https://www.reddit.com/r/NARAKA/',
-			'https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/',
+			'https://x.com/destiny2hack',
+			'https://www.reddit.com/r/destiny2/',
+			'https://store.steampowered.com/app/1085660/Destiny_2/',
 		],
 	} as const,
 
 	/** Game this template instance targets */
-	game: 'Naraka',
+	game: 'Destiny 2',
 	/** Official game page — linked from the hero image */
-	gameUrl: 'https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/',
+	gameUrl: 'https://store.steampowered.com/app/1085660/Destiny_2/',
 	/** Anti-cheat name used in Status / FAQ copy */
-	antiCheat: 'NEAC',
+	antiCheat: 'BattlEye',
 
-	logo: '/images/naraka-cheats-logo.webp',
-	logoRaster: '/images/naraka-cheats-logo.png',
+	logo: '/images/destiny2-cheats-logo.webp',
+	logoRaster: '/images/destiny2-cheats-logo.png',
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
-	logoAlt: 'Naraka Cheats logo',
-	defaultOgImage: '/images/naraka-cheats-hero-1199w.webp',
-	heroImage: '/images/naraka-cheats-hero-1199w.webp',
+	logoAlt: 'Destiny 2 Cheats logo',
+	defaultOgImage: '/images/destiny2-cheats-hero-1199w.webp',
+	heroImage: '/images/destiny2-cheats-hero-1199w.webp',
 	/** Product demo clip — lazy-loaded on homepage; fetched only after play */
-	demoVideoUrl: 'https://narakacheats.net/videos/hero.webm',
-	demoVideoPoster: '/images/naraka-screenshot-06.webp',
+	demoVideoUrl: '',
+	demoVideoPoster: '/images/destiny2-screenshot-11.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
@@ -51,23 +51,22 @@ export const brand = {
 	platforms: ['Windows PC'] as const,
 
 	/**
-	 * Site color tones — accent + canvas + soft/deep/hover/panel.
-	 * Edit in Brand Studio → Colors (tones are fully customizable).
+	 * Site color tones — fire aspect: neon cyan + neon pink on dark blue/purple.
 	 */
 	theme: {
-		accent: '#E50920',
-		bg: '#07090A',
-		soft: '#FFFFFF',
-		deep: '#8F0715',
-		hover: '#FF1F35',
-		panel: '#0E1113',
-		elevated: '#15191B',
-		line: '#252A2C',
-		ink: '#F1F3F3',
+		accent: '#8FDBEE',
+		bg: '#071232',
+		soft: '#E394E8',
+		deep: '#180821',
+		hover: '#E394E8',
+		panel: '#0c1638',
+		elevated: '#121f4a',
+		line: '#1e2d5c',
+		ink: '#E8F4FC',
 		inkHeading: '#FFFFFF',
-		inkSecondary: '#C5CACA',
-		inkMuted: '#8D9698',
-		link: '#E50920',
+		inkSecondary: '#A8C8E0',
+		inkMuted: '#6B8FA8',
+		link: '#8FDBEE',
 	},
 
 	/**
@@ -75,29 +74,28 @@ export const brand = {
 	 * Page-specific targeting lives in src/data/seo-keywords.ts
 	 */
 	keywords: {
-		primary: 'naraka cheats',
+		primary: 'destiny 2 cheats',
 		list: [
-			'naraka cheats',
-			'undetected naraka cheats',
-			'naraka cheats 2026',
-			'best naraka cheats',
-			'buy naraka cheats',
-			'naraka esp',
-			'naraka wallhack',
-			'naraka aimbot',
-			'naraka soft aim',
-			'naraka radar hack',
-			'naraka neac bypass',
-			'naraka cheats pc',
-			'naraka cheat download',
-			'naraka mod menu',
-			'undetected naraka cheats',
-			'naraka cheats undetected',
-			'naraka aimbot hack',
-			'naraka esp hack',
-			'best naraka cheats 2026',
-			'naraka cheats for ranked',
-			'naraka external cheat',
+			'destiny 2 cheats',
+			'destiny 2 hacks',
+			'destiny 2 aimbot',
+			'destiny 2 esp',
+			'destiny 2 wallhack',
+			'destiny 2 no recoil',
+			'destiny 2 triggerbot',
+			'destiny 2 radar hack',
+			'd2 cheats',
+			'd2 hacks',
+			'destiny 2 cheat software',
+			'destiny 2 mod menu',
+			'destiny 2 cheats pc',
+			'destiny 2 cheats 2026',
+			'destiny 2 crucible cheats',
+			'destiny 2 trials cheats',
+			'destiny 2 pvp cheats',
+			'destiny 2 unlock tool',
+			'best destiny 2 cheats',
+			'destiny 2 stream proof',
 		] as const,
 	},
 
@@ -106,63 +104,63 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		homeTitle: 'Naraka Bladepoint Cheats 2026 | ESP, Aimbot & Radar',
+		homeTitle: 'Destiny 2 Cheats 2026 | ESP, Aimbot & Wallhack',
 		homeDescription:
-			'Buy undetected Naraka Bladepoint cheats — ESP, aimbot, wallhack & radar for ranked & Showdown on PC. NEAC updates included. Plans from $35/month.',
-		featuresTitle: 'Naraka Bladepoint Cheats Features | ESP & Aimbot',
+			'Destiny 2 cheats with ESP, aimbot, and wallhack for Crucible, Trials, and PvE on Windows PC. No recoil, triggerbot, radar, and BattlEye maintenance included. From $35/month.',
+		featuresTitle: 'Destiny 2 Cheats Features | ESP, Aimbot & Wallhack',
 		featuresDescription:
-			'Full Naraka Bladepoint cheats feature list — ESP wallhack, soft aim, 2D radar & toggles for ranked & Showdown on PC. NEAC maintenance at narakacheats.org.',
-		storeTitle: 'Naraka Bladepoint Cheats Pricing | $35/mo Lifetime',
+			'Full Destiny 2 cheats feature list — ESP wallhack, aimbot, triggerbot, no recoil, radar overlay, movement hacks, and stream-proof toggles for PC. BattlEye maintenance at destiny2hack.net.',
+		storeTitle: 'Destiny 2 Cheats Pricing | $35/mo Lifetime',
 		storeDescription:
-			'Buy Naraka Bladepoint cheats — $35/month or $150 lifetime. ESP, aimbot & radar for ranked & Showdown on PC. Instant digital delivery worldwide.',
-		statusTitle: 'Naraka Status | Undetected {antiCheat} Updates',
+			'Buy Destiny 2 cheats — $35/month or $150 lifetime. ESP, aimbot, wallhack, no recoil, and radar for Crucible and Trials on PC. Instant digital delivery worldwide.',
+		statusTitle: 'Destiny 2 Status | Undetected {antiCheat} Updates',
 		statusDescription:
-			'Live status after {game} & {antiCheat} patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. Status updated at narakacheats.org.',
-		previewTitle: 'Naraka Bladepoint Cheats | ESP, Aimbot & Radar Guide',
+			'Live status after {game} & {antiCheat} patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. Status updated at destiny2hack.net.',
+		previewTitle: 'Destiny 2 Cheats | ESP, Aimbot & Wallhack Guide',
 		previewDescription:
-			'Naraka Bladepoint cheats guide — undetected ESP wallhack, soft aim, radar & {antiCheat} rebuilds for ranked & Showdown on PC. Buy from $35 at narakacheats.org.',
-		setupTitle: 'Naraka Cheats Setup | Windows PC Install Guide',
+			'Destiny 2 cheats guide — undetected ESP wallhack, aimbot, triggerbot, no recoil, and radar with {antiCheat} rebuilds for Crucible and Trials on PC. Buy from $35 at destiny2hack.net.',
+		setupTitle: 'Destiny 2 Cheats Setup | Windows PC Install Guide',
 		setupDescription:
-			'Install {brand} on PC — activate ESP, soft aim & radar step by step. Setup guide at narakacheats.org. Check {antiCheat} status before your first match.',
-		supportTitle: 'Naraka Cheats Support | License & Setup Help',
+			'Install {brand} on PC — activate ESP, aimbot, and no recoil step by step. Setup guide at destiny2hack.net. Check {antiCheat} status before your first Crucible match.',
+		supportTitle: 'Destiny 2 Cheats Support | License & Setup Help',
 		supportDescription:
-			'Support for license delivery, ESP setup & billing on PC. Email {email} with your order ID. Fast help at narakacheats.org/support before you play.',
-		faqTitle: 'Naraka Bladepoint Cheats FAQ | ESP, Aimbot & NEAC',
+			'Support for license delivery, ESP setup & billing on PC. Email {email} with your order ID. Fast help at destiny2hack.net/support before you play.',
+		faqTitle: 'Destiny 2 Cheats FAQ | ESP, Aimbot & BattlEye',
 		faqDescription:
-			'FAQ for Naraka Bladepoint cheats — delivery, setup, ranked & Showdown use, {antiCheat} updates & pricing on PC. Answers at narakacheats.org before you buy.',
-		reviewsTitle: 'Naraka Cheats Reviews | Bladepoint Hacks & Cheats',
+			'FAQ for Destiny 2 cheats — delivery, setup, Crucible & Trials use, {antiCheat} updates & pricing on PC. Answers at destiny2hack.net before you buy.',
+		reviewsTitle: 'Destiny 2 Cheats Reviews | Hacks & Cheats Feedback',
 		reviewsDescription:
-			'Real buyer reviews for Naraka cheats and Naraka Bladepoint hacks — ESP, soft aim, radar & {antiCheat} maintenance on PC. See license holder feedback at narakacheats.org.',
-		blogTitle: 'Naraka Blog | Guides & Patch Tips | {brand}',
+			'Real buyer reviews for Destiny 2 cheats and hacks — ESP, aimbot, no recoil, radar & {antiCheat} maintenance on PC. See license holder feedback at destiny2hack.net.',
+		blogTitle: 'Destiny 2 Blog | Guides & Patch Tips | {brand}',
 		blogDescription:
-			'Naraka guides — ranked tips, ESP & aimbot notes, hero tiers & {antiCheat} updates for PC. Read patch notes and buyer guides at narakacheats.org/blog.',
+			'Destiny 2 guides — Crucible tips, ESP & aimbot notes, Trials meta & {antiCheat} updates for PC. Read patch notes and buyer guides at destiny2hack.net/blog.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */
 	copy: {
-		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
-		summary: '{brand} is an undetected {game} cheats package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
-		heroLede: 'Undetected ESP, soft aim, and radar for Naraka on Windows PC.',
-		blogLabel: 'Naraka Intel',
+		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and wallhack for PC',
+		summary: '{brand} is an undetected {game} cheats package for Windows PC. Includes ESP, aimbot, wallhack, no recoil, triggerbot, and radar, with {antiCheat} maintenance after patches.',
+		heroLede: 'Undetected ESP, aimbot, wallhack, and no recoil for Destiny 2 on Windows PC.',
+		blogLabel: 'Destiny 2 Intel',
 		ctaBuy: 'Get Access',
 		ctaBuyShort: 'Buy',
 		featuresIntro: 'Everything included in one license for {game} on Windows PC.',
 		storeIntro: 'Pick a plan. Same features on both. Instant delivery after payment.',
 		statusIntro: 'Check here after a {game} or {antiCheat} patch before you queue.',
-		previewIntro: '{brand} for Naraka — ESP wallhack, soft aim, 2D radar, and NEAC rebuilds after patches.',
+		previewIntro: '{brand} for Destiny 2 — ESP wallhack, aimbot, triggerbot, no recoil, radar, and {antiCheat} rebuilds after patches.',
 		setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
 		supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 		faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
 		reviewsIntro:
-			'Real feedback on Naraka cheats and Naraka Bladepoint hacks — ESP, soft aim, radar, and support from {brand} buyers.',
+			'Real feedback on Destiny 2 cheats and hacks — ESP, aimbot, no recoil, radar, and support from {brand} buyers.',
 		chipEsp: 'ESP / wallhack',
-		chipAim: 'Soft aim',
-		chipRadar: '2D radar',
+		chipAim: 'Aimbot',
+		chipRadar: 'Radar hack',
 		chipUpdates: 'Patch updates',
 		navPreview: 'Cheats',
 		navFeatures: 'Features',
-		navStore: 'Store',
-		navStatus: 'Status',
+		navStore: 'Pricing',
+		navStatus: 'Updates',
 		navReviews: 'Reviews',
 	},
 
@@ -171,53 +169,53 @@ export const brand = {
 	 * Domain comes from `url` (also written to robots.txt via sync:brand).
 	 * Tokens: {brand} {game} {antiCheat} {email} {primaryKeyword}
 	 */
-		sitemap: {
+	sitemap: {
 		/** YYYY-MM-DD — Brand Studio can bump this on refresh crawl dates */
-		contentLastmod: '2026-08-25',
+		contentLastmod: '2026-09-04',
 		blogImageTitle: '{brand} blog',
 		blogImageCaption: 'Tips and updates for {primaryKeyword}',
 		reviewsImageTitle: '{brand} reviews',
-		reviewsImageCaption: 'Naraka cheats & Naraka Bladepoint hacks — what buyers say about {primaryKeyword}',
+		reviewsImageCaption: 'Destiny 2 cheats & hacks — what buyers say about {primaryKeyword}',
 		images: [
 			{
-				src: '/images/naraka-screenshot-01.webp',
-				title: 'Naraka ESP loot and item detection',
-				caption: 'Naraka ESP wallhack with distance-tagged loot boxes and weapons',
+				src: '/images/destiny2-screenshot-11.webp',
+				title: 'Destiny 2 aimbot with ESP overlay in Crucible',
+				caption: 'Destiny 2 aimbot cheat showing ESP boxes and lock-on reticle in PvP',
 			},
 			{
-				src: '/images/naraka-screenshot-02.webp',
-				title: 'Naraka wallhack ESP overlay',
-				caption: 'Naraka wallhack ESP with loot tags visible through walls',
+				src: '/images/destiny2-screenshot-12.webp',
+				title: 'Destiny 2 magic bullet aimbot gameplay',
+				caption: 'Destiny 2 magic bullet cheat with ESP distance tags on the Moon',
 			},
 			{
-				src: '/images/naraka-screenshot-03.webp',
-				title: 'Naraka cheats in-match view',
-				caption: 'Naraka gameplay session with cheats running on Windows PC',
+				src: '/images/destiny2-screenshot-13.webp',
+				title: 'Destiny 2 god mode and ESP wallhack',
+				caption: 'Destiny 2 god mode cheat with neon green ESP skeleton overlays',
 			},
 			{
-				src: '/images/naraka-screenshot-04.webp',
-				title: 'Naraka ESP player tracking',
-				caption: 'Naraka ESP showing enemy names, health, and distance through the map',
+				src: '/images/destiny2-screenshot-14.webp',
+				title: 'Destiny 2 fly movement hack',
+				caption: 'Destiny 2 fly cheat showing free movement in the Ascendant Plane',
 			},
 			{
-				src: '/images/naraka-screenshot-05.webp',
-				title: 'Naraka ESP threat markers',
-				caption: 'Naraka ESP distance markers for players and loot in live matches',
+				src: '/images/destiny2-screenshot-15.webp',
+				title: 'Destiny 2 jump height multiplier',
+				caption: 'Destiny 2 movement hack with jump height multiplier in Vex environment',
 			},
 			{
-				src: '/images/naraka-screenshot-06.webp',
-				title: 'Naraka cheats combat ESP',
-				caption: 'Naraka cheats ESP active during a live Naraka match',
+				src: '/images/destiny2-screenshot-16.webp',
+				title: 'Destiny 2 aimbot scope lock-on',
+				caption: 'Destiny 2 aimbot with green reticle and skeleton ESP in PvP',
 			},
 			{
-				src: '/images/naraka-screenshot-07.webp',
-				title: 'Naraka wallhack player ESP',
-				caption: 'Naraka wallhack ESP with player outlines and distance tags',
+				src: '/images/destiny2-screenshot-17.webp',
+				title: 'Destiny 2 ESP and magic bullet overlay',
+				caption: 'Destiny 2 ESP wallhack with magic bullet auto-targeting on the Moon',
 			},
 			{
-				src: '/images/naraka-screenshot-08.webp',
-				title: 'Naraka ESP and loot ESP gameplay',
-				caption: 'Naraka ESP loot tags and wallhack overlay during ranked gameplay',
+				src: '/images/destiny2-screenshot-18.webp',
+				title: 'Destiny 2 aimbot PvP combat',
+				caption: 'Destiny 2 aimbot hack with FOV circle and player ESP in Crucible',
 			},
 		],
 	},
@@ -246,9 +244,9 @@ export function seoTitle(topic: string): string {
 export function seoDescription(template: string): string {
 	let text = fillBrandTokens(template).trim();
 	if (text.length < 140) {
-		const pad = text.toLowerCase().includes('narakacheats.org')
-			? ' Windows PC license with NEAC maintenance after patches.'
-			: ' Compare plans and guides at narakacheats.org.';
+		const pad = text.toLowerCase().includes('destiny2hack.net')
+			? ' Windows PC license with BattlEye maintenance after patches.'
+			: ' Compare plans and guides at destiny2hack.net.';
 		text = `${text.replace(/[.…]+$/, '')}.${pad}`;
 	}
 	if (text.length <= 160) return text;

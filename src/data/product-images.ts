@@ -1,15 +1,14 @@
 import { siteConfig } from './site';
 
-/** User-provided Supabase originals — kept for provenance; site serves optimized WebP copies. */
+/** User-provided screenshots for destiny2hack.net */
 export const PRODUCT_SCREENSHOT_SOURCES = [
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185425.png',
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185442.png',
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185513.png',
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185527.png',
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185540.png',
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185621.png',
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185635.png',
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/valo/valo%20cheats/Screenshot%202026-08-13%20185646.png',
+	'/images/destiny2-screenshot-11.webp',
+	'/images/destiny2-screenshot-12.webp',
+	'/images/destiny2-screenshot-13.webp',
+	'/images/destiny2-screenshot-14.webp',
+	'/images/destiny2-screenshot-15.webp',
+	'/images/destiny2-screenshot-16.webp',
+	'/images/destiny2-screenshot-17.webp',
 ] as const;
 
 export const PRODUCT_SCREENSHOT_COUNT = PRODUCT_SCREENSHOT_SOURCES.length;
@@ -26,50 +25,45 @@ export type ProductScreenshotMeta = {
 
 const alts: Record<number, { alt: string; title: string; caption: string }> = {
 	1: {
-		alt: 'Naraka ESP showing loot box and weapon labels through walls',
-		title: 'Naraka ESP loot and item detection',
-		caption: 'Naraka ESP wallhack with distance-tagged loot boxes and weapons',
+		alt: 'Destiny 2 aimbot cheat with ESP boxes and lock-on reticle in Crucible PvP',
+		title: 'Destiny 2 aimbot with ESP overlay',
+		caption: 'Destiny 2 aimbot showing green ESP skeleton and FOV circle in PvP',
 	},
 	2: {
-		alt: 'Naraka wallhack ESP highlighting weapons and corpses through geometry',
-		title: 'Naraka wallhack ESP overlay',
-		caption: 'Naraka wallhack ESP with loot tags visible through walls',
+		alt: 'Destiny 2 magic bullet aimbot with ESP distance tags on the Moon',
+		title: 'Destiny 2 magic bullet aimbot gameplay',
+		caption: 'Destiny 2 magic bullet cheat with pink ESP markers in K1 Logistics',
 	},
 	3: {
-		alt: 'Naraka third-person gameplay view on Windows PC',
-		title: 'Naraka cheats in-match view',
-		caption: 'Naraka gameplay session with cheats running on Windows PC',
+		alt: 'Destiny 2 god mode cheat with neon green ESP skeleton overlays',
+		title: 'Destiny 2 god mode and ESP wallhack',
+		caption: 'Destiny 2 god mode with ESP boxes showing enemy positions through walls',
 	},
 	4: {
-		alt: 'Naraka ESP player tracking with names and distance readouts',
-		title: 'Naraka ESP player tracking',
-		caption: 'Naraka ESP showing enemy names, health, and distance through the map',
+		alt: 'Destiny 2 fly movement hack showing free movement in the Ascendant Plane',
+		title: 'Destiny 2 fly movement hack',
+		caption: 'Destiny 2 fly cheat enabling free map movement in purple Ascendant realm',
 	},
 	5: {
-		alt: 'Naraka ESP radar-style player and loot markers in match',
-		title: 'Naraka ESP threat markers',
-		caption: 'Naraka ESP distance markers for players and loot in live matches',
+		alt: 'Destiny 2 jump height multiplier cheat in Vex environment with neon pink streaks',
+		title: 'Destiny 2 jump height multiplier',
+		caption: 'Destiny 2 movement hack with jump height multiplier in Vex zone',
 	},
 	6: {
-		alt: 'Naraka cheats ESP overlay during combat on Windows PC',
-		title: 'Naraka cheats combat ESP',
-		caption: 'Naraka cheats ESP active during a live Naraka match',
+		alt: 'Destiny 2 aimbot scope lock-on with skeleton ESP in PvP hallway',
+		title: 'Destiny 2 aimbot scope lock-on',
+		caption: 'Destiny 2 aimbot with green reticle and player ESP in Crucible',
 	},
 	7: {
-		alt: 'Naraka wallhack ESP with player outlines and corpse tags',
-		title: 'Naraka wallhack player ESP',
-		caption: 'Naraka wallhack ESP with player outlines and distance tags',
-	},
-	8: {
-		alt: 'Naraka ESP loot detection and in-match overlay',
-		title: 'Naraka ESP and loot ESP gameplay',
-		caption: 'Naraka ESP loot tags and wallhack overlay during ranked gameplay',
+		alt: 'Destiny 2 ESP wallhack with magic bullet auto-targeting on the Moon',
+		title: 'Destiny 2 ESP and magic bullet overlay',
+		caption: 'Destiny 2 ESP wallhack with magic bullet and distance readouts on the Moon',
 	},
 };
 
 export function screenshotSrc(n: number): string {
 	const id = ((n - 1) % PRODUCT_SCREENSHOT_COUNT) + 1;
-	return `/images/naraka-screenshot-${String(id).padStart(2, '0')}.webp`;
+	return `/images/destiny2-screenshot-${String(id + 10).padStart(2, '0')}.webp`;
 }
 
 export function absoluteScreenshotUrl(n: number): string {
@@ -78,24 +72,22 @@ export function absoluteScreenshotUrl(n: number): string {
 
 export function getProductScreenshot(n: number): ProductScreenshotMeta {
 	const id = ((n - 1) % PRODUCT_SCREENSHOT_COUNT) + 1;
-	const meta = alts[id] ?? {
-		alt: `Naraka Cheats gameplay screenshot ${id}`,
-		title: `Naraka Cheats screenshot ${id}`,
-		caption: `Naraka Cheats screenshot ${id} for Naraka on Windows PC`,
-	};
-	const src = screenshotSrc(id);
+	const fileNum = id + 10;
+	const src = `/images/destiny2-screenshot-${String(fileNum).padStart(2, '0')}.webp`;
+	const meta = alts[id];
 	return {
 		id,
 		src,
 		url: new URL(src, siteConfig.url).href,
-		sourceUrl: PRODUCT_SCREENSHOT_SOURCES[id - 1]!,
-		...meta,
+		sourceUrl: PRODUCT_SCREENSHOT_SOURCES[id - 1],
+		alt: meta.alt,
+		title: meta.title,
+		caption: meta.caption,
 	};
 }
 
-export const productScreenshots: ProductScreenshotMeta[] = Array.from(
-	{ length: PRODUCT_SCREENSHOT_COUNT },
-	(_, i) => getProductScreenshot(i + 1),
+export const productScreenshots = Array.from({ length: PRODUCT_SCREENSHOT_COUNT }, (_, i) =>
+	getProductScreenshot(i + 1),
 );
 
 /** JSON-LD ImageObject nodes for gallery / sitemap parity. */

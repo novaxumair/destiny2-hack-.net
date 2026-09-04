@@ -20,18 +20,18 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "accent": "Undetected Naraka Cheats",
-    "accentShort": "Naraka Cheats",
-    "title": "Naraka Cheats",
-    "subtitle": "ESP Wallhack, Radar Hack und Aimbot für Naraka auf Windows PC — NEAC-Wartung inklusive.",
-    "subtitleShort": "ESP, Radar & Aimbot für Naraka PC",
+    "accent": "Undetected Destiny 2 Cheats",
+    "accentShort": "Destiny 2 Cheats",
+    "title": "Destiny 2 Cheats",
+    "subtitle": "ESP Wallhack, Radar Hack und Aimbot für Destiny 2 auf Windows PC — BattlEye-Wartung inklusive.",
+    "subtitleShort": "ESP, Radar & Aimbot für Destiny 2 PC",
     "buyNow": "Jetzt kaufen",
     "seeFeatures": "Features ansehen",
     "priceFrom": "from",
-    "imageAlt": "{{brand}} — Naraka ESP and aimbot overlay",
+    "imageAlt": "{{brand}} — Destiny 2 ESP and aimbot overlay",
     "chipEsp": "ESP / wallhack",
-    "chipAim": "Soft aim",
-    "chipRadar": "2D radar",
+    "chipAim": "aimbot",
+    "chipRadar": "radar overlay",
     "chipUpdates": "Updates"
   },
   "cta": {
@@ -40,20 +40,20 @@
   },
   "trust": {
     "status": "Online",
-    "statusNote": "Naraka Cheats Paket ist live für Naraka auf Windows PC.",
+    "statusNote": "Destiny 2 Cheats Paket ist live für Destiny 2 auf Windows PC.",
     "statusShort": "Live",
     "delivery": "Sofortige digitale Lieferung",
     "platform": "Windows 10 & 11",
-    "antiCheat": "NEAC-Wartung unterstützt",
-    "antiCheatShort": "NEAC Support"
+    "antiCheat": "BattlEye-Wartung unterstützt",
+    "antiCheatShort": "BattlEye Support"
   },
   "product": {
-    "title": "Naraka Cheats",
+    "title": "Destiny 2 Cheats",
     "addToCart": "In den Warenkorb",
     "monthly": "Monatlich",
     "lifetime": "Lifetime",
     "available": "Jetzt verfügbar",
-    "gameBadge": "Naraka",
+    "gameBadge": "Destiny 2",
     "platformBadge": "Windows PC",
     "statusBadge": "Undetected Paket",
     "days30": "30",
@@ -66,18 +66,18 @@
   },
   "reviews": {
     "title": "Was Spieler sagen",
-    "subtitle": "Aktuelles Feedback von Naraka Cheats Käufern",
+    "subtitle": "Aktuelles Feedback von Destiny 2 Cheats Käufern",
     "outOf": "von 5",
     "countLabel": "Bewertungen",
     "eyebrow": "Was Spieler sagen",
-    "homeTitle": "Naraka Cheats Was Spieler sagen",
+    "homeTitle": "Destiny 2 Cheats Was Spieler sagen",
     "buyerReviews": "Bewertungen",
     "averageAria": "Was Spieler sagen",
     "outOfFiveAria": "von 5",
     "readAll": "→"
   },
   "common": {
-    "buyNow": "Buy Naraka Cheats",
+    "buyNow": "Buy Destiny 2 Cheats",
     "readGuide": "Read guide",
     "language": "Language",
     "officialLanguageNote": "English is official; other locales are translated.",
@@ -98,50 +98,318 @@
     "productDetails": "Features",
     "browse": "Verwandte Seiten",
     "featured": "Featured",
+    "readMore": "Read more",
+    "backToBlog": "Back to blog",
+    "publishedOn": "Published {{date}}",
+    "updatedOn": "Updated {{date}}",
+    "shareArticle": "Share article",
+    "tableOfContents": "Table of contents",
+    "onThisPage": "On this page",
+    "faqHeading": "Frequently asked questions",
+    "seeAllFaq": "See all FAQ",
+    "seeAllReviews": "See all reviews",
+    "seeAllGuides": "See all guides",
+    "seeAllBlog": "See all blog posts",
+    "relatedArticles": "Related articles",
+    "relatedGuides": "Related guides",
+    "lastUpdated": "Last updated",
+    "minutesRead": "{{count}} min read",
+    "category": "Category",
+    "tags": "Tags",
+    "author": "Author",
+    "editorialTeam": "Editorial team",
+    "disclaimer": "Disclaimer",
+    "legalNotice": "Legal notice",
+    "contactSupport": "Contact support",
+    "emailSupport": "Email support",
+    "visitStore": "Visit store",
+    "comparePlans": "Compare plans",
+    "viewFeatures": "View features",
+    "checkStatus": "Check status",
+    "setupGuide": "Setup guide",
+    "pricingPlans": "Preise",
+    "monthlyPlan": "Monthly plan",
+    "lifetimePlan": "Lifetime plan",
+    "instantDelivery": "Instant delivery",
+    "windowsPc": "Windows PC",
+    "undetected": "Undetected",
+    "online": "Online",
+    "offline": "Offline",
+    "maintenance": "Maintenance",
+    "patchNotes": "Patch notes",
+    "buyerGuide": "Buyer guide",
+    "comparison": "Comparison",
+    "reviews": "Reviews",
+    "support": "Support",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "guides": "Guides",
+    "features": "Features",
+    "pricing": "Pricing",
+    "setup": "Setup",
+    "updates": "Updates",
+    "home": "Home",
+    "cheats": "Cheats",
+    "hacks": "Hacks",
+    "aimbot": "Aimbot",
+    "esp": "ESP",
+    "wallhack": "Wallhack",
+    "radar": "Radar",
+    "noRecoil": "No recoil",
+    "triggerbot": "Triggerbot",
+    "movement": "Movement",
+    "streamProof": "Stream proof",
+    "customizable": "Customizable",
     "share": "Share",
     "shareX": "Share on X",
     "shareReddit": "Share on Reddit",
     "shareFacebook": "Share on Facebook",
-    "blog": "Blog",
-    "guides": "Guides",
-    "home": "Home",
-    "support": "Support",
+    "refundPolicy": "Refund policy",
     "privacy": "Privacy",
     "terms": "Terms",
     "featureList": "Features",
-    "pricingPlans": "Preise",
     "buyerReviewsNav": "Was Spieler sagen",
-    "copyright": "© {{year}} {{brand}}",
-    "refundPolicy": "Refund policy"
+    "copyright": "© {{year}} {{brand}}"
   },
   "footer": {
     "explore": "Entdecken",
     "help": "Hilfe & Rechtliches",
-    "tagline": "Undetected ESP, Wallhack, Radar und Aimbot für Naraka — Checkout über Zadeyo."
+    "tagline": "Undetected ESP, Wallhack, Radar und Aimbot für Destiny 2 — secure checkout.",
+    "copyright": "© {{year}} Destiny 2 Cheats. All rights reserved.",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "refund": "Refund policy"
   },
-  "home": {
-    "aboutTitle": "undetected Cheats für Naraka",
-    "aboutP1": "Undetected Windows PC Paket für Naraka: ESP Wallhack, Radar und Aimbot mit NEAC-Wartung nach jedem Patch. Preise · Updates.",
-    "aboutPricingCta": "Preise vergleichen",
-    "aboutP2Before": "Starten Sie mit dem",
-    "aboutPillar": "Naraka Cheats Leitfaden",
-    "aboutEsp": "ESP-Guide",
-    "aboutAimbot": "Aimbot-Steuerung",
-    "aboutUndetected": "Undetected-Status",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", oder ",
-    "aboutP2After": ", wenn Sie noch Tools vergleichen.",
-    "playDemoVideo": "Play Naraka cheats demo video",
-    "pauseDemoVideo": "Pause Naraka cheats demo video",
-    "demoVideoCaption": "Naraka Cheats — ESP, aimbot & radar in match",
-    "volumeLabel": "Volume",
-    "muteVideo": "Mute video",
-    "unmuteVideo": "Unmute video",
-    "seekLabel": "Video progress"
+  "features": {
+    "title": "Destiny 2 cheat features",
+    "subtitle": "Aimbot, ESP, wallhack, no recoil, triggerbot, radar, movement, and stream-proof toggles in one license.",
+    "aimbot": "Aimbot",
+    "esp": "ESP",
+    "wallhack": "Wallhack",
+    "recoil": "No recoil",
+    "triggerbot": "Triggerbot",
+    "radar": "Radar",
+    "movement": "Movement",
+    "noSpread": "No spread",
+    "streamProof": "Stream proof",
+    "customizable": "Customizable"
+  },
+  "pricing": {
+    "title": "Destiny 2 cheats pricing",
+    "subtitle": "Monthly and lifetime plans with the same features. Instant digital delivery.",
+    "monthlyTitle": "Monthly",
+    "lifetimeTitle": "Lifetime",
+    "monthlyPrice": "$35",
+    "lifetimePrice": "$150",
+    "monthlyDesc": "30 days of full access",
+    "lifetimeDesc": "One-time payment, lifetime updates",
+    "buyMonthly": "Buy monthly",
+    "buyLifetime": "Buy lifetime"
+  },
+  "setup": {
+    "title": "Destiny 2 cheats setup",
+    "subtitle": "Install and activate on Windows PC in under 20 minutes."
+  },
+  "updates": {
+    "title": "Destiny 2 cheats status",
+    "subtitle": "Live undetected status after Bungie and BattlEye patches."
+  },
+  "faq": {
+    "items": {
+      "what-are-destiny-2-cheats": {
+        "q": "Was ist Destiny 2 Cheats?",
+        "a": "Destiny 2 Cheats ist ein undetected Paket für Destiny 2 auf Windows PC. Es enthält ESP Wallhack, 2D-Radar und Aimbot-Steuerung mit BattlEye-Wartung und Setup-Support."
+      },
+      "are-destiny-2-cheats-undetected-in-2026": {
+        "q": "Sind Destiny 2 Cheats 2026 undetected?",
+        "a": "Destiny 2 Cheats wird für Destiny 2 mit Rebuilds nach BattlEye- und Spiel-Patches gewartet. Prüfe die Status-Seite before queueing. Kein Cheat kann dauerhafte Undetected-Garantie geben."
+      },
+      "solo-farmer-and-raider-sessions": {
+        "q": "Funktioniert das in Battle-Royale-Runden und Ranked-Matches?",
+        "a": "Ja. ESP, Radar und Aimbot sind für den Destiny 2-Match-Flow gebaut — feindliche Helden lesen, Loot und Soul Jades verfolgen und in Quick Play und Ranked in POIs und Kampfzonen wachsam bleiben."
+      },
+      "esp-wallhack-radar-or-aimbot": {
+        "q": "Was ist enthalten — ESP, Wallhack, Radar oder Aimbot?",
+        "a": "Destiny 2 Cheats bündelt ESP Wallhack, Loot-Marker, 2D-Radar und konfigurierbaren Aimbot in einer Lizenz. Siehe Features für die vollständige Liste."
+      },
+      "how-are-licenses-delivered": {
+        "q": "Wie werden Lizenzen geliefert?",
+        "a": "Nach Zahlungsbestätigung werden Lizenzdetails digital über den Checkout geliefert. Bewahre die Bestellbestätigung für Support-Anfragen auf."
+      },
+      "where-to-check-updates": {
+        "q": "Wo prüfe ich Updates nach einem Destiny 2- oder BattlEye-Patch?",
+        "a": "Wartungshinweise erscheinen auf der Status-Seite, wenn ein Patch das Paket betrifft. Dort siehst du am schnellsten, ob ein neuer Build live ist."
+      },
+      "how-to-contact-support": {
+        "q": "Wie kontaktiere ich den Support?",
+        "a": "Nutze die Support-Seite oder schreibe an support@destiny2hack.net mit Bestelldetails und einer klaren Problembeschreibung."
+      },
+      "what-is-a-destiny-2-wallhack": {
+        "q": "Was ist ein Destiny 2 Wallhack?",
+        "a": "Ein Destiny 2 Wallhack ist ein ESP-Overlay, das feindliche Helden durch Gelände zeigt. Destiny 2 Cheats enthält Distanzanzeigen, Grapple- und Ult-Signale sowie umschaltbare Kategorien."
+      },
+      "does-destiny-2-cheats-include-radar-hack": {
+        "q": "Enthält Destiny 2 Cheats einen Radar Hack?",
+        "a": "Ja. Destiny 2 Cheats enthält 2D-Radar-Overlays für nahe Bedrohungen außerhalb deines Sichtfelds."
+      },
+      "battleye-anti-cheat-and-destiny-2-cheats": {
+        "q": "Wie wirkt sich BattlEye auf Destiny 2 Cheats aus?",
+        "a": "BattlEye überwacht Destiny 2 auf Windows PC. Destiny 2 Cheats veröffentlicht Wartungshinweise nach Patches. Prüfe Status vor dem Spielen."
+      },
+      "buy-undetected-destiny-2-cheats-windows-pc": {
+        "q": "Kann ich undetected Destiny 2 Cheats für Windows PC kaufen?",
+        "a": "Ja — Destiny 2 Cheats verkauft Monats- und Lifetime-Lizenzen für Windows PC mit ESP, Radar und Aimbot. Vergleiche Pläne auf der Preisseite."
+      },
+      "how-much-do-destiny-2-cheats-cost": {
+        "q": "How much do destiny 2 cheats cost in 2026?",
+        "a": "Destiny 2 Cheats is $35 per month or $150 lifetime USD on Windows PC. Both plans include ESP wallhack, 2D radar, soft aim, and BattlEye maintenance rebuilds. See Pricing for the latest plan details before checkout."
+      },
+      "what-is-destiny-2-esp-hack": {
+        "q": "Was ist ein Destiny 2 ESP Hack?",
+        "a": "Ein Destiny 2 ESP Hack ist ein Sichtbarkeits-Overlay, das feindliche Helden, Waffen und Loot durch Wände zeigt. Destiny 2 Cheats ESP enthält Spielerboxen, Distanz-Tags, Grapple- und Ult-Signale sowie umschaltbare Kategorien für Quick Play und Ranked."
+      },
+      "what-is-destiny-2-aimbot-hack": {
+        "q": "Was ist ein Destiny 2 Aimbot Hack?",
+        "a": "Ein Destiny 2 Aimbot Hack bietet Aim Assist mit konfigurierbarem FOV, Smoothing und Knochenpriorität. Destiny 2 Cheats nutzt Soft-Aim-Profile für natürliche Teamfights und Duelle — stelle Einstellungen im Mod-Menü vor Ranked-Queues ein."
+      },
+      "how-to-install-destiny-2-cheats": {
+        "q": "How do I install destiny 2 cheats on Windows PC?",
+        "a": "After checkout, follow the Setup guide: download the loader, disable conflicting overlays, launch Destiny 2 Cheats, and enable ESP, radar, or aimbot toggles in the mod menu. Most buyers finish first launch in under 15 minutes. Email support@destiny2hack.net if activation fails."
+      },
+      "best-destiny-2-cheats-in-2026": {
+        "q": "What are the best destiny 2 cheats in 2026?",
+        "a": "Top destiny 2 cheats in 2026 combine undetected ESP, soft aim, 2D radar, and fast BattlEye maintenance after patches. Destiny 2 Cheats bundles all three in one license with status notes, setup support, and monthly or lifetime pricing — compare Features and Reviews before you buy."
+      },
+      "monthly-vs-lifetime-destiny-2-cheats": {
+        "q": "Should I buy monthly or lifetime destiny 2 cheats?",
+        "a": "Choose monthly ($35) if you want a lower entry cost or only play a few seasons. Choose lifetime ($150) if you plan long-term Destiny 2 play and want one payment for ESP, radar, aimbot, and future maintenance rebuilds. Both plans ship the same feature set."
+      },
+      "destiny-2-cheats-windows-11": {
+        "q": "Do destiny 2 cheats work on Windows 11?",
+        "a": "Yes. Destiny 2 Cheats supports Windows 10 and Windows 11 on PC. Use a clean install path from the Setup guide, keep BattlEye status green on the Updates page, and avoid running outdated builds after major patches."
+      },
+      "what-is-destiny-2-soft-aim": {
+        "q": "Was ist Destiny 2 aimbot?",
+        "a": "Destiny 2 aimbot lenkt die Zielhilfe sanft auf Ziele innerhalb eines festen FOV statt sofort zu snappen. Destiny 2 Cheats lässt Smoothing, Knochenpriorität und Profile pro Waffentyp anpassen — kontrollierte Hilfe in Quick Play und Ranked."
+      },
+      "free-destiny-2-cheat-download": {
+        "q": "Is there a free Destiny 2 hack download?",
+        "a": "Destiny 2 Cheats is a paid license — there is no official free download. Avoid random “free destiny 2 cheat” sites; they often ship malware or detected loaders. Compare monthly and lifetime plans on Pricing for legitimate ESP, radar, and aimbot access with support."
+      },
+      "naraka-battleye-bypass": {
+        "q": "How does BattlEye bypass work for destiny 2 cheats?",
+        "a": "There is no permanent BattlEye bypass. Destiny 2 Cheats is maintained with rebuilds after Destiny 2 and BattlEye patches — check the Updates page before you queue. Responsible settings and loading the latest build matter more than any “bypass” claim."
+      },
+      "destiny-2-cheats-for-ranked": {
+        "q": "Funktionieren Destiny 2 Cheats im Ranked-Wettbewerb?",
+        "a": "Ja. ESP, Radar und aimbot sind für Ranked und Quick Play in Destiny 2 auf Windows PC gebaut. Nutze konservative Overlay-Einstellungen, lies Wartungshinweise nach Patches und bestätige den Undetected-Status auf der Updates-Seite vor kompetitiven Queues."
+      },
+      "what-is-destiny-2-mod-menu": {
+        "q": "What is a Destiny 2 mod menu?",
+        "a": "A Destiny 2 mod menu is an in-game overlay to toggle ESP wallhack, radar, aimbot, and visual settings without alt-tabbing. Destiny 2 Cheats ships a lightweight mod menu for Windows PC — see Features for the full toggle list."
+      },
+      "external-vs-internal-destiny-2-cheats": {
+        "q": "What is the difference between external and internal destiny 2 cheats?",
+        "a": "External hacks read game memory from outside the client; internal hooks run inside the process. Destiny 2 Cheats is built as an external-style package for easier setup on Windows PC, bundling ESP, radar, and soft aim with BattlEye maintenance after patches."
+      },
+      "how-long-destiny-2-cheat-setup-takes": {
+        "q": "How long does destiny 2 cheats setup take?",
+        "a": "Most buyers finish Destiny 2 Cheats setup in 10–20 minutes on Windows PC: install the loader, activate the license, and enable ESP or aimbot in the mod menu. If Windows Defender or another AV blocks the loader, follow Setup troubleshooting or email support@destiny2hack.net with your order ID."
+      },
+      "does-destiny-2-cheats-include-triggerbot": {
+        "q": "Does Destiny 2 Cheats include triggerbot?",
+        "a": "Destiny 2 Cheats focuses on ESP wallhack, 2D radar, and soft aim profiles. Triggerbot is not advertised as a standalone module — review the Features page for the current toggle list before checkout."
+      },
+      "destiny-2-battleye-bypass": {
+        "q": "Wie funktioniert der BattlEye-Bypass für Destiny 2 Cheats?",
+        "a": "Es gibt keinen permanenten BattlEye-Bypass. Destiny 2 Cheats wird mit Rebuilds nach Destiny 2- und BattlEye-Patches gewartet — prüfe die Updates-Seite vor dem Queueing. Verantwortliche Einstellungen und die neueste Build zählen mehr als jedes „Bypass“-Versprechen."
+      }
+    }
+  },
+  "support": {
+    "title": "Destiny 2 cheats support",
+    "subtitle": "Email support with your order ID for license and setup help."
+  },
+  "blog": {
+    "title": "Destiny 2 Intel",
+    "subtitle": "Guides, patch tips, and cheat feature explainers for PC players.",
+    "readMore": "Read article",
+    "allPosts": "All posts",
+    "blogTitle": "Destiny 2 Cheats Blog | Guides & Patch Tips",
+    "blogDescription": "Destiny 2 guides — battle royale tips, ESP, aimbot notes, movement routes, and BattlEye update coverage. English blog at destiny2hack.net/blog/.",
+    "blogH1": "Destiny 2 Cheats Intel",
+    "blogIntro": "Actionable Destiny 2 guides for ranked and Quickplay sessions — meta breakdowns, movement routes, loadout tiers, and pro warmup routines. Pair these tips with our Destiny 2 Cheats pages for ESP, soft aim, and radar when you need in-match tools."
+  },
+  "gallery": {
+    "eyebrow": "Destiny 2 Cheats",
+    "title": "Destiny 2 Cheats gallery",
+    "subtitle": "Destiny 2 Cheats visuals — ESP, wallhack, aimbot, and radar for Destiny 2 on PC.",
+    "lead": "Destiny 2 Cheats helps you spot enemy heroes, loot, and high-traffic POIs with ESP, aimbot, and radar in one license.",
+    "highlightEspTitle": "Destiny 2 Cheats ESP",
+    "highlightEspCopy": "See enemy heroes through walls with Destiny 2 Cheats ESP and wallhack overlays.",
+    "highlightRadarTitle": "Destiny 2 Cheats radar",
+    "highlightRadarCopy": "Track nearby threats with Destiny 2 Cheats radar before you push or rotate.",
+    "highlightAimbotTitle": "Destiny 2 Cheats aimbot",
+    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Destiny 2 matches on Windows PC.",
+    "updatesLabel": "Destiny 2 Cheats updates",
+    "updatesShort": "Updates"
+  },
+  "seo": {
+    "homeTitle": "Destiny 2 Cheats 2026 | ESP, Aimbot & Wallhack",
+    "homeDescription": "Destiny 2 cheats with ESP, aimbot, and wallhack for Crucible, Trials, and PvE on Windows PC. No recoil, triggerbot, and BattlEye maintenance included."
+  },
+  "pages": {
+    "home": {
+      "title": "Destiny 2 Cheats 2026 | ESP, Aimbot & Wallhack",
+      "description": "Destiny 2 cheats with ESP, aimbot, and wallhack for Crucible and Trials on Windows PC."
+    },
+    "features": {
+      "title": "Destiny 2 Cheats Features | ESP, Aimbot & Wallhack",
+      "description": "Full Destiny 2 cheats feature list — aimbot, ESP, wallhack, no recoil, triggerbot, radar, and movement hacks."
+    },
+    "pricing": {
+      "title": "Destiny 2 Cheats Pricing | $35/mo Lifetime",
+      "description": "Buy Destiny 2 cheats — monthly and lifetime plans with ESP, aimbot, and wallhack for PC."
+    }
+  },
+  "meta": {
+    "siteName": "Destiny 2 Cheats",
+    "siteDescription": "Undetected Destiny 2 cheats with ESP, aimbot, wallhack, no recoil, and triggerbot for Windows PC."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "cheats": "Cheats",
+    "features": "Features",
+    "pricing": "Pricing",
+    "setup": "Setup",
+    "updates": "Updates",
+    "faq": "FAQ",
+    "support": "Support",
+    "reviews": "Reviews",
+    "blog": "Blog",
+    "guides": "Guides"
+  },
+  "categoryRow": {
+    "esp": "ESP",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "features": "Features",
+    "pricing": "Preise",
+    "hacks": "Cheats",
+    "wallhack": "Wallhack",
+    "undetected": "Undetected Paket",
+    "setup": "Setup",
+    "blog": "Blog"
+  },
+  "homeAbout": {
+    "title": "About Destiny 2 Cheats",
+    "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
-    "eyebrow": "Guides",
     "title": "Nach Kategorie stöbern",
+    "subtitle": "One license for Crucible, Trials, and PvE with BattlEye maintenance.",
+    "linkFinalsCheats": "Destiny 2 Cheats",
+    "eyebrow": "Guides",
     "lede": "Schnelllinks zu Features, Status, Store und Hilfe.",
     "catFeatures": "Features",
     "catFeaturesHint": "Was enthalten ist",
@@ -157,11 +425,9 @@
     "linkRadar": "Radar",
     "linkLiveStatus": "Live-Status",
     "linkUndetected": "Undetected",
-    "linkNEAC": "NEAC",
     "linkSetup": "Setup",
     "linkPlans": "Pläne",
     "linkReviews": "Bewertungen",
-    "linkFinalsCheats": "Naraka Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Setup-Anleitung",
@@ -173,38 +439,127 @@
     "allAnswers": "Alle Antworten",
     "openFullPage": "Vollständige Seite öffnen"
   },
+  "productCard": {
+    "badge": "Destiny 2",
+    "platform": "Windows PC",
+    "status": "Undetected",
+    "from": "From",
+    "buy": "Buy now"
+  },
   "deals": {
+    "title": "Destiny 2 cheat plans",
+    "subtitle": "Same features on monthly and lifetime.",
     "pricing": "Preise",
     "chooseLicense": "Preise",
     "features": "Features",
     "featEsp": "ESP / wallhack",
     "featAim": "Aimbot",
-    "featRadar": "2D radar",
+    "featRadar": "radar overlay",
     "featUpdates": "Updates"
   },
-  "trustStrip": {
-    "instantDelivery": "Sofortige digitale Lieferung",
-    "secureCheckout": "Kaufen",
-    "support247": "24/7"
+  "related": {
+    "title": "Related pages"
   },
-  "categoryRow": {
-    "hacks": "Cheats",
-    "esp": "ESP",
-    "aimbot": "Aimbot",
-    "radar": "Radar",
-    "wallhack": "Wallhack",
-    "undetected": "Undetected Paket",
-    "features": "Features",
-    "pricing": "Preise",
-    "setup": "Setup",
-    "blog": "Blog"
+  "trustBar": {
+    "status": "Online",
+    "delivery": "Instant delivery",
+    "platform": "Windows PC",
+    "antiCheat": "BattlEye supported"
+  },
+  "localeSuggest": {
+    "title": "Language suggestion",
+    "message": "View this page in {{language}}?",
+    "accept": "Switch",
+    "dismiss": "Stay in English"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "notFoundDesc": "The page you requested does not exist on destiny2hack.net."
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Use",
+    "refundTitle": "Refund Policy"
+  },
+  "compare": {
+    "title": "Destiny 2 cheats comparison",
+    "subtitle": "How our package compares to typical budget cheat shops."
+  },
+  "about": {
+    "title": "About Destiny 2 Cheats",
+    "subtitle": "Editorial standards and testing process for our cheat software."
+  },
+  "writeForUs": {
+    "title": "Write for Destiny 2 Cheats",
+    "subtitle": "Guest post guidelines for our blog."
+  },
+  "guides": {
+    "title": "Destiny 2 guides",
+    "subtitle": "Strategy and feature guides for PC players."
+  },
+  "status": {
+    "online": "Online",
+    "maintenance": "Maintenance",
+    "offline": "Offline"
+  },
+  "checkout": {
+    "redirect": "Redirecting to checkout…"
+  },
+  "images": {
+    "hero": "Destiny 2 Cheats hero — ESP and aimbot overlay in Destiny 2",
+    "esp": "Destiny 2 ESP wallhack showing enemy guardians through cover",
+    "aimbot": "Destiny 2 aimbot with lock-on reticle in Crucible PvP",
+    "wallhack": "Destiny 2 wallhack ESP with skeleton overlays",
+    "radar": "Destiny 2 radar hack overlay showing enemy positions",
+    "noRecoil": "Destiny 2 no recoil cheat during gunfight",
+    "triggerbot": "Destiny 2 triggerbot auto-fire in Trials",
+    "movement": "Destiny 2 movement hack with fly and jump multiplier",
+    "espWallhack": "Wallhack outlines showing agents through walls",
+    "aimbotCombat": "aimbot assist overlay during a Destiny 2 match",
+    "squadFight": "Destiny 2 Cheats combat overlay during a team fight",
+    "playerEsp": "Player ESP boxes and distance readouts in a Destiny 2 match",
+    "headerArt": "Aimbot view and bone priority controls for Destiny 2",
+    "hacksPackage": "radar overlay threat overlay for Destiny 2",
+    "raidFight": "Aimbot assist during a Destiny 2 PvP gunfights",
+    "battleRoyale": "Destiny 2 Cheats in-session overview for Windows PC",
+    "raidMap": "ESP markers for hero skills and POIs in Destiny 2"
+  },
+  "media": {
+    "demoVideoTitle": "Destiny 2 Cheats ESP, Aimbot demo",
+    "playVideo": "Play video"
+  },
+  "externalResources": {
+    "title": "Offizielle Spiel-Guides & Ressourcen",
+    "lede": "Wir verlinken vertrauenswürdige Quellen für Patchnotes, Spielerstatistiken und Karten.",
+    "pillsTitle": "Offizielle Spiel-Guides & Ressourcen",
+    "pillsLabel": "Offizielle Spiel-Guides & Ressourcen",
+    "steam": {
+      "label": "Destiny 2 auf PC",
+      "note": "Offizielle Store-Seite, Systemanforderungen und Bewertungen."
+    },
+    "patch": {
+      "label": "Patchnotes Destiny 2",
+      "note": "Offizielle Updates lesen, bevor du dein Loadout änderst."
+    },
+    "official": {
+      "label": "Offizielle Destiny 2-Website",
+      "note": "Spielübersicht von Bungie."
+    },
+    "wiki": {
+      "label": "Destiny 2 Wiki (Fandom)",
+      "note": "Spielerstatistiken, Karten und Survival-Mechaniken."
+    },
+    "community": {
+      "label": "Destiny 2 community Hub",
+      "note": "Ankündigungen und Community-Diskussionen."
+    }
   },
   "internalLinks": {
-    "relatedLede": "Naraka Cheats — Verwandte Seiten.",
+    "relatedLede": "Destiny 2 Cheats — Verwandte Seiten.",
     "topicsTitle": "Features",
     "topicsLabel": "Features",
     "topicsLede": "ESP, Aimbot, Preise, Setup, Updates.",
-    "overview": "Naraka Cheats",
+    "overview": "Destiny 2 Cheats",
     "esp": "ESP & wallhack",
     "aimbot": "Aimbot",
     "radar": "Radar",
@@ -219,193 +574,26 @@
     "hacks": "Cheats",
     "undetected": "Undetected Paket"
   },
-  "externalResources": {
-    "title": "Offizielle Spiel-Guides & Ressourcen",
-    "lede": "Wir verlinken vertrauenswürdige Quellen für Patchnotes, Spielerstatistiken und Karten.",
-    "pillsTitle": "Offizielle Spiel-Guides & Ressourcen",
-    "pillsLabel": "Offizielle Spiel-Guides & Ressourcen",
-    "steam": {
-      "label": "Naraka auf PC",
-      "note": "Offizielle Store-Seite, Systemanforderungen und Bewertungen."
-    },
-    "patch": {
-      "label": "Patchnotes Naraka",
-      "note": "Offizielle Updates lesen, bevor du dein Loadout änderst."
-    },
-    "official": {
-      "label": "Offizielle Naraka-Website",
-      "note": "Spielübersicht von 24 Entertainment."
-    },
-    "wiki": {
-      "label": "Naraka Wiki (Fandom)",
-      "note": "Spielerstatistiken, Karten und Survival-Mechaniken."
-    },
-    "community": {
-      "label": "Naraka community Hub",
-      "note": "Ankündigungen und Community-Diskussionen."
-    }
+  "home": {
+    "aboutTitle": "undetected Cheats für Destiny 2",
+    "aboutP1": "Undetected Windows PC Paket für Destiny 2: ESP Wallhack, Radar und Aimbot mit BattlEye-Wartung nach jedem Patch. Preise · Updates.",
+    "volumeLabel": "Volume",
+    "seekLabel": "Video progress",
+    "muteVideo": "Mute video",
+    "unmuteVideo": "Unmute video",
+    "aboutPricingCta": "Preise vergleichen",
+    "aboutP2Before": "Starten Sie mit dem",
+    "aboutPillar": "Destiny 2 Cheats Leitfaden",
+    "aboutEsp": "ESP-Guide",
+    "aboutAimbot": "Aimbot-Steuerung",
+    "aboutUndetected": "Undetected-Status",
+    "aboutP2Mid": ", ",
+    "aboutP2Or": ", oder ",
+    "aboutP2After": ", wenn Sie noch Tools vergleichen."
   },
-  "images": {
-    "hero": "Naraka Cheats hero — ESP and aimbot overlay in Naraka",
-    "espWallhack": "Wallhack outlines showing agents through walls",
-    "aimbotCombat": "Soft aim assist overlay during a Naraka match",
-    "squadFight": "Naraka Cheats combat overlay during a team fight",
-    "playerEsp": "Player ESP boxes and distance readouts in a Naraka match",
-    "headerArt": "Aimbot view and bone priority controls for Naraka",
-    "hacksPackage": "2D radar threat overlay for Naraka",
-    "raidFight": "Aimbot assist during a Naraka melee combat",
-    "battleRoyale": "Naraka Cheats in-session overview for Windows PC",
-    "raidMap": "ESP markers for hero skills and POIs in Naraka"
-  },
-  "guides": {
-    "hubTitle": "Game Guides Hub",
-    "hubIntro": "Naraka Cheats product guides sit at the top. Scroll down for dedicated PC game guides — each with its own article and resources.",
-    "nativeTitle": "Naraka Cheats guides",
-    "nativeLede": "Our primary guides for ESP, aimbot, radar, setup, and pricing on narakacheats.org.",
-    "gameTitle": "Other Games Guides",
-    "gameLede": "Dedicated articles for Fortnite, Tarkov, Warzone, Marvel Rivals, and more — mixed across titles below.",
-    "readGuide": "Read guide",
-    "published": "Published",
-    "updated": "Updated"
-  },
-  "blog": {
-    "blogTitle": "Naraka Cheats Blog | Guides & Patch Tips",
-    "blogDescription": "Naraka guides — battle royale tips, ESP, aimbot notes, grapple routes, and NEAC update coverage. English blog at narakacheats.org/blog/.",
-    "blogH1": "Naraka Cheats Intel",
-    "blogIntro": "Actionable Naraka guides for ranked and Quick Match sessions — meta breakdowns, grapple routes, hero tiers, and pro warmup routines. Pair these tips with our Naraka Cheats pages for ESP, soft aim, and radar when you need in-match tools.",
-    "readMore": "Read guide",
-    "published": "Published",
-    "updated": "Updated",
-    "relatedPosts": "Related Naraka guides",
-    "allPosts": "All blog posts",
-    "home": "Naraka Cheats home",
-    "language": "Language",
-    "label": "Naraka Intel"
-  },
-  "gallery": {
-    "eyebrow": "Naraka Cheats",
-    "title": "Naraka Cheats gallery",
-    "subtitle": "Naraka Cheats visuals — ESP, wallhack, aimbot, and radar for Naraka on PC.",
-    "lead": "Naraka Cheats helps you spot enemy heroes, loot, and high-traffic POIs with ESP, aimbot, and radar in one license.",
-    "highlightEspTitle": "Naraka Cheats ESP",
-    "highlightEspCopy": "See enemy heroes through walls with Naraka Cheats ESP and wallhack overlays.",
-    "highlightRadarTitle": "Naraka Cheats radar",
-    "highlightRadarCopy": "Track nearby threats with Naraka Cheats radar before you push or rotate.",
-    "highlightAimbotTitle": "Naraka Cheats aimbot",
-    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Naraka matches on Windows PC.",
-    "updatesLabel": "Naraka Cheats updates",
-    "updatesShort": "Updates"
-  },
-  "faq": {
-    "items": {
-      "what-are-naraka-cheats": {
-        "q": "Was ist Naraka Cheats?",
-        "a": "Naraka Cheats ist ein undetected Paket für Naraka auf Windows PC. Es enthält ESP Wallhack, 2D-Radar und Aimbot-Steuerung mit NEAC-Wartung und Setup-Support."
-      },
-      "are-naraka-cheats-undetected-in-2026": {
-        "q": "Sind Naraka Cheats 2026 undetected?",
-        "a": "Naraka Cheats wird für Naraka mit Rebuilds nach NEAC- und Spiel-Patches gewartet. Prüfe die Status-Seite before queueing. Kein Cheat kann dauerhafte Undetected-Garantie geben."
-      },
-      "solo-farmer-and-raider-sessions": {
-        "q": "Funktioniert das in Battle-Royale-Runden und Ranked-Matches?",
-        "a": "Ja. ESP, Radar und Aimbot sind für den Naraka-Match-Flow gebaut — feindliche Helden lesen, Loot und Soul Jades verfolgen und in Quick Match und Ranked in POIs und Kampfzonen wachsam bleiben."
-      },
-      "esp-wallhack-radar-or-aimbot": {
-        "q": "Was ist enthalten — ESP, Wallhack, Radar oder Aimbot?",
-        "a": "Naraka Cheats bündelt ESP Wallhack, Loot-Marker, 2D-Radar und konfigurierbaren Aimbot in einer Lizenz. Siehe Features für die vollständige Liste."
-      },
-      "how-are-licenses-delivered": {
-        "q": "Wie werden Lizenzen geliefert?",
-        "a": "Nach Zahlungsbestätigung werden Lizenzdetails digital über den Checkout geliefert. Bewahre die Bestellbestätigung für Support-Anfragen auf."
-      },
-      "where-to-check-updates": {
-        "q": "Wo prüfe ich Updates nach einem Naraka- oder NEAC-Patch?",
-        "a": "Wartungshinweise erscheinen auf der Status-Seite, wenn ein Patch das Paket betrifft. Dort siehst du am schnellsten, ob ein neuer Build live ist."
-      },
-      "how-to-contact-support": {
-        "q": "Wie kontaktiere ich den Support?",
-        "a": "Nutze die Support-Seite oder schreibe an support@narakacheats.org mit Bestelldetails und einer klaren Problembeschreibung."
-      },
-      "what-is-a-naraka-wallhack": {
-        "q": "Was ist ein Naraka Wallhack?",
-        "a": "Ein Naraka Wallhack ist ein ESP-Overlay, das feindliche Helden durch Gelände zeigt. Naraka Cheats enthält Distanzanzeigen, Grapple- und Ult-Signale sowie umschaltbare Kategorien."
-      },
-      "does-naraka-cheats-include-radar-hack": {
-        "q": "Enthält Naraka Cheats einen Radar Hack?",
-        "a": "Ja. Naraka Cheats enthält 2D-Radar-Overlays für nahe Bedrohungen außerhalb deines Sichtfelds."
-      },
-      "neac-anti-cheat-and-naraka-cheats": {
-        "q": "Wie wirkt sich NEAC auf Naraka Cheats aus?",
-        "a": "NEAC überwacht Naraka auf Windows PC. Naraka Cheats veröffentlicht Wartungshinweise nach Patches. Prüfe Status vor dem Spielen."
-      },
-      "buy-undetected-naraka-cheats-windows-pc": {
-        "q": "Kann ich undetected Naraka Cheats für Windows PC kaufen?",
-        "a": "Ja — Naraka Cheats verkauft Monats- und Lifetime-Lizenzen für Windows PC mit ESP, Radar und Aimbot. Vergleiche Pläne auf der Preisseite."
-      },
-      "how-much-do-naraka-cheats-cost": {
-        "q": "How much do naraka cheats cost in 2026?",
-        "a": "Naraka Cheats is $35 per month or $150 lifetime USD on Windows PC. Both plans include ESP wallhack, 2D radar, soft aim, and NEAC maintenance rebuilds. See Pricing for the latest plan details before checkout."
-      },
-      "what-is-naraka-esp-hack": {
-        "q": "Was ist ein Naraka ESP Hack?",
-        "a": "Ein Naraka ESP Hack ist ein Sichtbarkeits-Overlay, das feindliche Helden, Waffen und Loot durch Wände zeigt. Naraka Cheats ESP enthält Spielerboxen, Distanz-Tags, Grapple- und Ult-Signale sowie umschaltbare Kategorien für Quick Match und Ranked."
-      },
-      "what-is-naraka-aimbot-hack": {
-        "q": "Was ist ein Naraka Aimbot Hack?",
-        "a": "Ein Naraka Aimbot Hack bietet Aim Assist mit konfigurierbarem FOV, Smoothing und Knochenpriorität. Naraka Cheats nutzt Soft-Aim-Profile für natürliche Teamfights und Duelle — stelle Einstellungen im Mod-Menü vor Ranked-Queues ein."
-      },
-      "how-to-install-naraka-cheats": {
-        "q": "How do I install naraka cheats on Windows PC?",
-        "a": "After checkout, follow the Setup guide: download the loader, disable conflicting overlays, launch Naraka Cheats, and enable ESP, radar, or aimbot toggles in the mod menu. Most buyers finish first launch in under 15 minutes. Email support@narakacheats.org if activation fails."
-      },
-      "best-naraka-cheats-in-2026": {
-        "q": "What are the best naraka cheats in 2026?",
-        "a": "Top naraka cheats in 2026 combine undetected ESP, soft aim, 2D radar, and fast NEAC maintenance after patches. Naraka Cheats bundles all three in one license with status notes, setup support, and monthly or lifetime pricing — compare Features and Reviews before you buy."
-      },
-      "monthly-vs-lifetime-naraka-cheats": {
-        "q": "Should I buy monthly or lifetime naraka cheats?",
-        "a": "Choose monthly ($35) if you want a lower entry cost or only play a few seasons. Choose lifetime ($150) if you plan long-term Naraka play and want one payment for ESP, radar, aimbot, and future maintenance rebuilds. Both plans ship the same feature set."
-      },
-      "naraka-cheats-windows-11": {
-        "q": "Do naraka cheats work on Windows 11?",
-        "a": "Yes. Naraka Cheats supports Windows 10 and Windows 11 on PC. Use a clean install path from the Setup guide, keep NEAC status green on the Updates page, and avoid running outdated builds after major patches."
-      },
-      "what-is-naraka-soft-aim": {
-        "q": "Was ist Naraka Soft Aim?",
-        "a": "Naraka Soft Aim lenkt die Zielhilfe sanft auf Ziele innerhalb eines festen FOV statt sofort zu snappen. Naraka Cheats lässt Smoothing, Knochenpriorität und Profile pro Waffentyp anpassen — kontrollierte Hilfe in Quick Match und Ranked."
-      },
-      "free-naraka-cheat-download": {
-        "q": "Is there a free Naraka hack download?",
-        "a": "Naraka Cheats is a paid license — there is no official free download. Avoid random “free naraka cheat” sites; they often ship malware or detected loaders. Compare monthly and lifetime plans on Pricing for legitimate ESP, radar, and aimbot access with support."
-      },
-      "naraka-neac-bypass": {
-        "q": "Wie funktioniert der NEAC-Bypass für Naraka Cheats?",
-        "a": "Es gibt keinen permanenten NEAC-Bypass. Naraka Cheats wird mit Rebuilds nach Naraka- und NEAC-Patches gewartet — prüfe die Updates-Seite vor dem Queueing. Verantwortliche Einstellungen und die neueste Build zählen mehr als jedes „Bypass“-Versprechen."
-      },
-      "naraka-cheats-for-ranked": {
-        "q": "Funktionieren Naraka Cheats im Ranked-Wettbewerb?",
-        "a": "Ja. ESP, Radar und Soft Aim sind für Ranked und Quick Match in Naraka auf Windows PC gebaut. Nutze konservative Overlay-Einstellungen, lies Wartungshinweise nach Patches und bestätige den Undetected-Status auf der Updates-Seite vor kompetitiven Queues."
-      },
-      "what-is-naraka-mod-menu": {
-        "q": "What is a Naraka mod menu?",
-        "a": "A Naraka mod menu is an in-game overlay to toggle ESP wallhack, radar, aimbot, and visual settings without alt-tabbing. Naraka Cheats ships a lightweight mod menu for Windows PC — see Features for the full toggle list."
-      },
-      "external-vs-internal-naraka-cheats": {
-        "q": "What is the difference between external and internal naraka cheats?",
-        "a": "External hacks read game memory from outside the client; internal hooks run inside the process. Naraka Cheats is built as an external-style package for easier setup on Windows PC, bundling ESP, radar, and soft aim with NEAC maintenance after patches."
-      },
-      "how-long-naraka-cheat-setup-takes": {
-        "q": "How long does naraka cheats setup take?",
-        "a": "Most buyers finish Naraka Cheats setup in 10–20 minutes on Windows PC: install the loader, activate the license, and enable ESP or aimbot in the mod menu. If Windows Defender or another AV blocks the loader, follow Setup troubleshooting or email support@narakacheats.org with your order ID."
-      },
-      "does-naraka-cheats-include-triggerbot": {
-        "q": "Does Naraka Cheats include triggerbot?",
-        "a": "Naraka Cheats focuses on ESP wallhack, 2D radar, and soft aim profiles. Triggerbot is not advertised as a standalone module — review the Features page for the current toggle list before checkout."
-      }
-    }
-  },
-  "media": {
-    "demoVideoTitle": "Naraka Cheats ESP, Aimbot demo",
-    "playVideo": "Play video"
+  "trustStrip": {
+    "instantDelivery": "Sofortige digitale Lieferung",
+    "secureCheckout": "Kaufen",
+    "support247": "24/7"
   }
 }

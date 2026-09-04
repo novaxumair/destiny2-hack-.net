@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Final pass: fix remaining Naraka references in src/. */
+/** Final pass: fix remaining Destiny 2 references in src/. */
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,27 +8,27 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 's
 const REMOVE_PAGE_IDS = ['hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats', 'aimbot-hack', 'esp-hack', 'unlock-all'];
 
 const REPLACEMENTS = [
-	['narakaImages', 'narakaImages'],
-	["from '../data/naraka'", "from '../data/naraka'"],
-	["from './naraka'", "from './naraka'"],
-	['/undetected-naraka-cheats/', '/undetected-naraka-cheats/'],
-	['/naraka-wallhack/', '/naraka-wallhack/'],
-	['/naraka-radar-hack/', '/naraka-radar-hack/'],
-	['/neac-bypass/', '/neac-bypass/'],
-	['/naraka-cheats-2026/', '/naraka-cheats-2026/'],
-	['/naraka-aimbot/', '/naraka-aimbot/'],
-	['/naraka-esp/', '/naraka-esp/'],
-	['/naraka-cheats/', '/naraka-esp/'],
-	['Naraka Cheats', 'Naraka Cheats'],
-	['naraka cheats', 'naraka cheats'],
-	['thefinals wallhack', 'Naraka wallhack'],
-	['naraka radar', 'Naraka radar'],
-	['Naraka Aimbot', 'Naraka Aimbot'],
-	['Naraka ESP', 'Naraka ESP'],
-	['Naraka's, 'Naraka's],
-	['NEAC', 'NEAC'],
-	['neac', 'neac'],
-	['narakacheats.org', 'narakacheats.org'],
+	['destiny2Images', 'destiny2Images'],
+	["from '../data/destiny2'", "from '../data/destiny2'"],
+	["from './destiny2'", "from './destiny2'"],
+	['/undetected-destiny-2-cheats/', '/undetected-destiny-2-cheats/'],
+	['/destiny-2-wallhack/', '/destiny-2-wallhack/'],
+	['/destiny-2-radar-hack/', '/destiny-2-radar-hack/'],
+	['/battleye-bypass/', '/battleye-bypass/'],
+	['/destiny-2-cheats-2026/', '/destiny-2-cheats-2026/'],
+	['/destiny-2-aimbot/', '/destiny-2-aimbot/'],
+	['/destiny-2-esp/', '/destiny-2-esp/'],
+	['/destiny-2-cheats/', '/destiny-2-esp/'],
+	['Destiny 2 Cheats', 'Destiny 2 Cheats'],
+	['destiny 2 cheats', 'destiny 2 cheats'],
+	['thefinals wallhack', 'Destiny 2 wallhack'],
+	['destiny 2 radar', 'Destiny 2 radar'],
+	['Destiny 2 Aimbot', 'Destiny 2 Aimbot'],
+	['Destiny 2 ESP', 'Destiny 2 ESP'],
+	['Destiny 2's, 'Destiny 2's],
+	['BattlEye', 'BattlEye'],
+	['battleye', 'battleye'],
+	['destiny2hack.net', 'destiny2hack.net'],
 	['operatorEsp', 'playerEsp'],
 	['extractFight', 'raidFight'],
 	['alMazrah', 'raidMap'],

@@ -1,6 +1,6 @@
-# Naraka Cheats — Marketing Site
+# Destiny 2 Cheats — Marketing Site
 
-Static Astro 7 site for [narakacheats.org](https://narakacheats.org). Primary SEO keyword: **naraka cheats** (secondary: naraka esp, naraka aimbot, naraka wallhack).
+Static Astro 7 site for [destiny2hack.net](https://destiny2hack.net). Primary SEO keyword: **destiny 2 cheats** (secondary: destiny 2 esp, destiny 2 aimbot, destiny 2 wallhack).
 
 ## Stack
 
@@ -18,4 +18,4 @@ npm run localhost
 
 ## Deploy
 
-See [DEPLOY.md](./DEPLOY.md) for Cloudflare Workers Builds setup targeting **narakacheats.org**.
+See [DEPLOY.md](./DEPLOY.md) for Cloudflare Workers Builds setup targeting **destiny2hack.net**.

@@ -5,27 +5,32 @@
 	--font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
 	--font-display: "Syne Variable", "Syne", ui-sans-serif, sans-serif;
 
-	/* Naraka dark canvas — red accent surface ladder */
-	--bg: #07090a;
-	--bg-panel: #0e1113;
-	--bg-elevated: #15191b;
-	--bg-hover: #1a1f22;
-	--line: #252a2c;
-	--line-soft: #1c2022;
-	--line-strong: #303638;
-	--ink: #f1f3f3;
+	/* Destiny 2 fire aspect — neon cyan + pink on dark blue/purple */
+	--bg: #071232;
+	--bg-panel: #0c1638;
+	--bg-elevated: #121f4a;
+	--bg-hover: #180821;
+	--line: #1e2d5c;
+	--line-soft: #152040;
+	--line-strong: #2a3f6e;
+	--ink: #e8f4fc;
 	--ink-heading: #ffffff;
-	--ink-secondary: #c5caca;
-	--ink-muted: #8d9698;
-	--ink-faint: #6f787a;
-	--link: #e50920;
+	--ink-secondary: #a8c8e0;
+	--ink-muted: #6b8fa8;
+	--ink-faint: #4a6580;
+	--link: #8fdbee;
 
-	/* Brand accent — red */
-	--magenta: #e50920;
-	--magenta-soft: #ffffff;
-	--magenta-deep: #8f0715;
+	/* Brand accent — neon cyan + pink fire glow */
+	--magenta: #8fdbee;
+	--magenta-soft: #e394e8;
+	--magenta-deep: #180821;
 	--accent: var(--magenta);
-	--accent-hover: #ff1f35;
+	--accent-hover: #e394e8;
+	--accent-pink: #e394e8;
+	--accent-cyan: #8fdbee;
+	--glow-cyan: 0 0 20px rgba(143, 219, 238, 0.35), 0 0 40px rgba(143, 219, 238, 0.15);
+	--glow-pink: 0 0 20px rgba(227, 148, 232, 0.35), 0 0 40px rgba(227, 148, 232, 0.15);
+	--glow-fire: 0 0 24px rgba(143, 219, 238, 0.3), 0 0 48px rgba(227, 148, 232, 0.2);
 	--ok: #34d399;
 	--warn: #f43f5e;
 
@@ -135,7 +140,10 @@
 		line-height: 1.6;
 		font-weight: 400;
 		color: var(--ink);
-		background: var(--bg);
+		background:
+			radial-gradient(ellipse 80% 50% at 50% -20%, rgba(143, 219, 238, 0.08), transparent),
+			radial-gradient(ellipse 60% 40% at 100% 100%, rgba(227, 148, 232, 0.06), transparent),
+			var(--bg);
 		-webkit-font-smoothing: antialiased;
 		overflow-x: clip;
 		scrollbar-width: none;
@@ -440,5 +448,86 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+	}
+
+	/* Fire-aspect hover glow — inspired by premium cheat storefronts */
+	.glow-hover {
+		transition:
+			box-shadow 0.35s ease,
+			border-color 0.35s ease,
+			transform 0.25s ease;
+	}
+
+	.glow-hover:hover {
+		box-shadow: var(--glow-fire);
+		border-color: color-mix(in srgb, var(--accent-cyan) 45%, transparent);
+		transform: translateY(-2px);
+	}
+
+	.card-glow {
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md);
+		background: color-mix(in srgb, var(--bg-panel) 85%, transparent);
+		transition:
+			box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+			border-color 0.35s ease,
+			transform 0.25s ease;
+	}
+
+	.card-glow:hover {
+		border-color: color-mix(in srgb, var(--accent-cyan) 40%, var(--line));
+		box-shadow: var(--glow-cyan);
+		transform: translateY(-3px);
+	}
+
+	.btn-glow {
+		position: relative;
+		transition:
+			box-shadow 0.3s ease,
+			transform 0.2s ease,
+			background 0.2s ease;
+	}
+
+	.btn-glow:hover {
+		box-shadow: var(--glow-fire);
+		transform: translateY(-1px);
+	}
+
+	.link-glow {
+		transition: color 0.2s ease, text-shadow 0.3s ease;
+	}
+
+	.link-glow:hover {
+		color: var(--accent-pink);
+		text-shadow: 0 0 12px rgba(227, 148, 232, 0.5);
+	}
+
+	.chip-glow {
+		border: 1px solid color-mix(in srgb, var(--accent-cyan) 25%, transparent);
+		transition:
+			box-shadow 0.3s ease,
+			border-color 0.3s ease,
+			background 0.3s ease;
+	}
+
+	.chip-glow:hover {
+		border-color: color-mix(in srgb, var(--accent-pink) 50%, transparent);
+		box-shadow: 0 0 16px rgba(227, 148, 232, 0.25);
+		background: color-mix(in srgb, var(--accent-pink) 8%, transparent);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.glow-hover,
+		.card-glow,
+		.btn-glow,
+		.chip-glow {
+			transition: none;
+		}
+
+		.glow-hover:hover,
+		.card-glow:hover,
+		.btn-glow:hover {
+			transform: none;
+		}
 	}
 }

@@ -4,13 +4,13 @@ type Props = {
 	className?: string;
 };
 
-/** NC monogram mark — Naraka Cheats. */
-export default function BrandLogo({ alt = 'Naraka Cheats logo', className }: Props) {
+/** NC monogram mark — Destiny 2 Cheats. */
+export default function BrandLogo({ alt = 'Destiny 2 Cheats logo', className }: Props) {
 	return (
 		<img
 			className={className}
-			src="/images/naraka-cheats-logo-mark.webp"
-			srcSet="/images/naraka-cheats-logo-mark.webp 128w, /images/naraka-cheats-logo.webp 512w"
+			src="/images/destiny-2-cheats-logo-mark.webp"
+			srcSet="/images/destiny-2-cheats-logo-mark.webp 128w, /images/destiny-2-cheats-logo.webp 512w"
 			sizes="40px"
 			width={40}
 			height={40}

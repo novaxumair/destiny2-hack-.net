@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Migrate URL slugs from naraka-cheats → naraka-cheats (paths + sitemaps).
+ * Migrate URL slugs from destiny-2-cheats → destiny-2-cheats (paths + sitemaps).
  * Generates 301 redirects in functions/path-redirects.json from old routing slugs.
  * Run: node scripts/migrate-cheats-urls-to-hacks.mjs
  */
@@ -19,90 +19,90 @@ const SKIP_DIRS = new Set([
 	'tmp',
 	'.astro',
 	'the-finals-cheats-org',
-	'naraka-cheats-org-audit',
+	'destiny-2-cheats-org-audit',
 ]);
 const SKIP_FILES = new Set(['package-lock.json', 'migrate-cheats-urls-to-hacks.mjs']);
 
 /** Ordered — longest / most specific first. Image asset names are excluded via guard. */
 const SLUG_REPLACEMENTS = [
-	['undetected-naraka-cheats-eac', 'undetected-naraka-cheats-eac'],
-	['undetected-naraka-cheats', 'undetected-naraka-cheats'],
-	['unentdeckte-naraka-cheats', 'unentdeckte-naraka-cheats'],
-	['buy-undetected-naraka-cheats-windows-pc', 'buy-undetected-naraka-cheats-windows-pc'],
-	['neac-anti-cheat-and-naraka-cheats', 'neac-anti-cheat-and-naraka-cheats'],
-	['are-naraka-cheats-undetected-in-2026', 'are-naraka-cheats-undetected-in-2026'],
-	['what-are-naraka-cheats', 'what-are-naraka-cheats'],
-	['does-naraka-cheats-include-radar-hack', 'does-naraka-cheats-include-radar-hack'],
-	['naraka-cheats-vs-ghostware-features-pricing', 'naraka-cheats-vs-ghostware-features-pricing'],
-	['naraka-cheats-vs-cheatvault-comparison', 'naraka-cheats-vs-cheatvault-comparison'],
-	['elitefn-vs-naraka-cheats-two-week-test', 'elitefn-vs-naraka-cheats-two-week-test'],
-	['naraka-cheats-complete-guide-2026', 'naraka-cheats-complete-guide-2026'],
-	['naraka-cheats-2026-whats-new', 'naraka-cheats-2026-whats-new'],
-	['naraka-cheats-buyers-guide', 'naraka-cheats-buyers-guide'],
-	['best-naraka-cheats', 'best-naraka-cheats'],
-	['beste-naraka-cheats', 'beste-naraka-cheats'],
-	['basta-naraka-cheats', 'basta-naraka-cheats'],
-	['nejlepsi-naraka-cheats', 'nejlepsi-naraka-cheats'],
-	['naraka-cheats-2026', 'naraka-cheats-2026'],
-	['naraka-cheats-funktionen', 'naraka-cheats-funktionen'],
-	['naraka-cheats-functies', 'naraka-cheats-functies'],
-	['naraka-cheats-funkce', 'naraka-cheats-funkce'],
-	['naraka-cheats-funktioner', 'naraka-cheats-funktioner'],
-	['naraka-cheats-features', 'naraka-cheats-features'],
-	['naraka-cheats-preise', 'naraka-cheats-preise'],
-	['naraka-cheats-prijzen', 'naraka-cheats-prijzen'],
-	['naraka-cheats-priser', 'naraka-cheats-priser'],
-	['naraka-cheats-pricing', 'naraka-cheats-pricing'],
-	['naraka-cheats-ceny', 'naraka-cheats-ceny'],
-	['naraka-cheats-installation', 'naraka-cheats-installation'],
-	['naraka-cheats-installatie', 'naraka-cheats-installatie'],
-	['naraka-cheats-instalace', 'naraka-cheats-instalace'],
-	['naraka-cheats-setup', 'naraka-cheats-setup'],
-	['naraka-cheats-updates', 'naraka-cheats-updates'],
-	['naraka-cheats-uppdateringar', 'naraka-cheats-uppdateringar'],
-	['naraka-cheats-aktualizace', 'naraka-cheats-aktualizace'],
-	['naraka-cheats-faq', 'naraka-cheats-faq'],
-	['naraka-cheats-support', 'naraka-cheats-support'],
-	['naraka-cheats-podpora', 'naraka-cheats-podpora'],
-	['niewykrywalne-cheats-naraka', 'niewykrywalne-cheats-naraka'],
-	['najlepsze-cheats-naraka', 'najlepsze-hacks-valorant'],
-	['melhores-cheats-naraka', 'melhores-hacks-valorant'],
-	['cele-mai-bune-cheats-naraka', 'cele-mai-bune-hacks-valorant'],
-	['cheats-naraka-indetectaveis', 'cheats-naraka-indetectaveis'],
-	['cheats-naraka-nedetectabile', 'cheats-naraka-nedetectabile'],
-	['cheats-naraka-2026', 'hacks-valorant-2026'],
-	['hacks-cheats-naraka', 'hacks-valorant'],
-	['faq-cheats-naraka', 'faq-hacks-valorant'],
-	['functii-cheats-naraka', 'functii-hacks-valorant'],
-	['preturi-cheats-naraka', 'preturi-hacks-valorant'],
-	['actualizari-cheats-naraka', 'actualizari-hacks-valorant'],
-	['instalare-cheats-naraka', 'instalare-hacks-valorant'],
-	['suport-cheats-naraka', 'suport-hacks-valorant'],
-	['recursos-cheats-naraka', 'recursos-cheats-naraka'],
-	['precos-cheats-naraka', 'precos-hacks-valorant'],
-	['atualizacoes-cheats-naraka', 'atualizacoes-hacks-valorant'],
-	['instalacao-cheats-naraka', 'instalacao-hacks-valorant'],
-	['suporte-cheats-naraka', 'suporte-hacks-valorant'],
-	['download-cheats-naraka', 'download-hacks-valorant'],
-	['menu-mod-cheats-naraka', 'menu-mod-hacks-valorant'],
-	['meniu-mod-cheats-naraka', 'meniu-mod-hacks-valorant'],
-	['soft-aim-cheats-naraka', 'soft-aim-hacks-valorant'],
-	['aimbot-hack-cheats-naraka', 'aimbot-hack-hacks-valorant'],
-	['esp-hack-cheats-naraka', 'esp-hack-hacks-valorant'],
-	['unlock-all-cheats-naraka', 'unlock-all-hacks-valorant'],
-	['wallhack-cheats-naraka', 'wallhack-hacks-valorant'],
-	['radar-hack-cheats-naraka', 'radar-hack-hacks-valorant'],
-	['descarcare-cheats-naraka', 'descarcare-hacks-valorant'],
-	['cheats-naraka-esp', 'hacks-naraka-esp'],
-	['cheats-naraka-aimbot', 'hacks-naraka-aimbot'],
-	['neac-bypass-cheats', 'neac-bypass-hacks'],
-	['/naraka-cheats/', '/naraka-cheats/'],
-	['/naraka-cheats', '/naraka-cheats'],
-	["'naraka-cheats'", "'naraka-cheats'"],
-	['"naraka-cheats"', '"naraka-cheats"'],
+	['undetected-destiny-2-cheats-eac', 'undetected-destiny-2-cheats-eac'],
+	['undetected-destiny-2-cheats', 'undetected-destiny-2-cheats'],
+	['unentdeckte-destiny-2-cheats', 'unentdeckte-destiny-2-cheats'],
+	['buy-undetected-destiny-2-cheats-windows-pc', 'buy-undetected-destiny-2-cheats-windows-pc'],
+	['battleye-anti-cheat-and-destiny-2-cheats', 'battleye-anti-cheat-and-destiny-2-cheats'],
+	['are-destiny-2-cheats-undetected-in-2026', 'are-destiny-2-cheats-undetected-in-2026'],
+	['what-are-destiny-2-cheats', 'what-are-destiny-2-cheats'],
+	['does-destiny-2-cheats-include-radar-hack', 'does-destiny-2-cheats-include-radar-hack'],
+	['destiny-2-cheats-vs-ghostware-features-pricing', 'destiny-2-cheats-vs-ghostware-features-pricing'],
+	['destiny-2-cheats-vs-cheatvault-comparison', 'destiny-2-cheats-vs-cheatvault-comparison'],
+	['elitefn-vs-destiny-2-cheats-two-week-test', 'elitefn-vs-destiny-2-cheats-two-week-test'],
+	['destiny-2-cheats-complete-guide-2026', 'destiny-2-cheats-complete-guide-2026'],
+	['destiny-2-cheats-2026-whats-new', 'destiny-2-cheats-2026-whats-new'],
+	['destiny-2-cheats-buyers-guide', 'destiny-2-cheats-buyers-guide'],
+	['best-destiny-2-cheats', 'best-destiny-2-cheats'],
+	['beste-destiny-2-cheats', 'beste-destiny-2-cheats'],
+	['basta-destiny-2-cheats', 'basta-destiny-2-cheats'],
+	['nejlepsi-destiny-2-cheats', 'nejlepsi-destiny-2-cheats'],
+	['destiny-2-cheats-2026', 'destiny-2-cheats-2026'],
+	['destiny-2-cheats-funktionen', 'destiny-2-cheats-funktionen'],
+	['destiny-2-cheats-functies', 'destiny-2-cheats-functies'],
+	['destiny-2-cheats-funkce', 'destiny-2-cheats-funkce'],
+	['destiny-2-cheats-funktioner', 'destiny-2-cheats-funktioner'],
+	['destiny-2-cheats-features', 'destiny-2-cheats-features'],
+	['destiny-2-cheats-preise', 'destiny-2-cheats-preise'],
+	['destiny-2-cheats-prijzen', 'destiny-2-cheats-prijzen'],
+	['destiny-2-cheats-priser', 'destiny-2-cheats-priser'],
+	['destiny-2-cheats-pricing', 'destiny-2-cheats-pricing'],
+	['destiny-2-cheats-ceny', 'destiny-2-cheats-ceny'],
+	['destiny-2-cheats-installation', 'destiny-2-cheats-installation'],
+	['destiny-2-cheats-installatie', 'destiny-2-cheats-installatie'],
+	['destiny-2-cheats-instalace', 'destiny-2-cheats-instalace'],
+	['destiny-2-cheats-setup', 'destiny-2-cheats-setup'],
+	['destiny-2-cheats-updates', 'destiny-2-cheats-updates'],
+	['destiny-2-cheats-uppdateringar', 'destiny-2-cheats-uppdateringar'],
+	['destiny-2-cheats-aktualizace', 'destiny-2-cheats-aktualizace'],
+	['destiny-2-cheats-faq', 'destiny-2-cheats-faq'],
+	['destiny-2-cheats-support', 'destiny-2-cheats-support'],
+	['destiny-2-cheats-podpora', 'destiny-2-cheats-podpora'],
+	['niewykrywalne-cheats-destiny-2', 'niewykrywalne-cheats-destiny-2'],
+	['najlepsze-cheats-destiny-2', 'najlepsze-hacks-valorant'],
+	['melhores-cheats-destiny-2', 'melhores-hacks-valorant'],
+	['cele-mai-bune-cheats-destiny-2', 'cele-mai-bune-hacks-valorant'],
+	['cheats-destiny-2-indetectaveis', 'cheats-destiny-2-indetectaveis'],
+	['cheats-destiny-2-nedetectabile', 'cheats-destiny-2-nedetectabile'],
+	['cheats-destiny-2-2026', 'hacks-valorant-2026'],
+	['hacks-cheats-destiny-2', 'hacks-valorant'],
+	['faq-cheats-destiny-2', 'faq-hacks-valorant'],
+	['functii-cheats-destiny-2', 'functii-hacks-valorant'],
+	['preturi-cheats-destiny-2', 'preturi-hacks-valorant'],
+	['actualizari-cheats-destiny-2', 'actualizari-hacks-valorant'],
+	['instalare-cheats-destiny-2', 'instalare-hacks-valorant'],
+	['suport-cheats-destiny-2', 'suport-hacks-valorant'],
+	['recursos-cheats-destiny-2', 'recursos-cheats-destiny-2'],
+	['precos-cheats-destiny-2', 'precos-hacks-valorant'],
+	['atualizacoes-cheats-destiny-2', 'atualizacoes-hacks-valorant'],
+	['instalacao-cheats-destiny-2', 'instalacao-hacks-valorant'],
+	['suporte-cheats-destiny-2', 'suporte-hacks-valorant'],
+	['download-cheats-destiny-2', 'download-hacks-valorant'],
+	['menu-mod-cheats-destiny-2', 'menu-mod-hacks-valorant'],
+	['meniu-mod-cheats-destiny-2', 'meniu-mod-hacks-valorant'],
+	['soft-aim-cheats-destiny-2', 'soft-aim-hacks-valorant'],
+	['aimbot-hack-cheats-destiny-2', 'aimbot-hack-hacks-valorant'],
+	['esp-hack-cheats-destiny-2', 'esp-hack-hacks-valorant'],
+	['unlock-all-cheats-destiny-2', 'unlock-all-hacks-valorant'],
+	['wallhack-cheats-destiny-2', 'wallhack-hacks-valorant'],
+	['radar-hack-cheats-destiny-2', 'radar-hack-hacks-valorant'],
+	['descarcare-cheats-destiny-2', 'descarcare-hacks-valorant'],
+	['cheats-destiny-2-esp', 'hacks-destiny-2-esp'],
+	['cheats-destiny-2-aimbot', 'hacks-destiny-2-aimbot'],
+	['battleye-bypass-cheats', 'battleye-bypass-hacks'],
+	['/destiny-2-cheats/', '/destiny-2-cheats/'],
+	['/destiny-2-cheats', '/destiny-2-cheats'],
+	["'destiny-2-cheats'", "'destiny-2-cheats'"],
+	['"destiny-2-cheats"', '"destiny-2-cheats"'],
 ];
 
-const IMAGE_ASSET_PREFIX = '/images/naraka-cheats';
+const IMAGE_ASSET_PREFIX = '/images/destiny-2-cheats';
 
 function applySlugReplacements(text) {
 	let out = text;
@@ -112,7 +112,7 @@ function applySlugReplacements(text) {
 			.split('\n')
 			.map((line) => {
 				// Never rewrite static image asset filenames.
-				if (line.includes('/images/naraka-cheats')) {
+				if (line.includes('/images/destiny-2-cheats')) {
 					return line;
 				}
 				return line.split(from).join(to);
@@ -178,10 +178,10 @@ function shouldProcess(file) {
 }
 
 const DIR_RENAMES = [
-	['src/pages/naraka-cheats', 'src/pages/naraka-cheats'],
-	['src/pages/best-naraka-cheats', 'src/pages/best-naraka-cheats'],
-	['src/pages/undetected-naraka-cheats', 'src/pages/undetected-naraka-cheats'],
-	['src/pages/naraka-cheats-2026', 'src/pages/naraka-cheats-2026'],
+	['src/pages/destiny-2-cheats', 'src/pages/destiny-2-cheats'],
+	['src/pages/best-destiny-2-cheats', 'src/pages/best-destiny-2-cheats'],
+	['src/pages/undetected-destiny-2-cheats', 'src/pages/undetected-destiny-2-cheats'],
+	['src/pages/destiny-2-cheats-2026', 'src/pages/destiny-2-cheats-2026'],
 ];
 
 // --- Parse routing before migration ---
@@ -205,8 +205,8 @@ for (const file of files) {
 // Fix duplicate check in routing.ts
 let routing = await readFile(ROUTING, 'utf8');
 routing = routing.replace(
-	"if (withSlash === '/naraka-cheats/' || withSlash === '/naraka-cheats/')",
-	"if (withSlash === '/naraka-cheats/' || withSlash === '/naraka-cheats/')",
+	"if (withSlash === '/destiny-2-cheats/' || withSlash === '/destiny-2-cheats/')",
+	"if (withSlash === '/destiny-2-cheats/' || withSlash === '/destiny-2-cheats/')",
 );
 await writeFile(ROUTING, routing, 'utf8');
 

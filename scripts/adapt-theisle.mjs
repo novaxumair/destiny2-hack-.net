@@ -39,7 +39,7 @@ const REPLACEMENTS = [
 	['https://www.escapefromtarkov.com/', 'https://store.steampowered.com/app/376210/The_Isle/'],
 	['www.escapefromtarkov.com/support', 'store.steampowered.com/app/376210/The_Isle'],
 	['www.escapefromtarkov.com', 'store.steampowered.com/app/376210/The_Isle'],
-	['https://www.battleye.com/', 'https://www.easy.ac/'],
+	['https://www.battleye.com/', 'https://www.battleye.com/'],
 	['www.battleye.com', 'www.easy.ac'],
 	['/products/escape-from-tarkov', '/products/the-isle'],
 	['project-name=tarkov-cheats--org', 'project-name=theislehacks'],

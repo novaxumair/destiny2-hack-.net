@@ -2,7 +2,7 @@
  * Structure-preserving page localization for all non-English locales.
  * Uses canonical EN pages as the structural source of truth.
  */
-import { clampTitle, clampDesc, stripZadeyoFromMeta, HERO_IMAGES } from './constants.mjs';
+import { clampTitle, clampDesc, stripResellerFromMeta, HERO_IMAGES } from './constants.mjs';
 import { phrases } from './phrases.mjs';
 import { FOCUS_I18N } from './focus-i18n.mjs';
 import { PAGE_META_HOME, SUFFIX_I18N, TOPIC_NAMES, CTA2_HREF, buildHome, buildLegal, PAGE_META_TAILS } from './pages-i18n.mjs';
@@ -51,21 +51,21 @@ function localizeSection(enSection, locale, pageKey, sectionIndex) {
 function localizeMeta(enPage, locale, pageKey) {
 	const p = phrases[locale];
 	const home = PAGE_META_HOME[locale];
-	const meta = PAGE_META_TAILS[pageKey] ?? { suffix: 'Naraka Cheats', focus: pageKey };
+	const meta = PAGE_META_TAILS[pageKey] ?? { suffix: 'Destiny 2 Cheats', focus: pageKey };
 	const suffix = SUFFIX_I18N[locale]?.[pageKey] ?? meta.suffix;
 	const focus = FOCUS_I18N[locale]?.[pageKey] ?? meta.focus;
 	const topicName = TOPIC_NAMES[pageKey]?.[locale] ?? TOPIC_NAMES[pageKey]?.en ?? pageKey;
 
 	return {
-		title: clampTitle(stripZadeyoFromMeta(`${topicName} | ${suffix}`)),
+		title: clampTitle(stripResellerFromMeta(`${topicName} | ${suffix}`)),
 		description: clampDesc(
-			stripZadeyoFromMeta(
-				`${topicName} for Naraka Bladepoint ranked & Showdown on Windows PC — ${focus}. ${p.delivery}. ${p.undetected}. Official naraka cheats at narakacheats.org.`,
+			stripResellerFromMeta(
+				`${topicName} for Destiny 2 ranked & Trials on Windows PC — ${focus}. ${p.delivery}. ${p.undetected}. Official destiny 2 cheats at destiny2hack.net.`,
 			),
 		),
 		h1: `${topicName} — ${suffix}`,
 		intro: p.s1(`${topicName}. ${focus}.`),
-		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — Naraka Cheats`,
+		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — Destiny 2 Cheats`,
 		galleryTitle: topicName,
 		ctaPrimary: p.buy,
 		ctaSecondary: home?.cta2 ?? p.buy,
@@ -98,16 +98,16 @@ function localizeRichPage(enPage, locale, pageKey) {
 /** Optional native h2 overrides for rich pages. */
 const RICH_SECTION_H2 = {
 	es: {
-		'naraka-esp': ['Qué resuelve el ESP en matches', 'Categorías ESP jugador, apex y loot', 'ESP indetectable con mantenimiento EAC', 'ESP — siguientes pasos'],
-		hacks: ['¿Qué son los trucos de Naraka?', 'Qué incluye Naraka Cheats', 'Estado indetectable y NEAC', 'Primeros pasos'],
+		'destiny-2-esp': ['Qué resuelve el ESP en matches', 'Categorías ESP jugador, apex y loot', 'ESP indetectable con mantenimiento EAC', 'ESP — siguientes pasos'],
+		hacks: ['¿Qué son los trucos de Destiny 2?', 'Qué incluye Destiny 2 Cheats', 'Estado indetectable y BattlEye', 'Primeros pasos'],
 	},
 	fr: {
-		'naraka-esp': ['Ce que l\'ESP résout en match', 'Catégories ESP joueur, apex et loot', 'ESP indétectable avec maintenance EAC', 'ESP — prochaines étapes'],
-		hacks: ['Que sont les triches Naraka ?', 'Ce que Naraka Cheats inclut', 'Statut indétectable et NEAC', 'Premiers pas'],
+		'destiny-2-esp': ['Ce que l\'ESP résout en match', 'Catégories ESP joueur, apex et loot', 'ESP indétectable avec maintenance EAC', 'ESP — prochaines étapes'],
+		hacks: ['Que sont les triches Destiny 2 ?', 'Ce que Destiny 2 Cheats inclut', 'Statut indétectable et BattlEye', 'Premiers pas'],
 	},
 	de: {
-		'naraka-esp': ['Was ESP in matches löst', 'Spieler-, Apex- und Loot-ESP-Kategorien', 'Undetected ESP mit EAC-Wartung', 'ESP — nächste Schritte'],
-		hacks: ['Was sind Naraka Cheats?', 'Was Naraka Cheats enthält', 'Undetected-Status und NEAC', 'Erste Schritte'],
+		'destiny-2-esp': ['Was ESP in matches löst', 'Spieler-, Apex- und Loot-ESP-Kategorien', 'Undetected ESP mit EAC-Wartung', 'ESP — nächste Schritte'],
+		hacks: ['Was sind Destiny 2 Cheats?', 'Was Destiny 2 Cheats enthält', 'Undetected-Status und BattlEye', 'Erste Schritte'],
 	},
 };
 
