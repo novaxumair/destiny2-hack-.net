@@ -2,8 +2,12 @@
 @import "./fonts.css";
 
 @theme {
-	--font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
-	--font-display: "Syne Variable", "Syne", ui-sans-serif, sans-serif;
+	--font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+	--font-display: "Barlow Condensed", "Barlow", ui-sans-serif, sans-serif;
+	/* Destiny-style display typography — wide tracked caps on headings */
+	--type-display-tracking: 0.14em;
+	--type-display-tracking-wide: 0.2em;
+	--type-kicker-tracking: 0.16em;
 
 	/* Destiny 2 fire aspect — neon cyan + pink on black-grey */
 	--bg: #121214;
@@ -186,6 +190,10 @@
 	h4,
 	h5,
 	h6 {
+		font-family: var(--font-display);
+		font-weight: 500;
+		letter-spacing: var(--type-display-tracking);
+		text-transform: uppercase;
 		color: var(--ink-heading);
 	}
 
@@ -242,8 +250,9 @@
 		margin: 0;
 		font-family: var(--font-display);
 		font-size: clamp(1.35rem, 2.4vw, 1.75rem);
-		font-weight: 700;
-		letter-spacing: -0.03em;
+		font-weight: 500;
+		letter-spacing: var(--type-display-tracking-wide);
+		text-transform: uppercase;
 		color: var(--ink-heading);
 		line-height: 1.15;
 	}
@@ -389,8 +398,9 @@
 	.g2a-section-title {
 		font-family: var(--font-display);
 		font-size: 1.5rem;
-		font-weight: 700;
-		letter-spacing: -0.03em;
+		font-weight: 500;
+		letter-spacing: var(--type-display-tracking-wide);
+		text-transform: uppercase;
 		color: var(--ink);
 		margin: 0 0 1rem;
 	}
@@ -407,8 +417,9 @@
 		margin: 0;
 		font-family: var(--font-display);
 		font-size: 1.5rem;
-		font-weight: 700;
-		letter-spacing: -0.03em;
+		font-weight: 500;
+		letter-spacing: var(--type-display-tracking-wide);
+		text-transform: uppercase;
 		color: var(--ink);
 	}
 
