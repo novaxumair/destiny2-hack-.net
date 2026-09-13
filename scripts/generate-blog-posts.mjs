@@ -55,7 +55,7 @@ const sources = [
 				paragraphs: [
 					`Official notes live on ${EXT.naraka}. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how shield tiers fight? Does this change what economy rounds are worth saving? Does this change which site or map I should play tonight?`,
 					'Growth stat tables, armor tiers, heli spawn rates, and blueprint unlocks move the real economy. A small recoil control tweak on an mid-tier weapons looks boring in a video title, but it quietly reshapes mid-range fights on maps and Map. Cosmetic lines and UI polish almost never decide whether you survive high-traffic zones.',
-					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">Destiny 2 Cheats status page</a> before you blame your own aim.`,
+					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">Destiny 2 Hacks status page</a> before you blame your own aim.`,
 				],
 			},
 			{
@@ -406,10 +406,10 @@ const sources = [
 		category: 'Cheats Guide',
 		featured: true,
 		slug: 'cheats-guide',
-		title: 'Destiny 2 Cheats 2026: Complete Undetected Guide',
+		title: 'Destiny 2 Hacks 2026: Complete Undetected Guide',
 		metaDescription:
 			'A clear 2026 guide to destiny 2 cheats — what ESP, soft aim, and radar actually do in Destiny 2, how BattlEye maintenance works, and how to buy safely.',
-		h1: 'Destiny 2 Cheats in 2026: What They Are and How to Use Them Carefully',
+		h1: 'Destiny 2 Hacks in 2026: What They Are and How to Use Them Carefully',
 		intro:
 			'People search “destiny 2 cheats” for a simple reason: Destiny 2 is information-heavy, punishing, and full of defenders. This guide explains what modern undetected packages actually include, how BattlEye maintenance works, and how to decide whether a tool fits your play style.',
 		keywords: [
@@ -419,13 +419,13 @@ const sources = [
 			'Destiny 2 Aimbot',
 			'battleye',
 		],
-		imageAlt: 'Overview of Destiny 2 Cheats ESP soft aim and radar tools for 2026',
+		imageAlt: 'Overview of Destiny 2 Hacks ESP soft aim and radar tools for 2026',
 		sections: [
 			{
 				h2: 'What do people mean when they say destiny 2 cheats?',
 				paragraphs: [
 					'In plain language, destiny 2 cheats are third-party tools that add information or aim assistance on top of Destiny 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for PvP gunfightss. One license should cover that loop instead of forcing you to juggle separate downloads.',
-					'Searchers also say “destiny 2 cheats,” “destiny 2 cheats,” or “destiny 2 wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">Destiny 2 Cheats pillar</a> if you want the product overview without the long essay.',
+					'Searchers also say “destiny 2 cheats,” “destiny 2 cheats,” or “destiny 2 wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">Destiny 2 Hacks pillar</a> if you want the product overview without the long essay.',
 				],
 			},
 			{
@@ -446,7 +446,7 @@ const sources = [
 				h2: 'How to buy and set up without wasting a night',
 				paragraphs: [
 					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
-					'Destiny 2 Cheats is built for Windows PC solo farmers and matchers play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
+					'Destiny 2 Hacks is built for Windows PC solo farmers and matchers play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
 				],
 			},
 		],
@@ -459,10 +459,10 @@ const sources = [
 		category: 'Buyers Guide',
 		featured: true,
 		slug: 'buyers-guide',
-		title: 'Destiny 2 Cheats Buyers Guide',
+		title: 'Destiny 2 Hacks Buyers Guide',
 		metaDescription:
 			'What to check before you buy destiny 2 cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
-		h1: 'Destiny 2 Cheats: What to Check Before You Buy',
+		h1: 'Destiny 2 Hacks: What to Check Before You Buy',
 		intro:
 			'Buying destiny 2 cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
 		keywords: [
@@ -472,12 +472,12 @@ const sources = [
 			'undetected destiny 2 cheats',
 			'destiny 2 cheats pricing',
 		],
-		imageAlt: 'Checklist for buying Destiny 2 Cheats safely',
+		imageAlt: 'Checklist for buying Destiny 2 Hacks safely',
 		sections: [
 			{
 				h2: 'Start with status, not screenshots',
 				paragraphs: [
-					'Ask whether the seller publishes a dated status page after BattlEye or client patches. Fancy galleries do not help if the tool is offline for three days. Destiny 2 Cheats posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
+					'Ask whether the seller publishes a dated status page after BattlEye or client patches. Fancy galleries do not help if the tool is offline for three days. Destiny 2 Hacks posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
 					'If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.',
 				],
 			},
@@ -505,12 +505,12 @@ const sources = [
 		category: 'Product Updates',
 		featured: false,
 		slug: 'whats-new',
-		title: 'Destiny 2 Cheats 2026: What Changed This Year',
+		title: 'Destiny 2 Hacks 2026: What Changed This Year',
 		metaDescription:
-			'What changed for destiny 2 cheats in 2026 — patch cycle cadence, BattlEye maintenance habits, ESP focus, and how Destiny 2 Cheats adapted for Destiny 2.',
-		h1: 'What Changed for Destiny 2 Cheats in 2026',
+			'What changed for destiny 2 cheats in 2026 — patch cycle cadence, BattlEye maintenance habits, ESP focus, and how Destiny 2 Hacks adapted for Destiny 2.',
+		h1: 'What Changed for Destiny 2 Hacks in 2026',
 		intro:
-			'2026 did not invent cheating in Destiny 2 — it raised the bar for maintenance. Wipes, BattlEye pushes, and map updates punish stale builds. Here is what changed in how serious Destiny 2 Cheats packages need to operate.',
+			'2026 did not invent cheating in Destiny 2 — it raised the bar for maintenance. Wipes, BattlEye pushes, and map updates punish stale builds. Here is what changed in how serious Destiny 2 Hacks packages need to operate.',
 		keywords: [
 			'destiny 2 cheats 2026',
 			'destiny 2 cheats 2026',
@@ -518,7 +518,7 @@ const sources = [
 			'naraka patch cycle',
 			'destiny 2 cheats updates',
 		],
-		imageAlt: '2026 updates for Destiny 2 Cheats on Destiny 2',
+		imageAlt: '2026 updates for Destiny 2 Hacks on Destiny 2',
 		sections: [
 			{
 				h2: 'Why 2026 buyers care more about status pages',
@@ -641,10 +641,10 @@ const sources = [
 		category: 'Undetected',
 		featured: true,
 		slug: 'undetected-cheats',
-		title: 'Undetected Destiny 2 Cheats and BattlEye Reality',
+		title: 'Undetected Destiny 2 Hacks and BattlEye Reality',
 		metaDescription:
 			'What “undetected destiny 2 cheats” really means under BattlEye — maintenance, patch days, risk, and how to read status before you queue Destiny 2.',
-		h1: 'Undetected Destiny 2 Cheats: What BattlEye Reality Looks Like',
+		h1: 'Undetected Destiny 2 Hacks: What BattlEye Reality Looks Like',
 		intro:
 			'“Undetected” is the most abused word in cheat marketing. Under BattlEye, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Destiny 2 players.',
 		keywords: [
@@ -659,7 +659,7 @@ const sources = [
 			{
 				h2: 'What undetected can honestly mean',
 				paragraphs: [
-					`BattlEye is documented at ${EXT.eac}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Destiny 2 Cheats does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/updates/">BattlEye maintenance</a>.`,
+					`BattlEye is documented at ${EXT.eac}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Destiny 2 Hacks does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/updates/">BattlEye maintenance</a>.`,
 					'If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.',
 				],
 			},
@@ -686,12 +686,12 @@ const sources = [
 		category: 'Comparisons',
 		featured: false,
 		slug: 'vs-cheatvault',
-		title: 'Destiny 2 Cheats vs Typical Budget Destiny 2 Cheat Shops',
+		title: 'Destiny 2 Hacks vs Typical Budget Destiny 2 Cheat Shops',
 		metaDescription:
-			'How Destiny 2 Cheats compares to typical budget destiny 2 cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
-		h1: 'Destiny 2 Cheats vs Typical Budget Destiny 2 Cheat Shops',
+			'How Destiny 2 Hacks compares to typical budget destiny 2 cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
+		h1: 'Destiny 2 Hacks vs Typical Budget Destiny 2 Cheat Shops',
 		intro:
-			'Budget Destiny 2 stores often look identical: neon banners, “undetected” badges, and a low weekly price. Destiny 2 Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
+			'Budget Destiny 2 stores often look identical: neon banners, “undetected” badges, and a low weekly price. Destiny 2 Hacks costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
 		keywords: [
 			'destiny 2 cheats comparison',
 			'budget destiny 2 cheats',
@@ -699,13 +699,13 @@ const sources = [
 			'esp radar pricing',
 			'destiny 2 cheats',
 		],
-		imageAlt: 'Comparing Destiny 2 Cheats features against budget destiny 2 cheat shops',
+		imageAlt: 'Comparing Destiny 2 Hacks features against budget destiny 2 cheat shops',
 		sections: [
 			{
 				h2: 'What budget shops usually optimize for',
 				paragraphs: [
 					'Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin guardian ESP, no real radar, Discord-only status, and slow rebuild communication after BattlEye pushes.',
-					'Destiny 2 Cheats focuses on a full match stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
+					'Destiny 2 Hacks focuses on a full match stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
 				],
 			},
 			{
@@ -734,10 +734,10 @@ const sources = [
 		slug: 'vs-elitefn',
 		title: 'I Tested Another Destiny 2 Cheat for 2 Weeks First',
 		metaDescription:
-			'A two-week test of another budget destiny 2 cheat before switching to Destiny 2 Cheats — ESP feel, soft aim, patch downtime, and support differences.',
+			'A two-week test of another budget destiny 2 cheat before switching to Destiny 2 Hacks — ESP feel, soft aim, patch downtime, and support differences.',
 		h1: 'I Tested Another Destiny 2 Cheat for Two Weeks Before Switching',
 		intro:
-			'My Discord kept recommending a popular budget destiny 2 cheat shop. I gave it fourteen days on the same PC and official servers, then moved to Destiny 2 Cheats. This is what actually differed — without the usual affiliate script.',
+			'My Discord kept recommending a popular budget destiny 2 cheat shop. I gave it fourteen days on the same PC and official servers, then moved to Destiny 2 Hacks. This is what actually differed — without the usual affiliate script.',
 		keywords: [
 			'destiny 2 cheats review',
 			'destiny 2 cheat comparison',
@@ -751,21 +751,21 @@ const sources = [
 				h2: 'Week one — setup and first impressions',
 				paragraphs: [
 					'Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Loot ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.',
-					'Destiny 2 Cheats later felt similar on install time, but filters for abilities and POI markers were easier to toggle independently during movement routes.',
+					'Destiny 2 Hacks later felt similar on install time, but filters for abilities and POI markers were easier to toggle independently during movement routes.',
 				],
 			},
 			{
 				h2: 'Soft aim and the mid-session feel',
 				paragraphs: [
 					'Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.',
-					'On Destiny 2 Cheats I relied more on per-weapon profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/destiny-2-aimbot/">aimbot guide</a>.',
+					'On Destiny 2 Hacks I relied more on per-weapon profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/destiny-2-aimbot/">aimbot guide</a>.',
 				],
 			},
 			{
 				h2: 'The patch window that ended the trial',
 				paragraphs: [
 					'A Destiny 2 plus BattlEye update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped load ins while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.',
-					'Destiny 2 Cheats won me over with written notes on <a href="/updates/">Updates</a>. I still do not load in blind after patches on any tool.',
+					'Destiny 2 Hacks won me over with written notes on <a href="/updates/">Updates</a>. I still do not load in blind after patches on any tool.',
 				],
 			},
 			{
@@ -785,12 +785,12 @@ const sources = [
 		category: 'Comparisons',
 		featured: false,
 		slug: 'vs-ghostware',
-		title: 'Full-Stack Destiny 2 Cheats vs Minimal ESP Tools',
+		title: 'Full-Stack Destiny 2 Hacks vs Minimal ESP Tools',
 		metaDescription:
-			'Full-stack Destiny 2 Cheats versus minimal ESP-only Destiny 2 tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
-		h1: 'Full-Stack Destiny 2 Cheats vs Minimal ESP-Only Tools',
+			'Full-stack Destiny 2 Hacks versus minimal ESP-only Destiny 2 tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
+		h1: 'Full-Stack Destiny 2 Hacks vs Minimal ESP-Only Tools',
 		intro:
-			'Some Destiny 2 tools sell a slim ESP module and call it a day. Destiny 2 Cheats ships the wider match stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.',
+			'Some Destiny 2 tools sell a slim ESP module and call it a day. Destiny 2 Hacks ships the wider match stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.',
 		keywords: [
 			'Destiny 2 ESP only cheat',
 			'destiny 2 cheats features',
@@ -798,19 +798,19 @@ const sources = [
 			'destiny 2 cheat pricing',
 			'destiny 2 cheats',
 		],
-		imageAlt: 'Full stack Destiny 2 Cheats compared with minimal ESP-only tools',
+		imageAlt: 'Full stack Destiny 2 Hacks compared with minimal ESP-only tools',
 		sections: [
 			{
 				h2: 'Two philosophies: minimal surface vs full match loop',
 				paragraphs: [
 					'Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, radar, and soft aim profiles so one menu covers information and fights.',
-					'Destiny 2 Cheats is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, loot, and hold bases, missing radar becomes obvious.',
+					'Destiny 2 Hacks is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, loot, and hold bases, missing radar becomes obvious.',
 				],
 			},
 			{
 				h2: 'Feature and pricing reality check',
 				paragraphs: [
-					'Destiny 2 Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
+					'Destiny 2 Hacks monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
 					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/destiny-2-esp/">ESP</a>, <a href="/destiny-2-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>.',
 				],
 			},
@@ -818,13 +818,13 @@ const sources = [
 				h2: 'Detection talk without fairy tales',
 				paragraphs: [
 					'Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.',
-					'Destiny 2 Cheats documents maintenance on <a href="/updates/">BattlEye workflow</a> and <a href="/updates/">undetected notes</a>.',
+					'Destiny 2 Hacks documents maintenance on <a href="/updates/">BattlEye workflow</a> and <a href="/updates/">undetected notes</a>.',
 				],
 			},
 			{
 				h2: 'Which style should you buy?',
 				paragraphs: [
-					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Destiny 2 Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.',
+					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Destiny 2 Hacks if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.',
 					'Decide your must-haves on paper first. Then open <a href="/">destiny 2 cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
 				],
 			},
@@ -881,15 +881,15 @@ const POST_META = {
 		keywords: ['Destiny 2 warmup', 'naraka aim practice', 'pvp routine'],
 	},
 	'destiny-2-cheats-complete-guide': {
-		h1: 'Destiny 2 Cheats Guide for 2026',
+		h1: 'Destiny 2 Hacks Guide for 2026',
 		keywords: ['destiny 2 cheats', 'undetected hacks', 'destiny 2 esp'],
 	},
 	'destiny-2-cheats-buyers-guide': {
-		h1: 'Destiny 2 Cheats Buyers Guide',
+		h1: 'Destiny 2 Hacks Buyers Guide',
 		keywords: ['buy destiny 2 cheats', 'destiny 2 cheats guide', 'naraka pricing'],
 	},
 	'destiny-2-cheats-2026-whats-new': {
-		h1: 'Destiny 2 Cheats Updates in 2026',
+		h1: 'Destiny 2 Hacks Updates in 2026',
 		keywords: ['destiny 2 cheats 2026', 'BattlEye updates', 'hack status'],
 	},
 	'destiny-2-aimbot-settings-guide': {
@@ -901,11 +901,11 @@ const POST_META = {
 		keywords: ['destiny 2 esp', 'destiny 2 wallhack', 'destiny 2 cheats'],
 	},
 	'undetected-destiny-2-cheats-eac': {
-		h1: 'Undetected Destiny 2 Cheats Explained',
+		h1: 'Undetected Destiny 2 Hacks Explained',
 		keywords: ['undetected destiny 2 cheats', 'battleye bypass', 'ban risk'],
 	},
 	'destiny-2-cheats-vs-cheatvault': {
-		h1: 'Destiny 2 Cheats vs Budget Shops',
+		h1: 'Destiny 2 Hacks vs Budget Shops',
 		keywords: ['destiny 2 cheats comparison', 'budget destiny 2 cheats', 'esp radar'],
 	},
 	'elitefn-two-week-test': {
@@ -913,7 +913,7 @@ const POST_META = {
 		keywords: ['destiny 2 cheats review', 'hack comparison', 'soft aim test'],
 	},
 	'destiny-2-cheats-vs-ghostware': {
-		h1: 'Full-Stack vs ESP-Only Destiny 2 Cheats',
+		h1: 'Full-Stack vs ESP-Only Destiny 2 Hacks',
 		keywords: ['destiny 2 esp cheat', 'full stack hacks', 'radar vs esp'],
 	},
 };
@@ -925,7 +925,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Staying ahead after every Destiny 2 update',
 			paragraphs: [
 				'Patch days are when most players lose progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href="/updates/">status page</a> if you use overlays, then adjust your main loadout and match plan before you queue.',
-				'If you rely on information tools, confirm the stack on <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
+				'If you rely on information tools, confirm the stack on <a href="/destiny-2-cheats/">Destiny 2 Hacks</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
 			],
 		},
 	],
@@ -943,7 +943,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Turn tier knowledge into match wins',
 			paragraphs: [
 				'A tier list only helps when you load in with the right plan. Match your pick to your map, match route, and whether you solo or trio. Competitive players often pair loadout choice with <a href="/destiny-2-radar-hack/">radar</a> reads so flanks do not erase a good spawn.',
-				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main loadout for the patch.',
+				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/destiny-2-cheats/">Destiny 2 Hacks</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main loadout for the patch.',
 			],
 		},
 	],
@@ -958,10 +958,10 @@ const EXTRA_SECTIONS = {
 	],
 	'naraka-competitive-meta': [
 		{
-			h2: 'Competitive habits that pair with Destiny 2 Cheats tools',
+			h2: 'Competitive habits that pair with Destiny 2 Hacks tools',
 			paragraphs: [
 				'High-level players win on information timing: who rotates first, who holds the base, who peeks with armor. That is the same loop <a href="/features/">ESP, radar, and soft aim</a> support when tuned conservatively.',
-				'If you study competitive meta, also read <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
+				'If you study competitive meta, also read <a href="/destiny-2-cheats/">Destiny 2 Hacks</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
 			],
 		},
 	],
@@ -970,7 +970,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Route discipline plus loot awareness',
 			paragraphs: [
 				'Routes fail when players loot like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href="/destiny-2-esp/">guardian ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.',
-				'Strong routes feed into Quickplay sessions and Ranked spawns. Link this guide with <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> if you want radar for combat zones after your kit is online.',
+				'Strong routes feed into Quickplay sessions and Ranked spawns. Link this guide with <a href="/destiny-2-cheats/">Destiny 2 Hacks</a> if you want radar for combat zones after your kit is online.',
 			],
 		},
 	],
@@ -1006,7 +1006,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Final checklist before checkout',
 			paragraphs: [
 				'Confirm dated status, guardian ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.',
-				'When the checklist passes, open <a href="/destiny-2-cheats/">Destiny 2 Cheats</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/cheats-guide/">the 2026 complete guide</a> for feature context.',
+				'When the checklist passes, open <a href="/destiny-2-cheats/">Destiny 2 Hacks</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/cheats-guide/">the 2026 complete guide</a> for feature context.',
 			],
 		},
 	],
@@ -1033,7 +1033,7 @@ const EXTRA_SECTIONS = {
 			h2: 'ESP in real Destiny 2 matches — practical takeaways',
 			paragraphs: [
 				'Use player ESP when rotating, guardian ESP when routing, and match cues when holding water or cliffs. Switch profiles instead of leaving every box on — clutter kills reaction time.',
-				'For the maintained stack behind this guide, see <a href="/destiny-2-cheats/">Destiny 2 Cheats</a>, <a href="/destiny-2-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
+				'For the maintained stack behind this guide, see <a href="/destiny-2-cheats/">Destiny 2 Hacks</a>, <a href="/destiny-2-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
 			],
 		},
 	],
@@ -1042,7 +1042,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Responsible undetected habits for Destiny 2',
 			paragraphs: [
 				'Undetected means maintained today — not immune forever. Read public notes, wait for rebuilds, and avoid rage settings that draw reports even on clean builds.',
-				'Use <a href="/updates/">Updates</a>, <a href="/updates/">BattlEye maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/destiny-2-cheats/">Destiny 2 Cheats</a> when you are ready to buy.',
+				'Use <a href="/updates/">Updates</a>, <a href="/updates/">BattlEye maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/destiny-2-cheats/">Destiny 2 Hacks</a> when you are ready to buy.',
 			],
 		},
 	],
@@ -1068,7 +1068,7 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Pick the stack that matches how you play',
 			paragraphs: [
-				'Casual outline-only players may tolerate minimal ESP. Players who rotate, loot, and hold bases usually need radar and filters in one menu — that is the full-stack case for <a href="/destiny-2-cheats/">Destiny 2 Cheats</a>.',
+				'Casual outline-only players may tolerate minimal ESP. Players who rotate, loot, and hold bases usually need radar and filters in one menu — that is the full-stack case for <a href="/destiny-2-cheats/">Destiny 2 Hacks</a>.',
 				'Compare <a href="/destiny-2-esp/">ESP</a>, <a href="/destiny-2-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/updates/">undetected notes</a> on whichever path you choose.',
 			],
 		},

@@ -5,9 +5,9 @@
  */
 export const brand = {
 	/** Public brand name (nav, footer, H1 hero, schema Organization) */
-	name: 'Destiny 2 Cheats',
+	name: 'Destiny 2 Hacks',
 	/** Short product label if needed */
-	shortName: 'Destiny 2 Cheats',
+	shortName: 'Destiny 2 Hacks',
 	/** Canonical origin — no trailing slash */
 	url: 'https://destiny2hack.net',
 	locale: 'en',
@@ -104,31 +104,31 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		homeTitle: 'Destiny 2 Cheats 2026 | ESP, Aimbot & Wallhack',
+		homeTitle: 'Destiny 2 Hacks 2026 | ESP, Aimbot & Wallhack',
 		homeDescription:
 			'Destiny 2 cheats with ESP, aimbot, and wallhack for Crucible, Trials, and PvE on Windows PC. No recoil, triggerbot, radar, and BattlEye maintenance included. From $35/month.',
-		featuresTitle: 'Destiny 2 Cheats Features | ESP, Aimbot & Wallhack',
+		featuresTitle: 'Destiny 2 Hacks Features | ESP, Aimbot & Wallhack',
 		featuresDescription:
 			'Full Destiny 2 cheats feature list — ESP wallhack, aimbot, triggerbot, no recoil, radar overlay, movement hacks, and stream-proof toggles for PC. BattlEye maintenance at destiny2hack.net.',
-		storeTitle: 'Destiny 2 Cheats Pricing | $35/mo Lifetime',
+		storeTitle: 'Destiny 2 Hacks Pricing | $35/mo Lifetime',
 		storeDescription:
 			'Buy Destiny 2 cheats — $35/month or $150 lifetime. ESP, aimbot, wallhack, no recoil, and radar for Crucible and Trials on PC. Instant digital delivery worldwide.',
 		statusTitle: 'Destiny 2 Status | Undetected {antiCheat} Updates',
 		statusDescription:
 			'Live status after {game} & {antiCheat} patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. Status updated at destiny2hack.net.',
-		previewTitle: 'Destiny 2 Cheats | ESP, Aimbot & Wallhack Guide',
+		previewTitle: 'Destiny 2 Hacks | ESP, Aimbot & Wallhack Guide',
 		previewDescription:
 			'Destiny 2 cheats guide — undetected ESP wallhack, aimbot, triggerbot, no recoil, and radar with {antiCheat} rebuilds for Crucible and Trials on PC. Buy from $35 at destiny2hack.net.',
-		setupTitle: 'Destiny 2 Cheats Setup | Windows PC Install Guide',
+		setupTitle: 'Destiny 2 Hacks Setup | Windows PC Install Guide',
 		setupDescription:
 			'Install {brand} on PC — activate ESP, aimbot, and no recoil step by step. Setup guide at destiny2hack.net. Check {antiCheat} status before your first Crucible match.',
-		supportTitle: 'Destiny 2 Cheats Support | License & Setup Help',
+		supportTitle: 'Destiny 2 Hacks Support | License & Setup Help',
 		supportDescription:
 			'Support for license delivery, ESP setup & billing on PC. Email {email} with your order ID. Fast help at destiny2hack.net/support before you play.',
-		faqTitle: 'Destiny 2 Cheats FAQ | ESP, Aimbot & BattlEye',
+		faqTitle: 'Destiny 2 Hacks FAQ | ESP, Aimbot & BattlEye',
 		faqDescription:
 			'FAQ for Destiny 2 cheats — delivery, setup, Crucible & Trials use, {antiCheat} updates & pricing on PC. Answers at destiny2hack.net before you buy.',
-		reviewsTitle: 'Destiny 2 Cheats Reviews | Hacks & Cheats Feedback',
+		reviewsTitle: 'Destiny 2 Hacks Reviews | Hacks & Cheats Feedback',
 		reviewsDescription:
 			'Real buyer reviews for Destiny 2 cheats and hacks — ESP, aimbot, no recoil, radar & {antiCheat} maintenance on PC. See license holder feedback at destiny2hack.net.',
 		blogTitle: 'Destiny 2 Blog | Guides & Patch Tips | {brand}',
@@ -157,7 +157,7 @@ export const brand = {
 		chipAim: 'Aimbot',
 		chipRadar: 'Radar hack',
 		chipUpdates: 'Patch updates',
-		navPreview: 'Cheats',
+		navPreview: 'Hacks',
 		navFeatures: 'Features',
 		navStore: 'Pricing',
 		navStatus: 'Updates',
