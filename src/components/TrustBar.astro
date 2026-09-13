@@ -32,7 +32,7 @@ const t = getT(locale);
 
 <style>
 	.trust-bar {
-		padding-block: 0.75rem;
+		padding-block: clamp(0.55rem, 1.5vw, 0.75rem);
 		border-bottom: 1px solid var(--color-border);
 	}
 
@@ -49,10 +49,13 @@ const t = getT(locale);
 
 	.trust-bar__text {
 		margin: 0;
-		font-size: 0.875rem;
+		font-size: clamp(0.75rem, 0.7rem + 0.35vw, 0.875rem);
 		color: var(--color-muted);
 		text-align: center;
 		line-height: 1.5;
+		word-break: break-word;
+		hyphens: auto;
+		overflow-wrap: break-word;
 	}
 
 	.trust-bar--overlay .trust-bar__text {
@@ -76,13 +79,5 @@ const t = getT(locale);
 
 	.trust-bar--overlay .trust-bar__text span {
 		opacity: 0.55;
-	}
-
-	@media (max-width: 900px) {
-		.trust-bar--overlay {
-			bottom: auto;
-			top: min(52vw, 13.5rem);
-			transform: translateY(-100%);
-		}
 	}
 </style>

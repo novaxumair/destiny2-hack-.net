@@ -112,6 +112,7 @@ export const siteConfig = {
 	gameUrl: brand.gameUrl,
 	defaultOgImage: brand.defaultOgImage,
 	heroImage: brand.heroImage,
+	heroVideoUrl: brand.heroVideoUrl,
 	demoVideoUrl: brand.demoVideoUrl,
 	demoVideoPoster: brand.demoVideoPoster,
 	twitterSite: brand.social.twitterSite,

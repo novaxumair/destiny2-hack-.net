@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
 
@@ -11,6 +12,8 @@ type Props = {
 	heroSizes: string;
 	heroWidth: number;
 	heroHeight: number;
+	/** Looping background clip — poster uses heroSrc when set */
+	heroVideoUrl?: string;
 	/** When true, use brand EN hero keys; otherwise localized hero.* */
 	useBrandHero?: boolean;
 };
@@ -75,6 +78,7 @@ function HeroInner({
 	heroSizes,
 	heroWidth,
 	heroHeight,
+	heroVideoUrl,
 	useBrandHero = true,
 }: Props) {
 	const { t } = useTranslation();
@@ -84,21 +88,63 @@ function HeroInner({
 	const priceFrom = t('hero.priceFrom');
 	const priceLabel = priceFrom ? `${priceFrom} $${monthlyPrice}` : `$${monthlyPrice}`;
 	const imageAlt = t('hero.imageAlt', { brand: siteName });
+	const heroVideoRef = useRef<HTMLVideoElement>(null);
+
+	useEffect(() => {
+		const video = heroVideoRef.current;
+		if (!video) return;
+		video.muted = true;
+		video.defaultMuted = true;
+		video.volume = 0;
+	}, [heroVideoUrl]);
 
 	return (
 		<section className="hero" aria-label={title}>
 			<div className="hero__media">
-				<img
-					src={heroSrc}
-					srcSet={heroSrcSet}
-					sizes={heroSizes}
-					alt={imageAlt}
-					width={heroWidth}
-					height={heroHeight}
-					fetchPriority="high"
-					loading="eager"
-					decoding="async"
-				/>
+				{heroVideoUrl ? (
+					<>
+						<video
+							ref={heroVideoRef}
+							className="hero__video"
+							autoPlay
+							muted
+							defaultMuted
+							loop
+							playsInline
+							preload="metadata"
+							poster={heroSrc}
+							width={heroWidth}
+							height={heroHeight}
+							aria-label={imageAlt}
+						>
+							<source src={heroVideoUrl} type="video/webm" />
+						</video>
+						<img
+							className="hero__poster-fallback"
+							src={heroSrc}
+							srcSet={heroSrcSet}
+							sizes={heroSizes}
+							alt={imageAlt}
+							width={heroWidth}
+							height={heroHeight}
+							loading="eager"
+							decoding="async"
+							aria-hidden="true"
+						/>
+					</>
+				) : (
+					<img
+						src={heroSrc}
+						srcSet={heroSrcSet}
+						sizes={heroSizes}
+						alt={imageAlt}
+						width={heroWidth}
+						height={heroHeight}
+						fetchPriority="high"
+						loading="eager"
+						decoding="async"
+					/>
+				)}
 			</div>
 			<div className="hero__veil" aria-hidden="true" />
 			<div className="shell hero__content">
