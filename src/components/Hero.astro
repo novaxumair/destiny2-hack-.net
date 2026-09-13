@@ -91,7 +91,17 @@ const heroLabel = t('hero.title');
 		video.muted = true;
 		video.defaultMuted = true;
 		video.volume = 0;
+
+		const syncHeroFrame = () => {
+			const hero = video.closest('.hero');
+			if (!hero || !video.videoWidth || !video.videoHeight) return;
+			hero.style.aspectRatio = `${video.videoWidth} / ${video.videoHeight}`;
+			hero.style.minHeight = '0';
+		};
+
 		const play = () => video.play().catch(() => {});
+		video.addEventListener('loadedmetadata', syncHeroFrame, { once: true });
+		if (video.readyState >= 1) syncHeroFrame();
 		if (video.readyState >= 2) play();
 		else video.addEventListener('loadeddata', play, { once: true });
 	});
@@ -127,6 +137,7 @@ const heroLabel = t('hero.title');
 		position: absolute;
 		inset: 0;
 		z-index: 0;
+		background: var(--bg);
 	}
 
 	.hero__media picture,
@@ -137,24 +148,30 @@ const heroLabel = t('hero.title');
 		height: 100%;
 	}
 
-	.hero__media img,
-	.hero__media video {
+	.hero__media img {
 		object-fit: cover;
 		/* Character sits on the right; anchor high so helmets stay in frame */
 		object-position: 72% 12%;
 		transform: translateZ(0);
 		filter: brightness(0.78) contrast(1.04);
 		animation: hero-in 0.9s ease-out both;
+		image-rendering: auto;
 	}
 
-	.hero__media img {
-		image-rendering: auto;
+	.hero__media video {
+		object-fit: contain;
+		object-position: center center;
+		transform: translateZ(0);
+		filter: brightness(0.78) contrast(1.04);
+		animation: hero-in 0.9s ease-out both;
 	}
 
 	.hero__poster-fallback {
 		display: none;
 		position: absolute;
 		inset: 0;
+		object-fit: contain;
+		object-position: center center;
 	}
 
 	.hero__veil {
@@ -402,10 +419,14 @@ const heroLabel = t('hero.title');
 			width: 100%;
 		}
 
-		.hero__media img,
-		.hero__media video {
+		.hero__media img {
 			object-fit: cover;
 			object-position: 72% 15%;
+		}
+
+		.hero__media video {
+			object-fit: contain;
+			object-position: center center;
 		}
 
 		.hero__veil {
