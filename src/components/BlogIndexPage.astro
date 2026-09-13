@@ -190,14 +190,15 @@ const articleListSchema = {
 	.blog__featured {
 		display: grid;
 		grid-template-columns: 1fr;
+		align-items: start;
 		gap: 1rem;
-		margin-bottom: 2.75rem;
+		margin-top: 1.75rem;
+		margin-bottom: 2rem;
 	}
 
 	.blog__feature-card {
 		display: flex;
 		flex-direction: column;
-		height: 100%;
 		padding: 0.85rem;
 		border: 1px solid var(--line);
 		border-radius: var(--radius-md, 0.75rem);
@@ -215,7 +216,6 @@ const articleListSchema = {
 	.blog__feature-card > div {
 		display: flex;
 		flex-direction: column;
-		flex: 1;
 	}
 
 	.blog__feature-card:hover {
@@ -247,8 +247,9 @@ const articleListSchema = {
 		position: relative;
 		display: grid;
 		grid-template-columns: 1fr;
+		align-items: start;
 		gap: 1rem;
-		padding-top: 1.75rem;
+		padding-top: 1.25rem;
 	}
 
 	.blog__list::before {
@@ -264,7 +265,6 @@ const articleListSchema = {
 	.blog__card a {
 		display: flex;
 		flex-direction: column;
-		height: 100%;
 		padding: 0.8rem;
 		border: 1px solid var(--line);
 		border-radius: var(--radius-md, 0.75rem);
@@ -335,8 +335,7 @@ const articleListSchema = {
 	.blog__more,
 	.blog__meta {
 		display: inline-block;
-		margin-top: auto;
-		padding-top: 0.75rem;
+		margin-top: 0.75rem;
 		color: var(--ink-faint);
 		font-size: 0.8rem;
 		font-weight: 600;
