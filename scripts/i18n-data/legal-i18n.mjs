@@ -5,7 +5,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Leer términos',
 		readPrivacy: 'Leer privacidad',
 		introTopic: 'para destiny2hack.net y licencias de Destiny 2.',
-		descFor: 'para Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'para Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Información que recopilamos', 'Cómo usamos los datos', 'Tus derechos'],
 			sec1p2: 'Los datos de pago se procesan en el checkout de order — no se almacenan en destiny2hack.net.',
@@ -26,7 +26,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Lire les conditions',
 		readPrivacy: 'Lire la confidentialité',
 		introTopic: 'pour destiny2hack.net et les licences Destiny 2.',
-		descFor: 'pour Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'pour Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informations collectées', 'Utilisation des données', 'Vos droits'],
 			sec1p2: 'Les détails de paiement sont traités par le secure checkout — non stockés sur destiny2hack.net.',
@@ -47,7 +47,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Nutzungsbedingungen',
 		readPrivacy: 'Datenschutz lesen',
 		introTopic: 'für destiny2hack.net und Destiny 2-Lizenzen.',
-		descFor: 'für Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'für Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Erhobene Daten', 'Datennutzung', 'Ihre Rechte'],
 			sec1p2: 'Zahlungsdaten werden über secure checkout-Checkout verarbeitet — nicht auf destiny2hack.net gespeichert.',
@@ -68,7 +68,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Ler termos',
 		readPrivacy: 'Ler privacidade',
 		introTopic: 'para destiny2hack.net e licenças Destiny 2.',
-		descFor: 'para Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'para Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informações que coletamos', 'Como usamos os dados', 'Seus direitos'],
 			sec1p2: 'Detalhes de pagamento são processados pelo secure checkout — não armazenados em destiny2hack.net.',
@@ -89,7 +89,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Leggi i termini',
 		readPrivacy: 'Leggi la privacy',
 		introTopic: 'per destiny2hack.net e licenze Destiny 2.',
-		descFor: 'per Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'per Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informazioni raccolte', 'Uso dei dati', 'I tuoi diritti'],
 			sec1p2: 'I dati di pagamento sono elaborati dal secure checkout — non memorizzati su destiny2hack.net.',
@@ -110,7 +110,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Voorwaarden lezen',
 		readPrivacy: 'Privacy lezen',
 		introTopic: 'voor destiny2hack.net en Destiny 2-licenties.',
-		descFor: 'voor Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'voor Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informatie die we verzamelen', 'Hoe we gegevens gebruiken', 'Uw rechten'],
 			sec1p2: 'Betalingsgegevens worden verwerkt via secure checkout — niet opgeslagen op destiny2hack.net.',
@@ -131,7 +131,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Przeczytaj warunki',
 		readPrivacy: 'Przeczytaj politykę prywatności',
 		introTopic: 'dla destiny2hack.net i licencji Destiny 2.',
-		descFor: 'dla Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'dla Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informacje, które zbieramy', 'Jak wykorzystujemy dane', 'Twoje prawa'],
 			sec1p2: 'Dane płatności są przetwarzane przez secure checkout — nie przechowywane na destiny2hack.net.',
@@ -152,7 +152,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Читать условия',
 		readPrivacy: 'Читать политику конфиденциальности',
 		introTopic: 'для destiny2hack.net и лицензий Destiny 2.',
-		descFor: 'для Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'для Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Информация, которую мы собираем', 'Как мы используем данные', 'Ваши права'],
 			sec1p2: 'Платёжные данные обрабатываются через secure checkout — не хранятся на destiny2hack.net.',
@@ -173,7 +173,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Şartları oku',
 		readPrivacy: 'Gizliliği oku',
 		introTopic: 'destiny2hack.net ve Destiny 2 lisansları için.',
-		descFor: 'Destiny 2 Cheats — ESP wallhack, Aimbot için',
+		descFor: 'Destiny 2 Hacks — ESP wallhack, Aimbot için',
 		privacy: {
 			h2: ['Topladığımız bilgiler', 'Verileri nasıl kullanıyoruz', 'Haklarınız'],
 			sec1p2: 'Ödeme bilgileri secure checkout ile işlenir — destiny2hack.net\'da saklanmaz.',
@@ -194,7 +194,7 @@ export const LEGAL_I18N = {
 		readTerms: 'اقرأ الشروط',
 		readPrivacy: 'اقرأ الخصوصية',
 		introTopic: 'لـ destiny2hack.net وتراخيص Destiny 2.',
-		descFor: 'لـ Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'لـ Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['المعلومات التي نجمعها', 'كيف نستخدم البيانات', 'حقوقك'],
 			sec1p2: 'تُعالَج تفاصيل الدفع عبر secure checkout — ولا تُخزَّن على destiny2hack.net.',
@@ -215,7 +215,7 @@ export const LEGAL_I18N = {
 		readTerms: '利用規約を読む',
 		readPrivacy: 'プライバシーを読む',
 		introTopic: 'destiny2hack.netおよびDestiny 2ライセンス向け。',
-		descFor: 'Destiny 2 Cheats — ESP wallhack、Aimbot向け',
+		descFor: 'Destiny 2 Hacks — ESP wallhack、Aimbot向け',
 		privacy: {
 			h2: ['収集する情報', 'データの利用方法', 'あなたの権利'],
 			sec1p2: '支払い情報はsecure checkoutで処理され、destiny2hack.netには保存されません。',
@@ -236,7 +236,7 @@ export const LEGAL_I18N = {
 		readTerms: '이용 약관 읽기',
 		readPrivacy: '개인정보 읽기',
 		introTopic: 'destiny2hack.net 및 Destiny 2 라이선스용.',
-		descFor: 'Destiny 2 Cheats — ESP wallhack, Aimbot용',
+		descFor: 'Destiny 2 Hacks — ESP wallhack, Aimbot용',
 		privacy: {
 			h2: ['수집하는 정보', '데이터 사용 방법', '귀하의 권리'],
 			sec1p2: '결제 정보는 secure checkout에서 처리되며 destiny2hack.net에 저장되지 않습니다.',
@@ -257,7 +257,7 @@ export const LEGAL_I18N = {
 		readTerms: '阅读使用条款',
 		readPrivacy: '阅读隐私政策',
 		introTopic: '适用于 destiny2hack.net 和 Destiny 2 许可证。',
-		descFor: 'Destiny 2 Cheats — ESP wallhack、Aimbot',
+		descFor: 'Destiny 2 Hacks — ESP wallhack、Aimbot',
 		privacy: {
 			h2: ['我们收集的信息', '数据使用方式', '您的权利'],
 			sec1p2: '支付详情由 secure checkout 处理 — 不存储在 destiny2hack.net。',
@@ -278,7 +278,7 @@ export const LEGAL_I18N = {
 		readTerms: 'शर्तें पढ़ें',
 		readPrivacy: 'गोपनीयता पढ़ें',
 		introTopic: 'destiny2hack.net और Destiny 2 लाइसेंस के लिए।',
-		descFor: 'Destiny 2 Cheats — ESP wallhack, Aimbot के लिए',
+		descFor: 'Destiny 2 Hacks — ESP wallhack, Aimbot के लिए',
 		privacy: {
 			h2: ['हम जो जानकारी एकत्र करते हैं', 'हम डेटा का उपयोग कैसे करते हैं', 'आपके अधिकार'],
 			sec1p2: 'भुगतान विवरण secure checkout द्वारा संसाधित — destiny2hack.net पर संग्रहीत नहीं।',
@@ -299,7 +299,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Baca syarat',
 		readPrivacy: 'Baca privasi',
 		introTopic: 'untuk destiny2hack.net dan lisensi Destiny 2.',
-		descFor: 'untuk Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'untuk Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informasi yang kami kumpulkan', 'Cara kami menggunakan data', 'Hak Anda'],
 			sec1p2: 'Detail pembayaran diproses oleh secure checkout — tidak disimpan di destiny2hack.net.',
@@ -320,7 +320,7 @@ export const LEGAL_I18N = {
 		readTerms: 'อ่านข้อกำหนด',
 		readPrivacy: 'อ่านนโยบายความเป็นส่วนตัว',
 		introTopic: 'สำหรับ destiny2hack.net และใบอนุญาต Destiny 2',
-		descFor: 'สำหรับ Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'สำหรับ Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['ข้อมูลที่เราเก็บ', 'การใช้ข้อมูล', 'สิทธิของคุณ'],
 			sec1p2: 'รายละเอียดการชำระเงินประมวลผลผ่าน secure checkout — ไม่เก็บบน destiny2hack.net',
@@ -341,7 +341,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Đọc điều khoản',
 		readPrivacy: 'Đọc quyền riêng tư',
 		introTopic: 'cho destiny2hack.net và giấy phép Destiny 2.',
-		descFor: 'cho Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'cho Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Thông tin chúng tôi thu thập', 'Cách chúng tôi sử dụng dữ liệu', 'Quyền của bạn'],
 			sec1p2: 'Chi tiết thanh toán được xử lý qua secure checkout — không lưu trên destiny2hack.net.',
@@ -362,7 +362,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Читати умови',
 		readPrivacy: 'Читати конфіденційність',
 		introTopic: 'для destiny2hack.net та ліцензій Destiny 2.',
-		descFor: 'для Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'для Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Інформація, яку ми збираємо', 'Як ми використовуємо дані', 'Ваші права'],
 			sec1p2: 'Платіжні дані обробляються через secure checkout — не зберігаються на destiny2hack.net.',
@@ -383,7 +383,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Přečíst podmínky',
 		readPrivacy: 'Přečíst soukromí',
 		introTopic: 'pro destiny2hack.net a licence Destiny 2.',
-		descFor: 'pro Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'pro Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informace, které shromažďujeme', 'Jak používáme data', 'Vaše práva'],
 			sec1p2: 'Platební údaje zpracovává secure checkout — neukládají se na destiny2hack.net.',
@@ -404,7 +404,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Citește termenii',
 		readPrivacy: 'Citește confidențialitatea',
 		introTopic: 'pentru destiny2hack.net și licențe Destiny 2.',
-		descFor: 'pentru Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'pentru Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informații pe care le colectăm', 'Cum folosim datele', 'Drepturile tale'],
 			sec1p2: 'Detaliile de plată sunt procesate prin secure checkout — nu sunt stocate pe destiny2hack.net.',
@@ -425,7 +425,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Läs villkor',
 		readPrivacy: 'Läs integritet',
 		introTopic: 'för destiny2hack.net och Destiny 2-licenser.',
-		descFor: 'för Destiny 2 Cheats — ESP wallhack, Aimbot',
+		descFor: 'för Destiny 2 Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Information vi samlar in', 'Hur vi använder data', 'Dina rättigheter'],
 			sec1p2: 'Betalningsuppgifter behandlas via secure checkout — lagras inte på destiny2hack.net.',

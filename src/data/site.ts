@@ -356,12 +356,12 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'xKrypt0_D2',
 		rating: 5,
-		text: 'tried like 3 different d2 cheats before this and they all felt way too snappy in Trials. these destiny 2 cheats let you tune aimbot smoothing so it doesnt look obvious in competitive. been grinding a week now, setup took probs 12 min after defender whitelisted the loader. no drama yet tbh',
-		short: 'tried 3 d2 cheats before — these destiny 2 cheats feel human in Trials once you tune aimbot smoothing',
+		text: 'tried like 3 different d2 hacks before this and they all felt way too snappy in Trials. these destiny 2 hacks let you tune aimbot smoothing so it doesnt look obvious in competitive. been grinding a week now, setup took probs 12 min after defender whitelisted the loader. no drama yet tbh',
+		short: 'tried 3 d2 hacks before — these destiny 2 hacks feel human in Trials once you tune aimbot smoothing',
 		slug: 'destiny-2-aimbot-review-xkrypt0',
 		seoTitle: 'Aimbot Review by @xKrypt0_D2 — 5/5 | {brand}',
 		seoDescription:
-			'@xKrypt0_D2 rates {brand} destiny 2 aimbot 5/5 after testing destiny 2 cheats in Trials on Windows PC.',
+			'@xKrypt0_D2 rates {brand} destiny 2 aimbot 5/5 after testing destiny 2 hacks in Trials on Windows PC.',
 		date: '2026-07-24',
 		tag: 'Aimbot',
 	}),
@@ -380,19 +380,19 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'dma_wizard',
 		rating: 5,
-		text: 'last d2 cheat i had got cooked the day after a BattlEye update lol. switched to these destiny 2 cheats and loader was back same night they posted the rebuild. running esp + radar in Trials, still clean after 2 weeks. grabbed lifetime cause im done paying monthly for dead d2 hacks',
-		short: 'old d2 hack died on battleye patch — these destiny 2 cheats rebuilt same night, still undetected 2 weeks later',
+		text: 'last d2 cheat i had got cooked the day after a BattlEye update lol. switched to these destiny 2 hacks and loader was back same night they posted the rebuild. running esp + radar in Trials, still clean after 2 weeks. grabbed lifetime cause im done paying monthly for dead d2 hacks',
+		short: 'old d2 hack died on battleye patch — these destiny 2 hacks rebuilt same night, still undetected 2 weeks later',
 		slug: 'destiny-2-stream-proof-review-dma-wizard',
 		seoTitle: 'Update Review by @dma_wizard — 5/5 | {brand}',
 		seoDescription:
-			'@dma_wizard rates {brand} destiny 2 cheats 5/5 after a {antiCheat} update — fast rebuild on Windows PC.',
+			'@dma_wizard rates {brand} destiny 2 hacks 5/5 after a {antiCheat} update — fast rebuild on Windows PC.',
 		date: '2026-06-27',
 		tag: 'Updates',
 	}),
 	reviewMeta({
 		handle: 'ctrl_player99',
 		rating: 4,
-		text: 'im not techy at all bro. destiny 2 cheat menu is simple tho — dropped fov on aimbot, bumped smoothing, stopped the snap. feels more like muscle memory now in quickplay and comp. only 4 stars cause first login support took an hour but they fixed my license key quick',
+		text: 'im not techy at all bro. destiny 2 hack menu is simple tho — dropped fov on aimbot, bumped smoothing, stopped the snap. feels more like muscle memory now in quickplay and comp. only 4 stars cause first login support took an hour but they fixed my license key quick',
 		short: 'not techy but destiny 2 mod menu is easy — aimbot feels natural after fov and smoothing tweaks',
 		slug: 'destiny-2-aimbot-review-ctrl-player99',
 		seoTitle: 'Aimbot Review by @ctrl_player99 — 4/5 | {brand}',
@@ -404,20 +404,20 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'stormChaser_07',
 		rating: 3,
-		text: 'destiny 2 cheats work fine once youre actually in game. windows defender blocked the loader first try and i panicked ngl. emailed support with order id, got a reply in like 2 hours with steps. esp looks clean in private matches, havent gone full comp yet. 3 stars cause setup stress but cheats themselves seem ok',
+		text: 'destiny 2 hacks work fine once youre actually in game. windows defender blocked the loader first try and i panicked ngl. emailed support with order id, got a reply in like 2 hours with steps. esp looks clean in private matches, havent gone full comp yet. 3 stars cause setup stress but cheats themselves seem ok',
 		short: 'defender blocked loader at first but support fixed it in 2hrs — destiny 2 esp looks clean in private matches',
 		slug: 'destiny-2-cheat-setup-review-stormchaser07',
 		seoTitle: 'Setup Review by @stormChaser_07 — 3/5 | {brand}',
 		seoDescription:
-			'@stormChaser_07 rates {brand} destiny 2 cheats setup 3/5 — ESP solid after support helped on Windows PC.',
+			'@stormChaser_07 rates {brand} destiny 2 hacks setup 3/5 — ESP solid after support helped on Windows PC.',
 		date: '2026-06-15',
 		tag: 'Setup',
 	}),
 	reviewMeta({
 		handle: 'lootGoblinx',
 		rating: 5,
-		text: 'mainly wanted guardian esp and chest tracking for d2. these destiny 2 cheats show flanks and third parties earlier than my brain does lol. fireteam runs are way less chaos when you know whos pushing. way better than random free d2 hacks that look sketchy af',
-		short: 'guardian esp on these destiny 2 cheats catches flanks early — way better than sketchy free d2 hacks',
+		text: 'mainly wanted guardian esp and chest tracking for d2. these destiny 2 hacks show flanks and third parties earlier than my brain does lol. fireteam runs are way less chaos when you know whos pushing. way better than random free d2 hacks that look sketchy af',
+		short: 'guardian esp on these destiny 2 hacks catches flanks early — way better than sketchy free d2 hacks',
 		slug: 'destiny-2-guardian-esp-review-lootgoblinx',
 		seoTitle: 'Guardian ESP Review by @lootGoblinx — 5/5 | {brand}',
 		seoDescription:
@@ -428,7 +428,7 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'rankedGrind42',
 		rating: 4,
-		text: 'using destiny 2 cheats since the new season dropped. per weapon no recoil profiles help on hand cannons vs auto rifles which is nice. status page was slow after BattlEye update but build was back next morning. solid d2 hacks for long grind sessions in comp',
+		text: 'using destiny 2 hacks since the new season dropped. per weapon no recoil profiles help on hand cannons vs auto rifles which is nice. status page was slow after BattlEye update but build was back next morning. solid d2 hacks for long grind sessions in comp',
 		short: 'destiny 2 no recoil profiles help per weapon in comp — back online next day after battleye patch',
 		slug: 'destiny-2-no-recoil-review-rankedgrind42',
 		seoTitle: 'No Recoil Review by @rankedGrind42 — 4/5 | {brand}',
@@ -440,8 +440,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'vanLifeD2',
 		rating: 5,
-		text: 'everyone talks esp but the radar on these destiny 2 cheats is cracked. caught a flank twice in one Trials match without staring at wallhack boxes. esp + radar combo feels legit tier 1 d2 cheats. running low opacity so it doesnt scream cheat in clips',
-		short: 'radar on these destiny 2 cheats caught Trials flanks twice — esp + radar combo feels like real d2 hacks',
+		text: 'everyone talks esp but the radar on these destiny 2 hacks is cracked. caught a flank twice in one Trials match without staring at wallhack boxes. esp + radar combo feels legit tier 1 d2 hacks. running low opacity so it doesnt scream cheat in clips',
+		short: 'radar on these destiny 2 hacks caught Trials flanks twice — esp + radar combo feels like real d2 hacks',
 		slug: 'destiny-2-radar-hack-review-vanlifed2',
 		seoTitle: 'Radar Review by @vanLifeD2 — 5/5 | {brand}',
 		seoDescription:
@@ -452,20 +452,20 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'patchDayMike',
 		rating: 4,
-		text: 'destiny 2 patch day is when half the cheat discords go silent lol. destiny 2 cheats team posted on status in like 3 hrs and i was back in comp queue next morning. old provider left me waiting 4 days with no loader. not perfect but way better d2 cheats support than im used to',
-		short: 'patch day usually kills d2 hacks — these destiny 2 cheats were back next morning, old provider took 4 days',
+		text: 'destiny 2 patch day is when half the cheat discords go silent lol. destiny 2 hacks team posted on status in like 3 hrs and i was back in comp queue next morning. old provider left me waiting 4 days with no loader. not perfect but way better d2 hacks support than im used to',
+		short: 'patch day usually kills d2 hacks — these destiny 2 hacks were back next morning, old provider took 4 days',
 		slug: 'destiny-2-battleye-update-review-patchdaymike',
 		seoTitle: 'Status Review by @patchDayMike — 4/5 | {brand}',
 		seoDescription:
-			'@patchDayMike rates {brand} destiny 2 cheats status updates 4/5 after {antiCheat} patches on Windows PC.',
+			'@patchDayMike rates {brand} destiny 2 hacks status updates 4/5 after {antiCheat} patches on Windows PC.',
 		date: '2026-06-09',
 		tag: 'BattlEye updates',
 	}),
 	reviewMeta({
 		handle: 'snipezOnly_',
 		rating: 5,
-		text: 'sniper main here. destiny 2 aimbot with esp callouts is stupid strong if you keep settings lowkey. no bloat loader, simple install on win11. best d2 cheats ive used for Trials sessions — just dont crank fov like an idiot',
-		short: 'sniper main — aimbot + esp on these destiny 2 cheats hits different in Trials if you keep settings subtle',
+		text: 'sniper main here. destiny 2 aimbot with esp callouts is stupid strong if you keep settings lowkey. no bloat loader, simple install on win11. best d2 hacks ive used for Trials sessions — just dont crank fov like an idiot',
+		short: 'sniper main — aimbot + esp on these destiny 2 hacks hits different in Trials if you keep settings subtle',
 		slug: 'destiny-2-silent-aim-review-snipezonly',
 		seoTitle: 'Silent Aim Review by @snipezOnly_ — 5/5 | {brand}',
 		seoDescription:

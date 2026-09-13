@@ -110,7 +110,7 @@ export function stripResellerFromMeta(text) {
 		.replace(/\s*order delivery\.?/gi, ' instant digital delivery.')
 		.replace(/\s*and order delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant order Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on secure checkout/g, 'Buy Destiny 2 Cheats')
+		.replace(/Buy on secure checkout/g, 'Buy Destiny 2 Hacks')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }

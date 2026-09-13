@@ -21,8 +21,8 @@
   },
   "hero": {
     "accent": "Undetected Destiny 2作弊",
-    "accentShort": "Destiny 2 Cheats",
-    "title": "Destiny 2 Cheats",
+    "accentShort": "Destiny 2 Hacks",
+    "title": "Destiny 2 Hacks",
     "subtitle": "适用于Destiny 2 Windows PC的ESP wallhack、radar hack和Aimbot — 含BattlEye维护。",
     "subtitleShort": "Destiny 2 PC版ESP、radar与Aimbot",
     "buyNow": "立即购买",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "在线",
-    "statusNote": "Destiny 2 Cheats套餐已在Destiny 2 Windows PC上线。",
+    "statusNote": "Destiny 2 Hacks套餐已在Destiny 2 Windows PC上线。",
     "statusShort": "运行中",
     "delivery": "即时数字交付",
     "platform": "Windows 10 和 11",
@@ -48,7 +48,7 @@
     "antiCheatShort": "BattlEye支持"
   },
   "product": {
-    "title": "Destiny 2 Cheats",
+    "title": "Destiny 2 Hacks",
     "addToCart": "加入购物车",
     "monthly": "月付",
     "lifetime": "终身",
@@ -66,18 +66,18 @@
   },
   "reviews": {
     "title": "玩家评价",
-    "subtitle": "Destiny 2 Cheats 买家近期反馈",
+    "subtitle": "Destiny 2 Hacks 买家近期反馈",
     "outOf": "/5",
     "countLabel": "条评价",
     "eyebrow": "玩家评价",
-    "homeTitle": "Destiny 2 Cheats 玩家评价",
+    "homeTitle": "Destiny 2 Hacks 玩家评价",
     "buyerReviews": "条评价",
     "averageAria": "玩家评价",
     "outOfFiveAria": "/5",
     "readAll": "→"
   },
   "common": {
-    "buyNow": "Buy Destiny 2 Cheats",
+    "buyNow": "Buy Destiny 2 Hacks",
     "readGuide": "Read guide",
     "language": "Language",
     "officialLanguageNote": "English is official; other locales are translated.",
@@ -149,7 +149,7 @@
     "setup": "Setup",
     "updates": "Updates",
     "home": "Home",
-    "cheats": "Cheats",
+    "cheats": "Hacks",
     "hacks": "Hacks",
     "aimbot": "Aimbot",
     "esp": "ESP",
@@ -175,7 +175,7 @@
     "explore": "探索",
     "help": "帮助与法律",
     "tagline": "Destiny 2 undetected ESP、wallhack、radar与Aimbot — 通过secure checkout结账。",
-    "copyright": "© {{year}} Destiny 2 Cheats. All rights reserved.",
+    "copyright": "© {{year}} Destiny 2 Hacks. All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of use",
     "refund": "Refund policy"
@@ -195,7 +195,7 @@
     "customizable": "Customizable"
   },
   "pricing": {
-    "title": "Destiny 2 cheats pricing",
+    "title": "Destiny 2 hacks pricing",
     "subtitle": "Monthly and lifetime plans with the same features. Instant digital delivery.",
     "monthlyTitle": "Monthly",
     "lifetimeTitle": "Lifetime",
@@ -207,22 +207,22 @@
     "buyLifetime": "Buy lifetime"
   },
   "setup": {
-    "title": "Destiny 2 cheats setup",
+    "title": "Destiny 2 hacks setup",
     "subtitle": "Install and activate on Windows PC in under 20 minutes."
   },
   "updates": {
-    "title": "Destiny 2 cheats status",
+    "title": "Destiny 2 hacks status",
     "subtitle": "Live undetected status after Bungie and BattlEye patches."
   },
   "faq": {
     "items": {
       "what-are-destiny-2-cheats": {
-        "q": "¿Qué es Destiny 2 Cheats?",
-        "a": "Destiny 2 Cheats es un paquete de cheats undetected para Destiny 2 en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento BattlEye y soporte de instalación."
+        "q": "¿Qué es Destiny 2 Hacks?",
+        "a": "Destiny 2 Hacks es un paquete de cheats undetected para Destiny 2 en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento BattlEye y soporte de instalación."
       },
       "are-destiny-2-cheats-undetected-in-2026": {
-        "q": "¿Los Destiny 2 Cheats son undetected en 2026?",
-        "a": "Destiny 2 Cheats se mantiene para Destiny 2 con reconstrucciones tras parches de BattlEye y del juego. Revisa la 状态 antes de entrar en match. Ningún cheat puede garantizar indetectabilidad permanente."
+        "q": "¿Los Destiny 2 Hacks son undetected en 2026?",
+        "a": "Destiny 2 Hacks se mantiene para Destiny 2 con reconstrucciones tras parches de BattlEye y del juego. Revisa la 状态 antes de entrar en match. Ningún cheat puede garantizar indetectabilidad permanente."
       },
       "solo-farmer-and-raider-sessions": {
         "q": "适用于大逃杀回合和排位赛吗？",
@@ -230,7 +230,7 @@
       },
       "esp-wallhack-radar-or-aimbot": {
         "q": "¿Qué incluye: ESP, wallhack, radar o Aimbot?",
-        "a": "Destiny 2 Cheats agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta 功能 para la lista completa."
+        "a": "Destiny 2 Hacks agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta 功能 para la lista completa."
       },
       "how-are-licenses-delivered": {
         "q": "¿Cómo se entregan las licencias?",
@@ -246,88 +246,88 @@
       },
       "what-is-a-destiny-2-wallhack": {
         "q": "什么是 Destiny 2 wallhack？",
-        "a": "Destiny 2 wallhack 是一种 ESP 覆盖层，可透过地形显示敌方英雄。Destiny 2 Cheats 包含距离读数、钩锁与大招提示，以及可切换类别。"
+        "a": "Destiny 2 wallhack 是一种 ESP 覆盖层，可透过地形显示敌方英雄。Destiny 2 Hacks 包含距离读数、钩锁与大招提示，以及可切换类别。"
       },
       "does-destiny-2-cheats-include-radar-hack": {
-        "q": "¿Destiny 2 Cheats incluye radar hack?",
-        "a": "Sí. Destiny 2 Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de zone."
+        "q": "¿Destiny 2 Hacks incluye radar hack?",
+        "a": "Sí. Destiny 2 Hacks incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de zone."
       },
       "battleye-anti-cheat-and-destiny-2-cheats": {
-        "q": "¿Cómo afecta BattlEye a los Destiny 2 Cheats?",
-        "a": "BattlEye monitoriza Destiny 2 en PC Windows. Destiny 2 Cheats publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar."
+        "q": "¿Cómo afecta BattlEye a los Destiny 2 Hacks?",
+        "a": "BattlEye monitoriza Destiny 2 en PC Windows. Destiny 2 Hacks publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar."
       },
       "buy-undetected-destiny-2-cheats-windows-pc": {
         "q": "¿Puedo comprar trucos undetected de Destiny 2 para PC Windows?",
-        "a": "Sí: Destiny 2 Cheats vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la 商店 antes del checkout."
+        "a": "Sí: Destiny 2 Hacks vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la 商店 antes del checkout."
       },
       "how-much-do-destiny-2-cheats-cost": {
-        "q": "How much do destiny 2 cheats cost in 2026?",
-        "a": "Destiny 2 Cheats is $35 per month or $150 lifetime USD on Windows PC. Both plans include ESP wallhack, 2D radar, soft aim, and BattlEye maintenance rebuilds. See Pricing for the latest plan details before checkout."
+        "q": "How much do destiny 2 hacks cost in 2026?",
+        "a": "Destiny 2 Hacks is $35 per month or $150 lifetime USD on Windows PC. Both plans include ESP wallhack, 2D radar, soft aim, and BattlEye maintenance rebuilds. See Pricing for the latest plan details before checkout."
       },
       "what-is-destiny-2-esp-hack": {
         "q": "什么是 Destiny 2 ESP hack？",
-        "a": "Destiny 2 ESP hack 是一种可见性覆盖层，可透过墙壁显示敌方英雄、武器和物资。Destiny 2 Cheats ESP 包含玩家框、距离标签、钩锁与大招提示，以及 Quick Play 和 Ranked 的可切换类别。"
+        "a": "Destiny 2 ESP hack 是一种可见性覆盖层，可透过墙壁显示敌方英雄、武器和物资。Destiny 2 Hacks ESP 包含玩家框、距离标签、钩锁与大招提示，以及 Quick Play 和 Ranked 的可切换类别。"
       },
       "what-is-destiny-2-aimbot-hack": {
         "q": "什么是 Destiny 2 aimbot hack？",
-        "a": "Destiny 2 aimbot hack 提供可配置 FOV、平滑度和骨骼优先级的瞄准辅助。Destiny 2 Cheats 使用在团战和决斗中感觉自然的软自瞄配置 — 在 Ranked 排队前于 mod 菜单调整。"
+        "a": "Destiny 2 aimbot hack 提供可配置 FOV、平滑度和骨骼优先级的瞄准辅助。Destiny 2 Hacks 使用在团战和决斗中感觉自然的软自瞄配置 — 在 Ranked 排队前于 mod 菜单调整。"
       },
       "how-to-install-destiny-2-cheats": {
-        "q": "How do I install destiny 2 cheats on Windows PC?",
-        "a": "After checkout, follow the Setup guide: download the loader, disable conflicting overlays, launch Destiny 2 Cheats, and enable ESP, radar, or aimbot toggles in the mod menu. Most buyers finish first launch in under 15 minutes. Email support@destiny2hack.net if activation fails."
+        "q": "How do I install destiny 2 hacks on Windows PC?",
+        "a": "After checkout, follow the Setup guide: download the loader, disable conflicting overlays, launch Destiny 2 Hacks, and enable ESP, radar, or aimbot toggles in the mod menu. Most buyers finish first launch in under 15 minutes. Email support@destiny2hack.net if activation fails."
       },
       "best-destiny-2-cheats-in-2026": {
-        "q": "What are the best destiny 2 cheats in 2026?",
-        "a": "Top destiny 2 cheats in 2026 combine undetected ESP, soft aim, 2D radar, and fast BattlEye maintenance after patches. Destiny 2 Cheats bundles all three in one license with status notes, setup support, and monthly or lifetime pricing — compare Features and Reviews before you buy."
+        "q": "What are the best destiny 2 hacks in 2026?",
+        "a": "Top destiny 2 hacks in 2026 combine undetected ESP, soft aim, 2D radar, and fast BattlEye maintenance after patches. Destiny 2 Hacks bundles all three in one license with status notes, setup support, and monthly or lifetime pricing — compare Features and Reviews before you buy."
       },
       "monthly-vs-lifetime-destiny-2-cheats": {
-        "q": "Should I buy monthly or lifetime destiny 2 cheats?",
+        "q": "Should I buy monthly or lifetime destiny 2 hacks?",
         "a": "Choose monthly ($35) if you want a lower entry cost or only play a few seasons. Choose lifetime ($150) if you plan long-term Destiny 2 play and want one payment for ESP, radar, aimbot, and future maintenance rebuilds. Both plans ship the same feature set."
       },
       "destiny-2-cheats-windows-11": {
-        "q": "Do destiny 2 cheats work on Windows 11?",
-        "a": "Yes. Destiny 2 Cheats supports Windows 10 and Windows 11 on PC. Use a clean install path from the Setup guide, keep BattlEye status green on the Updates page, and avoid running outdated builds after major patches."
+        "q": "Do destiny 2 hacks work on Windows 11?",
+        "a": "Yes. Destiny 2 Hacks supports Windows 10 and Windows 11 on PC. Use a clean install path from the Setup guide, keep BattlEye status green on the Updates page, and avoid running outdated builds after major patches."
       },
       "what-is-destiny-2-soft-aim": {
         "q": "什么是 Destiny 2 aimbot？",
-        "a": "Destiny 2 aimbot 在设定 FOV 内温和引导瞄准，而非瞬间吸附。Destiny 2 Cheats 可调整平滑度、骨骼优先级和按武器类型的配置，在 Quick Play 和 Ranked 中保持可控辅助。"
+        "a": "Destiny 2 aimbot 在设定 FOV 内温和引导瞄准，而非瞬间吸附。Destiny 2 Hacks 可调整平滑度、骨骼优先级和按武器类型的配置，在 Quick Play 和 Ranked 中保持可控辅助。"
       },
       "free-destiny-2-cheat-download": {
         "q": "Is there a free Destiny 2 hack download?",
-        "a": "Destiny 2 Cheats is a paid license — there is no official free download. Avoid random “free destiny 2 cheat” sites; they often ship malware or detected loaders. Compare monthly and lifetime plans on Pricing for legitimate ESP, radar, and aimbot access with support."
+        "a": "Destiny 2 Hacks is a paid license — there is no official free download. Avoid random “free destiny 2 cheat” sites; they often ship malware or detected loaders. Compare monthly and lifetime plans on Pricing for legitimate ESP, radar, and aimbot access with support."
       },
       "naraka-battleye-bypass": {
-        "q": "How does BattlEye bypass work for destiny 2 cheats?",
-        "a": "There is no permanent BattlEye bypass. Destiny 2 Cheats is maintained with rebuilds after Destiny 2 and BattlEye patches — check the Updates page before you queue. Responsible settings and loading the latest build matter more than any “bypass” claim."
+        "q": "How does BattlEye bypass work for destiny 2 hacks?",
+        "a": "There is no permanent BattlEye bypass. Destiny 2 Hacks is maintained with rebuilds after Destiny 2 and BattlEye patches — check the Updates page before you queue. Responsible settings and loading the latest build matter more than any “bypass” claim."
       },
       "destiny-2-cheats-for-ranked": {
-        "q": "destiny 2 cheats 在排位竞技中可用吗？",
+        "q": "destiny 2 hacks 在排位竞技中可用吗？",
         "a": "是的。ESP、雷达和软自瞄专为 Windows PC 上 Destiny 2 的 Ranked 和 Quick Play 设计。使用保守的覆盖层设置，补丁后阅读维护说明，并在竞技排队前于更新页面确认 undetected 状态。"
       },
       "what-is-destiny-2-mod-menu": {
         "q": "What is a Destiny 2 mod menu?",
-        "a": "A Destiny 2 mod menu is an in-game overlay to toggle ESP wallhack, radar, aimbot, and visual settings without alt-tabbing. Destiny 2 Cheats ships a lightweight mod menu for Windows PC — see Features for the full toggle list."
+        "a": "A Destiny 2 mod menu is an in-game overlay to toggle ESP wallhack, radar, aimbot, and visual settings without alt-tabbing. Destiny 2 Hacks ships a lightweight mod menu for Windows PC — see Features for the full toggle list."
       },
       "external-vs-internal-destiny-2-cheats": {
-        "q": "What is the difference between external and internal destiny 2 cheats?",
-        "a": "External hacks read game memory from outside the client; internal hooks run inside the process. Destiny 2 Cheats is built as an external-style package for easier setup on Windows PC, bundling ESP, radar, and soft aim with BattlEye maintenance after patches."
+        "q": "What is the difference between external and internal destiny 2 hacks?",
+        "a": "External hacks read game memory from outside the client; internal hooks run inside the process. Destiny 2 Hacks is built as an external-style package for easier setup on Windows PC, bundling ESP, radar, and soft aim with BattlEye maintenance after patches."
       },
       "how-long-destiny-2-cheat-setup-takes": {
-        "q": "How long does destiny 2 cheats setup take?",
-        "a": "Most buyers finish Destiny 2 Cheats setup in 10–20 minutes on Windows PC: install the loader, activate the license, and enable ESP or aimbot in the mod menu. If Windows Defender or another AV blocks the loader, follow Setup troubleshooting or email support@destiny2hack.net with your order ID."
+        "q": "How long does destiny 2 hacks setup take?",
+        "a": "Most buyers finish Destiny 2 Hacks setup in 10–20 minutes on Windows PC: install the loader, activate the license, and enable ESP or aimbot in the mod menu. If Windows Defender or another AV blocks the loader, follow Setup troubleshooting or email support@destiny2hack.net with your order ID."
       },
       "does-destiny-2-cheats-include-triggerbot": {
-        "q": "Does Destiny 2 Cheats include triggerbot?",
-        "a": "Destiny 2 Cheats focuses on ESP wallhack, 2D radar, and soft aim profiles. Triggerbot is not advertised as a standalone module — review the Features page for the current toggle list before checkout."
+        "q": "Does Destiny 2 Hacks include triggerbot?",
+        "a": "Destiny 2 Hacks focuses on ESP wallhack, 2D radar, and soft aim profiles. Triggerbot is not advertised as a standalone module — review the Features page for the current toggle list before checkout."
       },
       "destiny-2-battleye-bypass": {
-        "q": "destiny 2 cheats 的 BattlEye bypass 如何运作？",
-        "a": "没有永久的 BattlEye bypass。Destiny 2 Cheats 在 Destiny 2 和 BattlEye 补丁后通过重建维护 — 排队前请查看更新页面。负责任的设置和最新版本比任何“bypass”宣传更重要。"
+        "q": "destiny 2 hacks 的 BattlEye bypass 如何运作？",
+        "a": "没有永久的 BattlEye bypass。Destiny 2 Hacks 在 Destiny 2 和 BattlEye 补丁后通过重建维护 — 排队前请查看更新页面。负责任的设置和最新版本比任何“bypass”宣传更重要。"
       }
     }
   },
   "support": {
-    "title": "Destiny 2 cheats support",
+    "title": "Destiny 2 hacks support",
     "subtitle": "Email support with your order ID for license and setup help."
   },
   "blog": {
@@ -335,50 +335,50 @@
     "subtitle": "Guides, patch tips, and cheat feature explainers for PC players.",
     "readMore": "Read article",
     "allPosts": "All posts",
-    "blogTitle": "Destiny 2 Cheats Blog | Guides & Patch Tips",
+    "blogTitle": "Destiny 2 Hacks Blog | Guides & Patch Tips",
     "blogDescription": "Destiny 2 guides — battle royale tips, ESP, aimbot notes, movement routes, and BattlEye update coverage. English blog at destiny2hack.net/blog/.",
-    "blogH1": "Destiny 2 Cheats Intel",
-    "blogIntro": "Actionable Destiny 2 guides for ranked and Quickplay sessions — meta breakdowns, movement routes, loadout tiers, and pro warmup routines. Pair these tips with our Destiny 2 Cheats pages for ESP, soft aim, and radar when you need in-match tools."
+    "blogH1": "Destiny 2 Hacks Intel",
+    "blogIntro": "Actionable Destiny 2 guides for ranked and Quickplay sessions — meta breakdowns, movement routes, loadout tiers, and pro warmup routines. Pair these tips with our Destiny 2 Hacks pages for ESP, soft aim, and radar when you need in-match tools."
   },
   "gallery": {
-    "eyebrow": "Destiny 2 Cheats",
-    "title": "Destiny 2 Cheats gallery",
-    "subtitle": "Destiny 2 Cheats visuals — ESP, wallhack, aimbot, and radar for Destiny 2 on PC.",
-    "lead": "Destiny 2 Cheats helps you spot enemy heroes, loot, and high-traffic POIs with ESP, aimbot, and radar in one license.",
-    "highlightEspTitle": "Destiny 2 Cheats ESP",
-    "highlightEspCopy": "See enemy heroes through walls with Destiny 2 Cheats ESP and wallhack overlays.",
-    "highlightRadarTitle": "Destiny 2 Cheats radar",
-    "highlightRadarCopy": "Track nearby threats with Destiny 2 Cheats radar before you push or rotate.",
-    "highlightAimbotTitle": "Destiny 2 Cheats aimbot",
+    "eyebrow": "Destiny 2 Hacks",
+    "title": "Destiny 2 Hacks gallery",
+    "subtitle": "Destiny 2 Hacks visuals — ESP, wallhack, aimbot, and radar for Destiny 2 on PC.",
+    "lead": "Destiny 2 Hacks helps you spot enemy heroes, loot, and high-traffic POIs with ESP, aimbot, and radar in one license.",
+    "highlightEspTitle": "Destiny 2 Hacks ESP",
+    "highlightEspCopy": "See enemy heroes through walls with Destiny 2 Hacks ESP and wallhack overlays.",
+    "highlightRadarTitle": "Destiny 2 Hacks radar",
+    "highlightRadarCopy": "Track nearby threats with Destiny 2 Hacks radar before you push or rotate.",
+    "highlightAimbotTitle": "Destiny 2 Hacks aimbot",
     "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Destiny 2 matches on Windows PC.",
-    "updatesLabel": "Destiny 2 Cheats updates",
+    "updatesLabel": "Destiny 2 Hacks updates",
     "updatesShort": "Updates"
   },
   "seo": {
-    "homeTitle": "Destiny 2 Cheats 2026 | ESP, Aimbot & Wallhack",
-    "homeDescription": "Destiny 2 cheats with ESP, aimbot, and wallhack for Crucible, Trials, and PvE on Windows PC. No recoil, triggerbot, and BattlEye maintenance included."
+    "homeTitle": "Destiny 2 Hacks 2026 | ESP, Aimbot & Wallhack",
+    "homeDescription": "Destiny 2 hacks with ESP, aimbot, and wallhack for Crucible, Trials, and PvE on Windows PC. No recoil, triggerbot, and BattlEye maintenance included."
   },
   "pages": {
     "home": {
-      "title": "Destiny 2 Cheats 2026 | ESP, Aimbot & Wallhack",
-      "description": "Destiny 2 cheats with ESP, aimbot, and wallhack for Crucible and Trials on Windows PC."
+      "title": "Destiny 2 Hacks 2026 | ESP, Aimbot & Wallhack",
+      "description": "Destiny 2 hacks with ESP, aimbot, and wallhack for Crucible and Trials on Windows PC."
     },
     "features": {
-      "title": "Destiny 2 Cheats Features | ESP, Aimbot & Wallhack",
-      "description": "Full Destiny 2 cheats feature list — aimbot, ESP, wallhack, no recoil, triggerbot, radar, and movement hacks."
+      "title": "Destiny 2 Hacks Features | ESP, Aimbot & Wallhack",
+      "description": "Full Destiny 2 hacks feature list — aimbot, ESP, wallhack, no recoil, triggerbot, radar, and movement hacks."
     },
     "pricing": {
-      "title": "Destiny 2 Cheats Pricing | $35/mo Lifetime",
-      "description": "Buy Destiny 2 cheats — monthly and lifetime plans with ESP, aimbot, and wallhack for PC."
+      "title": "Destiny 2 Hacks Pricing | $35/mo Lifetime",
+      "description": "Buy Destiny 2 hacks — monthly and lifetime plans with ESP, aimbot, and wallhack for PC."
     }
   },
   "meta": {
-    "siteName": "Destiny 2 Cheats",
-    "siteDescription": "Undetected Destiny 2 cheats with ESP, aimbot, wallhack, no recoil, and triggerbot for Windows PC."
+    "siteName": "Destiny 2 Hacks",
+    "siteDescription": "Undetected Destiny 2 hacks with ESP, aimbot, wallhack, no recoil, and triggerbot for Windows PC."
   },
   "breadcrumb": {
     "home": "Home",
-    "cheats": "Cheats",
+    "cheats": "Hacks",
     "features": "Features",
     "pricing": "Pricing",
     "setup": "Setup",
@@ -402,7 +402,7 @@
     "blog": "Blog"
   },
   "homeAbout": {
-    "title": "About Destiny 2 Cheats",
+    "title": "About Destiny 2 Hacks",
     "subtitle": "Undetected ESP, aimbot, wallhack, no recoil, triggerbot, and radar for PC."
   },
   "homeSeo": {
@@ -426,7 +426,7 @@
     "linkSetup": "安装",
     "linkPlans": "价格",
     "linkReviews": "玩家评价",
-    "linkFinalsCheats": "Destiny 2 Cheats",
+    "linkFinalsCheats": "Destiny 2 Hacks",
     "linkFaq": "常见问题",
     "linkSupport": "Support",
     "linkSetupGuide": "安装",
@@ -465,6 +465,11 @@
     "platform": "Windows PC",
     "antiCheat": "BattlEye supported"
   },
+  "trustStrip": {
+    "instantDelivery": "即时数字交付",
+    "secureCheckout": "立即购买",
+    "support247": "24/7"
+  },
   "localeSuggest": {
     "title": "Language suggestion",
     "message": "View this page in {{language}}?",
@@ -481,20 +486,29 @@
     "refundTitle": "Refund Policy"
   },
   "compare": {
-    "title": "Destiny 2 cheats comparison",
+    "title": "Destiny 2 hacks comparison",
     "subtitle": "How our package compares to typical budget cheat shops."
   },
   "about": {
-    "title": "About Destiny 2 Cheats",
+    "title": "About Destiny 2 Hacks",
     "subtitle": "Editorial standards and testing process for our cheat software."
   },
   "writeForUs": {
-    "title": "Write for Destiny 2 Cheats",
+    "title": "Write for Destiny 2 Hacks",
     "subtitle": "Guest post guidelines for our blog."
   },
   "guides": {
     "title": "Destiny 2 guides",
-    "subtitle": "Strategy and feature guides for PC players."
+    "subtitle": "Strategy and feature guides for PC players.",
+    "hubTitle": "Game Guides Hub",
+    "hubIntro": "Destiny 2 Hacks product guides sit at the top. Scroll down for cheat guides by game — ESP, aimbot, setup, and undetected tips.",
+    "nativeTitle": "Destiny 2 Hacks guides",
+    "nativeLede": "Our primary guides for ESP, aimbot, radar, setup, and pricing on destiny2hack.net.",
+    "gameTitle": "Other Game Cheat Guides",
+    "gameLede": "Cheat guides by game — Fortnite, Tarkov, Warzone, Marvel Rivals, and more.",
+    "readGuide": "Read guide",
+    "published": "Published",
+    "updated": "Updated"
   },
   "status": {
     "online": "Online",
@@ -505,7 +519,7 @@
     "redirect": "Redirecting to checkout…"
   },
   "images": {
-    "hero": "Destiny 2 Cheats hero — ESP and aimbot overlay in Destiny 2",
+    "hero": "Destiny 2 Hacks hero — ESP and aimbot overlay in Destiny 2",
     "esp": "Destiny 2 ESP wallhack showing enemy guardians through cover",
     "aimbot": "Destiny 2 aimbot with lock-on reticle in Crucible PvP",
     "wallhack": "Destiny 2 wallhack ESP with skeleton overlays",
@@ -515,16 +529,16 @@
     "movement": "Destiny 2 movement hack with fly and jump multiplier",
     "espWallhack": "Wallhack outlines showing agents through walls",
     "aimbotCombat": "aimbot assist overlay during a Destiny 2 match",
-    "squadFight": "Destiny 2 Cheats combat overlay during a team fight",
+    "squadFight": "Destiny 2 Hacks combat overlay during a team fight",
     "playerEsp": "Player ESP boxes and distance readouts in a Destiny 2 match",
     "headerArt": "Aimbot view and bone priority controls for Destiny 2",
     "hacksPackage": "radar overlay threat overlay for Destiny 2",
     "raidFight": "Aimbot assist during a Destiny 2 PvP gunfights",
-    "battleRoyale": "Destiny 2 Cheats in-session overview for Windows PC",
+    "battleRoyale": "Destiny 2 Hacks in-session overview for Windows PC",
     "raidMap": "ESP markers for hero skills and POIs in Destiny 2"
   },
   "media": {
-    "demoVideoTitle": "Destiny 2 Cheats ESP, Aimbot demo",
+    "demoVideoTitle": "Destiny 2 Hacks ESP, Aimbot demo",
     "playVideo": "Play video"
   },
   "externalResources": {
@@ -554,11 +568,11 @@
     }
   },
   "internalLinks": {
-    "relatedLede": "Destiny 2 Cheats — 相关页面.",
+    "relatedLede": "Destiny 2 Hacks — 相关页面.",
     "topicsTitle": "功能",
     "topicsLabel": "功能",
     "topicsLede": "ESP, Aimbot, 价格, 安装, 更新.",
-    "overview": "Destiny 2 Cheats",
+    "overview": "Destiny 2 Hacks",
     "esp": "ESP & wallhack",
     "aimbot": "Aimbot",
     "radar": "Radar",
@@ -577,23 +591,18 @@
     "aboutTitle": "Destiny 2的undetected外挂",
     "aboutP1": "Destiny 2 Windows PC undetected套餐：ESP wallhack、radar、Aimbot，含BattlEye维护。 价格 · 更新.",
     "aboutP2Before": "从",
-    "aboutPillar": "Destiny 2 Cheats指南",
+    "aboutPillar": "Destiny 2 Hacks指南",
     "aboutP2Mid": "、",
     "aboutEsp": "ESP指南",
     "aboutAimbot": "自瞄控制",
     "aboutP2Or": "，或",
     "aboutUndetected": "undetected状态",
     "aboutP2After": "开始，如果您还在比较工具。",
-    "demoVideoCaption": "Destiny 2 Cheats — ESP, aimbot & radar in match",
+    "demoVideoCaption": "Destiny 2 Hacks — ESP, aimbot & radar in match",
     "volumeLabel": "Volume",
     "seekLabel": "Video progress",
     "muteVideo": "Mute video",
     "unmuteVideo": "Unmute video",
     "aboutPricingCta": "比较价格"
-  },
-  "trustStrip": {
-    "instantDelivery": "即时数字交付",
-    "secureCheckout": "立即购买",
-    "support247": "24/7"
   }
 }

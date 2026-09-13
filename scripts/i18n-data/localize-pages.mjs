@@ -51,7 +51,7 @@ function localizeSection(enSection, locale, pageKey, sectionIndex) {
 function localizeMeta(enPage, locale, pageKey) {
 	const p = phrases[locale];
 	const home = PAGE_META_HOME[locale];
-	const meta = PAGE_META_TAILS[pageKey] ?? { suffix: 'Destiny 2 Cheats', focus: pageKey };
+	const meta = PAGE_META_TAILS[pageKey] ?? { suffix: 'Destiny 2 Hacks', focus: pageKey };
 	const suffix = SUFFIX_I18N[locale]?.[pageKey] ?? meta.suffix;
 	const focus = FOCUS_I18N[locale]?.[pageKey] ?? meta.focus;
 	const topicName = TOPIC_NAMES[pageKey]?.[locale] ?? TOPIC_NAMES[pageKey]?.en ?? pageKey;
@@ -60,12 +60,12 @@ function localizeMeta(enPage, locale, pageKey) {
 		title: clampTitle(stripResellerFromMeta(`${topicName} | ${suffix}`)),
 		description: clampDesc(
 			stripResellerFromMeta(
-				`${topicName} for Destiny 2 ranked & Trials on Windows PC — ${focus}. ${p.delivery}. ${p.undetected}. Official destiny 2 cheats at destiny2hack.net.`,
+				`${topicName} for Destiny 2 ranked & Trials on Windows PC — ${focus}. ${p.delivery}. ${p.undetected}. Official destiny 2 hacks at destiny2hack.net.`,
 			),
 		),
 		h1: `${topicName} — ${suffix}`,
 		intro: p.s1(`${topicName}. ${focus}.`),
-		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — Destiny 2 Cheats`,
+		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — Destiny 2 Hacks`,
 		galleryTitle: topicName,
 		ctaPrimary: p.buy,
 		ctaSecondary: home?.cta2 ?? p.buy,
@@ -99,15 +99,15 @@ function localizeRichPage(enPage, locale, pageKey) {
 const RICH_SECTION_H2 = {
 	es: {
 		'destiny-2-esp': ['Qué resuelve el ESP en matches', 'Categorías ESP jugador, apex y loot', 'ESP indetectable con mantenimiento EAC', 'ESP — siguientes pasos'],
-		hacks: ['¿Qué son los trucos de Destiny 2?', 'Qué incluye Destiny 2 Cheats', 'Estado indetectable y BattlEye', 'Primeros pasos'],
+		hacks: ['¿Qué son los trucos de Destiny 2?', 'Qué incluye Destiny 2 Hacks', 'Estado indetectable y BattlEye', 'Primeros pasos'],
 	},
 	fr: {
 		'destiny-2-esp': ['Ce que l\'ESP résout en match', 'Catégories ESP joueur, apex et loot', 'ESP indétectable avec maintenance EAC', 'ESP — prochaines étapes'],
-		hacks: ['Que sont les triches Destiny 2 ?', 'Ce que Destiny 2 Cheats inclut', 'Statut indétectable et BattlEye', 'Premiers pas'],
+		hacks: ['Que sont les triches Destiny 2 ?', 'Ce que Destiny 2 Hacks inclut', 'Statut indétectable et BattlEye', 'Premiers pas'],
 	},
 	de: {
 		'destiny-2-esp': ['Was ESP in matches löst', 'Spieler-, Apex- und Loot-ESP-Kategorien', 'Undetected ESP mit EAC-Wartung', 'ESP — nächste Schritte'],
-		hacks: ['Was sind Destiny 2 Cheats?', 'Was Destiny 2 Cheats enthält', 'Undetected-Status und BattlEye', 'Erste Schritte'],
+		hacks: ['Was sind Destiny 2 Hacks?', 'Was Destiny 2 Hacks enthält', 'Undetected-Status und BattlEye', 'Erste Schritte'],
 	},
 };
 

@@ -74,9 +74,8 @@ export const brand = {
 	 * Page-specific targeting lives in src/data/seo-keywords.ts
 	 */
 	keywords: {
-		primary: 'destiny 2 cheats',
+		primary: 'destiny 2 hacks',
 		list: [
-			'destiny 2 cheats',
 			'destiny 2 hacks',
 			'destiny 2 aimbot',
 			'destiny 2 esp',
@@ -84,17 +83,17 @@ export const brand = {
 			'destiny 2 no recoil',
 			'destiny 2 triggerbot',
 			'destiny 2 radar hack',
-			'd2 cheats',
 			'd2 hacks',
-			'destiny 2 cheat software',
+			'destiny 2 hack software',
 			'destiny 2 mod menu',
-			'destiny 2 cheats pc',
-			'destiny 2 cheats 2026',
-			'destiny 2 crucible cheats',
-			'destiny 2 trials cheats',
-			'destiny 2 pvp cheats',
+			'destiny 2 hacks pc',
+			'destiny 2 hacks 2026',
+			'destiny 2 crucible hacks',
+			'destiny 2 trials hacks',
+			'destiny 2 pvp hacks',
 			'destiny 2 unlock tool',
-			'best destiny 2 cheats',
+			'best destiny 2 hacks',
+			'undetected destiny 2 hacks',
 			'destiny 2 stream proof',
 		] as const,
 	},
@@ -106,19 +105,19 @@ export const brand = {
 	seo: {
 		homeTitle: 'Destiny 2 Hacks 2026 | ESP, Aimbot & Wallhack',
 		homeDescription:
-			'Destiny 2 cheats with ESP, aimbot, and wallhack for Crucible, Trials, and PvE on Windows PC. No recoil, triggerbot, radar, and BattlEye maintenance included. From $35/month.',
+			'Destiny 2 hacks with ESP, aimbot, and wallhack for Crucible, Trials, and PvE on Windows PC. No recoil, triggerbot, radar, and BattlEye maintenance included. From $35/month.',
 		featuresTitle: 'Destiny 2 Hacks Features | ESP, Aimbot & Wallhack',
 		featuresDescription:
-			'Full Destiny 2 cheats feature list — ESP wallhack, aimbot, triggerbot, no recoil, radar overlay, movement hacks, and stream-proof toggles for PC. BattlEye maintenance at destiny2hack.net.',
+			'Full Destiny 2 hacks feature list — ESP wallhack, aimbot, triggerbot, no recoil, radar overlay, movement hacks, and stream-proof toggles for PC. BattlEye maintenance at destiny2hack.net.',
 		storeTitle: 'Destiny 2 Hacks Pricing | $35/mo Lifetime',
 		storeDescription:
-			'Buy Destiny 2 cheats — $35/month or $150 lifetime. ESP, aimbot, wallhack, no recoil, and radar for Crucible and Trials on PC. Instant digital delivery worldwide.',
+			'Buy Destiny 2 hacks — $35/month or $150 lifetime. ESP, aimbot, wallhack, no recoil, and radar for Crucible and Trials on PC. Instant digital delivery worldwide.',
 		statusTitle: 'Destiny 2 Status | Undetected {antiCheat} Updates',
 		statusDescription:
 			'Live status after {game} & {antiCheat} patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. Status updated at destiny2hack.net.',
 		previewTitle: 'Destiny 2 Hacks | ESP, Aimbot & Wallhack Guide',
 		previewDescription:
-			'Destiny 2 cheats guide — undetected ESP wallhack, aimbot, triggerbot, no recoil, and radar with {antiCheat} rebuilds for Crucible and Trials on PC. Buy from $35 at destiny2hack.net.',
+			'Destiny 2 hacks guide — undetected ESP wallhack, aimbot, triggerbot, no recoil, and radar with {antiCheat} rebuilds for Crucible and Trials on PC. Buy from $35 at destiny2hack.net.',
 		setupTitle: 'Destiny 2 Hacks Setup | Windows PC Install Guide',
 		setupDescription:
 			'Install {brand} on PC — activate ESP, aimbot, and no recoil step by step. Setup guide at destiny2hack.net. Check {antiCheat} status before your first Crucible match.',
@@ -127,10 +126,10 @@ export const brand = {
 			'Support for license delivery, ESP setup & billing on PC. Email {email} with your order ID. Fast help at destiny2hack.net/support before you play.',
 		faqTitle: 'Destiny 2 Hacks FAQ | ESP, Aimbot & BattlEye',
 		faqDescription:
-			'FAQ for Destiny 2 cheats — delivery, setup, Crucible & Trials use, {antiCheat} updates & pricing on PC. Answers at destiny2hack.net before you buy.',
+			'FAQ for Destiny 2 hacks — delivery, setup, Crucible & Trials use, {antiCheat} updates & pricing on PC. Answers at destiny2hack.net before you buy.',
 		reviewsTitle: 'Destiny 2 Hacks Reviews | Hacks & Cheats Feedback',
 		reviewsDescription:
-			'Real buyer reviews for Destiny 2 cheats and hacks — ESP, aimbot, no recoil, radar & {antiCheat} maintenance on PC. See license holder feedback at destiny2hack.net.',
+			'Real buyer reviews for Destiny 2 hacks — ESP, aimbot, no recoil, radar & {antiCheat} maintenance on PC. See license holder feedback at destiny2hack.net.',
 		blogTitle: 'Destiny 2 Blog | Guides & Patch Tips | {brand}',
 		blogDescription:
 			'Destiny 2 guides — Crucible tips, ESP & aimbot notes, Trials meta & {antiCheat} updates for PC. Read patch notes and buyer guides at destiny2hack.net/blog.',
@@ -139,7 +138,7 @@ export const brand = {
 	/** On-page marketing copy (tokens allowed) */
 	copy: {
 		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and wallhack for PC',
-		summary: '{brand} is an undetected {game} cheats package for Windows PC. Includes ESP, aimbot, wallhack, no recoil, triggerbot, and radar, with {antiCheat} maintenance after patches.',
+		summary: '{brand} is an undetected {game} hacks package for Windows PC. Includes ESP, aimbot, wallhack, no recoil, triggerbot, and radar, with {antiCheat} maintenance after patches.',
 		heroLede: 'Undetected ESP, aimbot, wallhack, and no recoil for Destiny 2 on Windows PC.',
 		blogLabel: 'Destiny 2 Intel',
 		ctaBuy: 'Get Access',
@@ -152,7 +151,7 @@ export const brand = {
 		supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 		faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
 		reviewsIntro:
-			'Real feedback on Destiny 2 cheats and hacks — ESP, aimbot, no recoil, radar, and support from {brand} buyers.',
+			'Real feedback on Destiny 2 hacks and hacks — ESP, aimbot, no recoil, radar, and support from {brand} buyers.',
 		chipEsp: 'ESP / wallhack',
 		chipAim: 'Aimbot',
 		chipRadar: 'Radar hack',
@@ -175,7 +174,7 @@ export const brand = {
 		blogImageTitle: '{brand} blog',
 		blogImageCaption: 'Tips and updates for {primaryKeyword}',
 		reviewsImageTitle: '{brand} reviews',
-		reviewsImageCaption: 'Destiny 2 cheats & hacks — what buyers say about {primaryKeyword}',
+		reviewsImageCaption: 'Destiny 2 hacks & hacks — what buyers say about {primaryKeyword}',
 		images: [
 			{
 				src: '/images/destiny2-screenshot-11.webp',

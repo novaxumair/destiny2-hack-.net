@@ -2219,9 +2219,9 @@ export const guides: GuideDefinition[] = [
 	anchorText: "additional guides",
 	published: "2026-01-13",
 	updated: "2026-03-15",
-	title: "Destiny 2 Cheats Guide: Cheat Loader Setup (2026)",
+	title: "Destiny 2 Hacks Guide: Cheat Loader Setup (2026)",
 	metaDescription: "Destiny 2 cheat guide covering cheat loader setup, undetected status, and PC setup for looter shooter MMO — updated 2026.",
-	h1: "Destiny 2 Cheats — Cheat Loader Setup",
+	h1: "Destiny 2 Hacks — Cheat Loader Setup",
 	intro: "This Destiny 2 cheat guide covers cheat loader setup for PC players. Learn what features matter in strikes, raids, and Crucible PvP with buildcrafting, how BattlEye on PC with activity restrictions affects cheat use, and where to get a safe loader before you buy.",
 	imageUrl: "https://assets-prd.ignimgs.com/2025/03/12/destiny2heresy-1741800139522.jpg",
 	imageAlt: "Destiny 2 gameplay — IGN screenshot",
@@ -2243,12 +2243,12 @@ export const guides: GuideDefinition[] = [
 		{
 			h2: "Setup and loader install",
 			paragraphs: [
-				"Most Destiny 2 cheats use a simple loader: buy a key, download, run as admin, inject in-game. Disable Windows Defender for the install folder if the provider says so. Use the sensitivity and FOV defaults first.",
+				"Most Destiny 2 hacks use a simple loader: buy a key, download, run as admin, inject in-game. Disable Windows Defender for the install folder if the provider says so. Use the sensitivity and FOV defaults first.",
 				"Stable FPS helps aimbot feel smooth. Cap background apps and keep drivers current. Test in a private match before ranked or high-stakes looter shooter MMO lobbies."
 			]
 		},
 		{
-			h2: "Where to get Destiny 2 cheats",
+			h2: "Where to get Destiny 2 hacks",
 			paragraphs: [
 				"Compare pricing, refund policy, and support before you buy. Look for live status pages and Discord support. For Destiny 2 cheat downloads and feature lists, see <a href=\"https://destiny2cheats.com\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>.",
 				"Start with a short plan to test ESP and aimbot settings. One feature at a time beats turning everything on and getting reported."
@@ -4197,9 +4197,9 @@ export const guides: GuideDefinition[] = [
 	anchorText: "related resources",
 	published: "2026-04-16",
 	updated: "2026-03-15",
-	title: "Destiny 2 Cheats Guide: Aimbot Configuration (2026)",
+	title: "Destiny 2 Hacks Guide: Aimbot Configuration (2026)",
 	metaDescription: "Destiny 2 cheat guide covering aimbot configuration, undetected status, and PC setup for looter shooter MMO — updated 2026.",
-	h1: "Destiny 2 Cheats — Aimbot Configuration",
+	h1: "Destiny 2 Hacks — Aimbot Configuration",
 	intro: "This Destiny 2 cheat guide covers aimbot configuration for PC players. Learn what features matter in strikes, raids, and Crucible PvP with buildcrafting, how BattlEye on PC with activity restrictions affects cheat use, and where to get a safe loader before you buy.",
 	imageUrl: "https://assets-prd.ignimgs.com/2025/03/12/destiny2heresy-1741800139522.jpg",
 	imageAlt: "Destiny 2 gameplay — IGN screenshot",
@@ -4221,12 +4221,12 @@ export const guides: GuideDefinition[] = [
 		{
 			h2: "Setup and loader install",
 			paragraphs: [
-				"Most Destiny 2 cheats use a simple loader: buy a key, download, run as admin, inject in-game. Disable Windows Defender for the install folder if the provider says so. Use the sensitivity and FOV defaults first.",
+				"Most Destiny 2 hacks use a simple loader: buy a key, download, run as admin, inject in-game. Disable Windows Defender for the install folder if the provider says so. Use the sensitivity and FOV defaults first.",
 				"Stable FPS helps aimbot feel smooth. Cap background apps and keep drivers current. Test in a private match before ranked or high-stakes looter shooter MMO lobbies."
 			]
 		},
 		{
-			h2: "Where to get Destiny 2 cheats",
+			h2: "Where to get Destiny 2 hacks",
 			paragraphs: [
 				"Compare pricing, refund policy, and support before you buy. Look for live status pages and Discord support. For Destiny 2 cheat downloads and feature lists, see <a href=\"https://destiny2hack.com\" target=\"_blank\" rel=\"noopener noreferrer\">related resources</a>.",
 				"Start with a short plan to test ESP and aimbot settings. One feature at a time beats turning everything on and getting reported."
@@ -6175,9 +6175,9 @@ export const guides: GuideDefinition[] = [
 	anchorText: "additional guides",
 	published: "2026-07-19",
 	updated: "2026-03-15",
-	title: "Destiny 2 Cheats Guide: ESP And Wallhack Setup (2026)",
+	title: "Destiny 2 Hacks Guide: ESP And Wallhack Setup (2026)",
 	metaDescription: "Destiny 2 cheat guide covering ESP and wallhack setup, undetected status, and PC setup for looter shooter MMO — updated 2026.",
-	h1: "Destiny 2 Cheats — ESP And Wallhack Setup",
+	h1: "Destiny 2 Hacks — ESP And Wallhack Setup",
 	intro: "This Destiny 2 cheat guide covers ESP and wallhack setup for PC players. Learn what features matter in strikes, raids, and Crucible PvP with buildcrafting, how BattlEye on PC with activity restrictions affects cheat use, and where to get a safe loader before you buy.",
 	imageUrl: "https://assets-prd.ignimgs.com/2025/03/12/destiny2heresy-1741800139522.jpg",
 	imageAlt: "Destiny 2 gameplay — IGN screenshot",
@@ -6199,12 +6199,12 @@ export const guides: GuideDefinition[] = [
 		{
 			h2: "Setup and loader install",
 			paragraphs: [
-				"Most Destiny 2 cheats use a simple loader: buy a key, download, run as admin, inject in-game. Disable Windows Defender for the install folder if the provider says so. Use the sensitivity and FOV defaults first.",
+				"Most Destiny 2 hacks use a simple loader: buy a key, download, run as admin, inject in-game. Disable Windows Defender for the install folder if the provider says so. Use the sensitivity and FOV defaults first.",
 				"Stable FPS helps aimbot feel smooth. Cap background apps and keep drivers current. Test in a private match before ranked or high-stakes looter shooter MMO lobbies."
 			]
 		},
 		{
-			h2: "Where to get Destiny 2 cheats",
+			h2: "Where to get Destiny 2 hacks",
 			paragraphs: [
 				"Compare pricing, refund policy, and support before you buy. Look for live status pages and Discord support. For Destiny 2 cheat downloads and feature lists, see <a href=\"https://destiny2hacks.net\" target=\"_blank\" rel=\"noopener noreferrer\">additional guides</a>.",
 				"Start with a short plan to test ESP and aimbot settings. One feature at a time beats turning everything on and getting reported."

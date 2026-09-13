@@ -16,7 +16,7 @@ const HOME_CONNECTORS = {
 	fr: {
 		aboutPricingCta: 'Comparer les tarifs',
 		aboutP2Before: 'Commencez par le',
-		aboutPillar: 'pilier Destiny 2 Cheats',
+		aboutPillar: 'pilier Destiny 2 Hacks',
 		aboutEsp: 'guide ESP',
 		aboutAimbot: 'contrôles aimbot',
 		aboutUndetected: 'statut indétectable',
@@ -27,7 +27,7 @@ const HOME_CONNECTORS = {
 	de: {
 		aboutPricingCta: 'Preise vergleichen',
 		aboutP2Before: 'Starten Sie mit dem',
-		aboutPillar: 'Destiny 2 Cheats Leitfaden',
+		aboutPillar: 'Destiny 2 Hacks Leitfaden',
 		aboutEsp: 'ESP-Guide',
 		aboutAimbot: 'Aimbot-Steuerung',
 		aboutUndetected: 'Undetected-Status',
@@ -38,7 +38,7 @@ const HOME_CONNECTORS = {
 	pt: {
 		aboutPricingCta: 'Comparar preços',
 		aboutP2Before: 'Comece pelo',
-		aboutPillar: 'pilar Destiny 2 Cheats',
+		aboutPillar: 'pilar Destiny 2 Hacks',
 		aboutEsp: 'guia ESP',
 		aboutAimbot: 'controles de aimbot',
 		aboutUndetected: 'status indetectável',
@@ -49,7 +49,7 @@ const HOME_CONNECTORS = {
 	it: {
 		aboutPricingCta: 'Confronta i prezzi',
 		aboutP2Before: 'Inizia dal',
-		aboutPillar: 'pilastro Destiny 2 Cheats',
+		aboutPillar: 'pilastro Destiny 2 Hacks',
 		aboutEsp: 'guida ESP',
 		aboutAimbot: 'controlli aimbot',
 		aboutUndetected: 'stato indetectable',
@@ -60,7 +60,7 @@ const HOME_CONNECTORS = {
 	nl: {
 		aboutPricingCta: 'Prijzen vergelijken',
 		aboutP2Before: 'Begin met de',
-		aboutPillar: 'Destiny 2 Cheats-pijler',
+		aboutPillar: 'Destiny 2 Hacks-pijler',
 		aboutEsp: 'ESP-gids',
 		aboutAimbot: 'aimbot-bediening',
 		aboutUndetected: 'undetected-status',
@@ -71,7 +71,7 @@ const HOME_CONNECTORS = {
 	pl: {
 		aboutPricingCta: 'Porównaj ceny',
 		aboutP2Before: 'Zacznij od',
-		aboutPillar: 'filaru Destiny 2 Cheats',
+		aboutPillar: 'filaru Destiny 2 Hacks',
 		aboutEsp: 'przewodnika ESP',
 		aboutAimbot: 'sterowania aimbotem',
 		aboutUndetected: 'statusu undetected',
@@ -82,7 +82,7 @@ const HOME_CONNECTORS = {
 	ru: {
 		aboutPricingCta: 'Сравнить цены',
 		aboutP2Before: 'Начните с',
-		aboutPillar: 'путеводителя Destiny 2 Cheats',
+		aboutPillar: 'путеводителя Destiny 2 Hacks',
 		aboutEsp: 'гайда ESP',
 		aboutAimbot: 'настроек aimbot',
 		aboutUndetected: 'статуса undetected',
@@ -93,7 +93,7 @@ const HOME_CONNECTORS = {
 	tr: {
 		aboutPricingCta: 'Fiyatları karşılaştır',
 		aboutP2Before: 'Önce',
-		aboutPillar: 'Destiny 2 Cheats rehberi',
+		aboutPillar: 'Destiny 2 Hacks rehberi',
 		aboutEsp: 'ESP kılavuzu',
 		aboutAimbot: 'aimbot kontrolleri',
 		aboutUndetected: 'tespit edilemeyen durum',
@@ -104,7 +104,7 @@ const HOME_CONNECTORS = {
 	ar: {
 		aboutPricingCta: 'قارن الأسعار',
 		aboutP2Before: 'ابدأ بـ',
-		aboutPillar: 'دليل Destiny 2 Cheats',
+		aboutPillar: 'دليل Destiny 2 Hacks',
 		aboutEsp: 'دليل ESP',
 		aboutAimbot: 'ضوابط Aimbot',
 		aboutUndetected: 'حالة عدم الاكتشاف',
@@ -115,7 +115,7 @@ const HOME_CONNECTORS = {
 	ja: {
 		aboutPricingCta: '料金を比較',
 		aboutP2Before: 'まず',
-		aboutPillar: 'Destiny 2 Cheatsガイド',
+		aboutPillar: 'Destiny 2 Hacksガイド',
 		aboutEsp: 'ESPガイド',
 		aboutAimbot: 'Aimbot設定',
 		aboutUndetected: 'undetectedステータス',
@@ -126,7 +126,7 @@ const HOME_CONNECTORS = {
 	ko: {
 		aboutPricingCta: '가격 비교',
 		aboutP2Before: '먼저',
-		aboutPillar: 'Destiny 2 Cheats 가이드',
+		aboutPillar: 'Destiny 2 Hacks 가이드',
 		aboutEsp: 'ESP 가이드',
 		aboutAimbot: '에임봇 컨트롤',
 		aboutUndetected: 'undetected 상태',
@@ -137,7 +137,7 @@ const HOME_CONNECTORS = {
 	zh: {
 		aboutPricingCta: '比较价格',
 		aboutP2Before: '从',
-		aboutPillar: 'Destiny 2 Cheats指南',
+		aboutPillar: 'Destiny 2 Hacks指南',
 		aboutEsp: 'ESP指南',
 		aboutAimbot: '自瞄控制',
 		aboutUndetected: 'undetected状态',
@@ -148,7 +148,7 @@ const HOME_CONNECTORS = {
 	hi: {
 		aboutPricingCta: 'कीमतें तुलना करें',
 		aboutP2Before: 'शुरू करें',
-		aboutPillar: 'Destiny 2 Cheats गाइड',
+		aboutPillar: 'Destiny 2 Hacks गाइड',
 		aboutEsp: 'ESP गाइड',
 		aboutAimbot: 'aimbot नियंत्रण',
 		aboutUndetected: 'undetected स्थिति',
@@ -159,7 +159,7 @@ const HOME_CONNECTORS = {
 	id: {
 		aboutPricingCta: 'Bandingkan harga',
 		aboutP2Before: 'Mulai dari',
-		aboutPillar: 'pilar Destiny 2 Cheats',
+		aboutPillar: 'pilar Destiny 2 Hacks',
 		aboutEsp: 'panduan ESP',
 		aboutAimbot: 'kontrol aimbot',
 		aboutUndetected: 'status undetected',
@@ -170,7 +170,7 @@ const HOME_CONNECTORS = {
 	th: {
 		aboutPricingCta: 'เปรียบเทียบราคา',
 		aboutP2Before: 'เริ่มจาก',
-		aboutPillar: 'คู่มือ Destiny 2 Cheats',
+		aboutPillar: 'คู่มือ Destiny 2 Hacks',
 		aboutEsp: 'คู่มือ ESP',
 		aboutAimbot: 'การควบคุม Aimbot',
 		aboutUndetected: 'สถานะ undetected',
@@ -181,7 +181,7 @@ const HOME_CONNECTORS = {
 	vi: {
 		aboutPricingCta: 'So sánh giá',
 		aboutP2Before: 'Bắt đầu với',
-		aboutPillar: 'trụ cột Destiny 2 Cheats',
+		aboutPillar: 'trụ cột Destiny 2 Hacks',
 		aboutEsp: 'hướng dẫn ESP',
 		aboutAimbot: 'điều khiển aimbot',
 		aboutUndetected: 'trạng thái undetected',
@@ -192,7 +192,7 @@ const HOME_CONNECTORS = {
 	uk: {
 		aboutPricingCta: 'Порівняти ціни',
 		aboutP2Before: 'Почніть з',
-		aboutPillar: 'путівника Destiny 2 Cheats',
+		aboutPillar: 'путівника Destiny 2 Hacks',
 		aboutEsp: 'гайду ESP',
 		aboutAimbot: 'налаштувань aimbot',
 		aboutUndetected: 'статусу undetected',
@@ -203,7 +203,7 @@ const HOME_CONNECTORS = {
 	cs: {
 		aboutPricingCta: 'Porovnat ceny',
 		aboutP2Before: 'Začněte',
-		aboutPillar: 'průvodcem Destiny 2 Cheats',
+		aboutPillar: 'průvodcem Destiny 2 Hacks',
 		aboutEsp: 'průvodcem ESP',
 		aboutAimbot: 'ovládáním aimbotu',
 		aboutUndetected: 'undetected statusem',
@@ -214,7 +214,7 @@ const HOME_CONNECTORS = {
 	ro: {
 		aboutPricingCta: 'Compară prețurile',
 		aboutP2Before: 'Începe cu',
-		aboutPillar: 'ghidul Destiny 2 Cheats',
+		aboutPillar: 'ghidul Destiny 2 Hacks',
 		aboutEsp: 'ghidul ESP',
 		aboutAimbot: 'controalele aimbot',
 		aboutUndetected: 'statusul undetected',
@@ -225,7 +225,7 @@ const HOME_CONNECTORS = {
 	sv: {
 		aboutPricingCta: 'Jämför priser',
 		aboutP2Before: 'Börja med',
-		aboutPillar: 'Destiny 2 Cheats-guiden',
+		aboutPillar: 'Destiny 2 Hacks-guiden',
 		aboutEsp: 'ESP-guiden',
 		aboutAimbot: 'aimbot-kontrollerna',
 		aboutUndetected: 'undetected-status',
@@ -272,7 +272,7 @@ function buildHomeSeo(ui, locale) {
 			eyebrow: 'Guides', title: 'Nach Kategorie stöbern', lede: 'Schnelllinks zu Features, Status, Store und Hilfe.',
 			catFeaturesHint: 'Was enthalten ist', catStatusHint: 'Vor dem Spielen', catStoreHint: 'Kauf & Pläne', catHelpHint: 'Brauchen Sie Hilfe?',
 			linkAllFeatures: 'Alle Features', linkLiveStatus: 'Live-Status', linkUndetected: 'Undetected',
-			linkPlans: 'Pläne', linkReviews: 'Bewertungen', linkFinalsCheats: 'Destiny 2 Cheats',
+			linkPlans: 'Pläne', linkReviews: 'Bewertungen', linkFinalsCheats: 'Destiny 2 Hacks',
 			linkSetupGuide: 'Setup-Anleitung', linkRefunds: 'Rückerstattungen', faqTitle: 'Vor dem Kauf',
 			faqLede: 'Lieferung, Erkennungsstatus und Inhalt.', allAnswers: 'Alle Antworten', openFullPage: 'Vollständige Seite öffnen',
 		},

@@ -16,7 +16,7 @@ export {
 
 export const sitemapExcludedPageIds = new Set<PageId>([...(cannibalPageIds as PageId[])]);
 
-/** Primary commercial landing for the head term "destiny 2 cheats". */
+/** Primary commercial landing for the head term "destiny 2 hacks". */
 export const MONEY_PAGE_ID = 'home' as const satisfies PageId;
 export const MONEY_PATH = '/' as const;
 

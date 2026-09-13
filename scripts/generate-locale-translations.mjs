@@ -54,12 +54,12 @@ function buildFaqOverlay(locale, enFaq) {
 /** English FAQ seed for translation.json */
 const EN_FAQ_ITEMS = {
 	'what-are-destiny-2-cheats': {
-		q: 'What is Destiny 2 Cheats?',
-		a: 'Destiny 2 Cheats is an undetected destiny 2 cheats package for Destiny 2 on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with BattlEye maintenance and setup support.',
+		q: 'What is Destiny 2 Hacks?',
+		a: 'Destiny 2 Hacks is an undetected destiny 2 hacks package for Destiny 2 on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with BattlEye maintenance and setup support.',
 	},
 	'are-destiny-2-cheats-undetected-in-2026': {
-		q: 'Are destiny 2 cheats undetected in 2026?',
-		a: 'Destiny 2 Cheats is maintained for Destiny 2 with rebuilds after BattlEye and game patches. Check the Status page before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
+		q: 'Are destiny 2 hacks undetected in 2026?',
+		a: 'Destiny 2 Hacks is maintained for Destiny 2 with rebuilds after BattlEye and game patches. Check the Status page before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
 	},
 	'solo-farmer-and-raider-sessions': {
 		q: 'Does this work in Crucible matches and Competitive matches?',
@@ -67,15 +67,15 @@ const EN_FAQ_ITEMS = {
 	},
 	'esp-wallhack-radar-or-aimbot': {
 		q: 'What is included — ESP, wallhack, radar, or Aimbot?',
-		a: 'Destiny 2 Cheats bundles ESP wallhack, guardian markers, 2D radar cues, and configurable Aimbot in one license. See Features for the full list.',
+		a: 'Destiny 2 Hacks bundles ESP wallhack, guardian markers, 2D radar cues, and configurable Aimbot in one license. See Features for the full list.',
 	},
 	'how-are-licenses-delivered': {
 		q: 'How are licenses delivered?',
-		a: 'After payment is confirmed, Destiny 2 Cheats license details are delivered digitally through checkout. Timing can vary by payment method and order review. Keep your order confirmation ready if you contact support.',
+		a: 'After payment is confirmed, Destiny 2 Hacks license details are delivered digitally through checkout. Timing can vary by payment method and order review. Keep your order confirmation ready if you contact support.',
 	},
 	'where-to-check-updates': {
 		q: 'Where do I check updates after a Destiny 2 or BattlEye patch?',
-		a: 'Maintenance notes are posted on the Status page when a Destiny 2 or BattlEye update affects the package. That is the fastest place to confirm whether a new Destiny 2 Cheats build is live.',
+		a: 'Maintenance notes are posted on the Status page when a Destiny 2 or BattlEye update affects the package. That is the fastest place to confirm whether a new Destiny 2 Hacks build is live.',
 	},
 	'how-to-contact-support': {
 		q: 'How do I contact support?',
@@ -83,79 +83,79 @@ const EN_FAQ_ITEMS = {
 	},
 	'what-is-a-destiny-2-wallhack': {
 		q: 'What is a Destiny 2 wallhack?',
-		a: 'A Destiny 2 wallhack is an ESP overlay that shows enemy heroes through terrain. Destiny 2 Cheats includes distance readouts, grapple and ult cues, and toggleable categories.',
+		a: 'A Destiny 2 wallhack is an ESP overlay that shows enemy heroes through terrain. Destiny 2 Hacks includes distance readouts, grapple and ult cues, and toggleable categories.',
 	},
 	'does-destiny-2-cheats-include-radar-hack': {
-		q: 'Does Destiny 2 Cheats include a radar hack?',
-		a: 'Yes. Destiny 2 Cheats includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and combat zones.',
+		q: 'Does Destiny 2 Hacks include a radar hack?',
+		a: 'Yes. Destiny 2 Hacks includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and combat zones.',
 	},
 	'battleye-anti-cheat-and-destiny-2-cheats': {
-		q: 'How does BattlEye affect destiny 2 cheats?',
-		a: 'BattlEye monitors Destiny 2 on Windows PC. Destiny 2 Cheats posts maintenance notes after patches that may need a rebuild. Check Status before you queue.',
+		q: 'How does BattlEye affect destiny 2 hacks?',
+		a: 'BattlEye monitors Destiny 2 on Windows PC. Destiny 2 Hacks posts maintenance notes after patches that may need a rebuild. Check Status before you queue.',
 	},
 	'buy-undetected-destiny-2-cheats-windows-pc': {
 		q: 'Can I buy undetected Destiny 2 cheats for Windows PC?',
-		a: 'Yes — Destiny 2 Cheats sells monthly and lifetime licenses for Windows PC with ESP, radar, and aimbot in one stack. Compare plans on Store before checkout.',
+		a: 'Yes — Destiny 2 Hacks sells monthly and lifetime licenses for Windows PC with ESP, radar, and aimbot in one stack. Compare plans on Store before checkout.',
 	},
 	'how-much-do-destiny-2-cheats-cost': {
-		q: 'How much do destiny 2 cheats cost in 2026?',
-		a: 'Destiny 2 Cheats is $35 per month or $150 lifetime USD on Windows PC. Both plans include ESP wallhack, 2D radar, soft aim, and BattlEye maintenance rebuilds. See Pricing for the latest plan details before checkout.',
+		q: 'How much do destiny 2 hacks cost in 2026?',
+		a: 'Destiny 2 Hacks is $35 per month or $150 lifetime USD on Windows PC. Both plans include ESP wallhack, 2D radar, soft aim, and BattlEye maintenance rebuilds. See Pricing for the latest plan details before checkout.',
 	},
 	'what-is-destiny-2-esp-hack': {
 		q: 'What is a Destiny 2 ESP hack?',
-		a: 'A Destiny 2 ESP hack is a visibility overlay that shows enemy heroes, weapons, and loot through walls. Destiny 2 Cheats ESP includes player boxes, distance tags, grapple and ult cues, and toggleable categories for Quickplay and Ranked.',
+		a: 'A Destiny 2 ESP hack is a visibility overlay that shows enemy heroes, weapons, and loot through walls. Destiny 2 Hacks ESP includes player boxes, distance tags, grapple and ult cues, and toggleable categories for Quickplay and Ranked.',
 	},
 	'what-is-destiny-2-aimbot-hack': {
 		q: 'What is a Destiny 2 aimbot hack?',
-		a: 'A Destiny 2 aimbot hack provides aim assist with configurable FOV, smoothing, and bone priority. Destiny 2 Cheats uses soft aim profiles designed to feel natural in team fights and duels — tune settings in the mod menu before Ranked queues.',
+		a: 'A Destiny 2 aimbot hack provides aim assist with configurable FOV, smoothing, and bone priority. Destiny 2 Hacks uses soft aim profiles designed to feel natural in team fights and duels — tune settings in the mod menu before Ranked queues.',
 	},
 	'how-to-install-destiny-2-cheats': {
-		q: 'How do I install destiny 2 cheats on Windows PC?',
-		a: 'After checkout, follow the Setup guide: download the loader, disable conflicting overlays, launch Destiny 2 Cheats, and enable ESP, radar, or aimbot toggles in the mod menu. Most buyers finish first launch in under 15 minutes. Email support@destiny2hack.net if activation fails.',
+		q: 'How do I install destiny 2 hacks on Windows PC?',
+		a: 'After checkout, follow the Setup guide: download the loader, disable conflicting overlays, launch Destiny 2 Hacks, and enable ESP, radar, or aimbot toggles in the mod menu. Most buyers finish first launch in under 15 minutes. Email support@destiny2hack.net if activation fails.',
 	},
 	'best-destiny-2-cheats-in-2026': {
-		q: 'What are the best destiny 2 cheats in 2026?',
-		a: 'Top destiny 2 cheats in 2026 combine undetected ESP, soft aim, 2D radar, and fast BattlEye maintenance after patches. Destiny 2 Cheats bundles all three in one license with status notes, setup support, and monthly or lifetime pricing — compare Features and Reviews before you buy.',
+		q: 'What are the best destiny 2 hacks in 2026?',
+		a: 'Top destiny 2 hacks in 2026 combine undetected ESP, soft aim, 2D radar, and fast BattlEye maintenance after patches. Destiny 2 Hacks bundles all three in one license with status notes, setup support, and monthly or lifetime pricing — compare Features and Reviews before you buy.',
 	},
 	'monthly-vs-lifetime-destiny-2-cheats': {
-		q: 'Should I buy monthly or lifetime destiny 2 cheats?',
+		q: 'Should I buy monthly or lifetime destiny 2 hacks?',
 		a: 'Choose monthly ($35) if you want a lower entry cost or only play a few seasons. Choose lifetime ($150) if you plan long-term Destiny 2 play and want one payment for ESP, radar, aimbot, and future maintenance rebuilds. Both plans ship the same feature set.',
 	},
 	'destiny-2-cheats-windows-11': {
-		q: 'Do destiny 2 cheats work on Windows 11?',
-		a: 'Yes. Destiny 2 Cheats supports Windows 10 and Windows 11 on PC. Use a clean install path from the Setup guide, keep BattlEye status green on the Updates page, and avoid running outdated builds after major patches.',
+		q: 'Do destiny 2 hacks work on Windows 11?',
+		a: 'Yes. Destiny 2 Hacks supports Windows 10 and Windows 11 on PC. Use a clean install path from the Setup guide, keep BattlEye status green on the Updates page, and avoid running outdated builds after major patches.',
 	},
 	'what-is-destiny-2-soft-aim': {
 		q: 'What is Destiny 2 soft aim?',
-		a: 'Destiny 2 soft aim gently guides aim toward targets inside a set FOV instead of snapping instantly. Destiny 2 Cheats lets you adjust smoothing, bone priority, and per-weapon-type profiles so assist feels controlled in Quickplay and Ranked.',
+		a: 'Destiny 2 soft aim gently guides aim toward targets inside a set FOV instead of snapping instantly. Destiny 2 Hacks lets you adjust smoothing, bone priority, and per-weapon-type profiles so assist feels controlled in Quickplay and Ranked.',
 	},
 	'free-destiny-2-cheat-download': {
 		q: 'Is there a free Destiny 2 hack download?',
-		a: 'Destiny 2 Cheats is a paid license — there is no official free download. Avoid random “free destiny 2 cheat” sites; they often ship malware or detected loaders. Compare monthly and lifetime plans on Pricing for legitimate ESP, radar, and aimbot access with support.',
+		a: 'Destiny 2 Hacks is a paid license — there is no official free download. Avoid random “free destiny 2 cheat” sites; they often ship malware or detected loaders. Compare monthly and lifetime plans on Pricing for legitimate ESP, radar, and aimbot access with support.',
 	},
 	'naraka-battleye-bypass': {
-		q: 'How does BattlEye bypass work for destiny 2 cheats?',
-		a: 'There is no permanent BattlEye bypass. Destiny 2 Cheats is maintained with rebuilds after Destiny 2 and BattlEye patches — check the Updates page before you queue. Responsible settings and loading the latest build matter more than any “bypass” claim.',
+		q: 'How does BattlEye bypass work for destiny 2 hacks?',
+		a: 'There is no permanent BattlEye bypass. Destiny 2 Hacks is maintained with rebuilds after Destiny 2 and BattlEye patches — check the Updates page before you queue. Responsible settings and loading the latest build matter more than any “bypass” claim.',
 	},
 	'destiny-2-cheats-for-ranked': {
-		q: 'Do destiny 2 cheats work in ranked competitive?',
+		q: 'Do destiny 2 hacks work in ranked competitive?',
 		a: 'Yes. ESP, radar, and soft aim are built for Ranked and Quickplay Destiny 2 on Windows PC. Use conservative overlay settings, read maintenance notes after patches, and confirm undetected status on the Updates page before competitive queues.',
 	},
 	'what-is-destiny-2-mod-menu': {
 		q: 'What is a Destiny 2 mod menu?',
-		a: 'A Destiny 2 mod menu is an in-game overlay to toggle ESP wallhack, radar, aimbot, and visual settings without alt-tabbing. Destiny 2 Cheats ships a lightweight mod menu for Windows PC — see Features for the full toggle list.',
+		a: 'A Destiny 2 mod menu is an in-game overlay to toggle ESP wallhack, radar, aimbot, and visual settings without alt-tabbing. Destiny 2 Hacks ships a lightweight mod menu for Windows PC — see Features for the full toggle list.',
 	},
 	'external-vs-internal-destiny-2-cheats': {
-		q: 'What is the difference between external and internal destiny 2 cheats?',
-		a: 'External hacks read game memory from outside the client; internal hooks run inside the process. Destiny 2 Cheats is built as an external-style package for easier setup on Windows PC, bundling ESP, radar, and soft aim with BattlEye maintenance after patches.',
+		q: 'What is the difference between external and internal destiny 2 hacks?',
+		a: 'External hacks read game memory from outside the client; internal hooks run inside the process. Destiny 2 Hacks is built as an external-style package for easier setup on Windows PC, bundling ESP, radar, and soft aim with BattlEye maintenance after patches.',
 	},
 	'how-long-destiny-2-cheat-setup-takes': {
-		q: 'How long does destiny 2 cheats setup take?',
-		a: 'Most buyers finish Destiny 2 Cheats setup in 10–20 minutes on Windows PC: install the loader, activate the license, and enable ESP or aimbot in the mod menu. If Windows Defender or another AV blocks the loader, follow Setup troubleshooting or email support@destiny2hack.net with your order ID.',
+		q: 'How long does destiny 2 hacks setup take?',
+		a: 'Most buyers finish Destiny 2 Hacks setup in 10–20 minutes on Windows PC: install the loader, activate the license, and enable ESP or aimbot in the mod menu. If Windows Defender or another AV blocks the loader, follow Setup troubleshooting or email support@destiny2hack.net with your order ID.',
 	},
 	'does-destiny-2-cheats-include-triggerbot': {
-		q: 'Does Destiny 2 Cheats include triggerbot?',
-		a: 'Destiny 2 Cheats focuses on ESP wallhack, 2D radar, and soft aim profiles. Triggerbot is not advertised as a standalone module — review the Features page for the current toggle list before checkout.',
+		q: 'Does Destiny 2 Hacks include triggerbot?',
+		a: 'Destiny 2 Hacks focuses on ESP wallhack, 2D radar, and soft aim profiles. Triggerbot is not advertised as a standalone module — review the Features page for the current toggle list before checkout.',
 	},
 };
 
@@ -165,7 +165,7 @@ async function main() {
 	const en = JSON.parse(await readFile(EN_FILE, 'utf8'));
 	en.faq = { items: EN_FAQ_ITEMS };
 	en.media = {
-		demoVideoTitle: 'Destiny 2 Cheats ESP, aimbot and radar demo',
+		demoVideoTitle: 'Destiny 2 Hacks ESP, aimbot and radar demo',
 		playVideo: 'Play video',
 	};
 	const enUi = allUiStrings.en;
@@ -192,11 +192,11 @@ async function main() {
 		community: { label: 'Destiny 2 community hub', note: 'Announcements and community discussions.' },
 	};
 	en.internalLinks = {
-		relatedLede: 'Explore more Destiny 2 Cheats guides — the same topics covered on other cheat sites, mapped to our canonical pages.',
+		relatedLede: 'Explore more Destiny 2 Hacks guides — the same topics covered on other cheat sites, mapped to our canonical pages.',
 		topicsTitle: 'Product guides',
 		topicsLabel: 'Product topic guides',
-		topicsLede: 'Jump to the main Destiny 2 Cheats pages for ESP, aimbot, radar, setup, and status.',
-		overview: 'Destiny 2 Cheats overview',
+		topicsLede: 'Jump to the main Destiny 2 Hacks pages for ESP, aimbot, radar, setup, and status.',
+		overview: 'Destiny 2 Hacks overview',
 		esp: 'ESP & wallhack',
 		aimbot: 'Aimbot & soft aim',
 		radar: 'Radar hack',
@@ -208,29 +208,29 @@ async function main() {
 		support: 'Support',
 		blog: 'Blog',
 		reviews: 'Buyer reviews',
-		hacks: 'Destiny 2 Cheats pillar',
+		hacks: 'Destiny 2 Hacks pillar',
 		undetected: 'Undetected status',
 	};
 	en.images = { ...en.images, ...enUi.images };
 	en.gallery = {
-		eyebrow: 'Destiny 2 Cheats',
-		title: 'Destiny 2 Cheats gallery',
-		subtitle: 'Destiny 2 Cheats visuals — ESP, wallhack, aimbot, and radar for Destiny 2 on PC.',
-		lead: 'Destiny 2 Cheats helps you spot enemy heroes, loot, and high-traffic POIs with ESP, aimbot, and radar in one license.',
-		highlightEspTitle: 'Destiny 2 Cheats ESP',
-		highlightEspCopy: 'See enemy heroes through walls with Destiny 2 Cheats ESP and wallhack overlays.',
-		highlightRadarTitle: 'Destiny 2 Cheats radar',
-		highlightRadarCopy: 'Track nearby threats with Destiny 2 Cheats radar before you push or rotate.',
-		highlightAimbotTitle: 'Destiny 2 Cheats aimbot',
+		eyebrow: 'Destiny 2 Hacks',
+		title: 'Destiny 2 Hacks gallery',
+		subtitle: 'Destiny 2 Hacks visuals — ESP, wallhack, aimbot, and radar for Destiny 2 on PC.',
+		lead: 'Destiny 2 Hacks helps you spot enemy heroes, loot, and high-traffic POIs with ESP, aimbot, and radar in one license.',
+		highlightEspTitle: 'Destiny 2 Hacks ESP',
+		highlightEspCopy: 'See enemy heroes through walls with Destiny 2 Hacks ESP and wallhack overlays.',
+		highlightRadarTitle: 'Destiny 2 Hacks radar',
+		highlightRadarCopy: 'Track nearby threats with Destiny 2 Hacks radar before you push or rotate.',
+		highlightAimbotTitle: 'Destiny 2 Hacks aimbot',
 		highlightAimbotCopy: 'Use soft aim and aimbot controls tuned for Destiny 2 matches on Windows PC.',
-		updatesLabel: 'Destiny 2 Cheats updates',
+		updatesLabel: 'Destiny 2 Hacks updates',
 		updatesShort: 'Updates',
 	};
 	en.home = {
 		...en.home,
 		aboutTitle: 'undetected cheats for Destiny 2',
 		aboutP1:
-			'Destiny 2 Cheats is an undetected destiny 2 cheats package for Destiny 2 on Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with BattlEye rebuilds after game patches. Check Status before you queue.',
+			'Destiny 2 Hacks is an undetected destiny 2 hacks package for Destiny 2 on Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with BattlEye rebuilds after game patches. Check Status before you queue.',
 		aboutP2Before: 'Start with the',
 		aboutPillar: 'Destiny 2 cheats guide',
 		aboutP2Mid: ', ',
@@ -239,7 +239,7 @@ async function main() {
 		aboutP2Or: ', or ',
 		aboutUndetected: 'undetected status',
 		aboutP2After: " if you're still comparing tools.",
-		demoVideoCaption: 'Destiny 2 Cheats — ESP, aimbot & radar in match',
+		demoVideoCaption: 'Destiny 2 Hacks — ESP, aimbot & radar in match',
 		volumeLabel: 'Volume',
 		seekLabel: 'Video progress',
 		muteVideo: 'Mute video',
@@ -293,7 +293,7 @@ async function main() {
 		linkSetup: 'Setup',
 		linkPlans: 'Plans',
 		linkReviews: 'Reviews',
-		linkFinalsCheats: 'Destiny 2 Cheats',
+		linkFinalsCheats: 'Destiny 2 Hacks',
 		linkFaq: 'FAQ',
 		linkSupport: 'Support',
 		linkSetupGuide: 'Setup guide',
@@ -307,21 +307,21 @@ async function main() {
 	};
 	en.reviews = {
 		...(en.reviews ?? {}),
-		eyebrow: 'Destiny 2 Cheats',
-		homeTitle: 'Destiny 2 Cheats reviews',
-		subtitle: 'Recent feedback from Destiny 2 Cheats buyers',
-		buyerReviews: '{{count}} Destiny 2 Cheats buyer reviews',
-		averageAria: '{{rating}} average from {{count}} Destiny 2 Cheats buyer reviews',
-		readAll: 'Read all Destiny 2 Cheats reviews →',
+		eyebrow: 'Destiny 2 Hacks',
+		homeTitle: 'Destiny 2 Hacks reviews',
+		subtitle: 'Recent feedback from Destiny 2 Hacks buyers',
+		buyerReviews: '{{count}} Destiny 2 Hacks buyer reviews',
+		averageAria: '{{rating}} average from {{count}} Destiny 2 Hacks buyer reviews',
+		readAll: 'Read all Destiny 2 Hacks reviews →',
 	};
 	en.blog = {
 		...(en.blog ?? {}),
-		blogTitle: 'Destiny 2 Cheats Blog | Guides & Patch Tips',
+		blogTitle: 'Destiny 2 Hacks Blog | Guides & Patch Tips',
 		blogDescription:
 			'Destiny 2 guides — battle royale tips, ESP, aimbot notes, movement routes, and BattlEye update coverage. English blog at destiny2hack.net/blog/.',
-		blogH1: 'Destiny 2 Cheats Intel',
+		blogH1: 'Destiny 2 Hacks Intel',
 		blogIntro:
-			'Actionable Destiny 2 guides for ranked and Quickplay sessions — meta breakdowns, movement routes, loadout tiers, and pro warmup routines. Pair these tips with our Destiny 2 Cheats pages for ESP, soft aim, and radar when you need in-match tools.',
+			'Actionable Destiny 2 guides for ranked and Quickplay sessions — meta breakdowns, movement routes, loadout tiers, and pro warmup routines. Pair these tips with our Destiny 2 Hacks pages for ESP, soft aim, and radar when you need in-match tools.',
 	};
 
 	let es;

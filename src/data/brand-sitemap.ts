@@ -14,43 +14,43 @@ export type BrandSitemapImage = {
 const defaultImages: BrandSitemapImage[] = [
 	{
 		src: '/images/destiny2-screenshot-01.webp',
-		title: 'destiny 2 cheats esp',
-		caption: 'destiny 2 cheats esp wallhack player boxes',
+		title: 'destiny 2 hacks esp',
+		caption: 'destiny 2 hacks esp wallhack player boxes',
 	},
 	{
 		src: '/images/destiny2-screenshot-02.webp',
-		title: 'destiny 2 cheats wallhack',
-		caption: 'destiny 2 cheats wallhack esp through walls',
+		title: 'destiny 2 hacks wallhack',
+		caption: 'destiny 2 hacks wallhack esp through walls',
 	},
 	{
 		src: '/images/destiny2-screenshot-03.webp',
-		title: 'destiny 2 cheats aimbot',
-		caption: 'destiny 2 cheats aimbot aimbot in match',
+		title: 'destiny 2 hacks aimbot',
+		caption: 'destiny 2 hacks aimbot aimbot in match',
 	},
 	{
 		src: '/images/destiny2-screenshot-04.webp',
-		title: 'destiny 2 cheats mod menu',
-		caption: 'destiny 2 cheats mod menu with ESP and radar toggles',
+		title: 'destiny 2 hacks mod menu',
+		caption: 'destiny 2 hacks mod menu with ESP and radar toggles',
 	},
 	{
 		src: '/images/destiny2-screenshot-05.webp',
-		title: 'destiny 2 cheats radar',
-		caption: 'destiny 2 cheats radar overlay hack overlay',
+		title: 'destiny 2 hacks radar',
+		caption: 'destiny 2 hacks radar overlay hack overlay',
 	},
 	{
 		src: '/images/destiny2-screenshot-06.webp',
-		title: 'destiny 2 cheats overlay',
-		caption: 'destiny 2 cheats esp and aimbot in match',
+		title: 'destiny 2 hacks overlay',
+		caption: 'destiny 2 hacks esp and aimbot in match',
 	},
 	{
 		src: '/images/destiny2-screenshot-07.webp',
-		title: 'destiny 2 cheats player esp',
-		caption: 'destiny 2 cheats wallhack player outlines',
+		title: 'destiny 2 hacks player esp',
+		caption: 'destiny 2 hacks wallhack player outlines',
 	},
 	{
 		src: '/images/destiny2-screenshot-08.webp',
-		title: 'destiny 2 cheats gameplay',
-		caption: 'destiny 2 cheats aimbot and esp ranked gameplay',
+		title: 'destiny 2 hacks gameplay',
+		caption: 'destiny 2 hacks aimbot and esp ranked gameplay',
 	},
 ];
 

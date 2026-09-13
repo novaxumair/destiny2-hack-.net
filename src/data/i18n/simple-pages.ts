@@ -141,7 +141,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Status',
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'In-game look',
 		sections: [
@@ -174,23 +174,23 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'Destiny 2 Cheats — Full Guide',
+		h1: 'Destiny 2 Hacks — Full Guide',
 		intro:
-			'Destiny 2 cheats add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 cheats are, what Destiny 2 Cheats includes, how BattlEye maintenance works, and where to go next before you buy.',
+			'Destiny 2 hacks add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 hacks are, what Destiny 2 Hacks includes, how BattlEye maintenance works, and where to go next before you buy.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
 		ctaSecondaryHref: '/features/',
-		galleryTitle: 'Destiny 2 cheats in action',
+		galleryTitle: 'Destiny 2 hacks in action',
 		sections: [
 			{
-				h2: 'What are destiny 2 cheats?',
+				h2: 'What are destiny 2 hacks?',
 				paragraphs: [
-					'Destiny 2 cheats are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
-					'Destiny 2 Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
+					'Destiny 2 hacks are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 hacks when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
+					'Destiny 2 Hacks bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
 				],
 			},
 			{
-				h2: 'What Destiny 2 Cheats includes',
+				h2: 'What Destiny 2 Hacks includes',
 				paragraphs: [
 					'One license covers the full match stack: player ESP with distance, guardian markers, radar overlay for flanks, and configurable aimbot profiles per weapon.',
 					'Monthly and lifetime plans include the same feature stack with BattlEye rebuilds.',
@@ -247,7 +247,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'ESP',
 		intro: 'See players and loot through walls during Destiny 2 matches. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'ESP in match',
 		sections: [
@@ -279,7 +279,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Aimbot',
 		intro: 'aimbot and aim assist you can tune for Destiny 2. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Aimbot view',
 		sections: [
@@ -311,7 +311,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Radar',
 		intro: 'A simple radar overlay for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Radar overlay',
 		sections: [

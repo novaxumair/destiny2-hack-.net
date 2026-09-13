@@ -35,7 +35,7 @@ const copyDefaults = {
 	supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 	faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
 	reviewsIntro:
-		'Real feedback on Destiny 2 cheats and Destiny 2 hacks — ESP, aimbot, radar, and support from {brand} buyers.',
+		'Real feedback on Destiny 2 hacks and Destiny 2 hacks — ESP, aimbot, radar, and support from {brand} buyers.',
 	chipEsp: 'ESP / wallhack',
 	chipAim: 'aimbot',
 	chipRadar: 'radar overlay',
@@ -50,19 +50,19 @@ const copyDefaults = {
 const seoDefaults = {
 	homeTitle: 'Destiny 2 Hacks | Undetected ESP, Aimbot & Radar',
 	homeDescription:
-		'Buy undetected Destiny 2 cheats at destiny2hack.net — ESP, aimbot, wallhack & radar for PC. BattlEye updates included. Plans from $35/month.',
+		'Buy undetected Destiny 2 hacks at destiny2hack.net — ESP, aimbot, wallhack & radar for PC. BattlEye updates included. Plans from $35/month.',
 	featuresTitle: 'Destiny 2 Hacks Features | ESP, Aimbot & Radar',
 	featuresDescription:
-		'Full Destiny 2 cheats feature list — ESP wallhack, aimbot, radar overlay & mod menu toggles on PC. {antiCheat} maintenance at destiny2hack.net.',
+		'Full Destiny 2 hacks feature list — ESP wallhack, aimbot, radar overlay & mod menu toggles on PC. {antiCheat} maintenance at destiny2hack.net.',
 	storeTitle: 'Destiny 2 Hacks Pricing | $35/mo or $150 Lifetime',
 	storeDescription:
-		'Buy Destiny 2 cheats at destiny2hack.net — $35/month or $150 lifetime. ESP, aimbot & radar on PC. Same features, instant delivery.',
+		'Buy Destiny 2 hacks at destiny2hack.net — $35/month or $150 lifetime. ESP, aimbot & radar on PC. Same features, instant delivery.',
 	statusTitle: 'Destiny 2 Status | Undetected {antiCheat} Updates',
 	statusDescription:
 		'Live status after {game} & {antiCheat} patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. destiny2hack.net.',
 	previewTitle: 'Destiny 2 Hacks | ESP, Aimbot & Wallhack Guide',
 	previewDescription:
-		'Destiny 2 cheats guide — undetected ESP wallhack, aimbot, radar & {antiCheat} rebuilds on PC. Compare features & buy from $35 at destiny2hack.net.',
+		'Destiny 2 hacks guide — undetected ESP wallhack, aimbot, radar & {antiCheat} rebuilds on PC. Compare features & buy from $35 at destiny2hack.net.',
 	setupTitle: 'Destiny 2 Hacks Setup | Windows PC Install Guide',
 	setupDescription:
 		'Install {brand} on PC — activate ESP, aimbot & radar step by step. Setup guide at destiny2hack.net. Check {antiCheat} status before your first match.',
@@ -71,10 +71,10 @@ const seoDefaults = {
 		'Support for license delivery, ESP setup & billing on PC. Email {email} with your order ID. destiny2hack.net/support.',
 	faqTitle: 'Destiny 2 Hacks FAQ | ESP, Aimbot & {antiCheat}',
 	faqDescription:
-		'FAQ for destiny 2 cheats — delivery, setup, undetected status, {antiCheat} updates & pricing on PC. Answers at destiny2hack.net before you buy.',
+		'FAQ for destiny 2 hacks — delivery, setup, undetected status, {antiCheat} updates & pricing on PC. Answers at destiny2hack.net before you buy.',
 	reviewsTitle: 'Destiny 2 Hacks Reviews | Hacks & Cheats Feedback',
 	reviewsDescription:
-		'Real buyer reviews for Destiny 2 cheats and Destiny 2 hacks — ESP, aimbot, radar & {antiCheat} maintenance on PC. See what license holders say at destiny2hack.net.',
+		'Real buyer reviews for Destiny 2 hacks and Destiny 2 hacks — ESP, aimbot, radar & {antiCheat} maintenance on PC. See what license holders say at destiny2hack.net.',
 	blogTitle: 'Destiny 2 Blog | Guides & Patch Tips | {brand}',
 	blogDescription:
 		'Destiny 2 guides — ranked tips, ESP & aimbot notes, loadout tiers & {antiCheat} updates for PC. Read the blog at destiny2hack.net/blog.',

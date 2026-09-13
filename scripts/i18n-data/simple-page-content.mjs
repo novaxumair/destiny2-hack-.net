@@ -1137,92 +1137,92 @@ export const PAGE_CONTENT = {
 	"hacks": {
 		"0": {
 			"en": [
-				"Destiny 2 cheats are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
-				"Destiny 2 Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot."
+				"Destiny 2 hacks are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 hacks when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
+				"Destiny 2 Hacks bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot."
 			],
 			"es": [
-				"Los trucos de Destiny 2 son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca destiny 2 cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
-				"Destiny 2 Cheats agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot."
+				"Los trucos de Destiny 2 son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca destiny 2 hacks cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
+				"Destiny 2 Hacks agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot."
 			],
 			"fr": [
-				"Les triches Destiny 2 sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent destiny 2 cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
-				"Destiny 2 Cheats regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément."
+				"Les triches Destiny 2 sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent destiny 2 hacks pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
+				"Destiny 2 Hacks regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément."
 			],
 			"de": [
-				"Destiny 2 Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe in matches. Die meisten suchen destiny 2 cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
-				"Destiny 2 Cheats bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot."
+				"Destiny 2 Hacks sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe in matches. Die meisten suchen destiny 2 hacks für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
+				"Destiny 2 Hacks bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot."
 			],
 			"pt": [
-				"Destiny 2 cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura destiny 2 cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
-				"Destiny 2 Cheats reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados."
+				"Destiny 2 hacks são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura destiny 2 hacks por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
+				"Destiny 2 Hacks reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados."
 			],
 			"it": [
-				"I cheat Destiny 2 sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano destiny 2 cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
-				"Destiny 2 Cheats raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot."
+				"I cheat Destiny 2 sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano destiny 2 hacks per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
+				"Destiny 2 Hacks raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot."
 			],
 			"nl": [
-				"Destiny 2 cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken destiny 2 cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
-				"Destiny 2 Cheats bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads."
+				"Destiny 2 hacks zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken destiny 2 hacks voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
+				"Destiny 2 Hacks bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads."
 			],
 			"pl": [
-				"Destiny 2 cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka destiny 2 cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
-				"Destiny 2 Cheats łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot."
+				"Destiny 2 hacks to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka destiny 2 hacks dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
+				"Destiny 2 Hacks łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot."
 			],
 			"ru": [
-				"Destiny 2 cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут destiny 2 cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
-				"Destiny 2 Cheats объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot."
+				"Destiny 2 hacks — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут destiny 2 hacks за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
+				"Destiny 2 Hacks объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot."
 			],
 			"tr": [
-				"Destiny 2 hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için destiny 2 cheats arar.",
-				"Destiny 2 Cheats bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok."
+				"Destiny 2 hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için destiny 2 hacks arar.",
+				"Destiny 2 Hacks bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok."
 			],
 			"ar": [
-				"destiny 2 cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن destiny 2 cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
-				"Destiny 2 Cheats يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot."
+				"destiny 2 hacks أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن destiny 2 hacks لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
+				"Destiny 2 Hacks يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot."
 			],
 			"ja": [
-				"Destiny 2チートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でdestiny 2 cheatsを探す人が多いです。",
-				"Destiny 2 Cheatsはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。"
+				"Destiny 2チートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でdestiny 2 hacksを探す人が多いです。",
+				"Destiny 2 Hacksはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。"
 			],
 			"ko": [
-				"Destiny 2 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 destiny 2 cheats를 찾습니다.",
-				"Destiny 2 Cheats는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요."
+				"Destiny 2 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 destiny 2 hacks를 찾습니다.",
+				"Destiny 2 Hacks는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요."
 			],
 			"zh": [
-				"Destiny 2 cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 destiny 2 cheats。",
-				"Destiny 2 Cheats 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。"
+				"Destiny 2 hacks 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 destiny 2 hacks。",
+				"Destiny 2 Hacks 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。"
 			],
 			"hi": [
-				"Destiny 2 cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए destiny 2 cheats खोजते हैं।",
-				"Destiny 2 Cheats इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।"
+				"Destiny 2 hacks तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए destiny 2 hacks खोजते हैं।",
+				"Destiny 2 Hacks इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।"
 			],
 			"id": [
-				"Destiny 2 cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari destiny 2 cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
-				"Destiny 2 Cheats menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot."
+				"Destiny 2 hacks adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari destiny 2 hacks untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
+				"Destiny 2 Hacks menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot."
 			],
 			"th": [
-				"Destiny 2 cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา destiny 2 cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
-				"Destiny 2 Cheats รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก"
+				"Destiny 2 hacks เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา destiny 2 hacks เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
+				"Destiny 2 Hacks รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก"
 			],
 			"vi": [
-				"Destiny 2 cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm destiny 2 cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
-				"Destiny 2 Cheats gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot."
+				"Destiny 2 hacks là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm destiny 2 hacks cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
+				"Destiny 2 Hacks gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot."
 			],
 			"uk": [
-				"Destiny 2 cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають destiny 2 cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
-				"Destiny 2 Cheats об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot."
+				"Destiny 2 hacks — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають destiny 2 hacks за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
+				"Destiny 2 Hacks об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot."
 			],
 			"cs": [
-				"Destiny 2 cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá destiny 2 cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
-				"Destiny 2 Cheats spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot."
+				"Destiny 2 cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá destiny 2 hacks pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
+				"Destiny 2 Hacks spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot."
 			],
 			"ro": [
-				"Destiny 2 cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută destiny 2 cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
-				"Destiny 2 Cheats grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot."
+				"Destiny 2 hacks sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută destiny 2 hacks pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
+				"Destiny 2 Hacks grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot."
 			],
 			"sv": [
-				"Destiny 2 cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker destiny 2 cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
-				"Destiny 2 Cheats buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot."
+				"Destiny 2 hacks är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker destiny 2 hacks för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
+				"Destiny 2 Hacks buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot."
 			]
 		},
 		"1": {
@@ -1524,70 +1524,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Destiny 2 cheats add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 cheats are, what Destiny 2 Cheats includes, how BattlEye maintenance works, and where to go next before you buy."
+				"Destiny 2 hacks add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 hacks are, what Destiny 2 Hacks includes, how BattlEye maintenance works, and where to go next before you buy."
 			],
 			"es": [
-				"Los trucos de Destiny 2 añaden ESP, radar y aimbot sobre el juego base. Esta página explica qué son los destiny 2 cheats, qué incluye Destiny 2 Cheats, cómo funciona el mantenimiento de BattlEye y dónde ir antes de comprar."
+				"Los trucos de Destiny 2 añaden ESP, radar y aimbot sobre el juego base. Esta página explica qué son los destiny 2 hacks, qué incluye Destiny 2 Hacks, cómo funciona el mantenimiento de BattlEye y dónde ir antes de comprar."
 			],
 			"fr": [
-				"Les triches Destiny 2 ajoutent ESP, radar et aimbot au jeu de base. Cette page explique ce que sont les destiny 2 cheats, ce que Destiny 2 Cheats inclut, la maintenance BattlEye et où aller avant d'acheter."
+				"Les triches Destiny 2 ajoutent ESP, radar et aimbot au jeu de base. Cette page explique ce que sont les destiny 2 hacks, ce que Destiny 2 Hacks inclut, la maintenance BattlEye et où aller avant d'acheter."
 			],
 			"de": [
-				"Destiny 2 Cheats fügen ESP, Radar und aimbot zum Basisspiel hinzu. Diese Seite erklärt destiny 2 cheats, den Destiny 2 Cheats-Umfang, BattlEye-Wartung und nächste Schritte vor dem Kauf."
+				"Destiny 2 Hacks fügen ESP, Radar und aimbot zum Basisspiel hinzu. Diese Seite erklärt destiny 2 hacks, den Destiny 2 Hacks-Umfang, BattlEye-Wartung und nächste Schritte vor dem Kauf."
 			],
 			"pt": [
-				"Destiny 2 cheats adicionam ESP, radar e aimbot ao jogo base. Esta página explica o que são destiny 2 cheats, o que o Destiny 2 Cheats inclui, manutenção BattlEye e próximos passos antes de comprar."
+				"Destiny 2 hacks adicionam ESP, radar e aimbot ao jogo base. Esta página explica o que são destiny 2 hacks, o que o Destiny 2 Hacks inclui, manutenção BattlEye e próximos passos antes de comprar."
 			],
 			"it": [
-				"I cheat Destiny 2 aggiungono ESP, radar e aimbot al gioco base. Questa pagina spiega cosa sono i destiny 2 cheats, cosa include Destiny 2 Cheats, manutenzione BattlEye e dove andare prima dell'acquisto."
+				"I cheat Destiny 2 aggiungono ESP, radar e aimbot al gioco base. Questa pagina spiega cosa sono i destiny 2 hacks, cosa include Destiny 2 Hacks, manutenzione BattlEye e dove andare prima dell'acquisto."
 			],
 			"nl": [
-				"Destiny 2 cheats voegen ESP, radar en aimbot toe aan het basisspel. Deze pagina legt uit wat destiny 2 cheats zijn, wat Destiny 2 Cheats bevat, BattlEye-onderhoud en volgende stappen vóór aankoop."
+				"Destiny 2 hacks voegen ESP, radar en aimbot toe aan het basisspel. Deze pagina legt uit wat destiny 2 hacks zijn, wat Destiny 2 Hacks bevat, BattlEye-onderhoud en volgende stappen vóór aankoop."
 			],
 			"pl": [
-				"Destiny 2 cheats dodają ESP, radar i aimbot do gry bazowej. Ta strona wyjaśnia czym są destiny 2 cheats, co zawiera Destiny 2 Cheats, konserwację BattlEye i co dalej przed zakupem."
+				"Destiny 2 hacks dodają ESP, radar i aimbot do gry bazowej. Ta strona wyjaśnia czym są destiny 2 hacks, co zawiera Destiny 2 Hacks, konserwację BattlEye i co dalej przed zakupem."
 			],
 			"ru": [
-				"Destiny 2 cheats добавляют ESP, radar и aimbot к базовой игре. Эта страница объясняет что такое destiny 2 cheats, что входит в Destiny 2 Cheats, обслуживание BattlEye и куда идти перед покупкой."
+				"Destiny 2 hacks добавляют ESP, radar и aimbot к базовой игре. Эта страница объясняет что такое destiny 2 hacks, что входит в Destiny 2 Hacks, обслуживание BattlEye и куда идти перед покупкой."
 			],
 			"tr": [
-				"Destiny 2 hileleri temel oyuna ESP, radar ve aimbot ekler. Bu sayfa destiny 2 cheats nedir, Destiny 2 Cheats neleri içerir, BattlEye bakımı ve satın almadan önce nereye gidileceğini açıklar."
+				"Destiny 2 hileleri temel oyuna ESP, radar ve aimbot ekler. Bu sayfa destiny 2 hacks nedir, Destiny 2 Hacks neleri içerir, BattlEye bakımı ve satın almadan önce nereye gidileceğini açıklar."
 			],
 			"ar": [
-				"تضيف destiny 2 cheats الـ ESP والرادار وaimbot فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي destiny 2 cheats وما يتضمنه Destiny 2 Cheats وصيانة BattlEye وأين تذهب قبل الشراء."
+				"تضيف destiny 2 hacks الـ ESP والرادار وaimbot فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي destiny 2 hacks وما يتضمنه Destiny 2 Hacks وصيانة BattlEye وأين تذهب قبل الشراء."
 			],
 			"ja": [
-				"Destiny 2チートはベースゲームにESP、radar、aimbotを追加します。このページではdestiny 2 cheatsの概要、Destiny 2 Cheatsの内容、BattlEyeメンテナンス、購入前の確認先を説明します。"
+				"Destiny 2チートはベースゲームにESP、radar、aimbotを追加します。このページではdestiny 2 hacksの概要、Destiny 2 Hacksの内容、BattlEyeメンテナンス、購入前の確認先を説明します。"
 			],
 			"ko": [
-				"Destiny 2 치트는 기본 게임 위에 ESP, radar, aimbot을 추가합니다. 이 페이지는 destiny 2 cheats란, Destiny 2 Cheats 포함 사항, BattlEye 유지보수, 구매 전 확인할 곳을 설명합니다."
+				"Destiny 2 치트는 기본 게임 위에 ESP, radar, aimbot을 추가합니다. 이 페이지는 destiny 2 hacks란, Destiny 2 Hacks 포함 사항, BattlEye 유지보수, 구매 전 확인할 곳을 설명합니다."
 			],
 			"zh": [
-				"Destiny 2 cheats 在基础游戏上添加 ESP、radar 和 aimbot。本页说明什么是 destiny 2 cheats、Destiny 2 Cheats 包含什么、BattlEye 维护以及购买前该看哪里。"
+				"Destiny 2 hacks 在基础游戏上添加 ESP、radar 和 aimbot。本页说明什么是 destiny 2 hacks、Destiny 2 Hacks 包含什么、BattlEye 维护以及购买前该看哪里。"
 			],
 			"hi": [
-				"Destiny 2 cheats बेस गेम पर ESP, radar और aimbot जोड़ते हैं। यह पेज बताता है destiny 2 cheats क्या हैं, Destiny 2 Cheats में क्या है, BattlEye रखरखाव और खरीद से पहले कहाँ जाएँ।"
+				"Destiny 2 hacks बेस गेम पर ESP, radar और aimbot जोड़ते हैं। यह पेज बताता है destiny 2 hacks क्या हैं, Destiny 2 Hacks में क्या है, BattlEye रखरखाव और खरीद से पहले कहाँ जाएँ।"
 			],
 			"id": [
-				"Destiny 2 cheats menambahkan ESP, radar, dan aimbot di atas game dasar. Halaman ini menjelaskan apa itu destiny 2 cheats, apa yang termasuk Destiny 2 Cheats, pemeliharaan BattlEye, dan langkah sebelum membeli."
+				"Destiny 2 hacks menambahkan ESP, radar, dan aimbot di atas game dasar. Halaman ini menjelaskan apa itu destiny 2 hacks, apa yang termasuk Destiny 2 Hacks, pemeliharaan BattlEye, dan langkah sebelum membeli."
 			],
 			"th": [
-				"Destiny 2 cheats เพิ่ม ESP, radar และ aimbot บนเกมหลัก หน้านี้อธิบาย destiny 2 cheats คืออะไร Destiny 2 Cheats รวมอะไร การดูแล BattlEye และขั้นตอนก่อนซื้อ"
+				"Destiny 2 hacks เพิ่ม ESP, radar และ aimbot บนเกมหลัก หน้านี้อธิบาย destiny 2 hacks คืออะไร Destiny 2 Hacks รวมอะไร การดูแล BattlEye และขั้นตอนก่อนซื้อ"
 			],
 			"vi": [
-				"Destiny 2 cheats thêm ESP, radar và aimbot lên game gốc. Trang này giải thích destiny 2 cheats là gì, Destiny 2 Cheats gồm gì, bảo trì BattlEye và bước tiếp theo trước khi mua."
+				"Destiny 2 hacks thêm ESP, radar và aimbot lên game gốc. Trang này giải thích destiny 2 hacks là gì, Destiny 2 Hacks gồm gì, bảo trì BattlEye và bước tiếp theo trước khi mua."
 			],
 			"uk": [
-				"Destiny 2 cheats додають ESP, radar і aimbot до базової гри. Ця сторінка пояснює що таке destiny 2 cheats, що входить у Destiny 2 Cheats, обслуговування BattlEye і куди йти перед покупкою."
+				"Destiny 2 hacks додають ESP, radar і aimbot до базової гри. Ця сторінка пояснює що таке destiny 2 hacks, що входить у Destiny 2 Hacks, обслуговування BattlEye і куди йти перед покупкою."
 			],
 			"cs": [
-				"Destiny 2 cheaty přidávají ESP, radar a aimbot k základní hře. Tato stránka vysvětluje co jsou destiny 2 cheats, co obsahuje Destiny 2 Cheats, údržbu BattlEye a kam jít před nákupem."
+				"Destiny 2 cheaty přidávají ESP, radar a aimbot k základní hře. Tato stránka vysvětluje co jsou destiny 2 hacks, co obsahuje Destiny 2 Hacks, údržbu BattlEye a kam jít před nákupem."
 			],
 			"ro": [
-				"Destiny 2 cheats adaugă ESP, radar și aimbot peste jocul de bază. Această pagină explică ce sunt destiny 2 cheats, ce include Destiny 2 Cheats, mentenanța BattlEye și pașii înainte de cumpărare."
+				"Destiny 2 hacks adaugă ESP, radar și aimbot peste jocul de bază. Această pagină explică ce sunt destiny 2 hacks, ce include Destiny 2 Hacks, mentenanța BattlEye și pașii înainte de cumpărare."
 			],
 			"sv": [
-				"Destiny 2 cheats lägger till ESP, radar och aimbot ovanpå basspelet. Den här sidan förklarar vad destiny 2 cheats är, vad Destiny 2 Cheats innehåller, BattlEye-underhåll och nästa steg före köp."
+				"Destiny 2 hacks lägger till ESP, radar och aimbot ovanpå basspelet. Den här sidan förklarar vad destiny 2 hacks är, vad Destiny 2 Hacks innehåller, BattlEye-underhåll och nästa steg före köp."
 			]
 		},
 		"list1": {
@@ -2337,70 +2337,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"See players and loot through walls during Destiny 2 matches. Part of the same Destiny 2 Cheats license."
+				"See players and loot through walls during Destiny 2 matches. Part of the same Destiny 2 Hacks license."
 			],
 			"es": [
-				"Ve jugadores y loot a través de las paredes durante matches de Destiny 2. Parte de la misma licencia Destiny 2 Cheats."
+				"Ve jugadores y loot a través de las paredes durante matches de Destiny 2. Parte de la misma licencia Destiny 2 Hacks."
 			],
 			"fr": [
-				"Voyez joueurs et loot à travers les murs pendant les matches Destiny 2. Inclus dans la même licence Destiny 2 Cheats."
+				"Voyez joueurs et loot à travers les murs pendant les matches Destiny 2. Inclus dans la même licence Destiny 2 Hacks."
 			],
 			"de": [
-				"Sieh Spieler und Loot durch Wände bei Destiny 2 matches. Teil derselben Destiny 2 Cheats-Lizenz."
+				"Sieh Spieler und Loot durch Wände bei Destiny 2 matches. Teil derselben Destiny 2 Hacks-Lizenz."
 			],
 			"pt": [
-				"Veja jogadores e loot através das paredes em matches de Destiny 2. Parte da mesma licença Destiny 2 Cheats."
+				"Veja jogadores e loot através das paredes em matches de Destiny 2. Parte da mesma licença Destiny 2 Hacks."
 			],
 			"it": [
-				"Vedi giocatori e loot attraverso i muri durante i match Destiny 2. Parte della stessa licenza Destiny 2 Cheats."
+				"Vedi giocatori e loot attraverso i muri durante i match Destiny 2. Parte della stessa licenza Destiny 2 Hacks."
 			],
 			"nl": [
-				"Zie spelers en loot door muren tijdens Destiny 2 matches. Onderdeel van dezelfde Destiny 2 Cheats-licentie."
+				"Zie spelers en loot door muren tijdens Destiny 2 matches. Onderdeel van dezelfde Destiny 2 Hacks-licentie."
 			],
 			"pl": [
-				"Widz graczy i loot przez ściany podczas matchów Destiny 2. Część tej samej licencji Destiny 2 Cheats."
+				"Widz graczy i loot przez ściany podczas matchów Destiny 2. Część tej samej licencji Destiny 2 Hacks."
 			],
 			"ru": [
-				"Видьте игроков и лут сквозь стены в рейдах Destiny 2. Часть той же лицензии Destiny 2 Cheats."
+				"Видьте игроков и лут сквозь стены в рейдах Destiny 2. Часть той же лицензии Destiny 2 Hacks."
 			],
 			"tr": [
-				"Destiny 2 matchlerinde duvarların ardından oyuncuları ve loot'u görün. Aynı Destiny 2 Cheats lisansının parçası."
+				"Destiny 2 matchlerinde duvarların ardından oyuncuları ve loot'u görün. Aynı Destiny 2 Hacks lisansının parçası."
 			],
 			"ar": [
-				"شاهد اللاعبين والloot عبر الجدران أثناء matches في Destiny 2. جزء من نفس ترخيص Destiny 2 Cheats."
+				"شاهد اللاعبين والloot عبر الجدران أثناء matches في Destiny 2. جزء من نفس ترخيص Destiny 2 Hacks."
 			],
 			"ja": [
-				"Destiny 2レイド中に壁越しでプレイヤーとlootを確認。同じDestiny 2 Cheatsライセンスに含まれます。"
+				"Destiny 2レイド中に壁越しでプレイヤーとlootを確認。同じDestiny 2 Hacksライセンスに含まれます。"
 			],
 			"ko": [
-				"Destiny 2 레이드 중 벽 너머로 플레이어와 loot를 확인하세요. 동일 Destiny 2 Cheats 라이선스에 포함됩니다."
+				"Destiny 2 레이드 중 벽 너머로 플레이어와 loot를 확인하세요. 동일 Destiny 2 Hacks 라이선스에 포함됩니다."
 			],
 			"zh": [
-				"在 Destiny 2 match 中透视玩家和物资。包含在同一 Destiny 2 Cheats 许可证中。"
+				"在 Destiny 2 match 中透视玩家和物资。包含在同一 Destiny 2 Hacks 许可证中。"
 			],
 			"hi": [
-				"Destiny 2 matches में दीवारों के पार players और loot देखें। उसी Destiny 2 Cheats लाइसेंस का हिस्सा।"
+				"Destiny 2 matches में दीवारों के पार players और loot देखें। उसी Destiny 2 Hacks लाइसेंस का हिस्सा।"
 			],
 			"id": [
-				"Lihat pemain dan loot menembus dinding saat match Destiny 2. Bagian dari lisensi Destiny 2 Cheats yang sama."
+				"Lihat pemain dan loot menembus dinding saat match Destiny 2. Bagian dari lisensi Destiny 2 Hacks yang sama."
 			],
 			"th": [
-				"มองเห็นผู้เล่นและ loot ผ่านกำแพงระหว่าง match ใน Destiny 2 ส่วนหนึ่งของใบอนุญาต Destiny 2 Cheats เดียวกัน"
+				"มองเห็นผู้เล่นและ loot ผ่านกำแพงระหว่าง match ใน Destiny 2 ส่วนหนึ่งของใบอนุญาต Destiny 2 Hacks เดียวกัน"
 			],
 			"vi": [
-				"Nhìn xuyên tường thấy người chơi và loot khi match Destiny 2. Thuộc cùng giấy phép Destiny 2 Cheats."
+				"Nhìn xuyên tường thấy người chơi và loot khi match Destiny 2. Thuộc cùng giấy phép Destiny 2 Hacks."
 			],
 			"uk": [
-				"Бачте гравців і loot крізь стіни під час match у Destiny 2. Частина тієї самої ліцензії Destiny 2 Cheats."
+				"Бачте гравців і loot крізь стіни під час match у Destiny 2. Частина тієї самої ліцензії Destiny 2 Hacks."
 			],
 			"cs": [
-				"Vidíte hráče a loot skrz zdi během matchů Destiny 2. Součást stejné licence Destiny 2 Cheats."
+				"Vidíte hráče a loot skrz zdi během matchů Destiny 2. Součást stejné licence Destiny 2 Hacks."
 			],
 			"ro": [
-				"Vezi jucători și loot prin pereți în match-uri Destiny 2. Parte din aceeași licență Destiny 2 Cheats."
+				"Vezi jucători și loot prin pereți în match-uri Destiny 2. Parte din aceeași licență Destiny 2 Hacks."
 			],
 			"sv": [
-				"Se spelare och loot genom väggar under Destiny 2 matches. Ingår i samma Destiny 2 Cheats-licens."
+				"Se spelare och loot genom väggar under Destiny 2 matches. Ingår i samma Destiny 2 Hacks-licens."
 			]
 		},
 		"list0": {
@@ -2950,70 +2950,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"aimbot and aim assist you can tune for Destiny 2. Included in the same Destiny 2 Cheats license."
+				"aimbot and aim assist you can tune for Destiny 2. Included in the same Destiny 2 Hacks license."
 			],
 			"es": [
-				"aimbot y asistencia de puntería que puedes ajustar para Destiny 2. Incluido en la misma licencia Destiny 2 Cheats."
+				"aimbot y asistencia de puntería que puedes ajustar para Destiny 2. Incluido en la misma licencia Destiny 2 Hacks."
 			],
 			"fr": [
-				"aimbot et aide à la visée réglables pour Destiny 2. Inclus dans la même licence Destiny 2 Cheats."
+				"aimbot et aide à la visée réglables pour Destiny 2. Inclus dans la même licence Destiny 2 Hacks."
 			],
 			"de": [
-				"aimbot und Zielhilfe, die du für Destiny 2 einstellen kannst. In derselben Destiny 2 Cheats-Lizenz enthalten."
+				"aimbot und Zielhilfe, die du für Destiny 2 einstellen kannst. In derselben Destiny 2 Hacks-Lizenz enthalten."
 			],
 			"pt": [
-				"aimbot e assistência de mira ajustáveis para Destiny 2. Incluído na mesma licença Destiny 2 Cheats."
+				"aimbot e assistência de mira ajustáveis para Destiny 2. Incluído na mesma licença Destiny 2 Hacks."
 			],
 			"it": [
-				"aimbot e assistenza mira regolabili per Destiny 2. Incluso nella stessa licenza Destiny 2 Cheats."
+				"aimbot e assistenza mira regolabili per Destiny 2. Incluso nella stessa licenza Destiny 2 Hacks."
 			],
 			"nl": [
-				"aimbot en richt-hulp die je voor Destiny 2 kunt afstellen. Inbegrepen in dezelfde Destiny 2 Cheats-licentie."
+				"aimbot en richt-hulp die je voor Destiny 2 kunt afstellen. Inbegrepen in dezelfde Destiny 2 Hacks-licentie."
 			],
 			"pl": [
-				"aimbot i asysta celowania do ustawienia w Destiny 2. W tej samej licencji Destiny 2 Cheats."
+				"aimbot i asysta celowania do ustawienia w Destiny 2. W tej samej licencji Destiny 2 Hacks."
 			],
 			"ru": [
-				"aimbot и помощь прицеливания, настраиваемые для Destiny 2. Включено в ту же лицензию Destiny 2 Cheats."
+				"aimbot и помощь прицеливания, настраиваемые для Destiny 2. Включено в ту же лицензию Destiny 2 Hacks."
 			],
 			"tr": [
-				"Destiny 2 için ayarlayabileceğiniz aimbot ve nişan desteği. Aynı Destiny 2 Cheats lisansına dahil."
+				"Destiny 2 için ayarlayabileceğiniz aimbot ve nişan desteği. Aynı Destiny 2 Hacks lisansına dahil."
 			],
 			"ar": [
-				"aimbot ومساعدة تصويب قابلة للضبط لـ Destiny 2. مضمن في نفس ترخيص Destiny 2 Cheats."
+				"aimbot ومساعدة تصويب قابلة للضبط لـ Destiny 2. مضمن في نفس ترخيص Destiny 2 Hacks."
 			],
 			"ja": [
-				"Destiny 2向けに調整できるaimbotとエイム支援。同じDestiny 2 Cheatsライセンスに含まれます。"
+				"Destiny 2向けに調整できるaimbotとエイム支援。同じDestiny 2 Hacksライセンスに含まれます。"
 			],
 			"ko": [
-				"Destiny 2용으로 조절 가능한 aimbot 및 에임 보조. 동일 Destiny 2 Cheats 라이선스에 포함."
+				"Destiny 2용으로 조절 가능한 aimbot 및 에임 보조. 동일 Destiny 2 Hacks 라이선스에 포함."
 			],
 			"zh": [
-				"可为 Destiny 2 调节的 aimbot 和瞄准辅助。包含在同一 Destiny 2 Cheats 许可证中。"
+				"可为 Destiny 2 调节的 aimbot 和瞄准辅助。包含在同一 Destiny 2 Hacks 许可证中。"
 			],
 			"hi": [
-				"Destiny 2 के लिए ट्यून करने योग्य aimbot और aim assist। उसी Destiny 2 Cheats लाइसेंस में शामिल।"
+				"Destiny 2 के लिए ट्यून करने योग्य aimbot और aim assist। उसी Destiny 2 Hacks लाइसेंस में शामिल।"
 			],
 			"id": [
-				"aimbot dan bantuan aim yang bisa disesuaikan untuk Destiny 2. Termasuk dalam lisensi Destiny 2 Cheats yang sama."
+				"aimbot dan bantuan aim yang bisa disesuaikan untuk Destiny 2. Termasuk dalam lisensi Destiny 2 Hacks yang sama."
 			],
 			"th": [
-				"aimbot และการช่วยเล็งที่ปรับได้สำหรับ Destiny 2 รวมในใบอนุญาต Destiny 2 Cheats เดียวกัน"
+				"aimbot และการช่วยเล็งที่ปรับได้สำหรับ Destiny 2 รวมในใบอนุญาต Destiny 2 Hacks เดียวกัน"
 			],
 			"vi": [
-				"aimbot và hỗ trợ ngắm có thể tinh chỉnh cho Destiny 2. Thuộc cùng giấy phép Destiny 2 Cheats."
+				"aimbot và hỗ trợ ngắm có thể tinh chỉnh cho Destiny 2. Thuộc cùng giấy phép Destiny 2 Hacks."
 			],
 			"uk": [
-				"aimbot і допомога прицілювання, які можна налаштувати для Destiny 2. У тій самій ліцензії Destiny 2 Cheats."
+				"aimbot і допомога прицілювання, які можна налаштувати для Destiny 2. У тій самій ліцензії Destiny 2 Hacks."
 			],
 			"cs": [
-				"aimbot a aim assist nastavitelný pro Destiny 2. Součást stejné licence Destiny 2 Cheats."
+				"aimbot a aim assist nastavitelný pro Destiny 2. Součást stejné licence Destiny 2 Hacks."
 			],
 			"ro": [
-				"aimbot și asistență țintire reglabile pentru Destiny 2. Inclus în aceeași licență Destiny 2 Cheats."
+				"aimbot și asistență țintire reglabile pentru Destiny 2. Inclus în aceeași licență Destiny 2 Hacks."
 			],
 			"sv": [
-				"aimbot och siktehjälp du kan ställa in för Destiny 2. Ingår i samma Destiny 2 Cheats-licens."
+				"aimbot och siktehjälp du kan ställa in för Destiny 2. Ingår i samma Destiny 2 Hacks-licens."
 			]
 		},
 		"list0": {
@@ -3494,70 +3494,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"A simple radar overlay for threats outside your view. Included in the same Destiny 2 Cheats license."
+				"A simple radar overlay for threats outside your view. Included in the same Destiny 2 Hacks license."
 			],
 			"es": [
-				"Un radar 2D simple para amenazas fuera de tu vista. Incluido en la misma licencia Destiny 2 Cheats."
+				"Un radar 2D simple para amenazas fuera de tu vista. Incluido en la misma licencia Destiny 2 Hacks."
 			],
 			"fr": [
-				"Un radar 2D simple pour les menaces hors champ. Inclus dans la même licence Destiny 2 Cheats."
+				"Un radar 2D simple pour les menaces hors champ. Inclus dans la même licence Destiny 2 Hacks."
 			],
 			"de": [
-				"Ein einfaches 2D-Radar für Bedrohungen außerhalb deines Sichtfelds. In derselben Destiny 2 Cheats-Lizenz enthalten."
+				"Ein einfaches 2D-Radar für Bedrohungen außerhalb deines Sichtfelds. In derselben Destiny 2 Hacks-Lizenz enthalten."
 			],
 			"pt": [
-				"Um radar 2D simples para ameaças fora da sua visão. Incluído na mesma licença Destiny 2 Cheats."
+				"Um radar 2D simples para ameaças fora da sua visão. Incluído na mesma licença Destiny 2 Hacks."
 			],
 			"it": [
-				"Un radar 2D semplice per minacce fuori vista. Incluso nella stessa licenza Destiny 2 Cheats."
+				"Un radar 2D semplice per minacce fuori vista. Incluso nella stessa licenza Destiny 2 Hacks."
 			],
 			"nl": [
-				"Een eenvoudige 2D-radar voor dreigingen buiten beeld. Inbegrepen in dezelfde Destiny 2 Cheats-licentie."
+				"Een eenvoudige 2D-radar voor dreigingen buiten beeld. Inbegrepen in dezelfde Destiny 2 Hacks-licentie."
 			],
 			"pl": [
-				"Prosty radar 2D na zagrożenia poza widokiem. W tej samej licencji Destiny 2 Cheats."
+				"Prosty radar 2D na zagrożenia poza widokiem. W tej samej licencji Destiny 2 Hacks."
 			],
 			"ru": [
-				"Простой radar overlay для угроз вне поля зрения. Включён в ту же лицензию Destiny 2 Cheats."
+				"Простой radar overlay для угроз вне поля зрения. Включён в ту же лицензию Destiny 2 Hacks."
 			],
 			"tr": [
-				"Görüş alanı dışındaki tehditler için basit radar overlay. Aynı Destiny 2 Cheats lisansına dahil."
+				"Görüş alanı dışındaki tehditler için basit radar overlay. Aynı Destiny 2 Hacks lisansına dahil."
 			],
 			"ar": [
-				"radar 2D بسيط للتهديدات خارج مجال رؤيتك. مضمن في نفس ترخيص Destiny 2 Cheats."
+				"radar 2D بسيط للتهديدات خارج مجال رؤيتك. مضمن في نفس ترخيص Destiny 2 Hacks."
 			],
 			"ja": [
-				"視界外の脅威向けシンプルradar overlay。同じDestiny 2 Cheatsライセンスに含まれます。"
+				"視界外の脅威向けシンプルradar overlay。同じDestiny 2 Hacksライセンスに含まれます。"
 			],
 			"ko": [
-				"시야 밖 위협을 위한 간단한 radar overlay. 동일 Destiny 2 Cheats 라이선스에 포함."
+				"시야 밖 위협을 위한 간단한 radar overlay. 동일 Destiny 2 Hacks 라이선스에 포함."
 			],
 			"zh": [
-				"用于屏幕外威胁的简单 radar overlay。包含在同一 Destiny 2 Cheats 许可证中。"
+				"用于屏幕外威胁的简单 radar overlay。包含在同一 Destiny 2 Hacks 许可证中。"
 			],
 			"hi": [
-				"आपकी दृष्टि से बाहर threats के लिए सरल radar overlay। उसी Destiny 2 Cheats लाइसेंस में शामिल।"
+				"आपकी दृष्टि से बाहर threats के लिए सरल radar overlay। उसी Destiny 2 Hacks लाइसेंस में शामिल।"
 			],
 			"id": [
-				"Radar 2D sederhana untuk ancaman di luar pandangan. Termasuk dalam lisensi Destiny 2 Cheats yang sama."
+				"Radar 2D sederhana untuk ancaman di luar pandangan. Termasuk dalam lisensi Destiny 2 Hacks yang sama."
 			],
 			"th": [
-				"radar 2D เรียบง่ายสำหรับภัยคุกคามนอกสายตา รวมในใบอนุญาต Destiny 2 Cheats เดียวกัน"
+				"radar 2D เรียบง่ายสำหรับภัยคุกคามนอกสายตา รวมในใบอนุญาต Destiny 2 Hacks เดียวกัน"
 			],
 			"vi": [
-				"Radar 2D đơn giản cho mối đe dọa ngoài tầm nhìn. Thuộc cùng giấy phép Destiny 2 Cheats."
+				"Radar 2D đơn giản cho mối đe dọa ngoài tầm nhìn. Thuộc cùng giấy phép Destiny 2 Hacks."
 			],
 			"uk": [
-				"Простий radar overlay для загроз поза полем зору. У тій самій ліцензії Destiny 2 Cheats."
+				"Простий radar overlay для загроз поза полем зору. У тій самій ліцензії Destiny 2 Hacks."
 			],
 			"cs": [
-				"Jednoduchý radar overlay pro hrozby mimo dohled. Součást stejné licence Destiny 2 Cheats."
+				"Jednoduchý radar overlay pro hrozby mimo dohled. Součást stejné licence Destiny 2 Hacks."
 			],
 			"ro": [
-				"Radar 2D simplu pentru amenințări în afara vederii. Inclus în aceeași licență Destiny 2 Cheats."
+				"Radar 2D simplu pentru amenințări în afara vederii. Inclus în aceeași licență Destiny 2 Hacks."
 			],
 			"sv": [
-				"En enkel 2D-radar för hot utanför synfältet. Ingår i samma Destiny 2 Cheats-licens."
+				"En enkel 2D-radar för hot utanför synfältet. Ingår i samma Destiny 2 Hacks-licens."
 			]
 		},
 		"list0": {
@@ -3790,7 +3790,7 @@ export const PAGE_CONTENT = {
 			"en": [
 				"Buy a plan first. You get a license by email.",
 				"Have your order email ready before you start installation.",
-				"Destiny 2 Cheats runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy PvP gunfightss."
+				"Destiny 2 Hacks runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy PvP gunfightss."
 			],
 			"es": [
 				"Compra un plan primero. Recibes la licencia por email."
@@ -4540,70 +4540,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Get help with licenses, setup, and billing for Destiny 2 Cheats on Windows PC."
+				"Get help with licenses, setup, and billing for Destiny 2 Hacks on Windows PC."
 			],
 			"es": [
-				"Obtén ayuda con licencias, instalación y facturación de Destiny 2 Cheats en Windows PC."
+				"Obtén ayuda con licencias, instalación y facturación de Destiny 2 Hacks en Windows PC."
 			],
 			"fr": [
-				"Obtenez de l'aide pour licences, installation et facturation Destiny 2 Cheats sur PC Windows."
+				"Obtenez de l'aide pour licences, installation et facturation Destiny 2 Hacks sur PC Windows."
 			],
 			"de": [
-				"Hilfe zu Lizenzen, Setup und Abrechnung für Destiny 2 Cheats auf Windows PC."
+				"Hilfe zu Lizenzen, Setup und Abrechnung für Destiny 2 Hacks auf Windows PC."
 			],
 			"pt": [
-				"Obtenha ajuda com licenças, instalação e faturamento do Destiny 2 Cheats no Windows PC."
+				"Obtenha ajuda com licenças, instalação e faturamento do Destiny 2 Hacks no Windows PC."
 			],
 			"it": [
-				"Assistenza per licenze, setup e fatturazione Destiny 2 Cheats su Windows PC."
+				"Assistenza per licenze, setup e fatturazione Destiny 2 Hacks su Windows PC."
 			],
 			"nl": [
-				"Hulp bij licenties, setup en facturering voor Destiny 2 Cheats op Windows PC."
+				"Hulp bij licenties, setup en facturering voor Destiny 2 Hacks op Windows PC."
 			],
 			"pl": [
-				"Pomoc z licencjami, instalacją i rozliczeniami Destiny 2 Cheats na Windows PC."
+				"Pomoc z licencjami, instalacją i rozliczeniami Destiny 2 Hacks na Windows PC."
 			],
 			"ru": [
-				"Помощь с лицензиями, установкой и оплатой Destiny 2 Cheats на Windows PC."
+				"Помощь с лицензиями, установкой и оплатой Destiny 2 Hacks на Windows PC."
 			],
 			"tr": [
-				"Windows PC'de Destiny 2 Cheats lisans, kurulum ve faturalama desteği."
+				"Windows PC'de Destiny 2 Hacks lisans, kurulum ve faturalama desteği."
 			],
 			"ar": [
-				"احصل على مساعدة للتراخيص والتثبيت والفوترة لـ Destiny 2 Cheats على Windows PC."
+				"احصل على مساعدة للتراخيص والتثبيت والفوترة لـ Destiny 2 Hacks على Windows PC."
 			],
 			"ja": [
-				"Windows PC向けDestiny 2 Cheatsのライセンス、セットアップ、請求のサポート。"
+				"Windows PC向けDestiny 2 Hacksのライセンス、セットアップ、請求のサポート。"
 			],
 			"ko": [
-				"Windows PC Destiny 2 Cheats 라이선스, 설치, 결제 지원."
+				"Windows PC Destiny 2 Hacks 라이선스, 설치, 결제 지원."
 			],
 			"zh": [
-				"获取 Windows PC 上 Destiny 2 Cheats 的许可证、安装和账单帮助。"
+				"获取 Windows PC 上 Destiny 2 Hacks 的许可证、安装和账单帮助。"
 			],
 			"hi": [
-				"Windows PC पर Destiny 2 Cheats लाइसेंस, setup और billing सहायता।"
+				"Windows PC पर Destiny 2 Hacks लाइसेंस, setup और billing सहायता।"
 			],
 			"id": [
-				"Bantuan lisensi, setup, dan billing Destiny 2 Cheats di Windows PC."
+				"Bantuan lisensi, setup, dan billing Destiny 2 Hacks di Windows PC."
 			],
 			"th": [
-				"ความช่วยเหลือด้านใบอนุญาต การติดตั้ง และการเรียกเก็บเงิน Destiny 2 Cheats บน Windows PC"
+				"ความช่วยเหลือด้านใบอนุญาต การติดตั้ง และการเรียกเก็บเงิน Destiny 2 Hacks บน Windows PC"
 			],
 			"vi": [
-				"Hỗ trợ giấy phép, cài đặt và thanh toán Destiny 2 Cheats trên Windows PC."
+				"Hỗ trợ giấy phép, cài đặt và thanh toán Destiny 2 Hacks trên Windows PC."
 			],
 			"uk": [
-				"Допомога з ліцензіями, встановленням і оплатою Destiny 2 Cheats на Windows PC."
+				"Допомога з ліцензіями, встановленням і оплатою Destiny 2 Hacks на Windows PC."
 			],
 			"cs": [
-				"Pomoc s licencemi, instalací a fakturací Destiny 2 Cheats na Windows PC."
+				"Pomoc s licencemi, instalací a fakturací Destiny 2 Hacks na Windows PC."
 			],
 			"ro": [
-				"Ajutor pentru licențe, instalare și facturare Destiny 2 Cheats pe Windows PC."
+				"Ajutor pentru licențe, instalare și facturare Destiny 2 Hacks pe Windows PC."
 			],
 			"sv": [
-				"Hjälp med licenser, setup och fakturering för Destiny 2 Cheats på Windows PC."
+				"Hjälp med licenser, setup och fakturering för Destiny 2 Hacks på Windows PC."
 			]
 		},
 		"list0": {
@@ -5041,70 +5041,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Common questions about Destiny 2 Cheats — delivery, setup, updates, and refunds."
+				"Common questions about Destiny 2 Hacks — delivery, setup, updates, and refunds."
 			],
 			"es": [
-				"Preguntas frecuentes sobre Destiny 2 Cheats — entrega, instalación, actualizaciones y reembolsos."
+				"Preguntas frecuentes sobre Destiny 2 Hacks — entrega, instalación, actualizaciones y reembolsos."
 			],
 			"fr": [
-				"Questions fréquentes sur Destiny 2 Cheats — livraison, installation, mises à jour et remboursements."
+				"Questions fréquentes sur Destiny 2 Hacks — livraison, installation, mises à jour et remboursements."
 			],
 			"de": [
-				"Häufige Fragen zu Destiny 2 Cheats — Lieferung, Setup, Updates und Rückerstattungen."
+				"Häufige Fragen zu Destiny 2 Hacks — Lieferung, Setup, Updates und Rückerstattungen."
 			],
 			"pt": [
-				"Perguntas frequentes sobre Destiny 2 Cheats — entrega, instalação, atualizações e reembolsos."
+				"Perguntas frequentes sobre Destiny 2 Hacks — entrega, instalação, atualizações e reembolsos."
 			],
 			"it": [
-				"Domande frequenti su Destiny 2 Cheats — consegna, setup, aggiornamenti e rimborsi."
+				"Domande frequenti su Destiny 2 Hacks — consegna, setup, aggiornamenti e rimborsi."
 			],
 			"nl": [
-				"Veelgestelde vragen over Destiny 2 Cheats — levering, setup, updates en restituties."
+				"Veelgestelde vragen over Destiny 2 Hacks — levering, setup, updates en restituties."
 			],
 			"pl": [
-				"FAQ o Destiny 2 Cheats — dostawa, instalacja, aktualizacje i zwroty."
+				"FAQ o Destiny 2 Hacks — dostawa, instalacja, aktualizacje i zwroty."
 			],
 			"ru": [
-				"Частые вопросы о Destiny 2 Cheats — доставка, установка, обновления и возвраты."
+				"Частые вопросы о Destiny 2 Hacks — доставка, установка, обновления и возвраты."
 			],
 			"tr": [
-				"Destiny 2 Cheats SSS — teslimat, kurulum, güncellemeler ve iadeler."
+				"Destiny 2 Hacks SSS — teslimat, kurulum, güncellemeler ve iadeler."
 			],
 			"ar": [
-				"أسئلة شائعة عن Destiny 2 Cheats — التسليم والتثبيت والتحديثات والاسترداد."
+				"أسئلة شائعة عن Destiny 2 Hacks — التسليم والتثبيت والتحديثات والاسترداد."
 			],
 			"ja": [
-				"Destiny 2 Cheats FAQ — 配信、セットアップ、更新、返金。"
+				"Destiny 2 Hacks FAQ — 配信、セットアップ、更新、返金。"
 			],
 			"ko": [
-				"Destiny 2 Cheats FAQ — 배송, 설치, 업데이트, 환불."
+				"Destiny 2 Hacks FAQ — 배송, 설치, 업데이트, 환불."
 			],
 			"zh": [
-				"Destiny 2 Cheats 常见问题 — 交付、安装、更新和退款。"
+				"Destiny 2 Hacks 常见问题 — 交付、安装、更新和退款。"
 			],
 			"hi": [
-				"Destiny 2 Cheats FAQ — डिलीवरी, setup, अपडेट और रिफंड।"
+				"Destiny 2 Hacks FAQ — डिलीवरी, setup, अपडेट और रिफंड।"
 			],
 			"id": [
-				"FAQ Destiny 2 Cheats — pengiriman, setup, pembaruan, dan refund."
+				"FAQ Destiny 2 Hacks — pengiriman, setup, pembaruan, dan refund."
 			],
 			"th": [
-				"FAQ Destiny 2 Cheats — การจัดส่ง การติดตั้ง อัปเดต และการคืนเงิน"
+				"FAQ Destiny 2 Hacks — การจัดส่ง การติดตั้ง อัปเดต และการคืนเงิน"
 			],
 			"vi": [
-				"FAQ Destiny 2 Cheats — giao hàng, cài đặt, cập nhật và hoàn tiền."
+				"FAQ Destiny 2 Hacks — giao hàng, cài đặt, cập nhật và hoàn tiền."
 			],
 			"uk": [
-				"FAQ Destiny 2 Cheats — доставка, встановлення, оновлення та повернення."
+				"FAQ Destiny 2 Hacks — доставка, встановлення, оновлення та повернення."
 			],
 			"cs": [
-				"FAQ Destiny 2 Cheats — doručení, instalace, aktualizace a vrácení peněz."
+				"FAQ Destiny 2 Hacks — doručení, instalace, aktualizace a vrácení peněz."
 			],
 			"ro": [
-				"FAQ Destiny 2 Cheats — livrare, instalare, actualizări și rambursări."
+				"FAQ Destiny 2 Hacks — livrare, instalare, actualizări și rambursări."
 			],
 			"sv": [
-				"Destiny 2 Cheats FAQ — leverans, setup, uppdateringar och återbetalningar."
+				"Destiny 2 Hacks FAQ — leverans, setup, uppdateringar och återbetalningar."
 			]
 		},
 		"list0": {

@@ -20,7 +20,7 @@ export type PageSitemapMeta = {
  */
 export const pageSitemapMeta: Record<PageId, PageSitemapMeta> = {
 	home: { priority: 0.95, changefreq: 'daily', i18nPriority: 0.88, lastmod: '2026-08-24' },
-	/** Money URL for "destiny 2 cheats" */
+	/** Money URL for "destiny 2 hacks" */
 	hacks: { priority: 1.0, changefreq: 'weekly', i18nPriority: 0.9, lastmod: '2026-08-24' },
 	undetected: { priority: 0.91, changefreq: 'weekly', i18nPriority: 0.86, lastmod: '2026-08-25' },
 	'cheats-2026': { priority: 0.9, changefreq: 'weekly', i18nPriority: 0.85, lastmod: '2026-08-25' },

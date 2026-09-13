@@ -17,10 +17,10 @@ export const SIMPLE_PAGE_IDS = [
 
 export const simplePagesEn = {
 	features: {
-		title: 'Destiny 2 Cheats Features | ESP, Aimbot & Radar',
+		title: 'Destiny 2 Hacks Features | ESP, Aimbot & Radar',
 		description:
-			'Full Destiny 2 cheats feature list — ESP wallhack, aimbot, radar overlay & toggles for ranked & Trials on PC. BattlEye maintenance at destiny2hack.net.',
-		h1: 'Destiny 2 Cheats Features — Full Control List',
+			'Full Destiny 2 hacks feature list — ESP wallhack, aimbot, radar overlay & toggles for ranked & Trials on PC. BattlEye maintenance at destiny2hack.net.',
+		h1: 'Destiny 2 Hacks Features — Full Control List',
 		intro: 'Everything included in one license for Destiny 2 on Windows PC.',
 		ctaPrimary: 'Get Access',
 		ctaSecondary: 'View store',
@@ -80,10 +80,10 @@ export const simplePagesEn = {
 		],
 	},
 	pricing: {
-		title: 'Destiny 2 Cheats Pricing | $35/mo or $150',
+		title: 'Destiny 2 Hacks Pricing | $35/mo or $150',
 		description:
-			'Buy Destiny 2 cheats — $35/month or $150 lifetime. ESP, aimbot & radar for ranked & Trials on PC. Same features, instant delivery.',
-		h1: 'Destiny 2 Cheats Pricing — Monthly & Lifetime',
+			'Buy Destiny 2 hacks — $35/month or $150 lifetime. ESP, aimbot & radar for ranked & Trials on PC. Same features, instant delivery.',
+		h1: 'Destiny 2 Hacks Pricing — Monthly & Lifetime',
 		intro: 'Monthly and lifetime plans with the same ESP, aimbot, and radar stack.',
 		ctaPrimary: 'Get Access',
 		ctaSecondary: 'Setup guide',
@@ -121,13 +121,13 @@ export const simplePagesEn = {
 		],
 	},
 	updates: {
-		title: 'Destiny 2 Status | BattlEye Updates | Destiny 2 Cheats',
+		title: 'Destiny 2 Status | BattlEye Updates | Destiny 2 Hacks',
 		description:
 			'Live status after Destiny 2 & BattlEye patches. Check undetected ESP, aimbot & radar rebuilds on PC before you queue. destiny2hack.net.',
 		h1: 'Status',
 		intro: 'Check maintenance notes before you load in after a Destiny 2 or BattlEye patch.',
 		ctaPrimary: 'Get Access',
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'In-game look',
 		sections: [
@@ -162,26 +162,26 @@ export const simplePagesEn = {
 		],
 	},
 	hacks: {
-		title: 'Destiny 2 Cheats Guide | ESP, Aimbot & Radar',
+		title: 'Destiny 2 Hacks Guide | ESP, Aimbot & Radar',
 		description:
-			'Destiny 2 cheats guide — undetected ESP wallhack, aimbot, radar & BattlEye rebuilds for ranked & Trials on PC. Buy from $35 at destiny2hack.net.',
-		h1: 'Destiny 2 Cheats — Full Guide',
+			'Destiny 2 hacks guide — undetected ESP wallhack, aimbot, radar & BattlEye rebuilds for ranked & Trials on PC. Buy from $35 at destiny2hack.net.',
+		h1: 'Destiny 2 Hacks — Full Guide',
 		intro:
-			'Destiny 2 cheats add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 cheats are, what Destiny 2 Cheats includes, how BattlEye maintenance works, and where to go next before you buy.',
+			'Destiny 2 hacks add ESP, radar, and aimbot on top of the base game. This page explains what destiny 2 hacks are, what Destiny 2 Hacks includes, how BattlEye maintenance works, and where to go next before you buy.',
 		ctaPrimary: 'Get Access',
 		ctaSecondary: 'View features',
 		ctaSecondaryHref: '/features/',
-		galleryTitle: 'Destiny 2 cheats in action',
+		galleryTitle: 'Destiny 2 hacks in action',
 		sections: [
 			{
-				h2: 'What are destiny 2 cheats?',
+				h2: 'What are destiny 2 hacks?',
 				paragraphs: [
-					'Destiny 2 cheats are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
-					'Destiny 2 Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
+					'Destiny 2 hacks are third-party tools that give you extra information and combat assist during matches. Most players search for destiny 2 hacks when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
+					'Destiny 2 Hacks bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
 				],
 			},
 			{
-				h2: 'What Destiny 2 Cheats includes',
+				h2: 'What Destiny 2 Hacks includes',
 				paragraphs: [
 					'One license covers the full match stack: player ESP with distance, guardian markers, radar overlay for flanks, and configurable aimbot profiles per weapon.',
 					'Monthly and lifetime plans include the same feature stack with BattlEye rebuilds.',
@@ -239,9 +239,9 @@ export const simplePagesEn = {
 		description:
 			'Destiny 2 ESP wallhack — player boxes, guardian markers & distance for ranked & Trials on PC. Bundled with aimbot & radar at destiny2hack.net.',
 		h1: 'Destiny 2 ESP — Player Boxes & Wallhack',
-		intro: 'See players and loot through walls during Destiny 2 matches. Part of the same Destiny 2 Cheats license.',
+		intro: 'See players and loot through walls during Destiny 2 matches. Part of the same Destiny 2 Hacks license.',
 		ctaPrimary: 'Get Access',
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'ESP in match',
 		sections: [
@@ -280,9 +280,9 @@ export const simplePagesEn = {
 		description:
 			'Destiny 2 aimbot with aimbot, FOV & bone priority for ranked melee fights on PC. Undetected package with ESP & radar at destiny2hack.net.',
 		h1: 'Destiny 2 Aimbot — aimbot for Windows PC',
-		intro: 'aimbot and aim assist you can tune for Destiny 2. Included in the same Destiny 2 Cheats license.',
+		intro: 'aimbot and aim assist you can tune for Destiny 2. Included in the same Destiny 2 Hacks license.',
 		ctaPrimary: 'Get Access',
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Aimbot view',
 		sections: [
@@ -321,9 +321,9 @@ export const simplePagesEn = {
 		description:
 			'radar overlay hack for flank reads in Destiny 2 ranked & Trials on PC. Bundled with ESP wallhack & aimbot in one license at destiny2hack.net.',
 		h1: 'Destiny 2 Radar Hack — 2D Threat Awareness',
-		intro: 'A simple radar overlay for threats outside your view. Included in the same Destiny 2 Cheats license.',
+		intro: 'A simple radar overlay for threats outside your view. Included in the same Destiny 2 Hacks license.',
 		ctaPrimary: 'Get Access',
-		ctaSecondary: 'Destiny 2 Cheats overview',
+		ctaSecondary: 'Destiny 2 Hacks overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Radar overlay',
 		sections: [
@@ -350,9 +350,9 @@ export const simplePagesEn = {
 		],
 	},
 	setup: {
-		title: 'Destiny 2 Cheats Setup | Windows PC Install Guide',
+		title: 'Destiny 2 Hacks Setup | Windows PC Install Guide',
 		description:
-			'Install Destiny 2 Cheats on PC — activate ESP, aimbot & radar step by step. Setup guide at destiny2hack.net. Check BattlEye status first.',
+			'Install Destiny 2 Hacks on PC — activate ESP, aimbot & radar step by step. Setup guide at destiny2hack.net. Check BattlEye status first.',
 		h1: 'Setup',
 		intro: 'Install and activate your license on Windows 10 or 11 before your first match.',
 		ctaPrimary: 'Get Access',
@@ -365,7 +365,7 @@ export const simplePagesEn = {
 				paragraphs: [
 					'Buy a plan first. You get a license by email.',
 					'Have your order email ready before you start installation.',
-					'Destiny 2 Cheats runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy PvP gunfightss.',
+					'Destiny 2 Hacks runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy PvP gunfightss.',
 				],
 				list: ['Windows 10 / 11 PC', 'Disable conflicting overlays', 'Have your order email ready'],
 			},
@@ -388,11 +388,11 @@ export const simplePagesEn = {
 		],
 	},
 	support: {
-		title: 'Destiny 2 Cheats Support | License & Setup Help',
+		title: 'Destiny 2 Hacks Support | License & Setup Help',
 		description:
 			'Support for license delivery, ESP setup & billing on PC. Email support@destiny2hack.net with your order ID. destiny2hack.net/support.',
 		h1: 'Support',
-		intro: 'Get help with licenses, setup, and billing for Destiny 2 Cheats on Windows PC.',
+		intro: 'Get help with licenses, setup, and billing for Destiny 2 Hacks on Windows PC.',
 		ctaPrimary: 'Email support',
 		ctaSecondary: 'FAQ',
 		ctaSecondaryHref: '/faq/',
@@ -417,11 +417,11 @@ export const simplePagesEn = {
 		],
 	},
 	faq: {
-		title: 'Destiny 2 Cheats FAQ | ESP, Aimbot & BattlEye',
+		title: 'Destiny 2 Hacks FAQ | ESP, Aimbot & BattlEye',
 		description:
-			'FAQ for Destiny 2 cheats — delivery, setup, ranked & Trials use, BattlEye updates & pricing on PC. Answers at destiny2hack.net before you buy.',
-		h1: 'Destiny 2 Cheats FAQ — Common Questions',
-		intro: 'Common questions about Destiny 2 Cheats — delivery, setup, updates, and refunds.',
+			'FAQ for Destiny 2 hacks — delivery, setup, ranked & Trials use, BattlEye updates & pricing on PC. Answers at destiny2hack.net before you buy.',
+		h1: 'Destiny 2 Hacks FAQ — Common Questions',
+		intro: 'Common questions about Destiny 2 Hacks — delivery, setup, updates, and refunds.',
 		ctaPrimary: 'Get Access',
 		ctaSecondary: 'Support',
 		ctaSecondaryHref: '/support/',
