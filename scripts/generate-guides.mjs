@@ -509,57 +509,57 @@ function buildGuide(url, index) {
 	};
 	const seed = hashString(externalUrl);
 	const anchorText = pick(ANCHOR_TEXTS, seed);
-	const slug = `${gameSlug(game)}-${host.replace(/\./g, '-')}-guide`;
+	const shortHost = host.replace(/\.(com|net|org|io|gg|co)$/, '').replace(/\./g, '-');
+	const slug = `${gameSlug(game)}-${shortHost}-cheats`;
 	const imageUrl = IGN_IMAGES[game];
 	if (!imageUrl) throw new Error(`Missing IGN image for game: ${game}`);
 
 	const angles = [
-		'beginner onboarding',
-		'ranked climb strategy',
-		'patch-day preparation',
-		'solo queue survival',
-		'squad coordination',
-		'economy and loadout planning',
-		'map control fundamentals',
-		'anti-cheat awareness',
+		'ESP and wallhack setup',
+		'aimbot configuration',
+		'radar hack overview',
+		'undetected cheat status',
+		'cheat loader setup',
+		'anti-cheat bypass tips',
+		'cheat feature comparison',
 	];
 	const angle = pick(angles, seed);
 	const mechanic = pick(profile.mechanics, seed + 3);
 	const mechanic2 = pick(profile.mechanics, seed + 7);
 
-	const title = `${game} Guide: ${angle.replace(/\b\w/g, (c) => c.toUpperCase())} (2026)`;
-	const h1 = `${game} ${angle.replace(/\b\w/g, (c) => c.toUpperCase())} Guide`;
-	const metaDescription = `A practical ${game} guide covering ${profile.genre} fundamentals, ${mechanic}, and ${profile.setting} — updated for 2026 PC players.`;
+	const title = `${game} Cheats Guide: ${angle.replace(/\b\w/g, (c) => c.toUpperCase())} (2026)`;
+	const h1 = `${game} Cheats — ${angle.replace(/\b\w/g, (c) => c.toUpperCase())}`;
+	const metaDescription = `${game} cheat guide covering ${angle}, undetected status, and PC setup for ${profile.genre} — updated 2026.`;
 
-	const intro = `${game} remains one of the most discussed ${profile.genre} titles on PC, especially for players who want sharper reads in ${profile.setting}. This guide focuses on ${angle} without skipping the basics: how rounds flow, where teams win fights, and why ${mechanic} often decides outcomes before aim ever matters.`;
+	const intro = `This ${game} cheat guide covers ${angle} for PC players. Learn what features matter in ${profile.setting}, how ${profile.antiCheat} affects cheat use, and where to get a safe loader before you buy.`;
 
 	const sections = [
 		{
-			h2: `How ${game} matches actually play out`,
+			h2: `${game} cheat features that matter`,
 			paragraphs: [
-				`Most ${game} sessions are won in the minutes before a fight starts. Learn the default routes players take through ${profile.setting}, which angles give free information, and when to disengage. In ${profile.genre} titles, map timing beats raw reflexes more often than new players expect.`,
-				`Treat ${mechanic} as a repeatable checklist rather than a highlight-reel skill. When your plan is explicit — where you rotate, what you contest, and what you give up — you stop panic-switching mid-round and start forcing opponents into bad trades.`,
+				`Most ${game} cheat menus include ESP, aimbot, and radar options. ESP shows players through walls in ${profile.setting}. Aimbot helps land shots during ${mechanic} fights. Radar gives map awareness without checking corners.`,
+				`Pick features that match how you play. PvP players want aimbot and player ESP. ${profile.genre} grinders may prefer loot ESP and ${mechanic2} overlays. Avoid bloated menus with options you will never toggle.`,
 			],
 		},
 		{
-			h2: `${mechanic2} and mid-game decisions`,
+			h2: 'Undetected status and anti-cheat',
 			paragraphs: [
-				`${mechanic2} separates players who float with the lobby from players who steer it. Watch for audio cues, ability cooldowns, and objective timers that reveal when a squad is committed. In ${game}, the team that recognizes a committed enemy first usually wins the exchange.`,
-				`If you queue solo, ping information consistently and play for space instead of hero plays. Even in chaotic ${profile.genre} lobbies, disciplined spacing around ${profile.setting} creates openings that raw aggression cannot.`,
+				`${game} runs ${profile.antiCheat}. Good cheat providers push updates after every patch. Check status pages before you inject. Never run outdated builds — that is how ban waves hit.`,
+				`Use a HWID spoofer if you had a prior ban. Run cheats only on a clean Windows install when possible. Avoid streaming or recording with overlays visible.`,
 			],
 		},
 		{
-			h2: 'Performance, settings, and fair-play context',
+			h2: 'Setup and loader install',
 			paragraphs: [
-				`Stable FPS and clean audio matter in ${game}. Cap background apps, use a sensible sensitivity, and keep drivers current so you are not fighting input lag during clutch moments. Small setting tweaks often produce bigger gains than switching gear every month.`,
-				`${game} uses ${profile.antiCheat}. Respect server rules, avoid sketchy downloads, and treat third-party tools as high-risk — policy changes and ban waves can land without warning after major patches.`,
+				`Most ${game} cheats use a simple loader: buy a key, download, run as admin, inject in-game. Disable Windows Defender for the install folder if the provider says so. Use the sensitivity and FOV defaults first.`,
+				`Stable FPS helps aimbot feel smooth. Cap background apps and keep drivers current. Test in a private match before ranked or high-stakes ${profile.genre} lobbies.`,
 			],
 		},
 		{
-			h2: 'Putting the guide into practice',
+			h2: `Where to get ${game} cheats`,
 			paragraphs: [
-				`Pick one focus per session: ${mechanic}, ${mechanic2}, or map timing. Review a round where you died early and name the decision that put you in a bad spot. That habit compounds faster than grinding dozens of unfocused matches.`,
-				`For more game updates, guides, and related resources, you can also explore <a href="${externalUrl}" target="_blank" rel="noopener noreferrer">${anchorText}</a>.`,
+				`Compare pricing, refund policy, and support before you buy. Look for live status pages and Discord support. For ${game} cheat downloads and feature lists, see <a href="${externalUrl}" target="_blank" rel="noopener noreferrer">${anchorText}</a>.`,
+				`Start with a short plan to test ESP and aimbot settings. One feature at a time beats turning everything on and getting reported.`,
 			],
 		},
 	];
@@ -614,7 +614,14 @@ async function main() {
 	const slugs = new Set();
 	const externalUrls = new Set();
 	for (const g of guides) {
-		if (slugs.has(g.slug)) throw new Error(`Duplicate slug: ${g.slug}`);
+		let candidate = g.slug;
+		let n = 2;
+		while (slugs.has(candidate)) {
+			candidate = `${g.slug}-${n}`;
+			n++;
+		}
+		g.slug = candidate;
+		g.id = candidate;
 		if (externalUrls.has(g.externalUrl)) throw new Error(`Duplicate external URL: ${g.externalUrl}`);
 		slugs.add(g.slug);
 		externalUrls.add(g.externalUrl);

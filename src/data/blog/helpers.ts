@@ -62,6 +62,15 @@ export function getBlogBasePath(locale: LocaleCode): string {
 	return locale === defaultLocale ? '/blog/' : `/${locale}/blog/`;
 }
 
+/** All blog post slugs (English canonical). */
+export function getBlogPostSlugs(): string[] {
+	return blogPosts.map((post) => post.translations[defaultLocale].slug);
+}
+
+export function isBlogPostSlug(slug: string): boolean {
+	return getBlogPostSlugs().includes(slug);
+}
+
 export function isBlogPath(pathname: string): boolean {
 	const context = resolvePageContextFromPath(pathname);
 	return Boolean(context.isBlogIndex || context.blogSlug);
@@ -92,8 +101,10 @@ export function getBlogLocaleSwitchHref(pathname: string, targetLocale: LocaleCo
 }
 
 export function getBlogPostPath(locale: LocaleCode, slug: string): string {
-	const base = getBlogBasePath(locale);
-	return `${base}${slug}/`;
+	if (locale === defaultLocale) {
+		return `/${slug}/`;
+	}
+	return `/${locale}/${slug}/`;
 }
 
 export function absoluteBlogUrl(locale: LocaleCode, slug?: string): string {

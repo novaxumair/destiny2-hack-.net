@@ -23,5 +23,5 @@ if (!isLocaleCode(Astro.params.lang ?? '')) {
 	return Astro.redirect('/blog/', 301);
 }
 
-return Astro.redirect(`/blog/${slug}/`, 301);
+return Astro.redirect(`/${slug}/`, 301);
 ---

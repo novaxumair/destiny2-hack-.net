@@ -11,7 +11,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "naraka-patch-notes-guide",
+		slug: "patch-notes",
 		title: "How to Read Destiny 2 Patch Notes",
 		metaDescription: "Learn how Destiny 2 patch notes change player builds, resource economy, and maps. What to do after BattlEye and major updates in 2026.",
 		h1: "How to Read Destiny 2 Patch Notes",
@@ -31,14 +31,14 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
 					"When an item is removed from match loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused matches — before you rebuild your entire progress around them.",
-					"Growth stats and bite damage changes usually matter more than a single gun’s recoil control number. If a popular round loses penetration against shield tiers, your Map push into squad PvP gunfightss suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/naraka-weapon-tier-list/\">Destiny 2 player tier list</a> so you are not chasing streamer builds that ignore your budget.",
+					"Growth stats and bite damage changes usually matter more than a single gun’s recoil control number. If a popular round loses penetration against shield tiers, your Map push into squad PvP gunfightss suddenly needs a different mag. Pair this reading habit with our <a href=\"/weapon-tier/\">Destiny 2 player tier list</a> so you are not chasing streamer builds that ignore your budget.",
 				],
 			},
 			{
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
 					"When mid-tier ARs feel strong, prioritize optics and stats that win 40–70 meter peeks. When recoil gets tighter, play more conservatively near maps and combat zones and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, heli spawn changes — rewrite your first three minutes on that map before you farm it for match goals.",
-					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; TTK and camping combat-zone patterns are what get you killed. For aggressive juvenile timing after a meta shift, see our <a href=\"/blog/naraka-loot-run-strategies/\">farming-run strategies</a>.",
+					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; TTK and camping combat-zone patterns are what get you killed. For aggressive juvenile timing after a meta shift, see our <a href=\"/loot-runs/\">farming-run strategies</a>.",
 					"On big mornings, confirm <a href=\"https://store.steampowered.com/app/1085660/Destiny_2//\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 on PC</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your progress “buy list,” play five intentional matches, and only then lock a new main kit.",
 				],
 			},
@@ -62,7 +62,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "naraka-cosmetics-guide",
+		slug: "cosmetics",
 		title: "Destiny 2 Cosmetics & Skin Previews: What Is Worth Buying",
 		metaDescription: "Sensible advice on Destiny 2 cosmetics and skin previews — what to buy on the in-game store, what to skip, and how looks affect match readability.",
 		h1: "Destiny 2 Cosmetics Buying Guide",
@@ -88,14 +88,14 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to use leaks without getting played",
 				paragraphs: [
 					"Treat late-patch cycle leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.",
-					"For official server readability tips that actually affect fights, pair this with our <a href=\"/blog/naraka-pro-settings-guide/\">pro settings guide</a>. Looking clean matters less than seeing the other player first.",
+					"For official server readability tips that actually affect fights, pair this with our <a href=\"/pro-settings/\">pro settings guide</a>. Looking clean matters less than seeing the other player first.",
 				],
 			},
 			{
 				h2: "Cosmetics vs survival tools — keep the budget split clear",
 				paragraphs: [
 					"Skins are fun, but they do not replace map reads, match timing, or a stable kit. If you play for information advantage, budget for <a href=\"/destiny-2-esp/\">ESP</a> and <a href=\"/features/\">features</a> before you chase another cosmetic drop.",
-					"When a patch cycle shifts visibility or lighting, revisit your settings in our <a href=\"/blog/naraka-pro-settings-guide/\">pro settings guide</a> before you blame a skin for a lost fight.",
+					"When a patch cycle shifts visibility or lighting, revisit your settings in our <a href=\"/pro-settings/\">pro settings guide</a> before you blame a skin for a lost fight.",
 				],
 			}
 		],
@@ -111,7 +111,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "naraka-weapon-tier-list",
+		slug: "weapon-tier",
 		title: "Destiny 2 Player Tier List: Best Weapons for Raids",
 		metaDescription: "A practical Destiny 2 player tier list for solo farmers and matchers matches — ARs, SMGs, and long-range rifles, ammo, and when each gun actually wins fights.",
 		h1: "Destiny 2 Player Tier List for 2026",
@@ -131,13 +131,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Ammo, TTK, and peek discipline matter more than brand names",
 				paragraphs: [
 					"Time-to-kill in Destiny 2 is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this patch cycle, then pick a platform that controls recoil control at your skill level.",
-					"First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href=\"/blog/naraka-loot-routes-guide/\">movement routes guide</a> so you actually load in with the ammo you planned to use.",
+					"First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href=\"/loot-routes/\">movement routes guide</a> so you actually load in with the ammo you planned to use.",
 				],
 			},
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid-tier AR, an SMG build in combat zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In Quickplay sessions, that same spine supports the aggression patterns in our <a href=\"/blog/naraka-loot-run-strategies/\">economy round strategies article</a>.",
+					"A durable kit is usually a reliable mid-tier AR, an SMG build in combat zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In Quickplay sessions, that same spine supports the aggression patterns in our <a href=\"/loot-runs/\">economy round strategies article</a>.",
 					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot settings</a>.",
 				],
 			},
@@ -161,7 +161,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "naraka-loot-run-strategies",
+		slug: "loot-runs",
 		title: "Destiny 2 Economy Round Strategies That Win More Fights",
 		metaDescription: "Five smart Destiny 2 economy strategies — timings, buys, third-parties, and how to leave eco rounds with better guns instead of wasted credits.",
 		h1: "Destiny 2 Economy Round Strategies",
@@ -186,7 +186,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Warmup checklist before you load in with a starter kit",
 				paragraphs: [
-					"Know your map’s main bases, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href=\"/blog/naraka-loot-routes-guide/\">movement routes</a>, <a href=\"/blog/naraka-weapon-tier-list/\">player tiers</a>, and <a href=\"/blog/naraka-warmup-routine/\">warmup routines</a>.",
+					"Know your map’s main bases, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href=\"/loot-routes/\">movement routes</a>, <a href=\"/weapon-tier/\">player tiers</a>, and <a href=\"/warmup/\">warmup routines</a>.",
 					"Try one match where you force early contact only when you have armor and a usable gun — then track whether you extracted before the third-party window closed.",
 				],
 			},
@@ -210,7 +210,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "naraka-competitive-meta-guide",
+		slug: "meta",
 		title: "What Competitive Destiny 2 Players Optimize For",
 		metaDescription: "What strong Destiny 2 competitors optimize — match plans, loadouts, mid-session habits, and which competitive habits help normal match sessions.",
 		h1: "Competitive Destiny 2 Meta Guide",
@@ -229,13 +229,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Spawn EV and loadout patterns that keep showing up",
 				paragraphs: [
 					"Score every spawn on contest rate, loot quality in the first few minutes, base safety, exit paths, and split potential with teammates. Edge spawns with clean exits often beat “sexy” mid-map landmarks that look good on stream and then get third-partied.",
-					"Expect a reliable mid-tier AR, an SMG build, mobility or stamina management, and enough meds. High-tier loot is taken when free, not forced — matching the mindset in our <a href=\"/blog/naraka-weapon-tier-list/\">weapon tier list</a>.",
+					"Expect a reliable mid-tier AR, an SMG build, mobility or stamina management, and enough meds. High-tier loot is taken when free, not forced — matching the mindset in our <a href=\"/weapon-tier/\">weapon tier list</a>.",
 				],
 			},
 			{
 				h2: "What actually translates to normal matches",
 				paragraphs: [
-					"Steal loot-timer discipline, a simple loot path, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo load in. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/naraka-loot-run-strategies/\">eco round aggression guide</a>.",
+					"Steal loot-timer discipline, a simple loot path, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo load in. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/loot-runs/\">eco round aggression guide</a>.",
 					"Try this: watch fifteen minutes of a strong stream replay with five timestamps. Steal one mid-session habit only. Run it for a six-session match block before adding another.",
 				],
 			},
@@ -259,7 +259,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "naraka-loot-routes-guide",
+		slug: "loot-routes",
 		title: "Destiny 2 Loot Routes That Leave Spawn Ready to Fight",
 		metaDescription: "High-percentage Destiny 2 movement routes for Map, Woods, and Map — how to leave load in with guns, armor, and ability cooldowns that win mid-session fights.",
 		h1: "Destiny 2 Map Control Guide",
@@ -284,7 +284,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Convert a strong load into a win",
 				paragraphs: [
-					"Pair these routes with <a href=\"/blog/naraka-loot-run-strategies/\">eco round aggression</a> and <a href=\"/blog/naraka-weapon-tier-list/\">player tiers</a>. Leave load in with gear advantage so mid-session becomes a skill check instead of a desperate growth panic.",
+					"Pair these routes with <a href=\"/loot-runs/\">eco round aggression</a> and <a href=\"/weapon-tier/\">player tiers</a>. Leave load in with gear advantage so mid-session becomes a skill check instead of a desperate growth panic.",
 					"If you practice with guardian markers, read <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			},
@@ -308,7 +308,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "naraka-pro-settings-guide",
+		slug: "pro-settings",
 		title: "Destiny 2 Pro Settings That Actually Help You See Enemies",
 		metaDescription: "Practical Destiny 2 settings used by strong players — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.",
 		h1: "Destiny 2 Pro Settings Guide",
@@ -326,7 +326,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Sensitivity, ADS, and muscle memory",
 				paragraphs: [
-					"Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href=\"/blog/naraka-warmup-routine/\">warmup guide</a> so your hands match the new numbers.",
+					"Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href=\"/warmup/\">warmup guide</a> so your hands match the new numbers.",
 					"If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href=\"/destiny-2-aimbot/\">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.",
 				],
 			},
@@ -334,7 +334,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Audio cues that win bases",
 				paragraphs: [
 					"Footsteps, ability cooldowns, and footstep audio often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a footstep shuffle and a player push.",
-					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/blog/naraka-loot-routes-guide/\">movement routes</a> article so you know where those sounds are coming from.",
+					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/loot-routes/\">movement routes</a> article so you know where those sounds are coming from.",
 				],
 			},
 			{
@@ -357,7 +357,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "naraka-warmup-routine",
+		slug: "warmup",
 		title: "Destiny 2 Warmup Routine Before Serious match Raids",
 		metaDescription: "A short Destiny 2 warmup routine before matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
 		h1: "Destiny 2 Warmup Routine",
@@ -382,7 +382,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What to do right before you ready up",
 				paragraphs: [
-					"Check progress, ability cooldowns, and match plans, confirm your map bases, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/naraka-pro-settings-guide/\">settings</a> and <a href=\"/blog/naraka-weapon-tier-list/\">player tiers</a> so you are not reinventing the kit every night.",
+					"Check progress, ability cooldowns, and match plans, confirm your map bases, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/pro-settings/\">settings</a> and <a href=\"/weapon-tier/\">player tiers</a> so you are not reinventing the kit every night.",
 					"If the first two player deaths feel mechanical, stop stacking kits and repeat five minutes of ambush practice. Ego loading in while tilted is not a strategy.",
 				],
 			},
@@ -406,7 +406,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "destiny-2-cheats-complete-guide-2026",
+		slug: "cheats-guide",
 		title: "Destiny 2 Cheats 2026: Complete Undetected Guide",
 		metaDescription: "A clear 2026 guide to destiny 2 cheats — what ESP, soft aim, and radar actually do in Destiny 2, how BattlEye maintenance works, and how to buy safely.",
 		h1: "Destiny 2 Cheats Guide for 2026",
@@ -438,7 +438,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "How to buy and set up without wasting a night",
 				paragraphs: [
-					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/destiny-2-cheats-buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
+					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
 					"Destiny 2 Cheats is built for Windows PC solo farmers and matchers play. It will not replace map knowledge — it amplifies the reads you already practice in matches.",
 				],
 			},
@@ -462,7 +462,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "destiny-2-cheats-buyers-guide",
+		slug: "buyers-guide",
 		title: "Destiny 2 Cheats Buyers Guide",
 		metaDescription: "What to check before you buy destiny 2 cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
 		h1: "Destiny 2 Cheats Buyers Guide",
@@ -495,7 +495,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Final checklist before checkout",
 				paragraphs: [
 					"Confirm dated status, guardian ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.",
-					"When the checklist passes, open <a href=\"/destiny-2-cheats/\">Destiny 2 Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/blog/destiny-2-cheats-complete-guide-2026/\">the 2026 complete guide</a> for feature context.",
+					"When the checklist passes, open <a href=\"/destiny-2-cheats/\">Destiny 2 Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/cheats-guide/\">the 2026 complete guide</a> for feature context.",
 				],
 			}
 		],
@@ -511,7 +511,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "destiny-2-cheats-2026-whats-new",
+		slug: "whats-new",
 		title: "Destiny 2 Cheats 2026: What Changed This Year",
 		metaDescription: "What changed for destiny 2 cheats in 2026 — patch cycle cadence, BattlEye maintenance habits, ESP focus, and how Destiny 2 Cheats adapted for Destiny 2.",
 		h1: "Destiny 2 Cheats Updates in 2026",
@@ -536,7 +536,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What we recommend you do differently this year",
 				paragraphs: [
-					"Check status before patch-day load ins. Keep soft aim conservative. Use guardian ESP filters so your screen stays clean. Read the <a href=\"/blog/destiny-2-cheats-complete-guide-2026/\">complete 2026 guide</a> if you are new to the category.",
+					"Check status before patch-day load ins. Keep soft aim conservative. Use guardian ESP filters so your screen stays clean. Read the <a href=\"/cheats-guide/\">complete 2026 guide</a> if you are new to the category.",
 					"Pricing remains monthly and lifetime on <a href=\"/pricing/\">Pricing</a> with digital delivery after payment.",
 				],
 			},
@@ -560,7 +560,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "destiny-2-aimbot-settings-guide",
+		slug: "aimbot-settings",
 		title: "Destiny 2 Aimbot Settings: Smooth FOV Without Looking Robotic",
 		metaDescription: "How to tune Destiny 2 Aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Destiny 2 matches.",
 		h1: "Destiny 2 Aimbot Settings Guide",
@@ -591,7 +591,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Build a profile set you can trust in bases",
 				paragraphs: [
-					"Save AR, SMG, and long-range profiles separately. Test each on <a href=\"/blog/naraka-warmup-routine/\">warmup maps</a> before you take a geared player into high-traffic zones.",
+					"Save AR, SMG, and long-range profiles separately. Test each on <a href=\"/warmup/\">warmup maps</a> before you take a geared player into high-traffic zones.",
 					"Combine tuned aim with <a href=\"/destiny-2-esp/\">ESP</a> and <a href=\"/destiny-2-radar-hack/\">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href=\"/updates/\">Updates</a> before you tweak FOV on an old build.",
 				],
 			}
@@ -608,7 +608,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "destiny-2-esp-wallhack-explained",
+		slug: "esp-guide",
 		title: "Destiny 2 ESP and Wallhack Explained in Plain English",
 		metaDescription: "What Destiny 2 ESP and wallhack actually show — players, loot, distance, vaults — and how to keep overlays readable in matches.",
 		h1: "Destiny 2 ESP and Wallhack Guide",
@@ -656,7 +656,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "undetected-destiny-2-cheats-eac",
+		slug: "undetected-cheats",
 		title: "Undetected Destiny 2 Cheats and BattlEye Reality",
 		metaDescription: "What “undetected destiny 2 cheats” really means under BattlEye — maintenance, patch days, risk, and how to read status before you queue Destiny 2.",
 		h1: "Undetected Destiny 2 Cheats Explained",
@@ -681,7 +681,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/updates/\">undetected destiny 2 cheats</a>, the <a href=\"/blog/destiny-2-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/updates/\">undetected destiny 2 cheats</a>, the <a href=\"/cheats-guide/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			},
 			{
@@ -704,7 +704,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "destiny-2-cheats-vs-cheatvault-comparison",
+		slug: "vs-cheatvault",
 		title: "Destiny 2 Cheats vs Typical Budget Destiny 2 Cheat Shops",
 		metaDescription: "How Destiny 2 Cheats compares to typical budget destiny 2 cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
 		h1: "Destiny 2 Cheats vs Budget Shops",
@@ -723,7 +723,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Price versus what you touch every match",
 				paragraphs: [
 					"If you only want basic player boxes in casual matches, a cheaper shop might feel enough. If you hold bases, run movement routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.",
-					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/blog/destiny-2-cheats-buyers-guide/\">buyers guide</a> before you compare three storefronts at once.",
+					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/buyers-guide/\">buyers guide</a> before you compare three storefronts at once.",
 				],
 			},
 			{
@@ -737,7 +737,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Side-by-side before you choose a shop",
 				paragraphs: [
 					"Open each seller’s status page, feature list, and support channel on the same screen. If one shop hides status in private Discord only, weigh that against a lower sticker price.",
-					"When the checklist favors a full stack, compare <a href=\"/features/\">Features</a> and <a href=\"/pricing/\">Pricing</a> here, then read <a href=\"/blog/destiny-2-cheats-buyers-guide/\">the buyers guide</a> before checkout.",
+					"When the checklist favors a full stack, compare <a href=\"/features/\">Features</a> and <a href=\"/pricing/\">Pricing</a> here, then read <a href=\"/buyers-guide/\">the buyers guide</a> before checkout.",
 				],
 			}
 		],
@@ -753,7 +753,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "elitefn-vs-destiny-2-cheats-two-week-test",
+		slug: "vs-elitefn",
 		title: "I Tested Another Destiny 2 Cheat for 2 Weeks First",
 		metaDescription: "A two-week test of another budget destiny 2 cheat before switching to Destiny 2 Cheats — ESP feel, soft aim, patch downtime, and support differences.",
 		h1: "Two-Week Destiny 2 Cheat Comparison Test",
@@ -809,7 +809,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "destiny-2-cheats-vs-ghostware-features-pricing",
+		slug: "vs-ghostware",
 		title: "Full-Stack Destiny 2 Cheats vs Minimal ESP Tools",
 		metaDescription: "Full-stack Destiny 2 Cheats versus minimal ESP-only Destiny 2 tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
 		h1: "Full-Stack vs ESP-Only Destiny 2 Cheats",
