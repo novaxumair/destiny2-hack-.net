@@ -47,14 +47,22 @@ const introEditByPage: Partial<Record<PageId, string>> = {
 	faq: 'faqIntro',
 };
 const introEdit = introEditByPage[pageId];
-const gallery = [
-	{ src: crawl.src, alt: page.imageAlt || crawl.caption },
-	...destiny2Images.product.slice(0, 2).map((img) => ({
+const gallery: { src: string; alt: string; url?: string }[] = [];
+const gallerySeen = new Set<string>();
+const pushGalleryImage = (item: { src: string; alt: string; url?: string }) => {
+	if (!item.src || gallerySeen.has(item.src) || gallery.length >= 3) return;
+	gallerySeen.add(item.src);
+	gallery.push(item);
+};
+pushGalleryImage({ src: crawl.src, alt: page.imageAlt || crawl.caption });
+for (const img of destiny2Images.product) {
+	if (gallery.length >= 3) break;
+	pushGalleryImage({
 		src: img.src,
 		alt: img.alt,
 		url: 'url' in img ? img.url : absoluteImageUrl(img.src),
-	})),
-];
+	});
+}
 
 const pageUrl = new URL(getLocalizedPath(pageId, locale), siteConfig.url).href;
 
