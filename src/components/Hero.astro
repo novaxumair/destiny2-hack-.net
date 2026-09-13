@@ -5,6 +5,7 @@ import type { LocaleCode } from '../data/i18n/locales';
 import { defaultLocale } from '../data/i18n/locales';
 import { productInfo, siteConfig } from '../data/site';
 import { heroWidth, heroHeight, heroSrcSet, heroSizes, heroSrc } from '../lib/responsive-images';
+import { getT } from '../i18n/server';
 
 interface Props {
 	locale?: LocaleCode;
@@ -12,25 +13,89 @@ interface Props {
 
 const locale = Astro.props.locale ?? defaultLocale;
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
+const heroVideoUrl = siteConfig.heroVideoUrl?.trim() || '';
+const useHeroVideo = Boolean(heroVideoUrl);
+const t = getT(locale);
+const heroLabel = t('hero.title');
 ---
 
 <div class="hero-stage">
-	<HeroApp
-		client:idle
-		locale={locale}
-		siteName={siteConfig.name}
-		checkoutUrl={siteConfig.checkoutUrl}
-		monthlyPrice={monthly.price}
-		heroSrc={heroSrc}
-		heroSrcSet={heroSrcSet}
-		heroSizes={heroSizes}
-		heroWidth={heroWidth}
-		heroHeight={heroHeight}
-		heroVideoUrl={siteConfig.heroVideoUrl}
-		useBrandHero={true}
-	/>
+	{
+		useHeroVideo ? (
+			<section class="hero" aria-label={heroLabel}>
+				<div class="hero__media">
+					<video
+						class="hero__video"
+						autoplay
+						muted
+						loop
+						playsinline
+						preload="auto"
+						poster={heroSrc}
+						width={heroWidth}
+						height={heroHeight}
+						aria-hidden="true"
+					>
+						<source src={heroVideoUrl} type="video/webm" />
+					</video>
+					<img
+						class="hero__poster-fallback"
+						src={heroSrc}
+						srcset={heroSrcSet}
+						sizes={heroSizes}
+						alt=""
+						width={heroWidth}
+						height={heroHeight}
+						loading="eager"
+						decoding="async"
+						aria-hidden="true"
+					/>
+				</div>
+				<HeroApp
+					client:load
+					locale={locale}
+					siteName={siteConfig.name}
+					checkoutUrl={siteConfig.checkoutUrl}
+					monthlyPrice={monthly.price}
+					heroSrc={heroSrc}
+					heroSrcSet={heroSrcSet}
+					heroSizes={heroSizes}
+					heroWidth={heroWidth}
+					heroHeight={heroHeight}
+					contentOnly={true}
+					useBrandHero={true}
+				/>
+			</section>
+		) : (
+			<HeroApp
+				client:idle
+				locale={locale}
+				siteName={siteConfig.name}
+				checkoutUrl={siteConfig.checkoutUrl}
+				monthlyPrice={monthly.price}
+				heroSrc={heroSrc}
+				heroSrcSet={heroSrcSet}
+				heroSizes={heroSizes}
+				heroWidth={heroWidth}
+				heroHeight={heroHeight}
+				useBrandHero={true}
+			/>
+		)
+	}
 	<TrustBar locale={locale} overlay />
 </div>
+
+<script is:inline>
+	document.querySelectorAll('.hero__video').forEach((video) => {
+		if (!(video instanceof HTMLVideoElement)) return;
+		video.muted = true;
+		video.defaultMuted = true;
+		video.volume = 0;
+		const play = () => video.play().catch(() => {});
+		if (video.readyState >= 2) play();
+		else video.addEventListener('loadeddata', play, { once: true });
+	});
+</script>
 
 <style is:global>
 	.hero-stage {

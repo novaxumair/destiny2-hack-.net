@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
 
@@ -12,8 +11,8 @@ type Props = {
 	heroSizes: string;
 	heroWidth: number;
 	heroHeight: number;
-	/** Looping background clip — poster uses heroSrc when set */
-	heroVideoUrl?: string;
+	/** When true, Astro renders the banner media — this component outputs copy only */
+	contentOnly?: boolean;
 	/** When true, use brand EN hero keys; otherwise localized hero.* */
 	useBrandHero?: boolean;
 };
@@ -78,7 +77,7 @@ function HeroInner({
 	heroSizes,
 	heroWidth,
 	heroHeight,
-	heroVideoUrl,
+	contentOnly = false,
 	useBrandHero = true,
 }: Props) {
 	const { t } = useTranslation();
@@ -88,100 +87,69 @@ function HeroInner({
 	const priceFrom = t('hero.priceFrom');
 	const priceLabel = priceFrom ? `${priceFrom} $${monthlyPrice}` : `$${monthlyPrice}`;
 	const imageAlt = t('hero.imageAlt', { brand: siteName });
-	const heroVideoRef = useRef<HTMLVideoElement>(null);
 
-	useEffect(() => {
-		const video = heroVideoRef.current;
-		if (!video) return;
-		video.muted = true;
-		video.defaultMuted = true;
-		video.volume = 0;
-	}, [heroVideoUrl]);
+	const copy = (
+		<div className="hero__copy">
+			<h1 className="hero__brand">{title}</h1>
+			<p className="hero__lede" data-edit={useBrandHero ? 'heroLede' : undefined}>
+				{subtitle}
+			</p>
+			<div className="hero__actions">
+				<a className="hero__buy" href={checkoutUrl} rel="noopener noreferrer">
+					<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+						<path
+							d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"
+							stroke="currentColor"
+							strokeWidth="1.7"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+						/>
+					</svg>
+					<span className="hero__buy-label" data-edit={useBrandHero ? 'ctaBuy' : undefined}>
+						{ctaBuy}
+					</span>
+					<span className="hero__buy-price">{priceLabel}</span>
+				</a>
+			</div>
+			<ul className="hero__features">
+				{chipKeys.map((chip) => (
+					<li key={chip.key}>
+						<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+							<ChipIcon icon={chip.icon} />
+						</svg>
+						<span data-edit={useBrandHero ? chip.key : undefined}>{t(`hero.${chip.key}`)}</span>
+					</li>
+				))}
+			</ul>
+		</div>
+	);
+
+	if (contentOnly) {
+		return (
+			<>
+				<div className="hero__veil" aria-hidden="true" />
+				<div className="shell hero__content">{copy}</div>
+			</>
+		);
+	}
 
 	return (
 		<section className="hero" aria-label={title}>
 			<div className="hero__media">
-				{heroVideoUrl ? (
-					<>
-						<video
-							ref={heroVideoRef}
-							className="hero__video"
-							autoPlay
-							muted
-							defaultMuted
-							loop
-							playsInline
-							preload="metadata"
-							poster={heroSrc}
-							width={heroWidth}
-							height={heroHeight}
-							aria-label={imageAlt}
-						>
-							<source src={heroVideoUrl} type="video/webm" />
-						</video>
-						<img
-							className="hero__poster-fallback"
-							src={heroSrc}
-							srcSet={heroSrcSet}
-							sizes={heroSizes}
-							alt={imageAlt}
-							width={heroWidth}
-							height={heroHeight}
-							loading="eager"
-							decoding="async"
-							aria-hidden="true"
-						/>
-					</>
-				) : (
-					<img
-						src={heroSrc}
-						srcSet={heroSrcSet}
-						sizes={heroSizes}
-						alt={imageAlt}
-						width={heroWidth}
-						height={heroHeight}
-						fetchPriority="high"
-						loading="eager"
-						decoding="async"
-					/>
-				)}
+				<img
+					src={heroSrc}
+					srcSet={heroSrcSet}
+					sizes={heroSizes}
+					alt={imageAlt}
+					width={heroWidth}
+					height={heroHeight}
+					fetchPriority="high"
+					loading="eager"
+					decoding="async"
+				/>
 			</div>
 			<div className="hero__veil" aria-hidden="true" />
-			<div className="shell hero__content">
-				<div className="hero__copy">
-					<h1 className="hero__brand">{title}</h1>
-					<p className="hero__lede" data-edit={useBrandHero ? 'heroLede' : undefined}>
-						{subtitle}
-					</p>
-					<div className="hero__actions">
-						<a className="hero__buy" href={checkoutUrl} rel="noopener noreferrer">
-							<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-								<path
-									d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"
-									stroke="currentColor"
-									strokeWidth="1.7"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-								/>
-							</svg>
-							<span className="hero__buy-label" data-edit={useBrandHero ? 'ctaBuy' : undefined}>
-								{ctaBuy}
-							</span>
-							<span className="hero__buy-price">{priceLabel}</span>
-						</a>
-					</div>
-					<ul className="hero__features">
-						{chipKeys.map((chip) => (
-							<li key={chip.key}>
-								<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-									<ChipIcon icon={chip.icon} />
-								</svg>
-								<span data-edit={useBrandHero ? chip.key : undefined}>{t(`hero.${chip.key}`)}</span>
-							</li>
-						))}
-					</ul>
-				</div>
-			</div>
+			<div className="shell hero__content">{copy}</div>
 		</section>
 	);
 }
