@@ -33,6 +33,8 @@ interface Props {
 	lcpImage?: string;
 	lcpImageSrcSet?: string;
 	lcpImageSizes?: string;
+	/** Optional looping hero clip preload (homepage). */
+	heroVideoUrl?: string;
 	/** When false, omits og:locale:alternate tags (EN-only pages like guides). */
 	ogLocaleAlternates?: boolean;
 }
@@ -53,6 +55,7 @@ const {
 	lcpImage,
 	lcpImageSrcSet,
 	lcpImageSizes = '100vw',
+	heroVideoUrl,
 	ogLocaleAlternates = true,
 } = Astro.props;
 
@@ -222,6 +225,11 @@ if (aboutNode) {
 					/>
 				)
 			)
+		}
+		{
+			heroVideoUrl ? (
+				<link rel="preload" as="video" href={heroVideoUrl} type="video/webm" />
+			) : null
 		}
 		{pageId && <I18nHead pageId={pageId} locale={locale} />}
 		{
