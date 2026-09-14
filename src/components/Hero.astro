@@ -26,6 +26,7 @@ const heroLabel = t('hero.title');
 				<div class="hero__media">
 					<video
 						class="hero__video"
+						src={heroVideoUrl}
 						autoplay
 						muted
 						loop
@@ -39,6 +40,7 @@ const heroLabel = t('hero.title');
 						aria-hidden="true"
 					>
 						<source src={heroVideoUrl} type="video/webm" />
+						<source src="/images/hero.webm" type="video/webm" data-fallback="images" />
 					</video>
 					<img
 						class="hero__poster-fallback"
@@ -109,12 +111,24 @@ const heroLabel = t('hero.title');
 		const play = () => {
 			video.muted = true;
 			video.volume = 0;
-			video.play().catch(() => {});
+			video.play().then(() => {
+				video.removeAttribute('poster');
+			}).catch(() => {});
 		};
 
 		video.addEventListener('loadedmetadata', syncHeroFrame, { once: true });
 		video.addEventListener('loadedmetadata', play, { once: true });
 		video.addEventListener('canplay', play, { once: true });
+		video.addEventListener('playing', () => video.removeAttribute('poster'), { once: true });
+		video.addEventListener('error', () => {
+			const fallback = video.querySelector('source[data-fallback="images"]');
+			if (fallback instanceof HTMLSourceElement && !video.dataset.fallbackTried) {
+				video.dataset.fallbackTried = '1';
+				video.src = fallback.src;
+				video.load();
+				play();
+			}
+		});
 		document.addEventListener('visibilitychange', () => {
 			if (document.visibilityState === 'visible') play();
 		});

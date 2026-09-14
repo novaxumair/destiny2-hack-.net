@@ -23,8 +23,15 @@ const LEGACY_HOST_SET = new Set<string>(LEGACY_HOSTS);
 /** /sitemap.xml and /sitemap-*.xml — must stay application/xml for Google Search Console. */
 const SITEMAP_PATH = /^\/sitemap(?:-[a-z0-9-]+)?\.xml$/;
 
+/** Hero / demo clips — serve with explicit video MIME (avoids HTML 404 fallback + wrong types). */
+const VIDEO_PATH = /\.(?:webm|mp4)$/i;
+
 function isSitemapPath(pathname: string): boolean {
 	return SITEMAP_PATH.test(pathname);
+}
+
+function isVideoPath(pathname: string): boolean {
+	return VIDEO_PATH.test(pathname);
 }
 
 function isInsecureRequest(request: Request, url: URL): boolean {
@@ -62,6 +69,35 @@ function canonicalHostRedirect(request: Request, url: URL): Response | null {
 	const target = new URL(mappedPath + url.search, CANONICAL_ORIGIN);
 	if (target.href === url.href) return null;
 	return redirectResponse(target.toString());
+}
+
+async function fetchVideoAsset(env: Env, pathname: string): Promise<Response> {
+	const assetRequest = new Request(new URL(pathname, 'https://assets.local'));
+	const response = await env.ASSETS.fetch(assetRequest);
+	const upstreamType = response.headers.get('Content-Type') || '';
+
+	if (!response.ok || upstreamType.includes('text/html')) {
+		const headers = new Headers();
+		headers.set('Content-Type', 'text/plain; charset=utf-8');
+		applySecurityHeaders(headers, { html: false });
+		return new Response('Video not found', { status: 404, headers });
+	}
+
+	const headers = new Headers();
+	headers.set(
+		'Content-Type',
+		pathname.endsWith('.mp4') ? 'video/mp4' : 'video/webm',
+	);
+	headers.set('Cache-Control', 'public, max-age=31536000, immutable');
+	headers.set('Accept-Ranges', 'bytes');
+	headers.set('X-Content-Type-Options', 'nosniff');
+	headers.set('Cross-Origin-Resource-Policy', 'same-site');
+
+	return new Response(response.body, {
+		status: response.status,
+		statusText: response.statusText,
+		headers,
+	});
 }
 
 async function fetchSitemapAsset(env: Env, pathname: string): Promise<Response> {
@@ -118,7 +154,11 @@ export default {
 			return fetchSitemapAsset(env, url.pathname);
 		}
 
-		const response = await env.ASSETS.fetch(request);
+		if (isVideoPath(url.pathname)) {
+			return fetchVideoAsset(env, url.pathname);
+		}
+
+		const response = await env.ASETS.fetch(request);
 		const headers = new Headers(response.headers);
 		const contentType = headers.get('Content-Type') || '';
 		const isHtml = contentType.includes('text/html');
