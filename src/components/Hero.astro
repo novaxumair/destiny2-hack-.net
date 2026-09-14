@@ -22,7 +22,7 @@ const heroLabel = t('hero.title');
 <div class="hero-stage">
 	{
 		useHeroVideo ? (
-			<section class="hero" aria-label={heroLabel}>
+			<section class="hero hero--video" aria-label={heroLabel}>
 				<div class="hero__media">
 					<video
 						class="hero__video"
@@ -34,6 +34,8 @@ const heroLabel = t('hero.title');
 						poster={heroSrc}
 						width={heroWidth}
 						height={heroHeight}
+						disablepictureinpicture
+						disableremoteplayback
 						aria-hidden="true"
 					>
 						<source src={heroVideoUrl} type="video/webm" />
@@ -91,19 +93,33 @@ const heroLabel = t('hero.title');
 		video.muted = true;
 		video.defaultMuted = true;
 		video.volume = 0;
+		video.controls = false;
+		video.setAttribute('muted', '');
+		video.setAttribute('playsinline', '');
 
 		const syncHeroFrame = () => {
-			const hero = video.closest('.hero');
+			const hero = video.closest('.hero--video');
 			if (!hero || !video.videoWidth || !video.videoHeight) return;
-			hero.style.aspectRatio = `${video.videoWidth} / ${video.videoHeight}`;
+			const ratio = `${video.videoWidth} / ${video.videoHeight}`;
+			hero.style.setProperty('--hero-video-ratio', ratio);
+			hero.style.aspectRatio = ratio;
 			hero.style.minHeight = '0';
 		};
 
-		const play = () => video.play().catch(() => {});
+		const play = () => {
+			video.muted = true;
+			video.volume = 0;
+			video.play().catch(() => {});
+		};
+
 		video.addEventListener('loadedmetadata', syncHeroFrame, { once: true });
+		video.addEventListener('loadedmetadata', play, { once: true });
+		video.addEventListener('canplay', play, { once: true });
+		document.addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'visible') play();
+		});
 		if (video.readyState >= 1) syncHeroFrame();
 		if (video.readyState >= 2) play();
-		else video.addEventListener('loadeddata', play, { once: true });
 	});
 </script>
 
@@ -133,6 +149,13 @@ const heroLabel = t('hero.title');
 		max-height: none;
 	}
 
+	/* Video hero: frame matches clip aspect ratio so cover fills with no bars or crop */
+	.hero--video {
+		--hero-video-ratio: 16 / 9;
+		aspect-ratio: var(--hero-video-ratio);
+		max-height: none;
+	}
+
 	.hero__media {
 		position: absolute;
 		inset: 0;
@@ -159,18 +182,24 @@ const heroLabel = t('hero.title');
 	}
 
 	.hero__media video {
-		object-fit: contain;
+		object-fit: cover;
 		object-position: center center;
 		transform: translateZ(0);
 		filter: brightness(0.78) contrast(1.04);
 		animation: hero-in 0.9s ease-out both;
 	}
 
+	.hero--video .hero__media video,
+	.hero--video .hero__poster-fallback {
+		object-fit: cover;
+		object-position: center center;
+	}
+
 	.hero__poster-fallback {
 		display: none;
 		position: absolute;
 		inset: 0;
-		object-fit: contain;
+		object-fit: cover;
 		object-position: center center;
 	}
 
@@ -413,6 +442,12 @@ const heroLabel = t('hero.title');
 			height: auto;
 		}
 
+		.hero--video {
+			aspect-ratio: var(--hero-video-ratio, 16 / 9);
+			min-height: 0;
+			height: auto;
+		}
+
 		.hero__media {
 			position: absolute;
 			inset: 0;
@@ -425,7 +460,7 @@ const heroLabel = t('hero.title');
 		}
 
 		.hero__media video {
-			object-fit: contain;
+			object-fit: cover;
 			object-position: center center;
 		}
 

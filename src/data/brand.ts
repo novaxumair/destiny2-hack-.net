@@ -40,7 +40,7 @@ export const brand = {
 	defaultOgImage: '/images/destiny2-cheats-hero-1199w.webp',
 	heroImage: '/images/destiny2-cheats-hero-1199w.webp',
 	/** Looping homepage hero clip — poster falls back to heroImage */
-	heroVideoUrl: '/images/hero.webm',
+	heroVideoUrl: '/video/hero.webm',
 	/** Product demo clip — lazy-loaded on homepage; fetched only after play */
 	demoVideoUrl: '',
 	demoVideoPoster: '/images/destiny2-about-showcase.webp',
