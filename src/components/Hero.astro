@@ -32,7 +32,6 @@ const heroLabel = t('hero.title');
 						loop
 						playsinline
 						preload="auto"
-						poster={heroSrc}
 						width={heroWidth}
 						height={heroHeight}
 						disablepictureinpicture
@@ -108,18 +107,27 @@ const heroLabel = t('hero.title');
 			hero.style.minHeight = '0';
 		};
 
+		const hero = video.closest('.hero--video');
+
+		const markPlaying = () => {
+			hero?.classList.add('hero--video-playing');
+			video.removeAttribute('poster');
+		};
+
+		const markFailed = () => {
+			hero?.classList.add('hero--video-failed');
+		};
+
 		const play = () => {
 			video.muted = true;
 			video.volume = 0;
-			video.play().then(() => {
-				video.removeAttribute('poster');
-			}).catch(() => {});
+			video.play().then(markPlaying).catch(() => {});
 		};
 
 		video.addEventListener('loadedmetadata', syncHeroFrame, { once: true });
 		video.addEventListener('loadedmetadata', play, { once: true });
 		video.addEventListener('canplay', play, { once: true });
-		video.addEventListener('playing', () => video.removeAttribute('poster'), { once: true });
+		video.addEventListener('playing', markPlaying, { once: true });
 		video.addEventListener('error', () => {
 			const fallback = video.querySelector('source[data-fallback="images"]');
 			if (fallback instanceof HTMLSourceElement && !video.dataset.fallbackTried) {
@@ -127,7 +135,9 @@ const heroLabel = t('hero.title');
 				video.src = fallback.src;
 				video.load();
 				play();
+				return;
 			}
+			markFailed();
 		});
 		document.addEventListener('visibilitychange', () => {
 			if (document.visibilityState === 'visible') play();
@@ -178,14 +188,14 @@ const heroLabel = t('hero.title');
 	}
 
 	.hero__media picture,
-	.hero__media img,
-	.hero__media video {
+	.hero__media video,
+	.hero__media img:not(.hero__poster-fallback) {
 		display: block;
 		width: 100%;
 		height: 100%;
 	}
 
-	.hero__media img {
+	.hero__media img:not(.hero__poster-fallback) {
 		object-fit: cover;
 		/* Character sits on the right; anchor high so helmets stay in frame */
 		object-position: 72% 12%;
@@ -213,8 +223,14 @@ const heroLabel = t('hero.title');
 		display: none;
 		position: absolute;
 		inset: 0;
+		width: 100%;
+		height: 100%;
 		object-fit: cover;
 		object-position: center center;
+	}
+
+	.hero--video-failed .hero__poster-fallback {
+		display: block;
 	}
 
 	.hero__veil {
@@ -422,17 +438,9 @@ const heroLabel = t('hero.title');
 
 	@media (prefers-reduced-motion: reduce) {
 		.hero__copy,
-		.hero__media img,
+		.hero__media img:not(.hero__poster-fallback),
 		.hero__media video {
 			animation: none;
-		}
-
-		.hero__media video {
-			display: none;
-		}
-
-		.hero__poster-fallback {
-			display: block;
 		}
 
 		.hero__buy,
@@ -468,7 +476,7 @@ const heroLabel = t('hero.title');
 			width: 100%;
 		}
 
-		.hero__media img {
+		.hero__media img:not(.hero__poster-fallback) {
 			object-fit: cover;
 			object-position: 72% 15%;
 		}
