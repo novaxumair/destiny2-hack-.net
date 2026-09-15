@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
 import LanguageSwitcher, { type LocaleMeta } from './LanguageSwitcher';
@@ -48,7 +48,7 @@ function NavbarInner({
 	links,
 }: Props) {
 	const { t } = useTranslation();
-	const [open, setOpen] = useState(false);
+	const headerRef = useRef<HTMLElement>(null);
 	const [scrolled, setScrolled] = useState(false);
 
 	const isActive = (href: string) => {
@@ -64,24 +64,22 @@ function NavbarInner({
 		return () => window.removeEventListener('scroll', onScroll);
 	}, []);
 
+	// Sync scroll state without removing `.is-open` (owned by nav-menu.js).
 	useEffect(() => {
-		document.body.classList.toggle('nav-lock', open);
-		return () => document.body.classList.remove('nav-lock');
-	}, [open]);
+		headerRef.current?.classList.toggle('is-scrolled', scrolled);
+	}, [scrolled]);
 
-	useEffect(() => {
-		const onKey = (e: KeyboardEvent) => {
-			if (e.key === 'Escape') setOpen(false);
-		};
-		const onResize = () => {
-			if (window.matchMedia('(min-width: 1025px)').matches) setOpen(false);
-		};
-		document.addEventListener('keydown', onKey);
-		window.addEventListener('resize', onResize);
-		return () => {
-			document.removeEventListener('keydown', onKey);
-			window.removeEventListener('resize', onResize);
-		};
+	// If nav-menu.js opened the panel before React hydrated, restore `.is-open`.
+	useLayoutEffect(() => {
+		const el = headerRef.current;
+		if (!el) return;
+		if (document.body.classList.contains('nav-lock')) {
+			el.classList.add('is-open');
+			const btn = el.querySelector('.site-menu');
+			if (btn instanceof HTMLButtonElement) {
+				btn.setAttribute('aria-expanded', 'true');
+			}
+		}
 	}, []);
 
 	const navLinks = useMemo(
@@ -94,8 +92,11 @@ function NavbarInner({
 		[links, t, currentPath, locale, reviewsBasePath],
 	);
 
+	const openMenuLabel = t('nav.openMenu');
+	const closeMenuLabel = t('nav.closeMenu');
+
 	return (
-		<header className={`site-header${scrolled || open ? ' is-scrolled' : ''}${open ? ' is-open' : ''}`} data-nav>
+		<header ref={headerRef} className="site-header" data-nav>
 			<div className="shell site-header__bar">
 				<a href={homeHref} className="site-brand" aria-label={logoAlt}>
 					<BrandLogo className="site-brand__mark" alt={logoAlt} />
@@ -146,10 +147,11 @@ function NavbarInner({
 					<button
 						type="button"
 						className="site-menu"
-						aria-expanded={open}
+						aria-expanded="false"
 						aria-controls="site-nav-panel"
-						aria-label={open ? t('nav.closeMenu') : t('nav.openMenu')}
-						onClick={() => setOpen((v) => !v)}
+						aria-label={openMenuLabel}
+						data-label-open={openMenuLabel}
+						data-label-close={closeMenuLabel}
 					>
 						<span className="site-menu__bars" aria-hidden="true">
 							<span />
@@ -160,45 +162,43 @@ function NavbarInner({
 				</div>
 			</div>
 
-			{open ? (
-				<div className="site-panel" id="site-nav-panel">
-					<div className="shell site-panel__inner">
-						<nav className="site-panel__nav" aria-label={t('nav.mobileAria')}>
-							{navLinks.map((item) => (
-								<a
-									key={item.id}
-									href={item.href}
-									className={item.active ? 'is-active' : undefined}
-									onClick={() => setOpen(false)}
-								>
-									<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-										<path
-											d={icons[item.id]}
-											stroke="currentColor"
-											strokeWidth="1.6"
-											strokeLinecap="round"
-											strokeLinejoin="round"
-										/>
-									</svg>
-									<span>{item.label}</span>
-								</a>
-							))}
-						</nav>
-						<div className="site-panel__foot">
-							<div className="site-panel__lang">
-								<LanguageSwitcher
-									currentLocale={locale}
-									locales={locales}
-									hrefForLocale={hrefForLocale}
-								/>
-							</div>
-							<a href={checkoutUrl} className="site-panel__buy" rel="noopener noreferrer">
-								<span data-edit="ctaBuy">{t('cta.buy')}</span>
+			<div className="site-panel" id="site-nav-panel">
+				<div className="shell site-panel__inner">
+					<nav className="site-panel__nav" aria-label={t('nav.mobileAria')}>
+						{navLinks.map((item) => (
+							<a
+								key={item.id}
+								href={item.href}
+								className={item.active ? 'is-active' : undefined}
+								data-nav-close
+							>
+								<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+									<path
+										d={icons[item.id]}
+										stroke="currentColor"
+										strokeWidth="1.6"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+									/>
+								</svg>
+								<span>{item.label}</span>
 							</a>
+						))}
+					</nav>
+					<div className="site-panel__foot">
+						<div className="site-panel__lang">
+							<LanguageSwitcher
+								currentLocale={locale}
+								locales={locales}
+								hrefForLocale={hrefForLocale}
+							/>
 						</div>
+						<a href={checkoutUrl} className="site-panel__buy" rel="noopener noreferrer" data-nav-close>
+							<span data-edit="ctaBuy">{t('cta.buy')}</span>
+						</a>
 					</div>
 				</div>
-			) : null}
+			</div>
 		</header>
 	);
 }

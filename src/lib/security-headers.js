@@ -16,7 +16,8 @@ const CSP_BASE = [
 /** Strict CSP for production / preview / Cloudflare. */
 export const CONTENT_SECURITY_POLICY = [
 	...CSP_BASE,
-	"script-src 'self'",
+	// Astro island bootstrap injects inline scripts on each page — requires 'unsafe-inline'.
+	"script-src 'self' 'unsafe-inline'",
 	"script-src-attr 'none'",
 	"connect-src 'self'",
 	"trusted-types default",

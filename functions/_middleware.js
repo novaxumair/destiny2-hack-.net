@@ -65,7 +65,9 @@ const SECURITY_HEADERS = {
 		"media-src 'self' blob: https:",
 		"font-src 'self' data:",
 		"style-src 'self' 'unsafe-inline'",
-		"script-src 'self'",
+		// Astro island bootstrap requires inline scripts on each HTML page.
+		"script-src 'self' 'unsafe-inline'",
+		"script-src-attr 'none'",
 		"connect-src 'self'",
 		"upgrade-insecure-requests",
 		"trusted-types default",
